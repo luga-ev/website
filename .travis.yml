@@ -6,6 +6,7 @@ before_script:
   - git config --global push.default simple
   - mkdir -m 700 -p $HOME/.ssh
   - echo "$SSH_DEPLOY_KEY" | base64 -d > $HOME/.ssh/id_rsa
+  - chmod 600 $HOME/.ssh/id_rsa
 
 script:
   - ./deploy.sh git@github.com:luga-ev/website.git
