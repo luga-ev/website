@@ -65,6 +65,7 @@ rmdir luga-dummy
 ###############################################################################
 echo "* Committing and pushing..." >&2
 
+echo luga-preview.mooo.com > CNAME
 git add --all
 git commit -m "Webseite neu generiert ($(date '+%Y-%m-%d %H:%M'))" || true
 git push "$repo" gh-pages
