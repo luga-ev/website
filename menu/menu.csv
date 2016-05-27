@@ -1,0 +1,34 @@
+# Dise CSV-Datei definiert die Menüstruktur der www.luga.de
+# Zuerst wird der Titel genannt, dann der Link
+# Die Trennung erfolt durch ein Pipe-Zeichen |
+Start|/start/
+Linux Infotag 2016|/start/Infotag_2016/
+#Suche|/start/suche/
+Datenschutzhinweis|/start/Datenschutz/
+Wir über uns|/Wir_ueber_uns/
+Kontakte|/Wir_ueber_uns/Kontakte/
+Mitgliedschaft|/Wir_ueber_uns/Mitgliedschaft/
+Satzung|/Wir_ueber_uns/Satzung/
+Geschichte|/Wir_ueber_uns/Geschichte/
+Album|/Wir_ueber_uns/Album/
+Impressum|/Wir_ueber_uns/Impressum/
+Webserverstatus|/Wir_ueber_uns/Status/index.html
+Treffen|/Treffen/
+Termine|/Treffen/Termine/
+Dezembertreffen 2015|/Treffen/2015_12/
+Novembertreffen 2015|/Treffen/2015_11/
+Treffpunkt|/Treffen/Treffpunkt/
+Newsflash|/Treffen/Newsflash/
+Angebote|/Angebote/
+Vorträge|/Angebote/Vortraege/
+Bibliothek|/Angebote/Bibliothek/
+Bücher|/Angebote/Bibliothek/Buecher/
+Mailinglisten|/Angebote/Mailinglisten/
+Aktuelles|/Aktuelles/
+Aktionen|/Aktionen/
+Links|/Links/
+Linux Newsticker|/Links/LinuxNewsticker/
+Zeitschriften|/Links/Zeitschriften/
+Distributionen|/Links/Distributionen/
+Andere Linux User Groups|/Links/LUGs/
+Diverses|/Links/Diverses/

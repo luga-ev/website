@@ -1,0 +1,160 @@
+#Register der Vorträge;
+#Neueste Vorträge bitte oben einfügen;
+#datum YYYY-MM-DD|Titel|Referent|Dateiname
+2015-10-07|UNIX Dateirechte|Michael Hartmann|UNIX_Dateirechte
+2015-03-28|Zentrale Konfigurationsverwaltung mit Puppet|Ulrich Habel|Puppet_LIT_2015
+2015-03-28|YubiKey. Praktikable Zwei-Faktor-Authentifizierung für Linux und mobile Geräte|Frank Hofmann|YubiKey_LIT_2015
+2015-03-28|X2GO in Theorie und Praxis|Richard Albrecht, Stefan Baur, Heinz Gräsing|X2GO_LIT_2015
+2015-03-28|Wie betreibt man Debian 8 Jessie ohne systemd?|Axel Beckert|Debian_Jessie_ohne_systemd_LIT_2015
+2015-03-28|TeXmacs, a free scientific word processor|Miguel de Benito Delgado|TeXmacs_LIT_2015
+2015-03-28|Some Bashing - Kommandozeile für Einsteiger|Andreas Steil|Some_Bashing_LIT_2015
+2015-03-28|Quo vadis, IT-Sicherheit? Nichts ist sicher...|Thomas Eisenbarth|Quo_Vadis_IT_Sicherheit_LIT_2015
+2015-03-28|Open-Source-Kochen in München|Florian Effenberger|OS_Kochen_LIT_2015
+2015-03-28|NixOS: The Purely Functional Linux Distribution|Cillian de Róiste, Aszlig Neusepoff|NixOS_LIT_2015
+2015-03-28|Multicopter - nur Fliegen ist schöner|Tommy Sauer|Multicopter_LIT_2015
+2015-03-28|Fotobearbeitung und -verwaltung mit Darktable|Michael Koreny|Darktable_LIT_2015
+2015-03-28|Docker for Everyday|Gabriel Stein|Docker_LIT_2015
+2015-03-28|DNSSEC|Christoph Egger|DNSSEC_LIT_2015
+2015-03-28|Chaos macht Schule|Andreas Herz|Chaos_macht_Schule_LIT_2015
+2015-03-28|Arbeiten mit dem IPython-Notebook|Gert Ingold|IPython_Notebook_LIT_2015
+2015-03-28|Aktuelle Entwicklungen beim Linux-Kernel|Thorsten Leemhuis|Linux_Kernel_LIT_2015
+2015-03-28|Aktuelle Entwicklungen bei LiMux|Christian Kalkhoff|LiMux_LIT_2015
+2015-01-07|Dokumentverwaltung mit Git und GitHub|Ingo Bleschmidt|Git_GitHub
+2014-07-14|Recovery - Datenwiederherstellung unter Linux |Michael Roppel|Linux_Recovery
+2014-06-04|Backup mit rsync|Ingo Bleschmidt|Backup_mit_rsync
+2014-03-22|Wireshark ohne Netzwerk|Martin Kaiser|Wireshark_LIT_2014
+2014-03-22|Windows- und Linux-Passwörter zurücksetzen mit Minilinux zurücksetzen|Oliver Rath|Passwoerter_zuruecksetzen_LIT_2014
+2014-03-22|The Document Foundation - ein Blick hinter die Kulissen|Florian Effenberger|TDF_LIT_2014
+2014-03-22|Sichere und unabhängige Datenverwaltung mit ownCloud|Bernd Müller|ownCloud_II_LIT_2014
+2014-03-22|Reprap-3D-Drucker - Open Hardware und Open Software in idealer Kombination|Stefan Krister|Reprap_LIT_2014
+2014-03-22|Quo vadis, IT-Sicherheit?|Thomas Eisenbarth|IT_Sicherheit_LIT_2014
+2014-03-22|OpenStack - automatisiertes Bereitstellen von Test-, Entwicklungs- & Produktivinstanzen in einer Private Cloud|Ralph Dehner|OpenStack_LIT_2014
+2014-03-22|Open Source in Unternehmen|Ulrich Habel|Open_Source_im_Unternehmen_LIT_2014
+2014-03-22|Mehrere Terminals in einem mit GNU Screen|Axel Beckert|GNU_Screen_LIT_2014
+2014-03-22|Linux für alle oder doch nicht?|Richard Albrecht|Linux_fuer_alle_LIT_2014
+2014-03-22|Kollaboration mit Etherpad|David Krcek|Etherpad_LIT_2014
+2014-03-22|Geotagging. Fotos mit Geoinformationen verknüpfen|Frank Hofmann|Geotagging_LIT_2014
+2013-03-23|Wissenschaftliches Rechnen mit Python|Hubert Högl|Wissenschaftliches_Rechnen_LIT_2013
+2013-03-23|PostgreSQL - Neues und Besonderes der führenden Open-Source-Datenbank|Harald Armin Massa|PostgreSQL_LIT_2013
+2013-03-23|Keynote Linux-Infotag 2013|Hans-Georg Eßer|Keynote_LIT_2013
+2013-03-23|Freetz - der Router als eigener Homeserver|David Meier|Freetz_LIT_2013
+2013-03-23|Ein Jahr embedded GNU/Linux mit GNUBLIN|Benedikt Sauter|Gnublin_LIT_2013
+2013-03-23|Datenverschlüsselung für Einsteiger|Michael Koreny|Datenverschluesselung_LIT_2013
+2013-03-23|Cloud Computing - Mythen, Fakten, Empfehlungen|Thomas Eisenbarth|Cloud_Computing_LIT_2013
+2013-03-23|Betriebssystem-Entwicklung unter Linux|Hans-Georg Eßer|OS_Entwicklung_LIT_2013
+2013-03-23|BIND 10, ein DNS- und DHCP-Server für die Zukunft|Carsten Strotmann|BIND_LIT_2013
+2012-11-07|Embedded Linux am Beispiel des Gnublin-Boards|Michael Hartmann|Gnublin
+2012-06-06|Operational Transformation - oder: Wie funktioniert Etherpad?|Tim Baumann|Operational_Transformation
+2012-03-24|Workshop: Python mit Web2py und Python on Android |Nik Klever|web2py_Py4A_LIT_2012
+2012-03-24|Verschlüsselte Kommunikation und Datensicherung|Andreas Herz|Verschluesselung_LIT_2012
+2012-03-24|Tiling-Window-Manager i3: Effiziente Benutzeroberfläche für Power-User|Michael Stapelberg|i3_LIT_2012
+2012-03-24|Sicherheit im Bereich der Gebäudeautomation|Steffen Wendzel|Gebaeudeautomation_LIT_2012
+2012-03-24|Sicheres DNS mit Unbound und DNSSEC-Trigger|Carsten Strotmann|DNSSEC_LIT_2012
+2012-03-24|RestrictedBoot, digitale Schulbücher, proprietäre Formate - Welche Hürden liegen vor uns und wie können wir sie erfolgreich meistern? |Björn Schießle|RestrictedBoot_LIT_2012
+2012-03-24|Postscript- und PDF-Dokumente durchsuchen |Frank Hofmann und Thomas Winde|PS_PDF_durchsuchen_LIT_2012
+2012-03-24|Netzwerksniffing mit Wireshark|Ingo Blechschmidt|Wireshark_LIT_2012
+2012-03-24|Mit Sicherheit Linux|Richard Albrecht|Mit_Sicherheit_Linux_LIT_2012
+2012-03-24|LibreOffice und The Document Foundation|Florian Effenberger|LibreOffice_u_TDF_LIT_2012
+2012-03-24|Firefox und Thunderbird plattformübergreifend nutzen |Jana Wisniowska|Firefox_Thunderbird_LIT_2012
+2012-03-24|Datenrettung mit Linux|Daniel Wegemer|Datenrettung_LIT_2012
+2012-03-24|Apt - das Paketverwaltungssystem für Debian GNU/Linux|Thomas Winde|APT_LIT_2012
+2012-03-24|"Gnublin" Board mit Embedded Linux|Hubert Högl|Gnublin_LIT_2012
+2011-03-26|vim lernen und mit Linux arbeiten|Frank Hofmann, Thomas Winde|vim_Linux_LIT_2011
+2011-03-26|Webanwendungen mit node.js|Tim Baumann|node
+2011-03-26|Verteilte Versionskontrolle mit Git|Sebastian Harl|Git_LIT_2011
+2011-03-26|Sicherheit und Virtualisierung mit Ubuntu|Richard Albrecht|Ubuntu_LIT_2011
+2011-03-26|LibreOffice und The Document Foundation|Florian Effenberger|LibreOffice_LIT_2011
+2011-03-26|Kryptographie|Ingo Blechschmidt|Kryptographie_LIT_2011
+2011-03-26|Keynote: Management und Open Source - zwei Welten?|Thomas Gleixner|Keynote_LIT_2011
+2011-03-26|HTML5 Webentwicklung|Johannes Stein|HTML5_LIT_2011
+2011-03-26|GNU Parallel - the command line power tool|Ole Tange|GNU_Parallel_LIT_2011
+2011-03-26|Debian - jetzt auch ohne Linux |Christoph Egger|Debian_kfreebsd_LIT_2011
+2011-03-26|Booten in 15 statt 44 Sekunden - Optimieren durch physikalische Umsortierung|Andreas Rid|Booten_LIT_2011
+2011-03-26|Bilddaten automatisiert verarbeiten|Frank Hofmann|Bilddaten_automatisch_LIT_2011
+2011-03-26|Aktuelle Entwicklungen beim Linux-Kernel|Thorsten Leemhuis|Linux_Kernel_LIT_2011
+2011-01-05|Internet Protocol v6|Ingo Blechschmidt|IPv6_2011
+2010-03-27|Virtual Box|Michael Roppel|Virtual_Box_LIT_2010
+2010-03-27|Verschlüsselung von Daten - welche Möglichkeiten gibt es?|Bernd Müller|Verschluesselung_LIT_2010
+2010-03-27|Unicode und Internationalized Domain Names|Thomas Kühne|Unicode_LIT_2010
+2010-03-27|Quo vadis Linux-HA?|Michael Schwartzkopff|Quo_vadis_Linux_HA_LIT_2010
+2010-03-27|OpenOffice.org - Programm & Community im Überblick|Florian Effenberger|OpenOffice
+2010-03-27|Musik für unterwegs|Thomas Winde, Frank Hofmann|Musik_fuer_unterwegs_LIT_2010
+2010-03-27|Haskell, eine rein funktionale Programmiersprache|Ingo Blechschmidt|Haskell_LIT_2010
+2010-03-27|Freies Wissen|Martin Haase|Freies_Wissen_LIT_2010
+2010-03-27|Einführung in verdeckte Kanäle (Covert Channels)|Steffen Wendzel|Covert_Channels_LIT_2010
+2010-03-27|Das KDE-Ökosystem|Eckhart Wörner|KDE_LIT_2010
+2010-03-27|Barrierefreies PDF|Frank Hofmann|Barrierefreies_PDF_LIT_2010
+2010-03-27|ARM Mikrocontroller und der freie On-Chip Debugger OpenOCD|Hubert Högl|ARM_OCD_LIT_2010
+2010-03-03|Virtualisierung mit QEMU/KVM|Michael Hartmann|qemu_kvm
+2009-03-28|Video - Von der Kamera bis zur DVD|Rainer König|Video_LIT_2009
+2009-03-28|Ubuntu im Alltag, Hilfe zur Selbsthilfe|Richard Albrecht|Ubuntu_LIT_2009
+2009-03-28|Spielen unter Linux|Johannes Stein|Spielen_unter_Linux_LIT_2009
+2009-03-28|Moodle und Mediawiki|Olaf Henne|Moodle_Mediawiki_LIT_2009
+2009-03-28|METAPOST: mit LaTeX zeichnen|Carl Wenninger|METAPOST_LIT_2009
+2009-03-28|Linux wird erwachsen (Keynote Linux-Infotag 2009)|Rainer König|Keynote_LIT_2009
+2009-03-28|KDE 4.2 - Einblicke in die neue Version des populären freien Desktops|Thomas Thym|KDE42_LIT_2009
+2009-03-28|GIMP|Michael Roppel|GIMP_LIT_2009
+2008-10-01|25 Jahre GNU|Michael Hartmann|25_Jahre_GNU
+2008-03-29|Virtualisierung|Benedikt Stefan Berner|Virtualisierung
+2008-03-29|Sicher ist sicher: Backup und restore|Karl Deutsch|Keine_Panik
+2008-03-29|Openstreetmap|Hanno Böck|Openstreetmap
+2008-03-29|Mitmachen bei Wikipedia|Michael Brenner|Mitmachen_bei_Wikipedia
+2008-03-29|Läuft meine Hardware unter Linux?|Rainer König|Hardware_und_Linux
+2008-03-29|Linux in München|Florian Schießl|LiMux
+2008-03-29|KDE 4|Cornelius Schumacher|KDE4
+2008-03-29|Homebanking mit HBCI und Linux|Christian Pollak|HBCI
+2008-03-29|Freie Software|Björn Schiessle|Freie_Software
+2008-03-29|Bildungs- und Lernsoftware unter Linux|Erik Baerwaldt|Lern_Bildungssoftware
+2007-07-04|Perl-Workshop III|Ingo Blechschmidt, Michael Hartmann|Perl_Workshop_III
+2007-03-24|XGL und Compiz|Hanno Böck|XGL
+2007-03-24|Text User Interfaces|Sven Guckes|TUI
+2007-03-24|Mustersuche (Reguläre Ausdücke)|Sven Guckes|Mustersuche
+2007-03-24|Linux in der Schule - seit 10 Jahren im Schuleinsatz: der Arktur-Server|Philipp Flesch|Arktur
+2007-03-24|Kabellos ins Internet - WLAN machts möglich|Karsten Nordsiek|WLAN
+2007-03-24|Freifunk|Martin Röcker, Manuel Munz|Freifunk
+2007-03-24|Enlightenment DR17 Desktop Shell|Tobias Richter|Enlightenment
+2007-03-24|Cross Platform - Leben in zwei Welten|Sebastian Stechl|Cross_Platform
+2007-02-07|Perl-Workshop II|Ingo Blechschmidt, Michael Hartmann|Perl_Workshop_II
+2007-01-03|Perl-Workshop I|Ingo Blechschmidt, Michael Hartmann|Perl_Workshop_I
+2006-12-06|Komprimierung|Ingo Blechschmidt, Michael Hartmann|Komprimierung
+2006-10-04|Steganographie|Ingo Blechschmidt, Michael Hartmann|Steganographie
+2006-03-25|iSCSI unter Linux - das SAN für zuhause|Frank Berger|iSCSI
+2006-03-25|Thin Clients|Michael Hartmann|Thin_Clients
+2006-03-25|Perl 6, genau jetzt (LIT 2006-Version)|Ingo Blechschmidt|Perl6_LIT_2006
+2006-03-25|Hacken mit Linux|Benedikt 'Hunz' Heinz|Hacken_mit_Linux
+2006-02-01|Versionsverwaltung mit SVK|Ingo Blechschmidt|SVK
+2006-02-01|Debian-Pakete im Eigenbau|Michael Hartmann|DPKG
+2006-01-25|qemu in der Praxis|Michael Hartmann|qemu
+2006-01-25|Das File Transfer Protocol (FTP)|Ingo Blechschmidt|FTP
+2006-01-25|Das Dynamic Host Configuration Protocol (DHCP)|Ingo Blechschmidt|DHCP
+2005-11-02|"Wie man das Internet abschaltet" oder ARP-Spoofing|Ingo Blechschmidt|ARP_Spoofing
+2005-09-07|Terminals, uxterm und screen|Ingo Blechschmidt|Terminals
+2005-08-03|Anatomie eines Compilers am Beispiel von Pugs|Ingo Blechschmidt|Pugs
+2005-07-06|VPNs mit OpenVPN|Michael Hartmann|OpenVPN
+2005-07-06|Hypertext Transfer Protocol|Ingo Blechschmidt|HTTP
+2005-06-08|Verbindung zwischen Computern hinter NAT-Gateways ohne vermittelnden Server|Ingo Blechschmidt|NAT_UDP
+2005-06-08|Port-Knocking|Ingo Blechschmidt|Port_Knocking
+2005-05-04|Perl 6, genau jetzt!|Ingo Blechschmidt|Perl6
+2005-04-09|Professionelles Migrationsmanagement von Microsoft Office nach OpenOffice.org|Georg Westbeld|Migrationsmanagement
+2005-04-09|Mandatory Access Control durch SELinux|Harald Görl|MAC_SELinux
+2005-04-09|Linux-Lösungen für Linux-Anwender|Tom Schwaller|Linux_Loesungen
+2005-04-09|Linux-Einstieg|Thomas Kisler|Linux_Einstieg
+2005-04-09|Linux contra Windows|Heinz Ettel|Linux_contra_Windows
+2005-04-09|KDE im Kioskmodus|Michael Hartmann|KDE_Kiosk
+2005-04-06|Schnelle Backups mit verschlüsseltem Dateisystem und rsync|Michael Roppel|rsync_backup
+2005-02-02|Internet Protocol v6|Ingo Blechschmidt|IPv6
+2005-01-05|DNS und Sicherheit|Ingo Blechschmidt|DNS
+2004-12-01|SMTP, Spam und IM2000|Ingo Blechschmidt|SMTP_Spam_IM2000
+2004-03-27|Linux und USB|Stefan Warmuth|Linux_USB
+2004-03-27|Installation von Red Hat Fedora Core Linux|Alexander Troppmann und Reinhard Holler|Fedora_Core_Inst
+2003-03-22|fli4l - Internetanbindung einfach und sicher|Thomas Ernst|fli4l
+2003-03-22|LaTeX im Alltagsgebrauch|Peter Gebhard|LaTeX_im_Alltag
+2002-10-02|Gentoo Linux|Christian Wazulek|Gentoo
+2002-03-09|Zope - Ein Webapplikationsserver|Jörg Lehmann|Zope
+2001-03-07|Linux - Firewalling|Stefan Armbruster|Linux_Firewall
+2001-02-07|Reguläre Ausdrücke|Reinald Cronauer|Regulaere_Ausdruecke
+2000-10-04|ISDN4Linux|Klaus Jahn|ISDN4Linux
+2000-03-22|Trafficshaping|Andreas Hoffmann|Trafficshaping
+1999-11-03|CVS - Ein System zur Versionsverwaltung|Jörg Lehmann|CVS
+1999-05-05|Konfiguration eines festplattenlosen Linux-Rechners mit SuSE 6.1|Jakob Flierl|diskless_suse
+1998-05-06|Apache - eine kurze Einführung|Jörg Lehmann, Alexander Rahmeier|Apache

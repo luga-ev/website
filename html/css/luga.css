@@ -1,0 +1,333 @@
+/************************************************************
+* CSS für www.luga.de
+* Copyright Linux User Gropup Augsburg (LUGA) e.V.
+*************************************************************/
+
+body	{
+	font-family: Helvetica,Arial,sans-serif;
+	text-align: center;
+	overflow-y: scroll;
+	background-color: white;
+}
+
+h2, h3, h4, h5, h6	{
+	font-weight: normal;
+	color: #222;
+}
+
+h1	{
+	font-size: 135%;
+	color: #222;
+}
+
+h2	{
+	font-size: 120%;
+	border-bottom: 1px solid #222;
+}
+
+h3	{
+	font-size: 110%;
+	margin-bottom: 0.1em;
+}
+
+ul	{
+	list-style: square;
+	line-height: 1.5;
+	margin: 0 0 0 1.5em;
+	padding: 0 0 0 1em;
+}
+
+ol	{
+	line-height: 1.5;
+	margin: 0 0 0 1.5em;
+	padding: 0 0 0 1em;
+}
+
+blockquote	{
+	margin: 0 0 0.3em 1.6em;
+}
+
+.nowrap	{
+	white-space: nowrap;
+	padding-right: 1.5em !important;
+}
+
+.content	{
+	color: #222;
+	min-height: 25em; 
+	line-height: 1.5;
+	padding: 0.3em;
+}
+
+.content tr	{
+	margin-bottom: 0.3em;
+}
+
+.content td {
+	padding: 0 0.5em 0 0;
+	margin: 0;
+}
+
+.content p	{
+	margin: 0.5em 0 0 1.5em;
+	text-align: justify;
+}
+
+.content table	{
+	margin: 0.5em 0 0 1.5em;
+}
+
+.content a	{
+	color: #162C8F;
+	text-decoration: none;
+}
+
+a:hover	{
+	text-decoration: underline;
+}
+
+img	{
+	display: inline;
+}
+
+td	{
+	vertical-align: top;
+}
+
+.ib	{
+	display: inline-block;
+	padding-right: 0.5em;
+}
+
+#main	{
+	display: inline-block;
+	position: relative;
+	width: 60em;
+	text-align: left;
+	padding: 0.8em;	
+}
+
+#logo	{
+	height: 6em;
+}
+
+#tux	{
+	height: 9em;
+	width: 9em;
+	float: right;
+}
+
+.header	{
+	background-image: url("../images/head_background.jpg");
+}
+
+.headinput	{
+	background: transparent;
+	position: absolute;
+	top: 2em;
+	right: 12em;
+	padding: 0.3em;
+	border: 2px solid #ddd;
+	border-radius: 0.3em;
+}
+
+
+.menu	{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.h-selected	{
+	border-bottom: 0.2em solid #FFD133;
+}
+
+.menu a {
+/*	font-weight: bold; */
+	font-size: large;
+	letter-spacing: 0.1em;
+	color: #444;
+	text-decoration: none;
+	transition: all 0.2s 
+}
+
+.menu a:hover {
+	border-bottom: 0.2em solid #444;
+	transition: all 0.1s 
+}
+
+.navi	{
+	margin-top: 2em;
+	font-size: small;
+	background-color: #1a1;
+	color: white;
+	padding: 0.3em;
+}
+
+.menu_item	{
+	display: inline-block;
+	padding: 0.3em;
+}
+
+.sub_menu_item	{
+	display: block;
+	padding: 0.3em 1.4em 0.3em 0.3em;
+}
+
+.submenu {
+	letter-spacing: 0.1em;
+}
+
+.submenu a	{
+	color: #162C8F;
+	text-decoration: none;
+	transition: all 0.2s 
+}
+
+.submenu a:hover	{
+	border-bottom: 0.2em solid #444;
+	transition: all 0.1s 
+}
+
+.u-selected	{
+	border-bottom: 0.2em solid #FFD133;
+}
+
+#footer	{
+	border-top: 1px solid grey;
+	text-align: center;
+	margin-top: 2em;
+	padding-top: 0.5em;
+	font-size: small;
+}
+
+#footer a	{
+	margin: 1em 1em 2em 1em;
+	color: inherit;
+}
+
+#vortraege	{
+	margin-top: 1.5em;
+	width: 100%;
+}
+
+.reiter {
+	display: inline-block;
+	background-color: #eee;
+	background: linear-gradient(to bottom, #feffe8 0%,#d6dbbf 100%);
+	margin-top: 1em; 
+	padding: 0.3em 0.5em;
+	cursor: pointer;
+}
+
+.reiter:hover, .reiteraktiv	{
+	background-color: #eee;
+	background: linear-gradient(to bottom, #deddd8 0%,#b6bbbf 100%);
+}
+
+.search	{
+	display: inline-block;
+	border: 1px solid #888;
+}
+
+.search img	{
+	height: 2em;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.search	input	{
+	padding-left: 0.5em;
+	height: 2em;
+	border: 0;
+	background: transparent;
+}
+
+.searchresult	{
+	font-size: small;
+	margin: 0.5em 0 0 1.5em;
+}
+
+.searchresult a	{
+	text-decoration: none;
+	font-size: medium;
+}
+
+.section	{
+	display: none;
+}
+
+#section_0	{
+	display: block;
+}
+
+.buecher	{
+	border-collapse: collapse;
+}
+
+.buecher td	{
+	padding-bottom: 2em;
+}
+
+@media(max-device-width: 1000px){
+	#main	{
+		width: auto;
+	}
+}
+
+@media(max-device-width: 650px){
+	
+	body	{
+		width: auto;
+	}
+	
+	#main	{
+		width: auto;
+	} 
+	
+	.header img	{
+		max-width: 8em;
+	}
+	
+	#tux	{
+		height: 5em;
+		width: 5em;
+	}	
+	
+	.headinput 	{
+		/*right: auto;*/
+		display: none;
+	}
+	
+	.content	{
+		line-height: 1.2;
+	}
+	
+	ul	{
+		line-height: 1.2;
+	}
+	
+	.content td	{
+		display: inline;
+		padding-right: 0.6em;
+	}
+	
+			
+	.content th	{
+		display: inline;
+		padding-right: 0.6em;
+	}
+	
+		
+	.datum	{
+		font-weight: bold;
+	}
+	
+}
+
+@media(max-device-width: 400px){	
+
+	.content p	{
+		text-align: left;
+	}
+	
+}

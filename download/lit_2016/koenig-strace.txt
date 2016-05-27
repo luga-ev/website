@@ -1,0 +1,127 @@
+# Hier die History aller Befehle, die während des Workshops fielen.
+
+cd vortrag/luga-2016/
+xrandr  --output VGA1 --auto
+xrandr  --output VGA1 --mode 1280x800
+strace pwd
+pwd
+id
+strace pwd
+ll /usr/share/locale/locale.alias
+man man 
+man 7 man 
+man read
+man 1 read
+man 2 read
+strace pwd
+man mmap
+strace pwd
+man exit_group
+man open
+man 2 open
+strace pwd
+strace -o O pwd
+less O
+echo  aaaaaaaaaaaa{,,,,,,,,,,,,,,,,,,,,,,,}
+echo  aaaaaaaaaaaa{1,2,3}
+echo  aaaaaaaaaaaa{.c,.o}
+echo  aaaaaaaaaaaa{,,,,,,,,}
+echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}
+echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,}
+echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,} | wc
+echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,} |tr -d ' ' | wc
+echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,} |tr -d ' ' 
+mkdir $( echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,} |tr -d ' ' )
+type -a mkdir
+strace mkdir $( echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,} |tr -d ' ' )
+\
+mkdir $( echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,} |tr -d ' ' )
+strace -o O  mkdir $( echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,} |tr -d ' ' )
+less O
+e O
+ll O2
+man strace
+strace -s 99999999  -o O  mkdir $( echo  aaaaaaaaaaaa{,,,,,,,,}{,,,,,,,,}{,,,,,,,,} |tr -d ' ' )
+e O
+strace strace pwd
+strace -o O1  strace -o O2 pwd
+ll O?
+less O2
+strace -o O1  strace -o O2 pwd
+less O2
+man execve
+%
+ll O1
+less
+less O1
+man ptrace
+echo $$
+echo "Hallo"
+echo $$
+echo "Hallo"
+/bin/echo "Hallo"
+less O1 
+man process_vm_readv
+less O1 
+strace -tttT -f -o O.wget wget http://x.org/wiki/
+less O.wget 
+less -S O.wget
+awk '{ print $2 - last_2 ; last_2 = $2 }' O.wget  | less
+awk '{ printf "%10.6f %s\n",  $2 - last_2 , $0 ; last_2 = $2 }' O.wget  | less
+awk '{ printf "%10.6f %s\n",  $2 - last_2 , $0 ; last_2 = $2 }' O.wget  | less -S
+awk '{ printf "%10.6f %s\n",  $2 - last_2 , $0 ; last_2 = $2 }' O.wget  | sort | less -S
+gnuplot
+less -N -S  O.wget 
+grep -v '<0.00' O.wget 
+grep connect O.wget 
+ll
+strace -o O emacs /etc/passwd
+ll O
+strace -o O emacs /etc/passwd
+ll O
+strace -e file -o O emacs /etc/passwd
+ll O
+less O
+cut -d'"' -f2  O | less
+ll -d $( cut -d'"' -f2  O   ) 
+cut -d'"' -f2  O | less
+ll -d $( cut -d'"' -f2  O   ) 
+ll  -d --  $( cut -d'"' -f2  O   )  
+cut -d'"' -f2  O | less
+cut -d'"' -f2  O | sort -u | less 
+less O
+grep '"' O | cut -d'"' -f2   | sort -u | less 
+ll -d  $( grep '"' O | cut -d'"' -f2   | sort -u  )
+grep '"' O | cut -d'"' -f2   | sort -u | less 
+ll -d  $( grep '"' O | cut -d'"' -f2   | sort -u  )
+ll -d  $( grep '"' O | cut -d'"' -f2   | sort -u  ) | wc
+ll -d -tr   $( grep '"' O | cut -d'"' -f2   | sort -u  )  | less
+ll -d -tr -c    $( grep '"' O | cut -d'"' -f2   | sort -u  )  | less
+ll /bin/ls
+ll -L /bin/ls
+ll /usr/bin/ls
+ll -c /usr/bin/ls
+ll -d -tr -c    $( grep '"' O | cut -d'"' -f2   | sort -u  )  | less
+grep ENOENT O
+grep ENOENT O | less
+ll
+cd smartmeter/
+ll
+xzgv **g
+ll
+cat vz-mg3.sh 
+less ../O
+less ../O.wget 
+cat vz-mg3.sh 
+strace -ttt -e write cat  < /dev/tty > /dev/null
+strace -ttt -e write cat  < /dev/tty > /dev/null   -p 342
+strace  -p 342 -ttt -e write cat  < /dev/tty > /dev/null  
+strace  -p 342 -ttt -e write 
+strace -f  -p 342 -ttt -e write 
+ll
+cat vz-mg3.sh 
+strace -f  -p 342 -ttt -e write 
+strace -f  -p 342 -r -e write 
+ll -tr
+cd ..
+history  > luga-2016-strace.history

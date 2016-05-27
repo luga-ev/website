@@ -1,0 +1,7 @@
+Options FollowSymLinks
+
+RewriteEngine on
+RewriteRule		(.*)\/+$	/index.php?ref=$1
+RewriteRule		(Angebote/Vortraege/.*)	/index.php?ref=$1
+RewriteRule		(Angebote/Bibliothek/Buecher)	/index.php?ref=$1
+RewriteRule		download/(.*)	/download.php?ref=$1

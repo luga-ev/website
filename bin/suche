@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for datei in `grep -ril $1 *`;
+do 	
+	printf $datei 
+	printf ': '
+	cat $datei|tr '\n' ' '|tr '\r' ' '
+	echo
+done
