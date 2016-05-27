@@ -16,8 +16,10 @@ builddir=$(mktemp -d)
 
 ###############################################################################
 echo "* Installing and configuring Apache..." >&2
-which apache2 >/dev/null || sudo apt-get install apache2
-[ -e "/etc/apache2/mods-enabled/rewrite.load" ] || a2enmod rewrite
+{ which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php5.load" ]; } || \
+    sudo apt-get install apache2 libapache2-mod-php5
+[ -e "/etc/apache2/mods-enabled/php5.load"    ] || sudo a2enmod php5
+[ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
 sudo tee /etc/apache2/sites-enabled/luga >/dev/null <<EOF
 <VirtualHost *:80>
