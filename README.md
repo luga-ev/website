@@ -43,6 +43,10 @@ Wer bisher Git nicht konfiguriert hat, die LUGA-Webseite aber zum Anlass nehmen
 möchte, um das nachzuholen, kann nach folgendem Plan vorgehen.
 
 ```shell
+# Git mitteilen, womit eigene Commits annotiert werden sollen:
+git config --global user.email "emmy@noether.de"
+git config --global user.name "Emmy Noether"
+
 # Das Repository auschecken:
 git clone git@github.com:luga-ev/website.git
 cd website.git
