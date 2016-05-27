@@ -21,15 +21,18 @@ echo "* Installing and configuring Apache..." >&2
 [ -e "/etc/apache2/mods-enabled/php5.load"    ] || sudo a2enmod php5
 [ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
-sudo tee /etc/apache2/sites-enabled/luga >/dev/null <<EOF
+sudo tee /etc/apache2/sites-enabled/luga-localhost-dummy >/dev/null <<EOF
 <VirtualHost *:80>
-	ServerAdmin webmaster@luga.de
+    ServerAdmin webmaster@luga.de
 
-	DocumentRoot $root/html
-	<Directory />
-		Options FollowSymLinks
-		AllowOverride ALL
-	</Directory>
+    DocumentRoot $root/html
+    <Directory />
+        Options FollowSymLinks
+        AllowOverride ALL
+        Order Deny,Allow
+        Deny from all
+        Allow from 127.0.0.0/255.0.0.0 ::1/128
+    </Directory>
 </VirtualHost>
 EOF
 
