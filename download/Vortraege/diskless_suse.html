@@ -1,0 +1,955 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<meta name="description"
+content="Einrichten eines festplattenlosen Linux-Rechners mit SuSE 6.1">
+<meta name="autor" content="Jakob Flierl">
+<meta name="keywords" lang="de" content="diskless, festplattenlos, linux client, nfs client">
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>Konfiguration eines festplattenlosen Linux-Rechners mit S.u.S.E. 6.1</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body text="#000000" bgcolor="#FFFFFF">
+<center>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 width=755>
+<tr>
+<td ALIGN=LEFT VALIGN=BOTTOM WIDTH="225" NOSAVE><img SRC="luga.gif" ALT="" height=91 width=225></td>
+<td align=right VALIGN=BOTTOM WIDTH="518" BACKGROUND="crn_top_1.gif"><img SRC="spc_onepixel.gif" ALT="" height=1 width=1>5. Mai 1999, Autor <img src="mail.gif" width=14 height=10>&nbsp;<a class="navigation" href="mailto:flierl@luga.de">Jakob Flierl</a></td>
+<td ALIGN=RIGHT VALIGN=BOTTOM WIDTH="22"><img SRC="crn_righttop.gif" ALT="" height=72 width=22></td>
+</tr>
+</table>
+</center>
+<center>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 NOSAVE width=755>
+<tr>
+<td WIDTH="59" BGCOLOR="white"><img SRC="spc_onepixel.gif" ALT="" height=1 width=59></td><td WIDTH="1" BGCOLOR="black"><img SRC="spc_onepixel.gif" ALT="" height=1 width=1></td><td WIDTH="10" BGCOLOR="white"><img SRC="spc_onepixel.gif" ALT="" height=1 width=10></td>
+<td WIDTH="687">
+<center><img SRC="spc_onepixel.gif" HEIGHT=10><br><h1>Konfiguration eines festplattenlosen Linux-<br> Rechners
+mit S.u.S.E. 6.1</h1></center>
+<h2>
+Inhaltsverzeichnis</h2>
+
+<ul>
+<li>
+<b><a class="navigation" href="#Einleitung">Einleitung</a></b></li>
+
+<ul>
+<li>
+<a class="navigation" href="#Anwendungsgebiete">Anwendungsgebiete</a></li>
+
+<li>
+<a class="navigation" href="#Vor- und Nachteile">Vor- und Nachteile</a></li>
+
+<li>
+<a class="navigation" href="#Systemvorraussetzungen">Systemvoraussetzungen</a></li>
+</ul>
+
+<li>
+<b><a class="navigation" href="#Konfiguration des Clients">Konfiguration des Clients</a></b></li>
+
+<ul>
+<li>
+<a class="navigation" href="#Erstellen der Bootdiskette">Erstellen der Bootdiskette</a></li>
+
+<li>
+<a class="navigation" href="#Booten des Clients">Booten des Clients</a></li>
+
+<li>
+<a class="navigation" href="#Haeufige Probleme beim Booten">H&auml;ufige Probleme beim Booten</a></li>
+</ul>
+
+<li>
+<b><a class="navigation" href="#Konfiguration des Servers">Konfiguration des Servers</a></b></li>
+
+<ul>
+<li>
+<a class="navigation" href="#DNS - Domain Name System">DNS - Domain Name System mit der /etc/hosts-Datei</a></li>
+
+<li>
+<a class="navigation" href="#SYSLOGD - System Logging Daemon">SYSLOGD - System Logging Daemon</a></li>
+
+<li>
+<a class="navigation" href="#NFSD - Network File System Server">NFSD - Networ File System
+Server</a></li>
+
+<li>
+<a class="navigation" href="#BOOTP - Internet Boot Protokoll Server">BOOTPD - Internet Boot
+Protocoll Server</a></li>
+
+<li>
+<a class="navigation" href="#Einrichten des NFS-Root-Dateisystems">Einrichten des NFS-Root-Datesystems</a></li>
+</ul>
+
+<li>
+<b><a class="navigation" href="#POV-Ray auf einem Parallelrechner">Povray auf einem Parallelrechner</a></b></li>
+
+<ul>
+<li>
+<a class="navigation" href="#Installation und Test von Povray">Installation und Test von Povray</a></li>
+
+<li>
+<a class="navigation" href="#Parallel Virtual Machine & PVM-Povray">Parallel Virtual Machine
+&amp; PVM-Povray</a></li>
+
+<li>
+<a class="navigation" href="#POVmark -- Povray benchmarking">POVmark - Povray Benchmarking</a></li>
+
+<li>
+<a class="navigation" href="#MPEG-Animation mit PVM-Povray">MPEG-Animation mit PVM-Povray</a></li>
+</ul>
+
+<li>
+<b><a class="navigation" href="#Links">Links</a></b></li>
+</ul>
+</td>
+<td WIDTH="10" BGCOLOR="white"><img SRC="spc_onepixel.gif" ALT="" height=1 width=10></td><td WIDTH="1" BGCOLOR="black"><img SRC="spc_onepixel.gif" ALT="" height=1 width=1></td>
+</tr></table>
+</center>
+<center>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 NOSAVE width=755>
+<tr>
+<td WIDTH="59" BGCOLOR="white"><img SRC="spc_onepixel.gif" ALT="" height=1 width=59></td><td WIDTH="1" BGCOLOR="black"><img SRC="spc_onepixel.gif" ALT="" height=1 width=1></td><td WIDTH="10" BGCOLOR="white"><img SRC="spc_onepixel.gif" ALT="" height=1 width=10></td>
+<td>
+<img SRC="spc_onepixel.gif" WIDTH=1 HEIGHT=10><br>
+<h2>
+<a NAME="Einleitung"></a>Einleitung</h2><p>
+Dieses Dokument beschreibt die Konfiguration eines festplattenlosen Linux-Rechners
+und die dazu n&ouml;tigen Anpassungen an einem S.u.S.E. 6.1-Linux-Server.
+Die komplette Konfiguration des Servers dauert ungef&auml;hr eine halbe
+Stunde, die Einbindung eines festplattenlosen Linux-Rechners etwa zwei
+bis drei Minuten. Als Schmankerl f&uuml;r alle Linux-Geeks befindet sich
+am Ende dieses Dokumentes noch ein kleiner Abschnitt &uuml;ber <tt>PVMPOV</tt>
+in einem Linux-Cluster.</p>
+<p>
+<b>Achtung!</b> Text, Abbildungen und Programme wurden mit größter Sorgfalt erarbeitet. Der Autor kann jedoch für eventuell verbliebene fehlerhafte Angaben und deren Folgen weder eine juristische Verantwortung noch irgendeine Haftung übernehmen.
+<h2>
+<a NAME="Anwendungsgebiete"></a>Anwendungsgebiete</h2>
+
+<ul>
+<li>
+In <b>Schulen</b> k&ouml;nnen festplattenlose Linux-Rechner ganze Windows&copy;-
+und Netware&copy;-Installationen ersetzen; man k&ouml;nnte jeden Schulrechner
+mit einer Linux-Bootdiskette ausr&uuml;sten und so in eine vollwertige
+<i>Linux-Workstation</i>
+umwandeln - ohne dabei &Auml;nderungen an dessen lokaler Festplatte vornehmen
+zu m&uuml;ssen. Der Umstellung auf Linux sollte, dank benutzerfreundlicher
+Oberfl&auml;chen wie <img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="http://www.kde.org">KDE</a>"&nbsp;und <img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="http://www.gnome.org">GNOME</a>",
+nichts mehr im Wege stehen.</li>
+
+<li>
+<b>Kernel Entwickler</b> nutzen festplattenlose Linux-Rechner, da bei eventuellen
+Kernel-Crashes keine teuren Festplatten besch&auml;digt werden k&ouml;nnen
+und l&auml;stige Wartezeiten bei h&auml;ufigem Booten durch den Wegfall
+der sonst &uuml;blichen Festplatten-Checks minimiert werden.</li>
+
+<li>
+<b>Preiswerte Parallelrechner</b> arbeiten h&auml;ufig mit nur einer einzigen
+(Server-)Festplatte. Ein spektakul&auml;res Beispiel ist das <img src="link.gif"width="14" height="10">&nbsp;"<a class="navigation" href="http://beowulf.gsfc.nasa.gov">Beowulf-Konzept</a>"
+zur Parallelschaltung herk&ouml;mmlicher Standardrechner, das von Thomas
+Sterling und Don Becker am CESDIS-Institut der NASA entwickelt wurde, die
+bereits 1994 16 DX4-PCs zusammenschlossen.</li>
+</ul>
+
+<h2>
+<a NAME="Vor- und Nachteile"></a>Vor- und Nachteile</h2>
+
+<ul>
+<li>
+<b>Vorteile</b> festplattenloser Linux-Rechner:</li>
+
+<ul>
+<li>
+<b>Einfache Administration</b>: jeder beliebige Rechner kann innerhalb
+weniger Minuten in eine voll funktionsf&auml;hige Linux-Workstation verwandelt
+werden und belegt dabei auf der Serverfestplatte nur ca. 1.6 MB f&uuml;r
+seine Konfigurationsdateien.</li>
+
+<li>
+<b>Widerstandsf&auml;higkeit gegen &auml;u&szlig;ere Einfl&uuml;sse</b>:
+verglichen mit PCs, die mit einer lokalen Festplatte arbeiten, sind festplattenlose
+Linux-Rechner sehr robust gegen h&auml;ufiges, wahlloses Ein- und Ausschalten.</li>
+</ul>
+<p>
+<li>
+<b>Nachteile</b> festplattenloser Linux-Rechner:</li>
+
+<ul>
+<li>
+<b>mangelnde lokale Serversicherheit</b>: Root-Dateisystem-exportierende
+NFS-Server mit <tt>no_root_squash</tt>-Option sind <b>nicht sicher</b>.
+Einem Hacker mit physischem Zugang zum lokalen Netzwerk w&auml;re durch
+einen NFS-Server mit Schreibzugriff auf die Systemdateien des Servers T&uuml;r
+und Tor ge&ouml;ffnet. Ein Hacker m&uuml;&szlig;te lediglich seinen eigenen
+Rechner mit der IP-Adresse des festplattenlosen Linux-Rechners im Netz
+anmelden und h&auml;tte dann &uuml;ber NFS uneingeschr&auml;nkten Zugang
+zu den Systemdateien des Servers.</li>
+
+<li>
+<b>Performanceeinbu&szlig;en</b>: Programme mit intensiver Nutzung von
+I/O-Operationen (X11, netscape, <img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="http://www.idsoftware.com">QII</a>")
+werden <b>durch die Netzwerkkarte des festplattenlosen Rechners gebremst</b>.
+Auch fehlerhaft installierte Netzwerke (z.B. Ethernet-Netzwerke mit falscher
+Terminierung oder internen Reflexionen) k&ouml;nnen das Arbeiten an einem
+festplattenlosen Rechner verlangsamen.</li>
+</ul>
+</ul>
+
+<h2>
+<a NAME="Systemvorraussetzungen"></a>Systemvorraussetzungen</h2>
+
+<ul>
+<li>
+Der <b>Server</b> sollte mit einer gro&szlig;en Festplatte >= 1 GB, viel
+Hauptspeicher (>= 32 MB) und einer schnellen Netzwerkkarte ausger&uuml;stet
+sein. Ich habe folgende Programme (und ihre Abh&auml;ngikeiten) auf dem
+Server installiert (S.u.S.E 6.1-Distribution):</li>
+<p>
+<center><table CELLSPACING=0 CELLPADDING=1 BGCOLOR="#A0A0A0" Width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=4 BGCOLOR="#FFFFFF" Width="100%" >
+<tr BGCOLOR="#F0F0F0" NOSAVE>
+<td NOSAVE><b>Paket</b></td>
+
+<td><b>Serie</b></td>
+
+<td><b>Beschreibung</b></td>
+
+<td><b>Inhalt</b></td>
+</tr>
+
+<tr>
+<td><b>nkita</b></td>
+
+<td><tt>a</tt></td>
+
+<td nowrap>Netzwerk Basissystem</td>
+
+<td nowrap>bootp-2.4.3 nfs-2.2beta3</td>
+</tr>
+
+<tr>
+<td><b>nkitb</b></td>
+
+<td><tt>a</tt></td>
+
+<td>Netzwerkprogramm</td>
+
+<td nowrap>portmap_5beta rlogin rsh</td>
+</tr>
+
+<tr>
+<td><b>shadow</b></td>
+
+<td><tt>a</tt></td>
+
+<td nowrap>Shadow Passwort System</td>
+
+<td>shadow-980724-14</td>
+</tr>
+
+<tr>
+<td><b>lx_suse</b></td>
+
+<td><tt>d</tt></td>
+
+<td>Die Quellen des SuSE Kernels</td>
+
+<td>kernel 2.2.5</td>
+</tr>
+
+<tr>
+<td><b>bind</b></td>
+
+<td><tt>n</tt></td>
+
+<td>Name Server &amp; Utilities</td>
+
+<td>bind-4.9.7</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p>
+<b>Anmerkung</b>: Das Paket "<tt>lx_suse</tt>" belegen ca. 60 MB auf der
+Serverfestplatte; es wird nur zum Erstellen der Bootdisketten f&uuml;r
+die Clients ben&ouml;tigt und kann sp&auml;ter wieder deinstalliert werden.</li>
+<p>
+<li>
+Die <b>Clients</b> starten ihr Betriebssystem von einer Bootdiskette und
+mounten ihr komplettes Dateisystem &uuml;ber NFS vom Server; sie ben&ouml;tigen
+keine eigene Festplatte. Um z&uuml;giges Arbeiten zu gew&auml;hrleisten,
+sollte jeder Client &uuml;ber m&ouml;glichst viel Hauptspeicher (>= 32
+MB) und eine schnelle Netzwerkkarte verf&uuml;gen.</li>
+</p>
+</ul>
+
+<h2>
+<a NAME="Konfiguration des Clients"></a>Konfiguration des Clients</h2>
+
+<h3>
+<a NAME="Erstellen der Bootdiskette"></a>Erstellen der Bootdiskette</h3>
+<p>Mit folgenden Befehlen erstellen Sie als Benutzer "<tt>root</tt>" eine
+auf die Hardware des Clients angepasste Bootdiskette mit <tt>ROOT-NFS</tt>-Unterst&uuml;tzung:
+</p><p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#A0A0A0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr NOSAVE>
+<td NOSAVE nowrap><tt>cd /usr/src/linux &amp;&amp; make menuconfig</tt>
+<br><tt>make dep clean bzImage modules modules_install</tt>
+<br><tt>mknod /dev/boot255 c 0 255</tt>
+<br><tt>dd if=/usr/src/linux/arch/i386/boot/bzImage of=/dev/fd0</tt>
+<br><tt>rdev /dev/fd0 /dev/boot255</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p><p>
+Das <i>Dummy-Root-Device</i> mu&szlig; auf die Diskette kopiert werden,
+damit der Kernel das Root-Dateisystem beim Booten des Clients &uuml;ber
+das Netzwerk mountet.
+<br>Bei der Linux-Kernel-Konfiguration sollte noch folgendes beachtet werden:
+<ul>
+<li>
+Der Netzwerkkartentreiber darf nicht als Modul kompiliert, sondern mu&szlig;
+fest in den Kernel gelinkt werden, da er gleich beim Booten ben&ouml;tigt
+wird.</li>
+
+<li>
+Der Kernel mu&szlig; das <tt>BOOTP</tt>-Protokoll und <tt>ROOT-NFS</tt>
+unterst&uuml;tzen:</li>
+
+<ul>
+<li>
+Diese Optionen sind bei <b>Kerneln bis zur 2.1er Serie</b> in der Linux-Kernel-Konfiguration
+unter "<tt>NFS filesystem support</tt>" und ihrer Unteroptionen "<tt>Root
+file system on NFS</tt>" und "<tt>BOOTP support</tt>" zu finden.</li>
+
+<li>
+In <b>Kerneln ab der 2.1er Serie</b> ist die BOOTP-Option bei den "<tt>Networking
+options</tt>" als Unterpunkt: "<tt>IP: Kernellevel autoconfiguration</tt>",
+die "<tt>ROOT-NFS</tt>"-Option unter "<tt>Filesystems</tt>" -> "<tt>Network
+File Systems</tt>" -> "<tt>NFS filesystem support</tt>" -> "<tt>Root file system
+on NFS</tt>" zufinden.</li>
+</ul>
+</ul>
+
+<h3><a NAME="Booten des Clients"></a>Booten des Clients</h3>
+<p>Im <tt>BIOS </tt>des Client-PCs sollten Sie die <i>Boot Sequence</i>
+auf "<tt>A,C,SCSI" </tt>stellen, um&nbsp; sicherzugehen, da&szlig; der
+Kernel auch von der Bootdiskette geladen wird. Wenn der PC als headless
+nodein einem <i>Beowulf-Cluster</i> betrieben werden soll, mu&szlig; im
+<tt>BIOS</tt>
+noch die Option "<tt>Halt on no error</tt>" aktiviert werden, damit der
+PC sp&auml;ter beim Booten nicht stehen bleibt und ``meckert'', weil keine
+Tastatur angeschlossen ist. Beachten Sie, da&szlig; inzwischen einige AGP-Grafikkarten
+auf dem Markt sind, die nicht booten, wenn kein Monitor angeschlossen ist.
+Solche Motherboards sind f&uuml;r den Aufbau eines <i>Beowulf-Clusters</i>
+nicht geeignet.
+<br>Nachdem der Kernel von der Bootdiskette geladen wurde, k&ouml;nnen
+Sie die Hardwareadresse des Clients notieren, die sp&auml;ter bei der Server-Konfiguration
+ben&ouml;tigt wird:
+</p><p>
+<center><table BGCOLOR="#A0A0A0" CELLSPACING=1 CELLPADDING=0 width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr NOSAVE>
+<td NOSAVE nowrap><tt>ne2k-pci.c: PCI NE2000 clone 'RealTek RTL-8029' at I/O 0xe800,
+IRQ 10.</tt>
+<br><tt>eth0: PCI NE2000 found at 0xe800, IRQ 10, <font color="#990000">00:00:B4:55:7E:DA</font></tt>
+<br><tt>Sending BOOTP requests....</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p>
+<h3>
+<p><a NAME="Haeufige Probleme beim Booten"></a>H&auml;ufge Probleme beim Booten</h3>
+<p>Nach dem Booten taucht h&auml;ufig eines der drei folgenden Probleme auf:
+<ol>
+<li>
+<b>M$ Windoze startet</b>:
+
+<br>Der PC startet anscheinend nicht den Linux-Kernel von der Bootdiskette.
+Stellen Sie sicher, da&szlig; die <i>Boot Sequence</i> im <tt>BIOS</tt>
+auf "<tt>A,...,C"</tt> gestellt wurde.</li>
+<li>
+<b>Fehlermeldung</b> "<tt>Unable to open at leat one network device</tt>":
+
+<br>Der Kernel hat die Netzwerkkarte Ihres PCs nicht erkannt. Dieses Problem
+entsteht, wenn Sie entweder den Netzwerkkartenteiber nicht in den Kernel
+gelinkt haben, oder der Netzwerkkartentreiber nicht den richtigen I/O-Port
+der Karte gescannt hat.
+<br>Im ersten Fall m&uuml;ssen Sie den Kernel mit integriertem Netzwerkkartentreiber
+neu kompilieren; im zweiten Fall nehmen Sie im Source-Code des Netzwerkkartentreibers
+einfache &Auml;nderungen vor. Ich hatte anfangs z.B. das Problem, da&szlig;
+eine Netzwerkkarte einen un&uuml;blichen I/O-Port belegte; ich mu&szlig;te
+also in der Datei "<tt>/usr/src/linux/drivers/net/ne.c" </tt>diesen I/O-Port
+(0x2A0) hinzuf&uuml;gen, um eine (sehr alte) NE2000 zum Laufen zu bringen:
+<p><center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#A0A0A0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>/* A zero-terminated list of I/O addresses to be probed. */
+<br>static unsigned int netcard_portlist[] =
+<br><tt>{ 0x300, <font color="#CC0000">0x2A0</font>, 0x280, 0x320, 0x340,
+0x360, 0};</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p>
+</li>
+<li>
+<p><b>Fehlermeldung</b> "<tt>Unable to contact NFS-server for root fs, using
+/dev/fd0 instead</tt>":
+
+<br>Ihr Linux-Client schickt <tt>BOOTP</tt>-Anfragen in das lokale Netzwerk
+und bekommt keine Antwort von einem <tt>BOOTP</tt>-Server; Sie sollten
+&uuml;berpr&uuml;fen, ob der Client mit dem Server verbunden ist und der
+Server bereits in der Lage ist <tt>BOOTP</tt>-Anfragen zu beantworten.
+Falls er das noch nicht kann, beginnen Sie jetzt mit der Konfiguration
+des Servers.</li></ol>
+
+<h2>
+<a NAME="Konfiguration des Servers"></a>Konfiguration des Servers</h2>
+
+<h3>
+<a NAME="DNS - Domain Name System"></a>DNS - Domain Name System mit der <tt>/etc/hosts</tt>-Datei</h3>
+<p>Unter Linux gibt es zwei L&ouml;sungen f&uuml;r die Namensaufl&ouml;sung
+eines Rechners:
+<br>Die "<tt>/etc/hosts</tt>-L&ouml;sung'' ist f&uuml;r den Testbetrieb
+oder in kleineren Netzwerken geeignet. Die zweite L&ouml;sung, ein <i>Domain
+Name Server</i>, ist leistungsf&auml;higer, sollte allerdings nur von einem
+erfahrenen Systemadministrator installiert werden, da hier bereits kleine
+Fehler verheerende Folgen auf den Traffic des Internet haben k&ouml;nnen.
+</p>
+<p>Hier das Beispiel einer "<tt>/etc/hosts"</tt>-Datei; Sie sollten in dieser
+Datei entweder die f&uuml;r Ihre Rechner reservierten IP-Adressen oder
+die f&uuml;r private Netzwerke reservierten IP-Adressen aus dem Bereich
+<b>192.168.0.1</b>
+bis <b>.255</b> eintragen. Bei privaten, nicht registrierten Netzwerken
+verwenden Sie einen noch nicht vergebenen Namen f&uuml;r Ihre Domain (hier
+z.B. "<tt>joof.de")</tt>, um sp&auml;tere Konflikte bei der Namensaufl&ouml;sung
+zu vermeiden.
+</p><p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#A0A0A0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%" >
+<tr>
+<td nowrap><tt>#IP-Adresse&nbsp;&nbsp; kompletter Hostname kurzer Hostname Beschreibung</tt>
+<br><tt>192.168.0.1&nbsp;&nbsp; n1.joof.de&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+# k6-2 350</tt>
+<br><tt>192.168.0.2&nbsp;&nbsp; n2.joof.de&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+# k6-2 450</tt>
+<br><tt>192.168.0.3&nbsp;&nbsp; n3.joof.de&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+# Celeron 450</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center></p><p>
+In der Datei "<tt>/etc/host.conf</tt>"sollten folgende zwei Eintr&auml;ge
+zu finden sein:
+</p><p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#A0A0A0" width="80%" >
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%" >
+<tr>
+<td nowrap><tt>order hosts
+<br>multi on</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p>
+<p>
+Wenn Sie S.u.S.E. Linux verwenden, so d&uuml;rfen Sie die Datei "<tt>/etc/host.conf"</tt>
+nicht direkt editieren, sondern m&uuml;ssen alle &Auml;nderungen mit Hilfe
+von <tt>YaST </tt>vornehmen: "<tt>System administration</tt>" -> "<tt>Network
+configuration</tt>" -> "<tt>Configuration nameserver</tt>" -> "<tt>Do you
+want to acces a nameserver?</tt>" -> "<tt>No</tt>"
+</p>
+<h3>
+<a NAME="SYSLOGD - System Logging Daemon"></a>SYSLOGD - System Logging
+Daemon</h3>
+<p>Sie k&ouml;nnen die Systemmeldungen aller Clients auf den Server umleiten
+(dies ist zum Beispiel bei <i>Beowulf-Clustern </i>sehr hilfreich, wenn
+man nicht st&auml;ndig von einem Rechner zum anderen Springen will, um
+nachzusehen, ob auf ihm alles geschmiert l&auml;uft.); dazu m&uuml;ssen
+Sie den <tt>SYSLOG</tt>-Daemon des Servers mit der Option "<tt>-r -s joof.de</tt>"
+starten und bei jeder "<tt>/etc/syslog.conf</tt>" der Clients den Eintrag
+"<tt>*.*
+@&lt;IP Adresse des Servers></tt>" aufnehmen.
+<br>Unter S.u.S.E. Linux editieren Sie auf dem Server den Eintrag "<tt>SYSLOGD_PARAMS="-r -s joof.de"</tt>" in der Datei "<tt>/etc/rc.config</tt>" und starten als Benutzer
+<tt>root</tt>
+den <tt>SYSLOGD</tt> mit dem Befehl "<tt>/sbin/init.d/syslog reload</tt>"
+neu.</p>
+<h3>
+<a NAME="NFSD - Network File System Server"></a>NFSD - Network File System
+Server</h3>
+<p>Der NFS-Server erm&ouml;glicht den Dateisystemzugriff &uuml;ber das Netzwerk.
+Das Einrichten eines NFS-Servers ist einfach: die Datei <tt>/etc/exports</tt>
+enth&auml;lt Eintr&auml;ge, die dem NFS-Server sagen, welcher NFS-Client
+mit welchen Rechten auf die Festplatte des NFS-Servers zugreifen darf;
+Clients, die ihr Root-Dateisystem von einem NFS-Server mounten, m&uuml;ssen
+besondere Rechte vom NFS-Server erhalten; die Option <tt>no_root_squash</tt>
+sagt dem NFS-Server, da&szlig; Root-Rechte nicht umgesetzt werden. (Standardm&auml;&szlig;ig
+wird die Option <tt>root_squash</tt> verwendet, die bewirkt, da&szlig;
+der Benutzer <tt>root</tt> des NFS-Clients keine f&uuml;r <tt>root</tt>typischen
+Sonderrechte auf dem Dateisystem des Servers hat. Erreicht wird dies, indem
+Zugriffe mit der User-ID 0 auf die User-ID 65534 (-2) umgesetzt werden.
+Diese User-ID ist dem Benutzer <tt>nobody</tt> zugewiesen.</p>
+<p><center><table CELLSPACING=1 BGCOLOR="#B0B0B0" width="80%" cellpadding=0>
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>/&nbsp; 192.168.0.2(rw,no_root_squash,link_absolute)</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<tt>/etc/exports</tt></center>
+</p><p>Die Datei <tt>/etc/exports</tt> wird vom NFS-Server gelesen. Werden
+an ihr &Auml;nderung vorgenommen, so mu&szlig; der NFS-Server neu gestartet
+werden. Mit S.u.S.E.-Linux wird dies mit dem Befehl i"<tt>/sbin/init.d/nfsserver
+restart</tt>" erreicht. Au&szlig;erdem sollte die Datei "<tt>/etc/rc.config</tt>"
+noch den Eintrag "<tt>NFS_SERVER="yes"</tt>" enthalten, damit der NFS-Server
+bei jedem Neustart hochgefahren wird.
+<br><b>Zwei h&auml;ufige Probleme mit NFS:</b> Greifen 32, 64 oder mehr
+Linux-Clients auf den NFS-Server zu, kann es mit dem in der aktuellen S.u.S.E.-Distribution
+enthaltenen NFS-Server zu einem der zwei folgenden Probleme kommen:</p>
+<ol>
+<li>
+Der NFS-Server liefert die Daten mit Verz&ouml;gerungen;</li>
+
+<br><b>L&ouml;sung:</b> man sollte einen zweiten oder dritten NFS-Server
+im Netz installieren.
+<li>
+Es kommt zu Laufeitfehlern, wenn viele Linux-Clients gleichzeitig auf die
+gleichen symbolischen Links zugreifen;</li>
+
+<br><b>L&ouml;sung:</b> man sollte die symbolischen Links der Dateien im
+jeweiligen Root-Dateisystem der Clients eventuell durch physische Kopien
+dieser Dateien ersetzen. Dies erfordert zus&auml;tzlich rund 20&nbsp;MByte Festplattenplatz
+je Linux-Client.</ol>
+
+<h3>
+<a NAME="BOOTP - Internet Boot Protokoll Server"></a>BOOTP - Internet Boot
+Protokoll Server</h3>
+<p>Sobald ein <tt>BOOTP</tt>-Server eine <tt>BOOTP</tt>-Anfrage von einem
+Client herh&auml;lt, schickt er an ihn, falls seine Hardwareadresse in
+der Datei <tt>/etc/bootptab</tt> aufgelistet ist, alle n&ouml;tigen Informationen,
+um sein TCP/IP-Protokoll zu konfigurieren; damit der <tt>BOOTP</tt>-Server
+aktiviert wird, mu&szlig; in der Datei "<tt>/etc/inetd.conf</tt>" das #-Zeichen
+vor dem Eintrag f&uuml;r den <tt>BOOTP</tt>-Server entfernt werden und
+die Datei "<tt>/etc/bootpab</tt>" existieren:</p>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt># Tftp service is provided primarily for booting.&nbsp; Most sites</tt>
+<br><tt># run this only on machines acting as "boot servers."</tt>
+<br><tt>#</tt>
+<br><tt>#tftp&nbsp;&nbsp;&nbsp; dgram&nbsp;&nbsp; udp&nbsp;&nbsp;&nbsp;&nbsp;
+wait&nbsp;&nbsp;&nbsp; nobody&nbsp; /usr/sbin/tcpd&nbsp; in.tftpd /tftpboot</tt>
+<br><tt><font color="#CC0000">bootps&nbsp; dgram&nbsp;&nbsp; udp&nbsp;&nbsp;&nbsp;&nbsp;
+wait&nbsp;&nbsp;&nbsp; root&nbsp;&nbsp;&nbsp; /usr/sbin/bootpd bootpd -c
+/tftpboot</font></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center></p></p>
+<p>"<tt>Inetd"</tt>, der Internet Super Server, mu&szlig; nach Anpassung von
+"<tt>/etc/inetd.conf</tt>" noch neu gestartet werden; bei S.u.S.E-Linux
+geschieht das mit "<tt>/sbin/init.d/inetd reload</tt>".
+<br>Die Zeilen 1 bis 9 der Datei "<tt>/etc/bootptab</tt>" enthalten die
+f&uuml;r alle Clients g&uuml;ltige Standardkonfiguration. In den nachfolgenden
+Zeilen werden die f&uuml;r jeden Client individuellen Einstellungen aufgelistet;
+hier mu&szlig; man "<tt>&lt;kurzer_Hostname>:&lt;IP-Adresse>: &lt;Hardwareadresse
+(Ohne die Doppelpunkte!!!)>:</tt> <tt>&lt;Standardkonfigurationsname>:</tt>
+angeben. Beispiel:<(p>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><font size=-1><tt>.default:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#Standardkonfiguration f&uuml;r alle Clients</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :ht=ether:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#Hardwartyp</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :dn=joof.de:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#Domainname</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :ds=192.168.0.1:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#DnS-Server IP-Adresse</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :sm=255.255.255.0:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#Subnetz-Maske</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :ns=192.168.0.1:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#IEN-116 Name-Server Adressliste</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :gw=192.168.0.1:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#Gateway IP-Adressse</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :vm=rfc1048:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#Vendor magic cookie selector</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :hn:to=-18000:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#Send clients hostname to client</tt>
+<br><tt>n2:ip=192.168.0.2:ha=0000b4591716:tc=.default:&nbsp;&nbsp;&nbsp;&nbsp;
+#hostname, IP- und Hardwareadresse</tt>
+<br><tt>n3:ip=192.168.0.10:ha=0000b48c2c8f:tc=.default:</tt></font></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p><p>Ein Client, der in "<tt>/etc/bootptab</tt>" eingetragen ist, sollte beim
+Booten automatisch seine IP-Konfiguration erhalten und folgendes anzeigen:</p>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>Sending BOOTP requests....&lt;7>ARP: arp called for own IP address
+OK</tt>
+<br><tt>Root-NFS: Got BOOTP answer from 192.168.0.1, my address is 192.168.0.2</tt>
+<br><tt>Root-NFS: Got file handle for /tftpboot/192.168.0.2 via RPC</tt>
+<br><tt>VFS: Mounted root (nfs filesystem).</tt>
+<br><tt>INIT: version 2.75 booting</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p>
+<h3>
+<a NAME="Einrichten des NFS-Root-Dateisystems"></a>Einrichten des NFS-Root-Dateisystems</h3>
+<p>Im Verzeichnis "<tt>/tftpboot&lt;IP-Adresse_des_Clients></tt>" befindet
+sich das jeweilige Root-Dateisystem eines Clients. Hier werden alle Client-speziefischen
+Anpassungen gemacht; das Einrichten eines NFS-Root-Dateisystems ist nicht
+einfach, weshalb ich ein an die S.u.S.E. 6.1-Distribution angepasstes Skript
+<img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="http://www.luga.de/~flierl/add_node">add_node</a>" geschrieben
+<br>habe (eine auf Red Hat Linux 5.0 angepasste Version ist unter <img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="ftp://ftp.sci.usq.edu.au/pub/jacek/beowulf-utils">ftp://ftp.sci.usq.edu.au/pub/jacek/beowulf-utils</a>"
+zu finden.). Dieses Script sollte nach "<tt>/usr/sbin/</tt>" kopiert und
+mit dem Befehl "chmod a+x add_node" ausf&uuml;hrbar gemacht werden. Dann
+kann man ein Root-NFS-Dateisystem anlegen; Beispiel:</p>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt><font size=-1>n1:~ # add_node node2 192.168.1.2 0000b48c2c8f
+<br>Erzeuge ROOT-NFS-Dateisystem f&uuml;r "node2.joof.de"
+<br>&nbsp;"/tftpboot/192.168.1.2/{home,root,mnt,tmp,opt}"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br><tt>&nbsp;"/tftpboot/192.168.1.2/usr"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/bin"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/dev"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font></tt>
+<br>&nbsp;"/tftpboot/192.168.1.2/var"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/etc"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/lib"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/sbin"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>Netzwerkkonfiguration f&uuml;r "node2.joof.de"
+<br><tt>&nbsp;"/tftpboot/192.168.1.2/etc/inetd.conf"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/etc/rc.config"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/etc/inittab"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/etc/HOSTNAME"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/etc/fstab"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/tftpboot/192.168.1.2/etc/mtab"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>Serverkonfiguration f&uuml;r "node2.joof.de"
+<br>Shutting down NFS server&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">done</font>
+<br>&nbsp;"/etc/exports"
+<br>Starting NFS Server&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">done</font>
+<br>&nbsp;"/etc/bootptab"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>&nbsp;"/etc/hosts.equiv"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#009900">ok</font>
+<br>Fertig!
+<br>n1:~ #</font></tt></font></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+
+<h2>
+<a NAME="POV-Ray auf einem Parallelrechner"></a>POV-Ray auf einem Parallelrechner</h2>
+<p>Wenn man auf mehreren Rechnern ein Linux-System laufen hat, ist es nat&uuml;rlich
+reizvoll, die Rechenpower aller Rechner parallel zu nutzen; dazu gibt es
+die <i>Parallel Virtual Machine </i>(kurz: PVM), ein Programm, das Prozesse
+auf mehrere Rechner verteilen kann. Jetzt mu&szlig; man nur noch nach einem
+Programm suchen, das so viel Rechenpower ben&ouml;tigt, da&szlig; es sich
+lohnt daf&uuml;r extra einen Parallelrechner einzurichten; eines dieser
+resourcenverschlingenden Programme nennt sich Povray (<img src="link.gif" width=14" height="10">&nbsp;"<a class="navigation" href="http://www.povray.org">www.povray.org</a>"),
+ein freier Raytracer. F&uuml;r diesen Raytracer gibt es einen <img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="http://www-mddsp.enel.ucalgary.ca/People/adilger/povray/pvmpov.html">PVM-Patch</a>",
+der urspr&uuml;nglich von Brad Kline (Cray Research Inc.) entwickelt wurde.
+Weitere Anpassungen wurden sp&auml;ter von Andreas Dilger und Harald Deischinger
+gemacht.
+<br>Bei S.u.S.E.-Linux bleibt einem die Patch-Arbeit erspart, da PVM-Povray
+als eigenes Paket pvmpov in der Serie "<tt>beo</tt>", auf den CDs mitgeliefert wird.</p>
+<h3>
+<a NAME="Installation und Test von Povray"></a>Installation und Test von
+Povray</h3>
+<p>Zuerst sollte nur das Grundpaket Povray, Serie gra installiert und getestet
+werden. Meine Povray-Konfiguration
+<br>(<tt>~/.povrayrc</tt>) sieht wie folgt aus:</p>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>Width = 640</tt>
+<br><tt>Height = 480</tt>
+<br><tt>Pause_when_Done = off</tt>
+<br><tt>Bounding_Threshold = 3</tt>
+<br><tt>Test_Abort=On</tt>
+<br><tt>Test_Abort_Count=100</tt>
+<br><tt>Library_Path=/usr/lib/povray3</tt>
+<br><tt>Library_Path=/usr/lib/povray3/include</tt>
+<br><tt>Library_Path=/home/flierl/lego/include</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p><p>Hier ein paar Befehle, die Povray dazu bringen ein Bild zu berechnen und
+unter X anzuzeigen:</p>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>flierl@n1:~/ > cd &amp;&amp; mkdir pov &amp;&amp; cd pov</tt>
+<br><tt>flierl@n1:~/pov > cp /usr/lib/povray3/pov3demo/recurse/sponge1.*
+.</tt>
+<br><tt>flierl@n1:~/pov > x-povray -i sponge1.pov +d +a0.003</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p>
+<h3>
+<a NAME="Parallel Virtual Machine & PVM-Povray"></a>Parallel Virtual Machine
+&amp; PVM-Povray</h3>
+<p>Falls alles soweit funktioniert, kann man die Pakete "<tt>pvm</tt>",
+"<tt>xpvm</tt>" und "<tt>pvmpov</tt>" (Serie "<tt>beo</tt>") und installieren.
+Beachten Sie, da&szlig; Berechnungnen mit PVM-Povray im Cluster aus
+<br>Sicherheitsgr&uuml;nden nicht von <tt>root</tt> ausgef&uuml;hrt werden
+k&ouml;nnen. Damit man mit PVM-Povray arbeiten kann, mu&szlig; man zun&auml;chst
+die Parallel VirtualMachine starten; damit die PVM sp&auml;ter funktioniert
+mu&szlig; man erst
+testen, ob man sich als normaler Benutzer mit "<tt>rlogin</tt>" in
+einen anderen Rechner einloggen kann, <b>_ohne_</b> dabei ein Passwort eingeben
+zu m&uuml;ssen. Gegebenenfalls sollten Sie noch einmal alle "<tt>/etc/hosts.equiv"</tt>-Dateien
+&uuml;berpr&uuml;fen. Jetzt noch die Parallel Virtual Machine konfigurieren
+...
+<p>
+<cEnter><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>export PVM_ROOT=/usr/lib/pvm3</tt>
+<br><tt>export XPVM_ROOT=/usr/X11R6/lib/xpvm</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p><p>... starten, die Rechner mit "<tt>add &lt;Rechnername></tt>" hinzuf&uuml;gen,
+die PVM-Konfiguration mit "<tt>conf</tt>" anzeigen lassen und die PVM mit
+"<tt>quit</tt>" verlassen ...</p>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>flierl@n1:~ > pvm</tt>
+<br><tt>pvm> add n2</tt>
+<br><tt>1 successful</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+HOST&nbsp;&nbsp;&nbsp;&nbsp; DTID</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+n2&nbsp;&nbsp;&nbsp; 80000</tt>
+<br><font color="#CC0000">hier noch die restlichen Rechner hinzuf&uuml;gen...</font>
+<br><tt>pvm> conf</tt>
+<br><tt>2 hosts, 1 data format</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+HOST&nbsp;&nbsp;&nbsp;&nbsp; DTID&nbsp;&nbsp;&nbsp;&nbsp; ARCH&nbsp;&nbsp;
+SPEED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DSIG</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+n1&nbsp;&nbsp;&nbsp; 40000&nbsp;&nbsp;&nbsp; LINUX&nbsp;&nbsp;&nbsp; 1000
+0x00408841</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+n2&nbsp;&nbsp;&nbsp; 80000&nbsp;&nbsp;&nbsp; LINUX&nbsp;&nbsp;&nbsp; 1000
+0x00408841</tt>
+<br><tt>pvm> quit</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p><p>... und das gleiche Bild mit PVM-Povray nochmal berechnen:</p>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>/usr/X11/bin/x-pvmpov -i sponge1.pov +d +a0.003 +N</tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</p><p>Wichtig ist, da&szlig; man PVM-Povray immer mit dem kompletten Pfad aufruft.
+Sollte PVM-Povray ein Bild nicht richtig berechnen, so ist es oft hilfreich,
+die PVM-Option mit "<tt>-N</tt>" zu deaktivieren, um so eventuelle Fehlermeldungen
+zu analysieren.</p>
+<h3>
+<a NAME="POVmark -- Povray benchmarking"></a>POVmark - Povray benchmarking</h3>
+<p>Um die Effizienz des Clusters zu testen, kann man unter <img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="http://www.haveland.com/povbench/">www.haveland.com/povbench/</a>"
+die Beispieldatei
+<br>"<tt>skyvase.pov</tt>" downloaden und testen. Die Web-Seite f&uuml;hrt
+die Resultate anderer Systeme auf, mit denen man die selbst erzielten Ergebnisse
+vergleichen kann.</p>
+<h3>
+<a NAME="MPEG-Animation mit PVM-Povray"></a>MPEG-Animation mit PVM-Povray</h3>
+
+<ul>
+<li>
+Den Video-Encoder der Stanford University von <img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="ftp://havefun.stanford.edu/pub/mpeg/">MPEGv1.2.1.tar.Z</a>"
+downloaden und installieren.</li>
+
+<li>
+Den MPEG-Player "<tt>mpeg_play</tt>" (Serie "<tt>gra</tt>") und die "<tt>PPM</tt>-Tools" (Serie "<tt>gra</tt>")
+mit "<tt>YaST</tt>" installieren.</li>
+
+<li>
+Eine nette Povray-Datei und eine Ini-Datei mit speziellen Befehlen
+f&uuml;r den MPEG-Encoder erstellen, z.B.:</li>
+</ul>
+<p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#B0B0B0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><font size=-2><tt>#include "colors.inc"</tt>
+<br><tt>global_settings { assumed_gamma 2.2 }</tt>
+<br><tt>camera { location &lt;sin(clock*2*pi)*10, 10, cos(clock*2*pi)*10>
+look_at&nbsp; &lt;0, 0, 0> }</tt>
+<br><tt>light_source { &lt;10, 10, 10> colour White }</tt>
+<br><tt>sky_sphere { pigment { gradient y color_map {[0.0 Gray50][1.0 Gray15]}}
+}</tt>
+<br><tt>plane { y, 0 texture { pigment {Gray75} } translate -y }</tt>
+<br><tt>sphere { &lt;0, abs(sin(clock*4*pi)*5), 0>, 0.5 texture {pigment
+{Red}} }</tt></font></td>
+</tr>
+</table>
+</td>
+</tr>
+</table><tt>test.pov</tt></center>
+</p><p>
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#B0B0B0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><font size=-2><tt>+w320</tt>
+<br><tt>+h240</tt>
+<br><tt>Input_File_Name=test.pov</tt>
+<br><tt>Initial_Frame=1</tt>
+<br><tt>Final_Frame=60</tt>
+<br><tt>Initial_Clock=0</tt>
+<br><tt>Final_Clock=1</tt>
+<br><tt>Cyclic_Animation=on</tt>
+<br><tt>Pause_when_Done=off</tt>
+<br><tt>Output_to_File=On</tt>
+<br><tt>Output_File_Type=p</tt>
+<br><tt>Pre_Frame_Command=mkdir -p %s_mpeg</tt>
+<br><tt>Post_Frame_Command=ppmtoyuvsplit %s_mpeg/`expr %n + 0` %o &amp;&amp;
+rm %o</tt>
+<br><tt>Post_Frame_Return=f</tt>
+<br><tt>Post_Scene_Command=mpeg -PF -h %w -v %h -a 1 -b $(expr %n - 1)
+%s_mpeg/ -s %s.mpeg &amp;&amp; rm -fr %s_mpeg</tt>
+<br><tt>Post_Scene_Return=f</tt></font></td>
+</tr>
+</table>
+</td>
+</tr>
+</table><tt>test.ini</tt></center>
+</p>
+<ul>
+<li>
+... und mit folgenden Befehlen berechnen und anzeigen lassen:</li>
+</ul>
+
+<center><table CELLSPACING=1 CELLPADDING=0 BGCOLOR="#b0b0b0" width="80%">
+<tr>
+<td>
+<table CELLSPACING=0 CELLPADDING=5 BGCOLOR="#FFFFFF" width="100%">
+<tr>
+<td><tt>flierl@n1:~/pov > /usr/X11/bin/x-pvmpov test.ini +d</tt>
+<br><tt>flierl@n1:~/pov > mpeg_play -dither color <a class="navigation" href="test.mpeg">test.mpeg</a></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+
+<h2>
+<a NAME="Links"></a>Links</h2>
+
+<ul>
+<li>
+NFS-Root Mini-Howto Andreas Kostyrka, andreas@ag.or.at:<br>
+<img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/NFS-Root">ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/NFS-Root</a>"</li>
+
+<li>
+Kernelpatches f&uuml;r ein Swap-Dateisystem &uuml;ber NFS:<br>
+<img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="http://www-math.math.rwth-aachen.de/~LBFM/claus/nfs-swap/">http://www-math.math.rwth-aachen.de/~LBFM/claus/nfs-swap/</a>"</li>
+
+<li>
+PVMPOV Homepage:<br>
+<img src="link.gif" width="14" height="10">&nbsp;"<a class="navigation" href="http://www-mddsp.enel.ucalgary.ca/People/adilger/povray/pvmpov.html">http://www-mddsp.enel.ucalgary.ca/People/adilger/povray/pvmpov.html</a>"</li>
+</ul>
+</td>
+<td WIDTH="10" BGCOLOR="white"><img SRC="spc_onepixel.gif" ALT="" height=1 width
+=10></td>
+<td WIDTH="1" BGCOLOR="black"><img SRC="spc_onepixel.gif" ALT="" height=1 width=1></td>
+</tr></table>
+</center>
+<center>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="755" >
+<tr>
+<td WIDTH="59" BGCOLOR="white"><img SRC="spc_onepixel.gif" ALT="" height=1 width=59></td>
+<td VALIGN=TOP WIDTH="22"><img SRC="crn_leftbottom.gif" ALT="" height=72 width=22></td>
+<td VALIGN=TOP WIDTH="100" BACKGROUND="crn_bottom.gif"><img SRC="crn_bottom.gif" ALT="" height=72 width=3></td>
+<td VALIGN=TOP WIDTH="556" BACKGROUND="crn_bottom.gif"><img SRC="crn_bottom.gif"
+ ALT="" height=72 width=3></td>                                                 <td ALIGN=RIGHT VALIGN=TOP WIDTH="22"><img SRC="crn_rightbottom.gif" ALT="" height=72 width=22></td>
+</tr>
+</table>
+</center>
+</body>
+</html>
