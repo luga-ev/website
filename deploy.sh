@@ -8,8 +8,7 @@ if [ -z "$1" ]; then
 fi
 
 root="$(dirname -- $(readlink -f "$0"))"
-target_repo="$1"
-current_repo="$(git config --get remote.origin.url)"
+repo="$1"
 builddir="$HOME/.luga-website-cache"
 
 ###############################################################################
@@ -29,6 +28,9 @@ sudo tee /etc/apache2/sites-enabled/luga-dummy.conf >/dev/null <<EOF
     <Directory $root/html>
         Options FollowSymLinks
         AllowOverride ALL
+        <IfVersion >= 2.4>
+            Require ip 127.0.0.1 ::1
+        </IfVersion>
     </Directory>
 </VirtualHost>
 EOF
@@ -48,7 +50,7 @@ if [ -d .git ]; then
     git reset --hard
     git pull
 else
-    git clone --single-branch -b gh-pages --depth 1 "$current_repo" .
+    git clone --single-branch -b gh-pages --depth 1 "$repo" .
 fi
 
 find -not -path "./.git/*" -not -name ".git" -delete
@@ -56,7 +58,7 @@ find -not -path "./.git/*" -not -name ".git" -delete
 ###############################################################################
 echo "* Mirroring website..." >&2
 
-wget -D luga-dummy -r -l inf -p http://luga-dummy/ || true
+wget -nv -D luga-dummy -r -l inf -p http://luga-dummy/ || true
 
 mv luga-dummy/* .
 rmdir luga-dummy
@@ -66,4 +68,4 @@ echo "* Committing and pushing..." >&2
 
 git add --all
 git commit -m "Webseite neu generiert ($(date '+%Y-%m-%d %H:%M'))" || true
-git push "$target_repo" gh-pages
+git push

@@ -67,7 +67,6 @@ if (file_exists($include_file)) {
 
 	// externe Links immer in einem separaten Fenster oder Tab öffnen
 	$code = preg_replace('/<a href="http(.+?)>/', "<a href=\"http$1 target=\"_blank\">", $code);
-
 }
 ?>
 <!DOCTYPE html>

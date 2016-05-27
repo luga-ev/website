@@ -3,9 +3,11 @@ sudo: required
 before_script:
   - git config --global user.email "iblech@web.de"
   - git config --global user.name "Ingo Blechschmidt (via Travis)"
+  - mkdir -m 700 -p $HOME/.ssh
+  - echo "$SSH_DEPLOY_KEY" | base64 -d > $HOME/.ssh/id_rsa.pub
 
 script:
-  - ./deploy.sh https://iblech:$GITHUB_API_KEY@github.com/luga-ev/website.git
+  - ./deploy.sh git@github.com:luga-ev/website.git
 
 cache:
   directories:
