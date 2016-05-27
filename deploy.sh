@@ -2,13 +2,9 @@
 
 set -e
 
-if [ -z "$1" ]; then
-    echo "Usage: $0 https://username@github.com/luga-ev/website.git"
-    exit 1
-fi
-
 root="$(dirname -- $(readlink -f "$0"))"
-repo="$1"
+repo="https://github.com/luga-ev/website.git"
+[ -n "$1" ] && repo="$1"
 builddir="$HOME/.luga-website-cache"
 
 ###############################################################################
@@ -20,6 +16,9 @@ echo "* Installing and configuring Apache..." >&2
 [ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
 sudo tee /etc/apache2/sites-enabled/luga-dummy.conf >/dev/null <<EOF
+# Diese Datei wurde durch deploy.sh automatisch generiert.
+# Eigene Änderungen gehen beim nächsten Aufruf verloren!
+
 <VirtualHost *:80>
     ServerAdmin webmaster@luga.de
     ServerName luga-dummy
