@@ -1,0 +1,10 @@
+before_script:
+  - git config --global user.email "iblech@web.de"
+  - git config --global user.name "Ingo Blechschmidt (via Travis)"
+
+script:
+  - ./deploy.sh https://iblech:$GITHUB_API_KEY@github.com/luga-ev/website.git
+
+cache:
+  directories:
+    - $HOME/.luga-website-cache
