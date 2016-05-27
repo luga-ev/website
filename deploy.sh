@@ -67,4 +67,4 @@ echo "* Committing and pushing..." >&2
 
 git add --all
 git commit -m "Webseite neu generiert ($(date '+%Y-%m-%d %H:%M'))" || true
-git push
+git push "$repo" gh-pages

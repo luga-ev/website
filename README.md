@@ -3,7 +3,7 @@
 Der `master`-Branch enthält den Quellcode der Webseite, der `gh-pages`-Branch
 die daraus erzeugten statischen Dateien.
 
-Der Continuous-Integration-Dienst [TravisCI][travisci] wird dazu verwendet, die
+Der Continuous-Integration-Dienst [Travis CI][travisci] wird dazu verwendet, die
 Seite bei Änderungen im `master`-Branch neu zu bauen und das Ergebnis in
 `gh-pages` zu veröffentlichen. Das Schild neben der Überschrift zeigt an, ob
 der letzte Buildvorgang erfolgreich war.
@@ -12,7 +12,7 @@ der letzte Buildvorgang erfolgreich war.
 
 Kleinere Änderungen kann man sehr gut im [GitHub Webinterface][gh-webinterface]
 vornehmen. Dabei muss nichts installiert werden. Die Webseite wird dann
-automatisch von TravisCI neu gebaut.
+automatisch von Travis CI neu gebaut.
 
 Wer keine Schreibrechte auf das Repository hat, kann Änderungen in Form eines
 Pull Requests einreichen. Wer Schreibrechte möchte, muss sich nur melden.
