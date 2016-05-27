@@ -68,4 +68,11 @@ echo "* Committing and pushing..." >&2
 echo luga-preview.mooo.com > CNAME
 git add --all
 git commit -m "Webseite neu generiert ($(date '+%Y-%m-%d %H:%M'))" || true
+
+if [ -z "$1" ]; then
+    echo "No target repository specified, not pushing." >&2
+    echo "Check out the result at $builddir or at http://luga-dummy/." >&2
+    exit 0
+fi
+
 git push "$repo" gh-pages

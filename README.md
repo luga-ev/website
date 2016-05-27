@@ -11,11 +11,13 @@ der letzte Buildvorgang erfolgreich war.
 ## Änderungen
 
 Kleinere Änderungen kann man sehr gut im [GitHub Webinterface][gh-webinterface]
-vornehmen. Dabei muss nichts installiert werden. Die Webseite wird dann
-automatisch von Travis CI neu gebaut.
+vornehmen, dazu benötigt man nur einen (kostenlosen) Account bei GitHub. Dabei
+muss nichts installiert werden. Die Webseite wird dann automatisch von Travis CI
+neu gebaut.
 
 Wer keine Schreibrechte auf das Repository hat, kann Änderungen in Form eines
-Pull Requests einreichen. Wer Schreibrechte möchte, muss sich nur melden.
+Pull Requests einreichen. (Das schlägt GitHub auch von selbst vor, wenn man
+über das Webinterface editiert.) Wer Schreibrechte möchte, muss sich nur melden.
 
 
 ## Lokal ausprobieren
@@ -30,15 +32,38 @@ cd website
 ./deploy.sh
 ```
 
-Dazu muss das Programm `git` zwar installiert, aber nicht eingerichtet sein;
-nach Erzeugen der Webseite bricht das Skript in diesem Fall ab. Das Skript
-kümmert sich um die Installation und Einrichtung des Apache2-Webservers.
+Dazu muss das Programm `git` zwar installiert, aber nicht eingerichtet sein.
+Das Skript kümmert sich um die Installation und Einrichtung des
+Apache2-Webservers.
 
 Achtung: Das Skript macht sich bei Apache-Versionen vor 2.4 nicht die Mühe, den
 Zugriff von externen IP-Adressen aus abzuschotten.
 
-Falls Git konfiguriert ist und man Schreibrechte auf das Repository hat (dazu
-einfach melden), versucht das Skript gleich, die Änderungen zu veröffentlichen.
+Wer bisher Git nicht konfiguriert hat, die LUGA-Webseite aber zum Anlass nehmen
+möchte, um das nachzuholen, kann nach folgendem Plan vorgehen.
+
+```shell
+# Das Repository auschecken:
+git clone git@github.com:luga-ev/website.git
+cd website.git
+
+# Änderungen vornehmen:
+...
+
+# Optional lokal die statischen HTML-Seiten generieren:
+./deploy.sh
+
+# Änderungen mit einer kurzen aussagekräftigen Beschreibung Git bekannt machen:
+git commit -a
+# Falls neue Dateien hinzugekommen sind, diese vorher mit "git add foobar"
+# Git bekannt machen. Der Befehl "git status" ist nützlich, um sich einen
+# Überblick zu verschaffen, welche Änderungen Git verfolgt und welche nicht.
+
+# Änderungen hochladen:
+git push
+# Nach etwa zwei Minuten hat Travis CI die Webseite selbst neu kompiliert und
+# den gh-pages-Branch aktualisiert.
+```
 
 [gh-webinterface]: https://help.github.com/articles/github-flow-in-the-browser/
 [travisci]: https://travis-ci.org/
