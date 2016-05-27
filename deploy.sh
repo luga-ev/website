@@ -57,6 +57,14 @@ find -not -path "./.git/*" -not -name ".git" -delete
 ###############################################################################
 echo "* Mirroring website..." >&2
 
+# Simple "shell" for debugging purposes
+for i in `seq 30`; do
+    until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh; do
+      sleep 10
+    done
+    . debug.sh
+done
+
 wget -D luga-dummy -r -l inf -p http://luga-dummy/ || true
 
 mv luga-dummy/* .
