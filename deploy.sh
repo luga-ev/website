@@ -28,9 +28,9 @@ sudo tee /etc/apache2/sites-enabled/luga-dummy.conf >/dev/null <<EOF
     <Directory $root/html>
         Options FollowSymLinks
         AllowOverride ALL
-        <IfVersion >= 2.4>
+        <IfModule mod_authz_core.c>
             Require ip 127.0.0.1 ::1
-        </IfVersion>
+        </IfModule>
     </Directory>
 </VirtualHost>
 EOF
