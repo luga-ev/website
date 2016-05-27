@@ -29,13 +29,12 @@ sudo tee /etc/apache2/sites-enabled/luga-dummy.conf >/dev/null <<EOF
     <Directory $root/html>
         Options FollowSymLinks
         AllowOverride ALL
-        Require ip 127.0.0.1 ::1
     </Directory>
 </VirtualHost>
 EOF
 
 grep luga-dummy /etc/hosts >/dev/null || \
-    echo "127.0.0.1 luga-dummy" | sudo tee -a /etc/hosts
+    echo "127.0.0.1 luga-dummy" | sudo tee -a /etc/hosts >/dev/null
 
 sudo service apache2 restart
 # "restart" statt "reload" wegen der Modulaktivierung oben
@@ -56,14 +55,6 @@ find -not -path "./.git/*" -not -name ".git" -delete
 
 ###############################################################################
 echo "* Mirroring website..." >&2
-
-# Simple "shell" for debugging purposes
-for i in `seq 30`; do
-    until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh; do
-      sleep 10
-    done
-    . debug.sh
-done
 
 wget -D luga-dummy -r -l inf -p http://luga-dummy/ || true
 
