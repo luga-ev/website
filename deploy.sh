@@ -46,7 +46,7 @@ echo "* Checking out current gh-pages branch..." >&2
 mkdir -p "$builddir"
 cd "$builddir"
 if [ -d .git ]; then
-    git reset --hard
+    git reset --hard origin/gh-pages
     git pull
 else
     git clone --single-branch -b gh-pages --depth 1 "$repo" .
