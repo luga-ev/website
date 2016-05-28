@@ -4,7 +4,7 @@
 
 
 ### Referent(en)
- [Peter Gebhard](/download/Vortraege/mailto:usul@inga.augusta.de)
+ [Peter Gebhard](mailto:usul@inga.augusta.de)
 
 ### Datum
  22.03.2003
