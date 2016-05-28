@@ -13,7 +13,7 @@
 
 Die Virtualisierung von Festplatten mit iSCSI ermöglicht den Aufbau von einfachen und kostengünstigen Testumgebungen. Der Vortrag stellt iSCSI im Gesamtzusammenhang mit anderen Technologien wie NFS, GNDB und VMware dar. Abgerundet wird der Vortrag mit einer Demonstration, wie sich in kurzer Zeit ein Shared Storage Clusters mit iSCSI und dem GFS (Global File System) zuhause aufbauen lässt.
 
-Eine Linkliste zum Thema ist [hier](/download/Vortraege/http://www.fm-berger.de/iscsi/) zusammengestellt.
+Eine Linkliste zum Thema ist [hier](http://www.fm-berger.de/iscsi/) zusammengestellt.
 ### Manuskript
 
           

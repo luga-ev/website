@@ -6,12 +6,12 @@ Die Linux User Group Augsburg (LUGA) e.V. ist ein gemeinnütziger Verein, der si
 Förderung des freien Betriebssystems Linux und freier Software im allgemeinen widmet.
 
 ### Weitere Informationen
-Nähere Angaben zum Vereinsvorstand finden sich unter [Kontakte](kontakte.html). Details über die Modalitäten
+Nähere Angaben zum Vereinsvorstand finden sich unter [Kontakte](Kontakte/). Details über die Modalitäten
 einer Mitgliedschaft (wie z.B. Mitgliederbeiträge und Beitritssformulare) liegen hier.
 
-Die aktuelle Satzung des Vereins kann man direkt als [html-Version](satzung.html) lesen oder als PDF-Datei downloaden.
+Die aktuelle Satzung des Vereins kann man direkt als [html-Version](Satzung/) lesen oder als PDF-Datei downloaden.
 
-Auch ein kurzer Abriss der Vereinsgeschichte und ein [Photoalbum](album.html) ist vorhanden.
+Auch ein kurzer Abriss der Vereinsgeschichte und ein [Photoalbum](Album/) ist vorhanden.
 
 ### Webserver
 Unsere Webseiten werden von dem Webapplikationsserver Zope zur Verfügung gestellt, der auf 

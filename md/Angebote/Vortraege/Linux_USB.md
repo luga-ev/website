@@ -4,7 +4,7 @@
 
 
 ### Referent(en)
- [Stefan Warmuth](/download/Vortraege/mailto:%20warmuth@luga.de) 
+ [Stefan Warmuth](mailto:warmuth@luga.de)
 
 ### Datum
  27.03.2004

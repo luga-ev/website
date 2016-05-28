@@ -18,7 +18,7 @@ Der Vortrag will die damit eröffneten Möglichkeiten aufzeigen und gleichzeitig
 Zusätzliches Material:
 
 * [Infobox 1](/download/Vortraege/infobox1.pdf)>* [Infobox 2](/download/Vortraege/infobox2.pdf)>* [Dante Alighieri: La Comedia](/download/Vortraege/commedia.pdf)
-Quellen: [hier](/download/Vortraege/http://www.carl-wenninger.de/vortrag/lit09/)
+Quellen: [hier](http://www.carl-wenninger.de/vortrag/lit09/)
 
 ### Manuskript
 

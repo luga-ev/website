@@ -4,17 +4,17 @@ Einige Links zu diversen Linux-relevanten Seiten.
 ### Unterkategorien
 |||
 |-|-|
-|[Linux Newsticker](/Links/LinuxNewsticker) | Links zu Newstickern rund um Linux |
-|[Zeitschriften](/Links/Zeitschriften)|Zeitschriften, die sich mit Linux und angrenzenden Gebieten befassen |
-|[Distributionen](/Links/Distributionen) | Links zu den wichtigsten Linux-Vertreibern... |
+|[Linux Newsticker](/Links/LinuxNewsticker/) | Links zu Newstickern rund um Linux |
+|[Zeitschriften](/Links/Zeitschriften/)|Zeitschriften, die sich mit Linux und angrenzenden Gebieten befassen |
+|[Distributionen](/Links/Distributionen/) | Links zu den wichtigsten Linux-Vertreibern... |
 |[Andere Linux User Groups](/Links/LUGs) |	wir sind nicht alleine... |
-|[Diverses](/Links/Diverses) |
+|[Diverses](/Links/Diverses/) |
 
 ### Inhalt
 |||
 |-|-|
 |[Linux Weekly News](http://lwn.net/) |	Sehr guter Linux-Newsticker |
-|[Linux Today](http://linuxtoday.com/) | Extrem aktueller Linux-Newsticker. |
+|[Linux Today](http://www.linuxtoday.com/) | Extrem aktueller Linux-Newsticker. |
 |[Heise Newsticker](http://www.heise.de/newsticker/) |	Zwar kein Linux-Newsticker im eigentlichen Sinne, aber trotzdem die deutschprachige Nachrichtenquelle was Computernews anbelangt. |
 |[Github](https://github.com/) | Die Plattform für offene Software |
 |[Slashdot](https://slashdot.org/) | News for Nerds. Stuff that matters. ;-)) Geschmackssache! |

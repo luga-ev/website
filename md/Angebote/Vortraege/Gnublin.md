@@ -10,7 +10,7 @@
  07.11.2012
 
 ### Kurzbeschreibung
- Auf Embedded Systemen wird Linux dank seiner Portabilität und Flexibilität immer beliebter. Der Vortrag soll eine kurze Einführung in Embedded Linux am Beispiel des Gnublin-Boards geben ([http://www.gnublin.org/](/download/Vortraege/http://www.gnublin.org/)). Kernpunkte sind die Fragen, wie sich ein solches Linux-System bedienen und benutzen lässt, und wie Entwickler Anwendungen schreiben können.
+ Auf Embedded Systemen wird Linux dank seiner Portabilität und Flexibilität immer beliebter. Der Vortrag soll eine kurze Einführung in Embedded Linux am Beispiel des Gnublin-Boards geben ([http://www.gnublin.org/](http://www.gnublin.org/)). Kernpunkte sind die Fragen, wie sich ein solches Linux-System bedienen und benutzen lässt, und wie Entwickler Anwendungen schreiben können.
 
 ### Manuskript
 
