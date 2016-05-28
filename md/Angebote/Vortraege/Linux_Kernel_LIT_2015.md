@@ -19,7 +19,7 @@ ein &#8211; etwa den Open-Source-3D-Grafiktreibern. Angerissen werden auch
 einige noch in Vorbereitung befindliche Änderungen, der
 Entwicklungsprozess sowie andere Aspekte rund um den Kernel, die für
 die kurz- und langfristige Entwicklung von Linux und
-Linux-Distributionen wichtig sind.Zielpublikum des Vortrags sind technisch interessierte Linux-Nutzer.Siehe auch die <a href="http://www.heise.de/open/artikel/Die-Neuerungen-von-Linux-3-19-2541595.html
+Linux-Distributionen wichtig sind.Zielpublikum des Vortrags sind technisch interessierte Linux-Nutzer.Siehe auch die <a href="https://www.heise.de/open/artikel/Die-Neuerungen-von-Linux-3-19-2541595.html
 ">Webseite zum Beitrag</a>.
 ### Manuskript
 

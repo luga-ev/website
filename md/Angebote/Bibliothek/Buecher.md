@@ -23,7 +23,7 @@ Zur Weiterbildung und als Nachschlagewerk wurden aus Vereinsmitteln folgende Bü
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.com/catalog/apache/index.html"><img
+    <a href="https://www.oreilly.com/catalog/apache/index.html"><img
     src="/images/cover/ApacheTDG"
     border="0" width="91" alt="Apache: The Definitive Guide"></a>
   </td>
@@ -95,7 +95,7 @@ Zur Weiterbildung und als Nachschlagewerk wurden aus Vereinsmitteln folgende Bü
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/nfs2/"><img
+    <a href="https://www.oreilly.de/catalog/nfs2/"><img
     src="/images/cover/NFSNIS"
     border="0" width="91" alt="Managing NFS and NIS"></a>
   </td>
@@ -133,7 +133,7 @@ Beschrieben wird zum einen die Technik, die dahinter steckt (Replikation) und an
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/perlmodger/"><img
+    <a href="https://www.oreilly.de/catalog/perlmodger/"><img
     src="/images/cover/PerlModGer"
     border="0" width="91"
     alt="Programmieren mit Perl-Modulen"></a>
@@ -152,7 +152,7 @@ Beschrieben wird zum einen die Technik, die dahinter steckt (Replikation) und an
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/sed2/"><img
+    <a href="https://www.oreilly.de/catalog/sed2/"><img
     src="/images/cover/SedAwk"
     border="0" width="91" alt="sed &amp; awk"></a>
   </td>
@@ -188,7 +188,7 @@ Beschrieben wird zum einen die Technik, die dahinter steckt (Replikation) und an
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/tcp2ger/"><img
+    <a href="https://www.oreilly.de/catalog/tcp2ger/"><img
     src="/images/cover/TCPIPNetzadmin"
     border="0" width="91"
     alt="TCP/IP Netzwerkadministration"></a>
@@ -225,7 +225,7 @@ Beschrieben wird zum einen die Technik, die dahinter steckt (Replikation) und an
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.com/catalog/v1/noframes.html"><img
+    <a href="https://www.oreilly.com/catalog/v1/noframes.html"><img
     src="/images/cover/XLibRef1"
     border="0" width="91" alt="Xlib Programming Manual (1)"></a>
   </td>
@@ -243,7 +243,7 @@ Beschrieben wird zum einen die Technik, die dahinter steckt (Replikation) und an
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.com/catalog/v2/noframes.html"><img
+    <a href="https://www.oreilly.com/catalog/v2/noframes.html"><img
     src="/images/cover/XLibRef2"
     border="0" width="91" alt="Xlib Reference Manual (2)"></a>
   </td>
@@ -261,7 +261,7 @@ Beschrieben wird zum einen die Technik, die dahinter steckt (Replikation) und an
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.com/catalog/v5/noframes.html"><img
+    <a href="https://www.oreilly.com/catalog/v5/noframes.html"><img
     src="/images/cover/XTkIntrinsics"
     border="0" width="91"
     alt="X Toolkit Intrinsics Reference Manual (5)"></a>
@@ -280,7 +280,7 @@ Beschrieben wird zum einen die Technik, die dahinter steckt (Replikation) und an
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/umlinux2ger/index.html#"><img
+    <a href="https://www.oreilly.de/catalog/umlinux2ger/index.html#"><img
     src="/images/cover/UmsattelnLinux2"
     border="0" width="91"
     alt="Umsatteln auf Linux - 2. Auflage"></a>
@@ -318,7 +318,7 @@ Beschrieben wird zum einen die Technik, die dahinter steckt (Replikation) und an
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/umlinuxger/"><img
+    <a href="https://www.oreilly.de/catalog/umlinuxger/"><img
     src="/images/cover/UmsattelnLinux"
     border="0" width="91" alt="Umsatteln auf Linux"></a>
   </td>
@@ -357,7 +357,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/vitbger/"><img
+    <a href="https://www.oreilly.de/catalog/vitbger/"><img
     src="/images/cover/Vi"
     border="0" width="91" alt="vi Editor"></a>
   </td>
@@ -393,7 +393,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/rootofevil/"><img
+    <a href="https://www.oreilly.de/catalog/rootofevil/"><img
     src="/images/cover/TheRootoAE"
     border="0" width="91" alt="The Root of All Evil"></a>
   </td>
@@ -411,7 +411,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/tcppcger/"><img
+    <a href="https://www.oreilly.de/catalog/tcppcger/"><img
     src="/images/cover/TCPIPNetzanbindung"
     border="0" width="91"
     alt="TCP/IP Netzanbindung von PC's"></a>
@@ -430,7 +430,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/pperlger/"><img
+    <a href="https://www.oreilly.de/catalog/pperlger/"><img
     src="/images/cover/ProgMitPerl"
     border="0" width="91" alt="Programmieren mit Perl"></a>
   </td>
@@ -467,7 +467,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/einperlger/"><img
+    <a href="https://www.oreilly.de/catalog/einperlger/"><img
     src="/images/cover/PerlEinf"
     border="0" width="91" alt="Einführung in Perl"></a>
   </td>
@@ -485,7 +485,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/perl5tbger/"><img
+    <a href="https://www.oreilly.de/catalog/perl5tbger/"><img
     src="/images/cover/Perl5Schnelluebersicht"
     border="0" width="91" alt="Perl 5 Schnellübersicht"></a>
   </td>
@@ -503,7 +503,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/ostbger/"><img
+    <a href="https://www.oreilly.de/catalog/ostbger/"><img
     src="/images/cover/OpenSource"
     border="0" width="91" alt="Open Source"></a>
   </td>
@@ -521,7 +521,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.com/catalog/make2/index.html"><img
+    <a href="https://www.oreilly.com/catalog/make2/index.html"><img
     src="/images/cover/Make"
     border="0" width="91" alt="Managing Projects with Make"></a>
   </td>
@@ -539,7 +539,7 @@ Wenn erfahrene Windows-Anwender auf Linux umsteigen, ist die alte Souveränität
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/linuxnut2/"><img
+    <a href="https://www.oreilly.de/catalog/linuxnut2/"><img
     src="/images/cover/LinuxNut"
     border="0" width="91"
     alt="Linux in a Nutshell (deutsche &amp; englische Ausgabe)"></a>
@@ -580,7 +580,7 @@ Im zweiten Teil wird zunächst der Aufbau des Internet (TCP/IP-Protokolle, Clien
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/linetger/"><img
+    <a href="https://www.oreilly.de/catalog/linetger/"><img
     src="/images/cover/LinuxNAG"
     border="0" width="91"
     alt="Linux Wegweiser für Netzwerker"></a>
@@ -691,7 +691,7 @@ Im zweiten Teil wird zunächst der Aufbau des Internet (TCP/IP-Protokolle, Clien
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.com/catalog/lex/index.html"><img
+    <a href="https://www.oreilly.com/catalog/lex/index.html"><img
     src="/images/cover/LexYacc"
     border="0" width="91" alt="Lex &amp; Yacc"></a>
   </td>
@@ -709,7 +709,7 @@ Im zweiten Teil wird zunächst der Aufbau des Internet (TCP/IP-Protokolle, Clien
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/latextbger/"><img
+    <a href="https://www.oreilly.de/catalog/latextbger/"><img
     src="/images/cover/LatexKuG"
     border="0" width="91" alt="Latex - kurz und gut"></a>
   </td>
@@ -804,7 +804,7 @@ Im zweiten Teil wird zunächst der Aufbau des Internet (TCP/IP-Protokolle, Clien
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/gnutoolstbger/"><img
+    <a href="https://www.oreilly.de/catalog/gnutoolstbger/"><img
     src="/images/cover/GnuTools"
     border="0" width="91" alt="GNU-Tools zur Programmierung"></a>
   </td>
@@ -822,7 +822,7 @@ Im zweiten Teil wird zunächst der Aufbau des Internet (TCP/IP-Protokolle, Clien
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/fireger/"><img
+    <a href="https://www.oreilly.de/catalog/fireger/"><img
     src="/images/cover/Firewall"
     border="0" width="91"
     alt="Einrichten von Internet Firewalls"></a>
@@ -841,7 +841,7 @@ Im zweiten Teil wird zunächst der Aufbau des Internet (TCP/IP-Protokolle, Clien
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/exim/"><img
+    <a href="https://www.oreilly.de/catalog/exim/"><img
     src="/images/cover/Exim"
     border="0" width="91" alt="Exim"></a>
   </td>
@@ -859,7 +859,7 @@ Im zweiten Teil wird zunächst der Aufbau des Internet (TCP/IP-Protokolle, Clien
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.oreilly.de/catalog/email2ger/"><img
+    <a href="https://www.oreilly.de/catalog/email2ger/"><img
     src="/images/cover/EMailEffektiv"
     border="0" width="91" alt="E-Mail effektiv nutzen"></a>
   </td>
@@ -879,7 +879,7 @@ Im zweiten Teil wird zunächst der Aufbau des Internet (TCP/IP-Protokolle, Clien
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.linux-magazin.de/Produkte/rebellen.html"><img
+    <a href="https://www.linux-magazin.de/Produkte/rebellen.html"><img
     src="/images/cover/DieSoftwareRebellen"
     border="0" width="91" alt="Die Software Rebellen"></a>
   </td>

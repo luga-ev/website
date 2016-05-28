@@ -16,7 +16,7 @@ Viele dieser Änderungen sind über kurz oder lang auch für Anwender von Bedeut
 
 Darüber hinaus sollen auch Verbesserungen angesprochen werden, die sich noch in Entwicklung befinden und zur Aufnahme bei späteren Kernel-Versionen vorbereitet werden. In dem Rahmen finden auch Entwicklungsprozess, verschiedene mit den Änderungen im Kernel in Verbindung stehende Neuerungen im Plumbing-Layer (Libdrm, Mesa, Xorg, Udev und Co.) sowie einige andere Themen Erwähnung, die für die kurz- und langfristige Entwicklung des Linux-Kernels oder Linux-Anwender von Bedeutung sind.
 
-Zielpublikum des Vortrags sind technisch interessierte Linux-Nutzer. Webseite zum Beitrag: [http://www.heise.de/open/kernel-log-3007.html](http://www.heise.de/open/kernel-log-3007.html)
+Zielpublikum des Vortrags sind technisch interessierte Linux-Nutzer. Webseite zum Beitrag: [https://www.heise.de/open/kernel-log-3007.html](https://www.heise.de/open/kernel-log-3007.html)
 
 
 ### Manuskript

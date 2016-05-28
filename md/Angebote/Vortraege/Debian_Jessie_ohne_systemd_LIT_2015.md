@@ -27,7 +27,7 @@ System-V-Init-System zurückzukommen? Welche anderen Init-Systeme gibt es noch
 in Debian 8? Ressourcen zum Thema.
 
 ### Manuscript
-* [Link](http://noone.org/talks/debian-ohne-systemd/debian-ohne-systemd-lita.html)
+* [Link](https://noone.org/talks/debian-ohne-systemd/debian-ohne-systemd-lita.html)
 
 
 

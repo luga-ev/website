@@ -15,7 +15,7 @@ Für die Programmiersprache Python existiert mit IPython eine Alternative zur St
 <br>
 <b>Manuscript</b>
 
-* <a href="http://nbviewer.ipython.org/github/gertingold/lit2015/blob/master/lit2015.ipynb
+* <a href="https://nbviewer.ipython.org/github/gertingold/lit2015/blob/master/lit2015.ipynb
 ">IPython-Notebook</a>
 
   
