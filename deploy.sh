@@ -40,6 +40,12 @@ grep luga-dummy /etc/hosts >/dev/null || \
 sudo service apache2 restart
 # "restart" statt "reload" wegen der Modulaktivierung oben
 
+if [ "$repo" = "live-only" ]; then
+    echo "Live-only mode; not mirroring website." >&2
+    echo "Check out the website at http://luga-dummy/." >&2
+    exit 0
+fi
+
 ###############################################################################
 echo "* Checking out current gh-pages branch..." >&2
 
