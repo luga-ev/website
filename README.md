@@ -29,7 +29,7 @@ folgende drei Befehle ausführen:
 ```shell
 git clone https://github.com/luga-ev/website.git
 cd website
-./deploy.sh
+./deploy.sh live-only
 ```
 
 Dazu muss das Programm `git` zwar installiert, aber nicht eingerichtet sein.
@@ -46,6 +46,8 @@ möchte, um das nachzuholen, kann nach folgendem Plan vorgehen.
 # Git mitteilen, womit eigene Commits annotiert werden sollen:
 git config --global user.email "emmy@noether.de"
 git config --global user.name "Emmy Noether"
+# Und nicht vergessen, den eigenen SSH-Schlüssel (generierbar mit ssh-keygen)
+# in GitHub zu authorisieren.
 
 # Das Repository auschecken:
 git clone git@github.com:luga-ev/website.git
@@ -54,8 +56,9 @@ cd website.git
 # Änderungen vornehmen:
 ...
 
-# Optional lokal die statischen HTML-Seiten generieren:
-./deploy.sh
+# Optional:
+./deploy.sh live-only  # lokal den Webserver starten oder
+./deploy.sh            # sogar die statischen Seiten neu generieren
 
 # Änderungen mit einer kurzen aussagekräftigen Beschreibung Git bekannt machen:
 git commit -a

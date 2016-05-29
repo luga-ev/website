@@ -54,6 +54,8 @@ cd "$builddir"
 if [ -d .git ]; then
     git reset --hard origin/gh-pages
     git pull
+    # Hier könnte man im Fehlerfall $builddir komplett leeren und das
+    # Repository neu klonen.
 else
     git clone --single-branch -b gh-pages --depth 1 "$repo" .
 fi
