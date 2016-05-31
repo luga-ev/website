@@ -69,7 +69,10 @@ git commit -a
 # Änderungen hochladen:
 git push
 # Nach etwa zwei Minuten hat Travis CI die Webseite selbst neu kompiliert und
-# den gh-pages-Branch aktualisiert.
+# den gh-pages-Branch aktualisiert. Sollte Travis CI aus irgendeinem Grund
+# nicht funktionieren, kann man auch lokal die statischen Seiten erzeugen und
+# hochladen:
+# ./deploy.sh git@github.com:luga-ev/website.git
 ```
 
 [gh-webinterface]: https://help.github.com/articles/github-flow-in-the-browser/
