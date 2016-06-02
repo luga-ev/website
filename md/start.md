@@ -16,7 +16,7 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 
 ## Aktuelles
 <span class="ib">16.04.2016</span>
-<span class="ib">[15.Linux-Infotag 216](Infotag_2016/)</span>
+<span class="ib">[15.Linux-Infotag 2016](Infotag_2016/)</span>
 
 <span class="ib">14.11.2015</span>
 <span class="ib">[Linux Presentation Day in Augsburg](http://www.luga.de/Aktionen/LPD-2015/)</span>  
