@@ -6,7 +6,7 @@ Vorträge und Workshops auf dem Linux-Infotag 2009
 <h1>Übersicht</h1>
 
 <p>
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="3">
+<table class="zeittafel" width="550" cellpadding="3">
   <tbody>
   <tr>
     <td><img src="/images/star.png"></td>
@@ -21,7 +21,7 @@ Vorträge und Workshops auf dem Linux-Infotag 2009
 </tbody></table>
 </p>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" cellpadding="4">
+<table class="zeittafel" cellpadding="4">
   <tbody><tr>
     <td class="zeit">09:30</td>
     <td colspan="4" class="luga-zwischen">Einlassbeginn</td>
@@ -215,7 +215,7 @@ Vorträge und Workshops auf dem Linux-Infotag 2009
 
 <h2 id="keynote">Keynote: Linux wird erwachsen</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   <tbody><tr>
     <td>Zeit:</td>
     <td>10:00–10:45 Uhr</td>
@@ -247,7 +247,7 @@ Jahres 2009 und seine vielfältigen Softwarepakete miterleben können.</p>
 
 <h2 id="a1">10 Jahre Nutzung von Freier Software - Balancierend zwischen Hobby und Beruf</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   <tbody><tr>
     <td>Zeit:</td>
     <td>11:00–11:45 Uhr</td>
@@ -278,7 +278,7 @@ man in der OpenSource-Szene beitragen kann.</p>
 
 <h2 id="a2">Die 5 größten Irrtümer über Freie Software – oder sind es Lügen?</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   <tbody><tr>
     <td>Zeit:</td>
     <td>12:00–12:45 Uhr</td>
@@ -304,7 +304,7 @@ Software Foundation Europe, räumt mit den wichtigsten Mythen auf.</p>
 
 <h2 id="b1">Erstellen von Live-CDs</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   <tbody><tr>
     <td>Zeit:</td>
     <td>11:00–11:45 Uhr</td>
@@ -337,7 +337,7 @@ Knoppix</p>
 
 <h2 id="c2">Midnight Commander</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
     
     
     
@@ -369,7 +369,7 @@ sich andere Programme einbinden lassen.</p>
 
 <h2 id="a3">Ubuntu im Alltag, Hilfe zur Selbsthilfe</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   <tbody><tr>
     <td>Zeit:</td>
     <td>14:00–14:45 Uhr</td>
@@ -402,7 +402,7 @@ Datensicherheit/Datensicherung, Methoden, inklusive einiger einfacher Skripte.
 
 <h2 id="b3">KVM - Linux Virtual Maschine</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   <tbody><tr>
     <td>Zeit:</td>
     <td>14:00–14:45 Uhr</td>
@@ -430,7 +430,7 @@ Programme), die in diesen speziellen Fällen geeigneter erscheinen.</p>
 
 <h2 id="c3">KDE 4.2 – Einblicke in die neue Version des populären freien Desktops</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   
         
     
@@ -464,7 +464,7 @@ KDE-Anwendungen. Der Vortrag richtet sich in erster Linie an Anwender.</p>
 
 <h2 id="c1">Spielen unter Linux</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   <tbody><tr>
     <td>Zeit:</td>
     <td>11:00–11:45 Uhr</td>
@@ -497,7 +497,7 @@ kommerzielle, sonst nur unter Windows lauffähige Spiele spielen zu  können.
 
 <h2 id="c4">LXDE</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>15:00–15:45 Uhr</td>
@@ -533,7 +533,7 @@ Systeme übertragen werden.</p>
 
 <h2 id="b2">METAPOST: mit LaTeX zeichnen</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>12:00–12:45 Uhr</td>
@@ -564,7 +564,7 @@ zu einer intensiveren Auseinandersetzung mit LaTeX anregen.
 
 <h2 id="a4">GIMP</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>15:00–15:45 Uhr</td>
@@ -595,7 +595,7 @@ in diesem Vortrag vorgestellt.
 
 <h2 id="b4">Moodle und Mediawiki</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
   <tbody><tr>
     <td>Zeit:</td>
     <td>15:00–15:45 Uhr</td>
@@ -619,7 +619,7 @@ in diesem Vortrag vorgestellt.
 
 <h2 id="a5">Video – Von der Kamera bis zur DVD</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>16:00–16:45 Uhr</td>
@@ -651,7 +651,7 @@ Thema Video beleuchten.
 
 <h2 id="b5">Einstieg in die Mikrocontrollertechnik</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>16:00–16:45 Uhr</td>
@@ -677,7 +677,7 @@ AT-Mega32 und des K-CPU Entwicklungsboards.
 
 <h2 id="d1">Linux installiert – was nun?</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>11:00–11:45 Uhr (Wiederholung: 14:00–14:45)</td>
@@ -723,7 +723,7 @@ Kurzer Überlick:
 
 <h2 id="d2">Linux und die Kommandozeile</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>12:00–12:45 Uhr</td>
@@ -764,7 +764,7 @@ vorgestellt werden, die einem die tägliche Arbeit stark erleichtern können.</p
 
 <h2 id="d4">Linux Cluster</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>15:00–15:45 Uhr</td>
@@ -791,7 +791,7 @@ Clusters braucht.</p>
 
 <h2 id="c5">OpenOffice – Die tägliche Arbeit erleichtern mit Dokumentvorlagen</h2>
 
-<table style="background-color: rgb(208, 240, 240);" class="zeittafel" width="550" cellpadding="4">
+<table class="zeittafel" width="550" cellpadding="4">
        <tbody><tr>
     <td>Zeit:</td>
     <td>16:00–16:45 Uhr</td>

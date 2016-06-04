@@ -1,4 +1,4 @@
-##Linux-Infotag 2002 - der Pinguin kommt!
+#Linux-Infotag 2002 - der Pinguin kommt!
 
 
 Gesehen hat ihn wohl jeder schon, den sympathischen Linux-Pinguin. Aber was
@@ -96,4 +96,4 @@ von Linux als Server und die Verwendung von Linux an Schulen.
   <td><b>Sicherheit</b>, <i>Harald Görl</i></td>
 </tr> 
 
-</tbody></table>
+</tbody></table> 
