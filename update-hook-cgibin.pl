@@ -9,7 +9,7 @@ read STDIN, my $payload, 256;
 
 print "Content-Type: text/plain\015\012Content-Length: 4\015\012\015\012ok\015\012";
 
-chdir "/var/www/luga-preview" or exit;
+chdir "/var/www/www.luga.de/htdocs" or exit;
 
 exit unless defined $payload and $payload =~ /gh-pages/;
 exit unless -M ".git" > 30/86400;
@@ -28,5 +28,5 @@ exec "bash", "-c", <<'EOF';
 	git fetch
 	git diff gh-pages origin/gh-pages
 	git merge origin/gh-pages
-    } 2>&1 | mail -s "luga push-hook triggered $(date +'%Y-%m-%d %H:%M')" iblech@speicherleck.de
+    } 2>&1 | mail -s "luga push-hook triggered $(date +'%Y-%m-%d %H:%M')" joerg@luga.de
 EOF
