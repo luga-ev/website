@@ -14,8 +14,6 @@ chdir "/var/www/luga-preview" or exit;
 exit unless defined $payload and $payload =~ /gh-pages/;
 exit unless -M ".git" > 30/86400;
 # Only update once in thirty seconds.
-# Note: This duration has to be less than the time Travis CI takes to rebuild
-# and push the website.
 
 my $pid = fork();
 exit if not defined $pid;  # fork() didn't work
