@@ -1,4 +1,3 @@
-
 ## Aktionen der Linux User Group Augsburg
 Hier findet sich eine kurze Zusammenfassung der von der Linux User Group Augsburg organisierten Veranstaltungen
 
