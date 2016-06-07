@@ -8,6 +8,8 @@ Seite bei Änderungen im `master`-Branch neu zu bauen und das Ergebnis in
 `gh-pages` zu veröffentlichen. Das Schild neben der Überschrift zeigt an, ob
 der letzte Buildvorgang erfolgreich war.
 
+Bevor wir https://www.luga.de/ auf die neuen Seiten umstellen, gibt es eine Vorschau unter http://luga-preview.mooo.com/.
+
 ## Änderungen
 
 Kleinere Änderungen kann man sehr gut im [GitHub Webinterface][gh-webinterface]
