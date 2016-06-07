@@ -7,7 +7,7 @@ Förderung des freien Betriebssystems Linux und freier Software im allgemeinen w
 
 ### Weitere Informationen
 Nähere Angaben zum Vereinsvorstand finden sich unter [Kontakte](Kontakte/). Details über die Modalitäten
-einer Mitgliedschaft (wie z.B. Mitgliederbeiträge und Beitritssformulare) liegen hier.
+einer Mitgliedschaft (wie z.B. Mitgliederbeiträge und Beitrittsformulare) liegen hier.
 
 Die aktuelle Satzung des Vereins kann man direkt als [html-Version](Satzung/) lesen oder als PDF-Datei downloaden.
 
