@@ -579,6 +579,6 @@ Das Zeitschriftenarchiv umfasst praktisch alle Ausgaben der Zeitschriften Linux-
 Um eine sinnvolle Ausleihe zu ermöglichen, wurden folgende Bedingungen für den Verleih von Vereinsmaterial aufgestellt:
 
 * Verleih ausschließlich an Vereinsmitglieder
-* Die Leihfrist beträgt im allgemeinen einen Monat
+* Die Leihfrist beträgt im Allgemeinen einen Monat
 * Bei Nichtrückgabe wird eine Gebühr von 3,- € (Bücher) bzw. 1,- € (Zeitschriften) erhoben
  
