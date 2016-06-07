@@ -3,11 +3,11 @@ Ein kurzer Überblick über die Linux User Group Augsburg.
 
 ### Vereinszweck
 Die Linux User Group Augsburg (LUGA) e.V. ist ein gemeinnütziger Verein, der sich der 
-Förderung des freien Betriebssystems Linux und freier Software im allgemeinen widmet.
+Förderung des freien Betriebssystems Linux und freier Software im Allgemeinen widmet.
 
 ### Weitere Informationen
 Nähere Angaben zum Vereinsvorstand finden sich unter [Kontakte](Kontakte/). Details über die Modalitäten
-einer Mitgliedschaft (wie z.B. Mitgliederbeiträge und Beitrittsformulare) liegen hier.
+einer Mitgliedschaft (wie z.B. Mitgliederbeiträge und Beitrittsformulare) liegen [hier](Mitgliedschaft/).
 
 Die aktuelle Satzung des Vereins kann man direkt als [html-Version](Satzung/) lesen oder als PDF-Datei downloaden.
 
