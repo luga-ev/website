@@ -15,10 +15,10 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind. Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen. 
 
 ## Aktuelles
-<span class="ib">16.04.2016</span>
+<span class="ib">16. April 2016</span>
 <span class="ib">[15.Linux-Infotag 2016](Infotag_2016/)</span>
 
-<span class="ib">14.11.2015</span>
+<span class="ib">14. November 2015</span>
 <span class="ib">[Linux Presentation Day in Augsburg](http://www.luga.de/Aktionen/LPD-2015/)</span>  
 
 <span class="ib">28. März 2015</span>
