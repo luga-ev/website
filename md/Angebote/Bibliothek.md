@@ -573,9 +573,10 @@ Zur Weiterbildung und als Nachschlagewerk wurden aus Vereinsmitteln folgende Bü
 ### Zeitschriften
 
 Das Zeitschriftenarchiv umfasst praktisch alle Ausgaben der Zeitschriften Linux-Magazin und Linux-User. Von jeder Ausgabe sind dabei meist mehrere Exemplare vorhanden. Zusäzlich stehen einige englischsprachige Linux-Journals zur Verfügung.
-Ausleihbedingungen
 
-Um eine sinnvolle Ausleihe zu ermöglichen wurden folgende Bedingungen für den Verleih von Vereinsmaterial aufgestellt:
+### Ausleihbedingungen
+
+Um eine sinnvolle Ausleihe zu ermöglichen, wurden folgende Bedingungen für den Verleih von Vereinsmaterial aufgestellt:
 
 * Verleih ausschließlich an Vereinsmitglieder
 * Die Leihfrist beträgt im allgemeinen einen Monat
