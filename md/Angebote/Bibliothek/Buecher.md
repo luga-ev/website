@@ -918,7 +918,7 @@ Starker Bezug zur Entwicklung in Deutschland und Europa.
 <tbody>
  <tr>
   <td width="95" align="center">
-    <a href="http://www.mitp.de/online/0506/0506.html"><img
+    <a href="https://en.wikipedia.org/wiki/Barbarians_Led_by_Bill_Gates"><img
     src="/images/cover/Barbarians"
     border="0" width="91" alt="Barbarians led by Bill Gates"></a>
   </td>
