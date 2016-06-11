@@ -35,7 +35,7 @@ while ($zeile = fgets($fh))	{
 			$code .= "</tbody>";
 			$bis = $n -1;
 
-			$reiter .= "<div class=\"reiter\" id=\"reiter$tbody\" onclick=\"showTab($tbody)\">$von - $bis</div>\n";
+			$reiter .= "<div class=\"reiter\" id=\"reiter$tbody\" onclick=\"showTab($tbody)\">$von&ndash;$bis</div>\n";
 		}
 		$code .= "<tbody id=\"tb$tbody\">\n";
 		$tbody++;
@@ -57,7 +57,7 @@ while ($zeile = fgets($fh))	{
 }
 
 $bis = $n -1 ;
-$reiter .= "<div class=\"reiter\" id=\"reiter$tbody\" onclick=\"showTab($tbody)\">$von - $bis</div>\n";
+$reiter .= "<div class=\"reiter\" id=\"reiter$tbody\" onclick=\"showTab($tbody)\">$von&ndash;$bis</div>\n";
 $code .= "</tbody>\n</table>\n";
 fclose($fh);
 
