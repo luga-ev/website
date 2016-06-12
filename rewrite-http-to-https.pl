@@ -16,7 +16,7 @@ sub http2https {
     return $str;
 }
 
-s#(http://.*?)([\s\)\]"<>])#
+s#(http://.*?)([\s\)\]}"<>])#
     my $url       = $1;
     my $delimiter = $2;
     if(not check_link($url)) {
