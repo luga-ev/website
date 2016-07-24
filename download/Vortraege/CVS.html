@@ -1,0 +1,471 @@
+<html>
+ <head>  
+  <title>Homepage der Linux User Group Augsburg (LUGA) e.V.: Angebote</title>
+  <link rel="stylesheet" href="default_stylesheet" type="text/css" />
+   </head>
+<body font="#000000">
+
+
+<DIV ALIGN="CENTER"><P ALIGN=CENTER><BIG CLASS=XXLARGE>CVS - Ein System zur Versionsverwaltung</BIG><BR>
+<BIG CLASS=LARGE>Eine praktische Einf&#252;hrung aus Anwendersicht</BIG><BR>
+<BIG CLASS=LARGE>J&#246;rg Lehmann</BIG><BR>
+<BIG CLASS=LARGE>3. November 1999</BIG>
+</P></DIV>
+<P>
+<H1><A NAME="SECTION00010000000000000000">Einleitung</A></H1>
+<P>
+Bei dem <i>Concurrent Versions System (CVS)</i> [<A HREF="cvs.html#cvs">1</A>] handelt es sich
+um ein weitverbreitetes <i>Versionskontrollsystem</i>. Als solches
+unterst&#252;tzt es den Anwender bei der Verwaltung von verschiedenen
+Programmversionen, indem es die &#196;nderungen an den Quelltexten<A NAME="tex2html1" HREF="#221"><IMG ALIGN=BOTTOM ALT="gif" SRC="file:/usr/lib/latex2html/icons/foot_motif.gif"></A> eines (Software-)projekts mitprotokolliert. Eine
+Besonderheit von CVS, die es von dem vor allem fr&#252;her h&#228;ufig verwendeten RCS
+unterscheidet, besteht darin, da&#223; explizit die gleichzeitige Bearbeitung ein
+und derselben Programmdatei durch verschiedene Personen erlaubt ist. CVS geht
+dabei von der (optimistischen) Annahme aus, da&#223; nicht gleichzeitig
+&#196;nderungen an nahe beieinanderliegenden Stellen innerhalb einer Datei
+durchgef&#252;hrt werden. Sollte dies tats&#228;chlich nicht der Fall sein, kann CVS
+die verschiedenen Modifikationen automatisch zusammenf&#252;gen (<i>mergen</i>).
+Ist dies einmal (ausnahmsweise) nicht m&#246;glich, d.h. treten <i>Konflikte</i>
+zwischen verschiedenen &#196;nderungen auf, so ist ein manueller Eingriff des
+Benutzers notwendig. In der Praxis hat sich dieses Vorgehen bis hin zu
+gro&#223;en Software-Projekten, wie z.B. KDE, als g&#252;nstig herausgestellt.
+<P>
+Dieser Vortrag wendet sich an denjenigen, der mit einem bereits bestehenden
+CVS-Repository (s.u.) arbeiten will. Er legt also den Schwerpunkt auf die
+Anwendersicht und geht nicht auf die zur Einrichtung und Verwaltung eines
+CVS-Repositories notwendigen Kommandos ein. Wer sich f&#252;r den letzteren Aspekt
+interessiert, sei auf die umfangreiche CVS-Dokumentation [<A HREF="cvs.html#info">2</A>, <A HREF="cvs.html#molly">3</A>] verwiesen.
+<P>
+<H1><A NAME="SECTION00020000000000000000">Einf&#252;hrung in die Benutzung von CVS</A></H1>
+<P>
+<H2><A NAME="SECTION00021000000000000000">Allgemeines</A></H2>
+<P>
+Das CVS speichert die jeweils aktuellste Version der Projektdateien zusammen
+mit den Informationen zu allen an diesen bisher erfolgten &#196;nderungen im
+sogenannten <i>CVS-Repository</i>. Zur Bearbeitung der Dateien mu&#223; man von
+diesen zun&#228;chst eine lokale Kopie der entsprechenden Dateien des Repositories
+bei sich anlegen (<i>auschecken</i>). Diese lokalen Kopien sollte man dann
+von Zeit zu Zeit durch die aktuellsten Versionen aus dem Repository ersetzen
+(<i>updaten</i>). Au&#223;erdem kann man nat&#252;rlich die eigenen Modifikationen
+in das Repository &#252;bertragen (<i>einchecken</i> bzw. <i>commiten</i>).
+Sollten dabei Konflikte auftreten, d.h. hat bereits ein anderer Benutzer
+Modifikationen an der/den entsprechenden Datei(en) vorgenommen, die vom CVS nicht
+automatisch aufgel&#246;st werden k&#246;nnen, wird man aufgefordert diese zu beseitigen und mu&#223;
+die Ver&#228;nderungen erneut einchecken.
+<P>
+<H2><A NAME="SECTION00022000000000000000">Befehlssyntax</A></H2>
+<P>
+Der Zugriff auf alle CVS-Befehle erfolgt &#252;ber das Kommando <code>cvs</code>. Dessen
+Parameter gliedern sich dabei wie folgt
+<BLOCKQUOTE> <code>cvs</code> [<i>CVS-Optionen</i>]
+<i>CVS-Kommando</i>
+[<i>Kommando-Optionen</i>]<BR>
+<code> </code> [<i>Kommando-Argumente</i>]
+</BLOCKQUOTE>
+Dabei haben die Parameter folgende Bedeutung:
+<P>
+<UL>
+<DT>CVS-Optionen
+<DD> F&#252;r alle CVS-Kommandos gleicherma&#223;en relevanten
+Optionen (z.B.&nbsp;<code>-d /home/cvsroot</code>)
+<DT>CVS-Kommando
+<DD> Der Name des auszuf&#252;hrenden CVS-Kommandos
+(z.B.&nbsp;<code>co</code>, <code>ci</code>, <code>update</code>, <code>login</code>, <code>logout</code>)
+<DT>Kommando-Optionen
+<DD> Optionen, die sich auf das angegebene CVS-Kommando beziehen
+(z.B. <code>-m &quot;Kommentar zur neuen Version&quot;</code>)
+<DT>Kommando-Argumente
+<DD> Eigentliche Argumente f&#252;r das CVS-Kommando
+(z.B. Datei- und/oder Verzeichnisnamen)
+</UL>
+<P>
+<b>Hinweis:</b> Da einige der CVS- und Kommando-Optionen sehr h&#228;ufig
+verwendet werden, lassen sich f&#252;r diese in der Datei <code>~/.cvsrc</code>
+Standardwerte festlegen. Das Format ist dabei selbsterkl&#228;rend, es sei deshalb
+lediglich ein Beispiel angegeben, wobei die Bedeutung der einzelnen Parameter
+sp&#228;ter klar werden wird:
+<BLOCKQUOTE>
+<code># Minmalversion ~/.cvsrc</code><BR>
+<code>cvs -z3</code><BR>
+<code>update -P -d</code><BR>
+<code>checkout -P</code><BR>
+<code>tag -c</code>
+</BLOCKQUOTE>
+Die mit <code>cvs</code> beginnende Zeile legt dabei die standardm&#228;&#223;ig verwendeten
+globalen CVS-Optionen fest.
+<P>
+<H2><A NAME="SECTION00023000000000000000">Angabe des CVS-Repositories</A></H2>
+<P>
+Zun&#228;chst einmal mu&#223; man CVS nat&#252;rlich mitteilen, auf welches Repository man zugreifen
+will. Dies geschieht mit Hilfe der Variablen
+<code>CVSROOT</code>.<A NAME="tex2html2" HREF="#234"><IMG ALIGN=BOTTOM ALT="gif" SRC="file:/usr/lib/latex2html/icons/foot_motif.gif"></A>
+Dabei existieren zwei
+wichtige F&#228;lle:
+<P>
+<UL>
+<LI> Zum Zugriff auf ein lokales Repository wird einfach dessen Wurzelpfad angeben, also
+z.B. (<code>sh</code>-artige Shells)
+<BLOCKQUOTE> <tt>$ export CVSROOT=/home/cvsroot</tt>
+</BLOCKQUOTE>
+<LI> Liegt das Repository auf einem anderen Rechner und wird, wie meistens &#252;blich, eine
+Authentifizierung mittels eines Pa&#223;wortes durchf&#252;hrt, so verwendet man stattdessen beispielsweise
+<BLOCKQUOTE> <tt>$ export CVSROOT=:pserver:gast@www.luga.de:/home/cvsroot</tt>
+</BLOCKQUOTE>
+und meldet sich anschlie&#223;end bei dem entsprechenden Server an:
+<BLOCKQUOTE> <code>$ cvs login</code><BR>
+<code>CVS password:</code>
+</BLOCKQUOTE>
+Nach der Eingabe des Benutzerpa&#223;wortes kann man dann so lange auf das Repository
+zugreifen, bis man via
+<BLOCKQUOTE> <tt>$ cvs logout</tt>
+</BLOCKQUOTE>
+die Verbindung wieder trennt.
+<P>
+<b>Achtung:</b> Zwischen dem Ausf&#252;hren von <code>cvs login</code> und
+<code>cvs logout</code> wird das Passwort standardm&#228;&#223;ig in der Datei
+<code>~/.cvspass</code> gespeichert und dabei nur trivial verschl&#252;sselt. Diese
+,,Verschl&#252;sselung`` dient aber einzig und allein dem Zweck, da&#223; bei einem
+versehentlichem Anzeigen dieser Datei wenigstens nicht unmittelbar das
+Pa&#223;wort erscheint. <b>Ansonsten stellt dies aber nicht den geringsten
+Schutz f&#252;r das Pa&#223;wort dar!</b>
+</UL><H2><A NAME="SECTION00024000000000000000">Das Auschecken der Quelldateien</A></H2>
+<P>
+<A NAME="secco">&#160;</A>
+<P>
+Da nun die Lage des CVS-Repositories festgelegt ist, kann man sich die
+aktuelle Version der Quelldateien von dort besorgen. Dazu dient der Befehl
+<code>cvs checkout</code> oder kurz <code>cvs co</code>. Wollen wir beispielsweise die
+Quelldateien des Projekts <code>test</code> bearbeiten, so verwenden wir
+<P>
+<BLOCKQUOTE> <tt>$ cvs checkout test</tt>
+</BLOCKQUOTE>
+<P>
+Dadurch werden im aktuellen Verzeichnis ein neues Verzeichnis <tt>test</tt>
+angelegt und dort die entsprechenden Quelldateien (samt eventuellen
+Unterverzeichnissen) abgelegt. Hinzu kommen jeweils in jedem Unterverzeichnis (auch
+in dem Verzeichnis, in dem <tt>test</tt> selbst liegt) die
+CVS-Verwaltungsunterverzeichnisse mit dem Namen <tt>CVS</tt>. Man erh&#228;lt also
+z.B. folgendes Resultat:
+<P>
+<BLOCKQUOTE> <code>$ ls test</code><BR>
+<code>CVS Makefile test.c test.h</code>
+</BLOCKQUOTE>
+<P>
+<b>Hinweis:</b> Die <tt>CVS</tt>-Verzeichnisse enthalten unter anderem auch
+Informationen &#252;ber die Lage des CVS-Repositories. Deshalb ist es nicht
+m&#246;glich zwei Projekte aus verschiedenen Repositories ausgehend von einem
+gemeinsamen Verzeichnis auszuchecken. Andererseits ist es aber auch nach dem
+ersten Auschecken nicht mehr notwendig, die Variable <tt>CVSROOT</tt> zu setzen!
+<P>
+Die sicherlich wichtigste Kommando-Option von <tt>cvs co</tt> stellt <tt>-P</tt> dar. Sie
+verhindert das Auschecken von leeren Verzeichnissen. Da das CVS-Repository
+alle jemals existenten Verzeichnisse enth&#228;lt, auch wenn diese vielleicht
+inzwischen nicht mehr ben&#246;tigt werden oder umbenannt wurden, und diese
+standardm&#228;&#223;ig auch auscheckt, wird man diese Option wohl schnell zu
+sch&#228;tzen wissen. Sie geh&#246;rt deshalb eigentlich auch in jede
+<code>~/.cvsrc</code>-Datei.
+<P>
+Eine wesentliche Funktionalit&#228;t der Versionsverwaltung wird durch die Option
+<tt>-r</tt> zur Verf&#252;gung gestellt, was &#252;brigens automatisch die Option <tt>-P</tt>
+aktiviert, um ein Verzeichniswirrwar zur verhindern. Diese
+erlaubt das Auschecken von bestimmten Versionen der entsprechenden Dateien,
+z.B.
+<P>
+<BLOCKQUOTE> <tt>$ cvs checkout -r rel-1-0-patches test</tt>
+</BLOCKQUOTE>
+<P>
+Damit erh&#228;lt man die mit dem <i>Tag</i> (deutsch: Etikett) <tt>rel-1-0-patches</tt>
+versehenen Versionen der entsprechenden Dateien aus dem Projekt <tt>test</tt>. Wie man
+Dateien mit einem Tag versieht wird sp&#228;ter noch erl&#228;utert. Oftmals mu&#223; sich
+der Anwender darum aber auch gar nicht k&#252;mmern, denn er will vielleicht
+nur die Dateien in einem bestimmten <i>Entwicklungszweig</i>
+bearbeiten (auch dazu sp&#228;ter mehr). Dies wird dadurch erm&#246;glicht, da&#223; die einen Entwicklungszweig
+bezeichnenden Tags <i>sticky</i> (deutsch: klebrig) sind, d.h. das
+CVS merkt sich, da&#223; die Dateien unter der Angabe eines solchen Tags ausgecheckt
+wurden und ordnet sie beim sp&#228;teren Einchecken wieder in den entsprechenden
+Zweig ein. Ist dieses Verhalten nicht erw&#252;nscht, da man sich z.B. nur kurz eine &#228;ltere Version
+ansehen will, hilft die zus&#228;tzliche Angabe von <tt>-p</tt>, die
+zu einer Ausgabe der Dateien auf <tt>stdout</tt> f&#252;hrt. Au&#223;erdem ist ein
+L&#246;schen der Sticky Tags durch die Angabe von <tt>-A</tt> m&#246;glich.
+<P>
+<H2><A NAME="SECTION00025000000000000000">Aktualisieren der lokalen Quelldateien</A></H2>
+<P>
+Nach dem ersten Auschecken ist es ab und zu angebracht, die lokalen
+Quelldateien mit den neuesten Versionen im Repository abzugleichen, da ja
+evtl. andere Projektmitarbeiter inzwischen &#196;nderungen vorgenommen haben. Dazu
+dient das CVS-Kommando <tt>cvs update</tt>. Aus der Ausgabe dieses Kommandos
+l&#228;&#223;t sich entnehmen, welche Dateien im Repository ver&#228;ndert wurden (diese
+werden durch ein <tt>U</tt> oder <tt>P</tt> gekennzeichnet), bzw. welche Dateien man selbst
+ver&#228;ndert, aber noch nicht eingecheckt hat (Kennzeichnung durch ein
+<tt>M</tt>). Au&#223;erdem wird eine Meldung ausgegeben, wenn beide F&#228;lle bei
+einer Datei gleichzeitig auftreten, d.h. wenn man gleichzeitig mit anderen
+Entwickleren Modifikationen an der selben Datei vorgenommen hat. Treten dabei
+auch noch die oben beschriebenen Konflikte auf, die das CVS nicht automatisch aufl&#246;sen
+kann, wird man auch darauf hingewiesen und mu&#223; diese dann selbst beseitigen.
+Die entsprechenden Quelltextabschnitte werden dabei durch Zeilen der Form
+<code>&lt;&lt;&lt;&lt;&lt;&lt;</code> und <code>&gt;&gt;&gt;&gt;&gt;&gt;</code> eingefa&#223;t.
+<P>
+<H2><A NAME="SECTION00026000000000000000">Einchecken der &#196;nderungen an den Quelldateien</A></H2>
+<P>
+<A NAME="secci">&#160;</A>
+<P>
+Hat man nun die Quelldateien ge&#228;ndert und getestet, so will man normalerweise
+die neuen Versionen den anderen Entwicklern zur Verf&#252;gung stellen. Nehmen wir
+also in Fortsetzung unseres oberen Beispiels an, wir h&#228;tten die Datei
+<tt>test.c</tt> modifiziert. Das Einchecken erfolgt dann mittels des
+Kommandos <code>cvs commit</code> oder kurz <code>cvs ci</code> unter Angabe des Pfades
+der entsprechenden Datei, also z.B. aus dem <tt>test</tt>-Verzeichnis heraus
+via
+<P>
+<BLOCKQUOTE> <tt>$ cvs commit test.c</tt>
+</BLOCKQUOTE>
+<P>
+Bei der Angabe von Verzeichnisnamen werden alle darin befindlichen Dateien auf
+Modifikationen untersucht und dementsprechend eingecheckt. Dabei werden
+rekursiv auch alle in Unterverzeichnissen befindlichen Dateien
+ber&#252;cksichtigt. Ohne Angabe eines Datei- oder Verzeichnisnamens werden die
+Ver&#228;nderungen in den Dateien des aktuellen Verzeichnisses (samt denen in
+evtl. Unterverzeichnissen) eingecheckt.
+<P>
+Bevor die Dateien wirklich in das Repository eingecheckt werden wird der
+in der Umgebungsvariablen <tt>$CVSEDITOR</tt> oder, falls diese nicht
+existiert, der in <tt>$EDITOR</tt> eingestellte Texteditor gestartet, und man
+sollte kurz die durchgef&#252;hrten &#196;nderungen beschreiben. Kurze Kommentare kann
+man praktischerweise auch mit der Kommando-Option <code>-m</code> vor dem Dateinamen
+angeben, also z.B.
+<P>
+<BLOCKQUOTE> <code>$ cvs ci -m &quot;Fehler in Funktion test() behoben&quot; test.c</code>
+</BLOCKQUOTE>
+<P>
+Wie beim Updaten gilt auch hier, da&#223; evtl. auftretende Konflikte mit
+Versionen von anderen Entwicklern bei Bedarf manuell beseitigt werden m&#252;ssen,
+bevor das Einchecken m&#246;glich ist.
+<P>
+<H2><A NAME="SECTION00027000000000000000">Hinzuf&#252;gen und L&#246;schen von Dateien</A></H2>
+<P>
+Von Zeit zu Zeit ist es nat&#252;rlich notwendig, neue Quelltextdateien in das
+Projekt aufzunehmen. Dazu gen&#252;gt es nicht, einfach in der lokalen Kopie des
+Repositories die entsprechende Datei zu erzeugen bzw. zu l&#246;schen; CVS w&#252;&#223;te
+ja auch gar nicht, ob es nicht um eine, z.B. durch einen Kompilationslauf
+erzeugte, Bin&#228;rdatei handelt, bzw., ob man eine Datei vielleicht nur aus
+Mangel an vorhandenem Plattenplatz gel&#246;scht hat. Es ist also ein manueller
+Eingriff des Benutzers erforderlich, der durch die CVS-Kommandos
+<tt>cvs add</tt> bzw. <tt>cvs remove</tt> erm&#246;glicht wird.
+<P>
+Das Hinzuf&#252;gen ist mit <tt>cvs add</tt> unter der Angabe des entsprechenden
+Datei- oder Verzeichnisnamens m&#246;glich. Also beispielsweise:
+<P>
+<BLOCKQUOTE> <code>$ ls</code><BR>
+<code>CVS Makefile test.c test.h neu.c</code><BR>
+<code>$ cvs add neu.c</code><BR>
+<code>cvs add: scheduling file `neu.c' for addition</code><BR>
+<code>cvs add: use 'cvs commit' to add this file permanently</code>
+</BLOCKQUOTE>
+<P>
+Wie man der letzten Meldung entnehmen kann, wird das Hinzuf&#252;gen der Datei
+erst beim n&#228;chsten Einchecken wirksam. Ergo:
+<P>
+<BLOCKQUOTE> <code>cvs ci -m &quot;Erste Version von neu.c&quot; neu.c</code>
+</BLOCKQUOTE>
+<P>
+<b>Hinweis:</b> Beim Hinzuf&#252;gen von Bin&#228;rdateien ist stets die Kommando-Option
+<tt>-kb</tt> zu verwenden, also z.B.
+<P>
+<BLOCKQUOTE> <tt>$ cvs add -kb logo.jpg</tt>
+</BLOCKQUOTE>
+<P>
+Dadurch wird die standardm&#228;&#223;ig durchgef&#252;hrte
+Konvertierung von Zeilenendezeichen sowie die sogenannte
+<i>Keyword-Substitution</i><A NAME="tex2html3" HREF="#230"><IMG ALIGN=BOTTOM ALT="gif" SRC="file:/usr/lib/latex2html/icons/foot_motif.gif"></A> abgeschaltet. Sollte man dies vergessen, kann es durchaus zu
+unliebsamen &#196;nderungen in der jeweiligen Datei kommen! Ein nachtr&#228;gliches
+Hinzuf&#252;gen des <code>-kb</code>-Flags erlaubt das <tt>cvs admin</tt>-Kommando, da&#223;
+in der CVS-Dokumentation n&#228;her beschrieben ist.
+<P>
+Ben&#246;tigt man eine Quelldatei oder ein Unterverzeichnis nicht mehr, kann man
+diese mit <tt>cvs remove</tt> l&#246;schen. Dabei sollte man allerdings vorher
+alle &#196;nderungen an der entsprechenden Datei einchecken, so da&#223; diese nicht
+f&#252;r eine eventuelle sp&#228;tere Verwendung verloren sind. Au&#223;erdem mu&#223;
+normalerweise vor dem Entfernen aus dem CVS die entsprechende Datei gel&#246;scht
+werden.
+Konkret sieht das Ganze also wie folgt aus:
+<P>
+<BLOCKQUOTE> <code>$ rm neu.c</code><BR>
+<code>$ cvs remove neu.c</code><BR>
+<code>cvs remove: scheduling `neu.c' for removal</code><BR>
+<code>cvs remove: use 'cvs commit' to remove this file </code><tt>permanently</tt><BR>
+<code>$ cvs ci -m &quot;neu.c geloescht&quot; neu.c</code>
+</BLOCKQUOTE>
+<P>
+Will man sich das vorherige L&#246;schen der Datei ersparen, so erm&#246;glicht dies
+die Kommando-Option <tt>-f</tt>. Damit l&#228;&#223;t sich obige Befehlskombination
+auch etwas k&#252;rzer schreiben:
+<P>
+<BLOCKQUOTE> <code>$ cvs remove -f neu.c</code><BR>
+<code>cvs remove: scheduling `neu.c' for removal</code><BR>
+<code>cvs remove: use 'cvs commit' to remove this file </code><tt>permanently</tt><BR>
+<code>$ cvs ci -m &quot;neu.c geloescht&quot; neu.c</code>
+</BLOCKQUOTE>
+<P>
+Grunds&#228;tzlich beachte man, da&#223; auch eine gel&#246;schte Datei weiterhin im
+Repository vorhanden ist; man will ja sp&#228;ter eventuell eine alte Version der
+Datei wiederherstellen. Bei Verzeichnissen gilt dasselbe, wobei hier ein
+explizites L&#246;schen mittels <tt>cvs remove</tt> nicht m&#246;glich und auch nicht
+notwendig ist. Stattdessen entfernt der n&#228;chste <tt>cvs update</tt>- oder
+<tt>cvs checkout</tt>-Aufruf mit der Kommando-Option <tt>-P</tt> das leere
+Verzeichnis.
+<P>
+Zum Umbenennen einer Datei verwendet man zuerst den Standardbefehl <tt>mv</tt>,
+l&#246;scht dann mittels <tt>cvs remove</tt> die alte Datei und f&#252;gt die neue mit
+<tt>cvs add</tt> wieder hinzu. Abschlie&#223;end darf man den <tt>cvs
+ci</tt>-Aufruf nat&#252;rlich wieder nicht vergessen.
+<P>
+<H1><A NAME="SECTION00030000000000000000">Diverse Kommandos f&#252;r Fortgeschrittene</A></H1>
+<P>
+<H2><A NAME="SECTION00031000000000000000">,,Historisches``</A></H2>
+<P>
+Ein Hauptzweck eines Versionskontrollsystems besteht ja darin, da&#223; man
+jederzeit nachvollziehen kann, wer wann welche Ver&#228;nderungen an den
+Quelltexten durchgef&#252;hrt hat. Diese Funktionalit&#228;t wird durch verschiedene
+CVS-Kommandos zur Verf&#252;gung gestellt, von denen im folgenden einige kurz
+erw&#228;hnt werden sollen.
+<P>
+Mit Hilfe von <tt>cvs log</tt> (gefolgt von einem/mehreren Dateinamen) lassen
+sich die beim Einchecken angegeben Kurzbeschreibungen der vorgenommenen
+&#196;nderungen anzeigen. Zus&#228;tzlich wird jeweils angegeben, wann und von wem die
+entsprechende Modifikation vorgenommen wurde.
+<P>
+<BLOCKQUOTE> <tt>$ cvs log test.c</tt>
+</BLOCKQUOTE>
+<P>
+Wer einen &#220;berblick &#252;ber alle an dem Projekt vorgenommenen
+Versions&#228;nderungen erhalten will, kann daf&#252;r <tt>cvs history</tt>
+verwenden. Die Optionen hierf&#252;r entnimmt man am besten der CVS-Dokumentation
+[<A HREF="cvs.html#info">2</A>]. Als Beispiel sei hier nur das Kommando
+<P>
+<BLOCKQUOTE> <tt>$ cvs history -a -e</tt>
+</BLOCKQUOTE>
+<P>
+angegeben, mit dem sich eine Liste aller &#196;nderungen (<tt>-e</tt>) aller Benutzer
+(<tt>-a</tt>) anzeigen l&#228;&#223;t.
+<P>
+Interessant ist manchmal auch das Kommando <tt>cvs annotate</tt> (gefolgt von
+einem/mehreren Dateinamen), das die aktuellste Version der entsprechenden
+Datei(en) ausgibt, wobei jede Zeile durch Informationen &#252;ber die letzte
+&#196;nderung versehen wird:
+<P>
+<BLOCKQUOTE> <tt>$ cvs annotate test.c</tt>
+</BLOCKQUOTE>
+<P>
+Will man nur die Unterschiede zwischen der eigenen lokalen Version und der aktuellsten Version im
+Repository anzeigen, d.h. sich &#252;ber die selber durchgef&#252;hrten
+&#196;nderungen informieren, so erm&#246;glicht dies das <tt>cvs diff</tt>-Kommando,
+wobei wie immer der/die entsprechende(n) Dateiname(n) anzugeben ist/sind.
+<P>
+<BLOCKQUOTE> <tt>$ cvs diff -u test.c</tt>
+</BLOCKQUOTE>
+<P>
+Die Kommando-Option <tt>-u</tt> gibt hierbei an, da&#223; man die Ausgabe im
+Unified-diff-Stil w&#252;nscht.
+<P>
+<H2><A NAME="SECTION00032000000000000000">Revisionsnamen und Entwicklungszweige</A></H2>
+<P>
+Oftmals ist es sinnvoll, den momentanen Stand aller Projektdateien besonders
+zu kennzeichnen, z.B. wenn eine bestimmte Phase des Entwicklungsprozesses
+erreicht wird (neuer Release o.&#228;.). Dies geschieht mit Hilfe des <tt>cvs
+tag</tt>-Befehls. Als Kommando-Argument ist dabei zun&#228;chst der gew&#228;hlte
+Versionsname (z.B. <tt>rel-2-2</tt>) anzugeben. Gibt man zus&#228;tzlich
+Datei- bzw. Verzeichnisnamen an, so werden nur die entsprechenden Dateien mit
+dem entsprechenden Versionsnamen versehen.
+<P>
+Das Standardvorgehen besteht darin, den jeweils aktuellsten Versionen aller
+Projektdateien den entsprechenden Namen zu geben. Dazu begibt man sich einfach in das
+Wurzelverzeichnis des entsprechenden Projekts (im bereits h&#228;ufiger
+verwendeten Beispiel das Verzeichnis <tt>test</tt>) und f&#252;hrt beispielsweise
+<P>
+<BLOCKQUOTE> <tt>$ cvs tag -c rel-2-2</tt>
+</BLOCKQUOTE>
+<P>
+aus. Die Kommando-Option <tt>-c</tt> f&#252;hrt dabei dazu, da&#223; CVS zun&#228;chst
+&#252;berpr&#252;ft, ob noch nicht eingecheckte &#196;nderungen vorhanden sind. Ist dies
+der Fall, wird der Tag-Proze&#223; gar nicht erst gestartet und man erh&#228;lt einen
+entsprechenden Hinweis. Da die Namen n&#228;mlich immer den entsprechenden Dateien
+im CVS-Repository gegeben werden (und eben nicht den lokalen Kopien, weshalb
+&#252;brigens nach dem Ausf&#252;hren von <tt>cvs tag</tt> auch kein <tt>cvs
+ci</tt>-Aufruf notwendig ist), wird so verhindert, da&#223; die evtl. falsche
+Dateiversion benannt wird.
+<P>
+Oftmals ist es im Laufe eines Entwicklungsprozesses notwendig, an
+Release-Versionen &#196;nderungen (z.B. Bugfixes) durchzuf&#252;hren. Dies wird
+durch das Erzeugen von <i>Entwicklungszweigen</i> erm&#246;glicht. Alle &#196;nderungen,
+die an solch einem Zweig durchgef&#252;hrt werden, laufen vollkommen unbeeinflu&#223;t
+von den &#196;nderungen an anderen Zweigen, also insbesondere am
+,,Entwicklungsstamm`` (main trunk), d.h. dem Hauptentwicklungszweig, an dem normalerweise
+gearbeitet wird.
+<P>
+Die sicherste Methode, einen neuen Entwicklungszweig zu erstellen, besteht
+darin, diesen ausgehend von den gekennzeichneten Release-Versionen
+abzuspalten. Diese geschieht mit Hilfe des Kommandos <tt>cvs
+rtag</tt>. Exemplarisch sei dazu folgender Befehl angegeben:
+<P>
+<BLOCKQUOTE> <tt>$ cvs rtag -b -r rel-2-2 rel-2-2-patches test</tt>
+</BLOCKQUOTE>
+<P>
+Die Option <tt>-b</tt> weist dabei den <tt>rtag</tt>-Befehl an, einen neuen
+Entwicklungszweig (branch) abzuspalten. Durch die Angabe <tt>-r</tt> gefolgt
+von dem vorher vergebenen Versionsnamen (hier: <tt>rel-2-2</tt>) wird genau
+festgelegt, von welchen Versionen der neue Zweig (mit dem Namen
+<tt>rel-2-2-patches</tt>) abgetrennt wird. Zuletzt ben&#246;tigt das
+<tt>rtag</tt>-Kommando noch den Projektnamen (d.h. den Namen, den man auch
+beim Auschecken verwenden w&#252;rde), da ja in einem Repository durchaus mehrere
+Entwicklungsprojekte untergebracht sein k&#246;nnen. In unserem Fall geben wir
+also <tt>test</tt> an.
+<P>
+Auf den neuen Entwicklungszweig kann man jetzt, wie in Abschnitt&nbsp;<A HREF="cvs.html#secco">2.4</A>
+beschrieben, ganz einfach unter der Angabe seines Namens zugreifen. Also
+entweder man erzeugt eine neue Arbeitskopie aus dem Repository mit Hilfe von
+<P>
+<BLOCKQUOTE> <tt>$ cvs co -r rel-2-2-patches test</tt>
+</BLOCKQUOTE>
+<P>
+oder man hat bereits die Dateien eines Zweiges (z.B. des Hauptzweiges)
+ausgecheckt und kann dann mittels
+<P>
+<BLOCKQUOTE> <tt>$ cvs update -r rel-2-2-patches test</tt>
+</BLOCKQUOTE>
+<P>
+in den neuen Zweig wechseln. In jeden Fall werden alle eingecheckten
+&#196;nderungen nur in dem Zweig <tt>rel-2-2-patches</tt> durchgef&#252;hrt, und zwar
+solange, bis man die auf diesen Zweig verweisenden Sticky Tags l&#246;scht (vgl.
+Abschnitt&nbsp;<A HREF="cvs.html#secco">2.4</A>).
+<P>
+<P><A NAME="SECTIONREF"><H2>Literatur</H2></A><P>
+<DL COMPACT>
+<DT><A NAME="cvs"><STRONG>1</STRONG></A><DD> <code>http://www.cyclic.com/</code>
+<DT><A NAME="info"><STRONG>2</STRONG></A><DD> Texinfo-Dateien zum CVS (<tt>info cvs</tt>)
+<DT><A NAME="molly"><STRONG>3</STRONG></A><DD> <code>http://www.loria.fr/~molli/cvs-index.html</code>
+</DL><DL> <DT><A NAME="221">...Quelltexten</A><DD>Unter
+Quelltexten verstehen wir hier und im folgenden nicht nur die Quelltexte von
+Programmen, sondern jegliche Art von Dateien, die unter die
+Versionskontrolle gestellt werden sollen. Vorbeugend sei an dieser Stelle
+jedoch darauf hingewiesen, da&#223; beim Einchecken von Bin&#228;rcode in das
+CVS-Repository besondere Vorsichtsma&#223;nahmen ergriffen werden m&#252;ssen (vgl.
+Abschnitt&nbsp;<A HREF="cvs.html#secci">2.6</A>)
+<PRE>
+</PRE><DT><A NAME="234">...18.</A><DD>Alternativ kann man auch die CVS-Option <tt>-d</tt>
+verwenden, also z.B. <tt>cvs -d /home/cvsroot ...</tt> Allerdings ist dann
+unter Umst&#228;nden eine mehrfache Eingabe des Wurzelpfades notwendig. Hierbei
+hat die CVS-Option <tt>-d</tt> eine h&#246;here Priorit&#228;t als der Inhalt der
+Variablen <tt>CVSROOT</tt>.
+<P>
+<PRE>
+</PRE><DT><A NAME="230">...<i>Keyword-Substitution</i></A><DD>Die Keyword-Substitution ersetzt
+Vorkommen von Ausdr&#252;cken wie <tt>$Header: /home/cvsroot/www-ak/www/mhtml/vortraege/cvs/cvs.mhtml,v 1.1 1999/12/29 18:37:29 joerg Exp $</tt> oder <tt>$Id: cvs.mhtml,v 1.1 1999/12/29 18:37:29 joerg Exp $</tt> durch
+die entsprechenden Informationen zu der jeweiligen Datei (Name,
+Versionsnummer, etc.)
+<PRE>
+</PRE> </DL>
+
+  
+  </body>
+</html>
+
