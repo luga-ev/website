@@ -20,8 +20,8 @@ Michael Roppel (Kassenführer)
 Martin Wiedemann (Schriftführer)
 
 **Beisitzer**  
-Dr. Jörg Lehmann
-Karsten Nordsiek
+Dr. Jörg Lehmann  
+Karsten Nordsiek  
 Thomas Vill
 
 Inhaltlich Verantwortlicher gemäß § 6 MDStV: Dr. Jörg Lehmann
