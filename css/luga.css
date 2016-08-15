@@ -7,7 +7,7 @@ body	{
 	font-family: Helvetica,Arial,sans-serif;
 	text-align: center;
 	overflow-y: scroll;
-	background-color: white;
+	background-color: #aeb0b9
 }
 
 h2, h3, h4, h5, h6	{
@@ -99,11 +99,15 @@ td	{
 }
 
 #main	{
+	background-color: white;
 	display: inline-block;
 	position: relative;
 	width: 60em;
 	text-align: left;
 	padding: 0.8em;	
+	border: 1px solid #808080;
+	border-radius: 0.4em;
+	box-shadow: 3px 3px 5px 6px #666;
 }
 
 #logo	{
@@ -283,10 +287,14 @@ td	{
 	
 	body	{
 		width: auto;
+		background-color: white;
 	}
 	
 	#main	{
 		width: auto;
+		border: none;
+		border-radius: 0;
+		box-shadow: 0 0 0;
 	} 
 	
 	.header img	{
