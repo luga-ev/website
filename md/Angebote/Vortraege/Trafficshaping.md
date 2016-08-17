@@ -4,7 +4,7 @@
 
 
 ### Referent(en)
- [Andreas Hoffmann](/download/Vortraege/andreash@uni-muenster.de)
+ [Andreas Hoffmann](mailto:andreash@uni-muenster.de)
 
 ### Datum
  22.03.2000
