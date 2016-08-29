@@ -235,7 +235,7 @@
 </tbody></table>
 </p>
 
-<p><a href="vortragsprogramm.pdf">Vortragsprogramm als PDF.</a> <em>Von 11:00 Uhr bis 13:30 Uhr wird ein Brotzeitstand geöffnet haben. Bitte beachten Sie auch die <a href="Staende/">Stände im Foyer</a>.</em></p>
+<p><a href="vortragsprogramm.pdf">Vortragsprogramm als PDF.</a> <em>Von 11:00 Uhr bis 13:30 Uhr wird ein Brotzeitstand geöffnet haben. Bitte beachten Sie auch die <a href="../Staende/">Stände im Foyer</a>.</em></p>
 
 
 

@@ -17,9 +17,11 @@ Die LUGA erhebt und speichert automatisch in den Server Log Dateien für diesen 
 * Datum und Uhrzeit der Serveranfrage.
 
 Diese Daten sind für die LUGA nicht bestimmten Personen zuordenbar. Eine systematische Zusammenführung mit anderen Datenquellen wird nicht vorgenommen; die Daten werden zudem nach einer statistischen Auswertung gelöscht.
+
 ##Cookies
 
-Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von uns verwendeten Cookies sind so genannte **Session-Cookies**. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.
+Unsere Webseite läuft ganz ohne Cookies.
+
 ##Mailinglisten
 
 Die LUGA betreibt verschiedene Mailinglisten. Dies sind Verteiler für elektronische Mailnachrichten. 
