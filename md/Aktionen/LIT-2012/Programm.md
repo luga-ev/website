@@ -2,7 +2,7 @@
 
 <h1>Übersicht</h1>
 
-Vortragsprogramm zum <a href="vortraege_lit_2012.pdf">Download</a>.
+Vortragsprogramm zum <a href="/download/lit_2012/vortraege_lit_2012.pdf">Download</a>.
 
 
 <table class="zeittafel" cellpadding="3">

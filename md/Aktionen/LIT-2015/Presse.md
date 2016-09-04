@@ -34,7 +34,7 @@ c/o Ingo Blechschmidt, Arberstr. 5, 86179 Augsburg,
 
 <p>Die Hochschule Augsburg, die den Linux-Infotag unterstützt, wurde im August 1971 als Fachhochschule Augsburg gegründet. Rund 5000 Studierende werden hier in ca. 30 Studiengängen ausgebildet.</p>
 
-<p><a href="LinuxInfotagPM.rtf">Pressemitteilung als RTF-Datei</a></p>
+<p><a href="/download/lit_2015/LinuxInfotagPM.rtf">Pressemitteilung als RTF-Datei</a></p>
 
 
 <h2>Details</h2>

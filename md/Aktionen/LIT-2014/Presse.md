@@ -32,7 +32,7 @@ Die Linux User Group Augsburg (LUGA) e.V. ist ein gemeinnütziger Verein mit akt
 
 Die Hochschule Augsburg, die den Linux-Infotag unterstützt, wurde im August 1971 als Fachhochschule Augsburg gegründet. Rund 4500 Studierende werden hier in ca. 30 Studiengängen ausgebildet.
 
-<a href="LinuxInfotagPM.rtf">Pressemitteilung als RTF-Datei</a>
+<a href="/download/lit_2014/LinuxInfotagPM.rtf">Pressemitteilung als RTF-Datei</a>
 
 <h2>Details</h2>
 <ul>

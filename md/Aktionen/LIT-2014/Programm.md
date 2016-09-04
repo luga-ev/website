@@ -211,7 +211,7 @@
 
 <em>Den ganzen Tag über wird die Mensa der Hochschule geöffnet haben. Dort kann bar bezahlt werden.</em>
 
-<a href="/Aktionen/LIT-2014/vortragsprogramm.pdf">Vortragsprogramm als PDF-Datei</a>
+<a href="/download/lit_2014/vortragsprogramm.pdf">Vortragsprogramm als PDF-Datei</a>
 
 <h1>Vortragsbeschreibungen</h1>
 
