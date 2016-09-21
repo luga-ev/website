@@ -16,12 +16,13 @@ Registernummer: VR 2092
 | Ingo Blechschmidt (1. Vorstand)<br>Arberstr. 5<br>86179 Augsburg<br>E-Mail: ingo.blechschmidt at luga.de | Martin Vill (2. Vorstand)<br>Zollhausstraße 14<br>86405 Meitingen<br>E-Mail: vill at luga.de |
   
 **Weitere Vorstandsmitglieder**  
-Karsten Nordsiek (Kassier)    
-Michael Roppel (Schriftführer)
+Michael Roppel (Kassenführer)  
+Martin Wiedemann (Schriftführer) 
 
 **Beisitzer**  
-Michael Hartmann  
-Dr. Jörg Lehmann
+Dr. Jörg Lehmann  
+Karsten Nordsiek  
+Thomas Vill  
 
 Inhaltlich Verantwortlicher gemäß § 6 MDStV: Dr. Jörg Lehmann
 
