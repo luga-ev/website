@@ -26,8 +26,7 @@ Linux sein. </p>
 <tr>
 <td></td>
 <th align="right">Wo:</th>
-<td><a href="karlshof.html">Pfadfinderzentrum
-Karlshof</a> im Nördlinger Ries </td></tr></tbody></table>
+<td>Pfadfinderzentrum Karlshof im Nördlinger Ries </td></tr></tbody></table>
 <p>Der Karlshof, ein ehemaliger Gutshof der Fürstenfamilie
 Wallerstein, liegt umringt von alten Burgen mitten im größten
 Meteoritenkrater der Welt. Zu Fuß zu erreichen sind u.a. Ruinen, ein
@@ -42,10 +41,10 @@ Falls ihr also Lust habt, andere LUGs zu treffen, neue Leute
 kennenzulernen, interessante Vorträge über Linux zu hören, oder
 falls ihr einfach nur Spaß haben wollt, meldet euch möglichst
 bald an.
-Auß könnt ihr euch in folgende Ankündigungs-Mailing
-liste eintragen:
-<b>lug2000-announce <a href="mailto:majordomo@luga.de?body=subscribe lug2000-announce">Mailingliste</a></b> ("subscribe 
-    lug2000-announce" im Body).
+Außerdem könnt ihr euch in folgende Ankündigungs-Mailing
+liste eintragen:<strike>
+<b>lug2000-announce Mailingliste</b> ("subscribe 
+    lug2000-announce" im Body).</strike>
 </p>
 <p>Wir haben versucht, den Teilnehmerbeitrag von DM 70,- mit Hilfe von
 Sponsoren und dem Verzicht auf allzu große Ausgaben so gering wie

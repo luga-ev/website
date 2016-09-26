@@ -142,7 +142,7 @@
     </td>
 
     <td class="block">
-     <a style="float: right;" href="/Angebote/Vortraege/node.js_LIT_2011"><img src="/images/pdf.png" style="border: 0pt none ;"></a>
+     <a style="float: right;" href="/download/Vortraege/node.js_LIT_2011.pdf"><img src="/images/pdf.png" style="border: 0pt none ;"></a>
       <span class="dname">Tim Baumann</span>
       <span class="vtitel"><a href="#d3">Webanwendungen mit Node.js</a></span>
     </td>

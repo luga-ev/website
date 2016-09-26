@@ -14,6 +14,6 @@
 
 ### Manuskript
 
-* [HTML-Version](/download/Vortraege/diskless_suse.html) (45 kB)
+* [PDF-Version](/download/Vortraege/diskless_suse.pdf) (226 kB)
 * [PostScript-Version](/download/Vortraege/diskless_suse.ps) (135 kB)
 

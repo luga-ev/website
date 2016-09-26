@@ -24,8 +24,7 @@ ein Wochenende voller Spaß, Erlebnis, Kennenlernen und natürlich auch Linux se
 <tr>
 <td></td>
 <th align="right">Wo:</th>
-<td><a href="Ort/Karlshof/index.html">Pfadfinderzentrum
-Karlshof</a> im Nördlinger Ries 
+<td>Pfadfinderzentrum Karlshof im Nördlinger Ries 
 </td></tr>
 </tbody></table>
 
@@ -39,12 +38,12 @@ Er bietet somit ein ideales Umfeld für ein Treffen aller LUGs.
 Natürlich gibt es auch genügend Platz für mitgebrachte Rechner, und auch 
 eine schnelle Internet-Anbindung wird vorhanden sein.
 
-Das <a href="Programm/index.html">Programm</a> soll neben Vorträgen, Workshops und Diskussionen auch genug Zeit für 
+Das Programm soll neben Vorträgen, Workshops und Diskussionen auch genug Zeit für 
 Lagerfeuer, Ratschen und Gemütlichkeit lassen. Falls ihr also Lust habt, andere LUGs 
 zu treffen, neue Leute kennenzulernen, interessante Vorträge über Linux zu hören, 
 oder falls ihr einfach nur Spaß haben wollt, meldet euch möglichst bald 
-<a href="Anmeldung/index.html">hier</a> an.
-Außerdem könnt ihr Euch auch per Web in die <a href="Mailinglisten/index.html">Ankündigungs-Mailingliste</a> eintragen. 
+<strike>hier</strike> an.
+Außerdem könnt ihr Euch auch per Web in die <strike>Ankündigungs-Mailingliste</strike> eintragen. 
 
 Wir haben versucht, den Teilnehmerbeitrag von DM 70,- mit Hilfe von
 Sponsoren und dem Verzicht auf allzu große Ausgaben so gering wie
