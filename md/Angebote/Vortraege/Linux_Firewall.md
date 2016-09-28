@@ -15,4 +15,4 @@ Ein Beispielskript zum Einrichten einer Firewall unter Linux 2.4 gibt es hier.
 
 ### Manuskript
 
-* [HTML-Version](/download/Vortraege/Linux_Firewall.html) (1 kB)
+* [HTML-Version](/static/linux_firewall/) (1 kB)

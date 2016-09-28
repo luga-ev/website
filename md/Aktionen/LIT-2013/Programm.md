@@ -557,7 +557,7 @@ Zielpublikum des Vortrags sind technisch interessierte Linux-Nutzer,
 erfordert aber keine besonderen Vorkenntnisse jenseits von allgemeinem                                                                       
 Linux-Wissen.                                                                                                  
 
-<a href="http:/www.heise.de/open/kernel-log-3007.html">Webseite zum Beitrag.</a>    
+<a href="http://www.heise.de/open/kernel-log-3007.html">Webseite zum Beitrag.</a>    
 
 </div>
 
