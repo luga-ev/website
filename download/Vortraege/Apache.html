@@ -40,17 +40,17 @@ WWW-Server im Internet.
 Die Konfiguration des Apache gliedert sich in zwei Abschnitte. Zum einen mu&#223;
 man aufgrund der modularen Struktur des Apache vor seiner &#220;bersetzung
 festlegen, welche Module man einbinden will. Dies ist in Abschnitt
-<A HREF="apache.html#seccompile">2.2</A> n&#228;her beschrieben. Die notwendigen Verzeichnisse sowie die
-richtigen Zugriffsrechte werden in Abschnitt <A HREF="apache.html#secdir">2.3</A> erl&#228;utert. Die
+<A HREF="Apache.html#seccompile">2.2</A> n&#228;her beschrieben. Die notwendigen Verzeichnisse sowie die
+richtigen Zugriffsrechte werden in Abschnitt <A HREF="Apache.html#secdir">2.3</A> erl&#228;utert. Die
 eigentliche Einrichtung erfolgt dann mittels einiger Konfigurationsdateien,
-die in Abschnitt <A HREF="apache.html#secconfig">2.4</A> behandelt werden.
+die in Abschnitt <A HREF="Apache.html#secconfig">2.4</A> behandelt werden.
 <P>
 <H2><A NAME="SECTION00022000000000000000">&#220;bersetzung</A></H2>
 <P>
 <A NAME="seccompile">&#160;</A>
 <P>
 Nachdem man die Quellen des Apache von CD installiert oder von
-[<A HREF="apache.html#apache">1</A>] bzw. diversen Mirrors heruntergeladen und
+[<A HREF="Apache.html#apache">1</A>] bzw. diversen Mirrors heruntergeladen und
 entpackt hat, sollte man sich in das Unterverzeichnis <code>src</code> begeben und
 dort die Datei <code>Configuration</code> editieren. Falls diese nicht
 existiert mu&#223; man zun&#228;chst <code>Configuration.tmpl</code> nach
@@ -166,7 +166,7 @@ allem ausf&#252;hrlich kommentierte Vorlagen f&#252;r die Einrichtung des Apache
 findet man im Unterverzeichnis <code>conf</code> der Apache-Quellen unter den Namen
 <code>httpd.conf-dist</code>, <code>access.conf.dist</code> und <code>srm.conf-dist</code>.
 Eine Beschreibung aller Anweisungen im HTML-Format findet man in
-[<A HREF="apache.html#userguide">3</A>] oder in gedruckter Form in [<A HREF="apache.html#laurie">2</A>]. Wie dort haben wir
+[<A HREF="Apache.html#userguide">3</A>] oder in gedruckter Form in [<A HREF="Apache.html#laurie">2</A>]. Wie dort haben wir
 bei der Beschreibung der Anweisungen folgendes Format gew&#228;hlt:
 <P>
 <H3><A NAME="SECTION00024100000000000000">Anweisung</A></H3>
@@ -227,7 +227,7 @@ soll (Typ=<code>standalone</code>) oder erst auf Anfrage eines Clients via
 <code>inetd</code> gestartet werden soll (Typ=<code>inetd</code>). Im Normalfall sollte
 aus Performancegr&#252;nden ein als Hintergrundproze&#223; laufender Webserver
 bevorzugt werden und nur bei knappen Ressourcen auf den Start durch den
-<code>inetd</code> umgestellt werden, zumal laut [<A HREF="apache.html#laurie">2</A>] die Unterst&#252;tzung
+<code>inetd</code> umgestellt werden, zumal laut [<A HREF="Apache.html#laurie">2</A>] die Unterst&#252;tzung
 dieser Betriebsart am auslaufen ist.
 <P>
 </MATH><H3><A NAME="SECTION00024400000000000000">Port</A></H3>
@@ -275,7 +275,7 @@ HTTP-Protokoll.
 Legt Benutzer und Gruppe fest, unter denen der Webserver Anfragen von Clients
 beantwortet. Dazu mu&#223; allerdings der urspr&#252;nglich gestartete <code>httpd</code>
 mit <code>root</code>-Rechten gestartet werden. Zur Sicherheitsrelevanz dieser
-Einstellungen: vgl. Abschnitt <A HREF="apache.html#secdir">2.3</A> und [<A HREF="apache.html#laurie">2</A>, <A HREF="apache.html#userguide">3</A>].
+Einstellungen: vgl. Abschnitt <A HREF="Apache.html#secdir">2.3</A> und [<A HREF="Apache.html#laurie">2</A>, <A HREF="Apache.html#userguide">3</A>].
 <P>
 </MATH><H3><A NAME="SECTION00024700000000000000">ServerAdmin</A></H3>
 <P>
@@ -556,7 +556,7 @@ alle Optionen ausgeschaltet, d. h. auch die Standardoption <code>all</code>.
 Diese Anweisung gibt an, welche Einstellungen eine <code>.htaccess</code>-Datei
 noch ver&#228;ndern kann. In unserem Fall haben wir hier <code>None</code> angegeben,
 was die Verwendung dieser Datei gewisserma&#223;en ausschaltet. N&#228;heres in
-[<A HREF="apache.html#laurie">2</A>, <A HREF="apache.html#userguide">3</A>].
+[<A HREF="Apache.html#laurie">2</A>, <A HREF="Apache.html#userguide">3</A>].
 <P>
 </MATH><H3><A NAME="SECTION000241900000000000000">order</A></H3>
 <P>
@@ -633,7 +633,7 @@ vom urspr&#252;nglichen <tt>httpd</tt> gestarteten Tochterprozesse unter dieser
 Benutzer- und Gruppenkennung.
 <PRE>
     </PRE><DT><A NAME="217">...werden.</A><DD>Man kann auch die
-gesamte Konfiguration in einer Datei zusammenfassen, vgl. [<A HREF="apache.html#laurie">2</A>]; wir
+gesamte Konfiguration in einer Datei zusammenfassen, vgl. [<A HREF="Apache.html#laurie">2</A>]; wir
 halten uns aber an die Vorgaben der Apache-Gruppe, die drei Dateien
 vorsehen.
 <PRE>
