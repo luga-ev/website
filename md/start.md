@@ -17,5 +17,5 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 ## Aktuelles
 |||
 |-|-|
-|3. August 2016|[Augusttreffen 2016](/Treffen/Termine/08_2016/)|
-|13. August 2016|17:00 Mitgliederversammlung und anschließend Grillfest|
+|2. November 2016|[Novembertreffen 2016](/Treffen/Termine/11_2016/)|
+|7. Dezember 2016|[Dezembertreffen 2016](/Treffen/Termine/12_2016/)|
