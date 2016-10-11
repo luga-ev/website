@@ -26,5 +26,5 @@ In der Vergangenheit hat die Linux User Group Augsburg e.V. immer wieder größe
 
 ### LUG-Camps (zusammen mit der <a href="http://www.lugal.de/">LUGAL</a>):
 * Alpsee (21.-24. Mai 2009)
-* <a href="LUG-Camp-2001/">Karlshof II (25.-27. Mai 2001)</a>
-* <a href="LUG-Camp-2000/">Karlshof I (2.-4. Juni 2000)</a>
+* [Karlshof II (25.-27. Mai 2001)](/historic/LUG-Camp-2001/index.html)
+* [Karlshof I (2.-4. Juni 2000)](/historic/LUG-Camp-2000/index.html)
