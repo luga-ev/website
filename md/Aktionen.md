@@ -26,6 +26,8 @@ In der Vergangenheit hat die Linux User Group Augsburg e.V. immer wieder größe
 * <a href="LPD-2015/">Linux Presentation Day in Augsburg (2015)</a>
 
 ### LUG-Camps (zusammen mit der <a href="http://www.lugal.de/">LUGAL</a>):
+Die Seiten sind historisch. Einige Links funktionieren nicht mehr oder 
+die Inhalte verweisen auf aktuellere Informationen.
 * Alpsee (21.-24. Mai 2009)
 * [Karlshof II (25.-27. Mai 2001)](/historic/LUG-Camp-2001/index.html)
 * [Karlshof I (2.-4. Juni 2000)](/historic/LUG-Camp-2000/index.html)
