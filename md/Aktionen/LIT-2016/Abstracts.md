@@ -46,7 +46,7 @@ Live-Vorführungen, die man auch zu Hause nachspielen kann, demonstrieren.</p><p
 Freiwilligen.</p><p>Wer Wireshark schon kennt, sollte einen der anderen zeitgleich stattfindenden
 Vorträge besuchen. Dieser Vortrag setzt keinerlei technisches Vorwissen voraus.</p></div>
 
-<div id="vim"><h3><a href="https://www.youtube.com/watch?v=HFEbAlmSeMA&index=10&list=PLXyl7G_A8JHE6huo227KPOxVOLdXFuRiT" style="float: right"><img src="/download/lit_2016/youtube.png" style="width: 16px; height: 16px" title="Video auf YouTube"></a>Vim für Fortgeschrittene reloaded</h3>
+<div id="vim"><h3><a href="https://www.youtube.com/watch?v=HFEbAlmSeMA&index=10&list=PLXyl7G_A8JHE6huo227KPOxVOLdXFuRiT" style="float: right"><img src="/download/lit_2016/youtube.png" style="width: 16px; height: 16px" title="Video auf YouTube"></a><a href="../../../Angebote/Vortraege/2016-04-30-Vim_fuer_Fortgeschrittene/">Vim für Fortgeschrittene reloaded</a></h3>
 <p><em>Oliver Rath</em>, 10:45 Uhr, Raum B. Vi und seine Weiterentwicklung Vim ist einer der beiden Editoren, um die
 Hacker seit Jahrzehnten in Mailinglisten Argumentationsgefächte führen:
 Welcher Editor ist der beste (für mich schon lange beantwortet&hellip;)?</p><p>Fans schwören auf die mächtigen Tastaturkommandos, mit denen man mit wenigen
@@ -149,7 +149,7 @@ achten muss und so weiter.</p><p>Es gibt Antworten zu:
 </ul><p>Zum Workshop kann man gerne seinen Laptop mitbringen, nötig ist es jedoch
 nicht.</p></div>
 
-<div id="remote"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/graesing-remote-protokolle.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Remotezugriffprotokolle im Vergleich. Wie unterscheiden sich VNC, RDP, SPICE, XPRA und X2Go in Architektur, Leistung und Skalierbarkeit?</h3>
+<div id="remote"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Fernzugriff_auf_eigene_Computer/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Remotezugriffprotokolle im Vergleich. Wie unterscheiden sich VNC, RDP, SPICE, XPRA und X2Go in Architektur, Leistung und Skalierbarkeit?</h3>
 <p><em>Heinz-M. Graesing</em>, 11:45 Uhr, Raum A. Die Anzahl der Open-Source-Projekte zur Fernwartung ist groß. Die
 Anzahl der darunterliegenden Protokolle dagegen recht übersichtlich.
 Jedes Protokoll hat eine Geschichte, die wiederum die Verwendung,
@@ -158,7 +158,7 @@ X2Go vorgestellt und vor allem vorgeführt. Welche Protokolle eignen sich für
 die aktuellen Buzzwordthemen wie VDI, Docker und Orchestration? Und welchen
 Einfluss haben systemd und Wayland?</p></div>
 
-<div id="lightning"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a><a href="https://www.youtube.com/playlist?list=PLXyl7G_A8JHE6huo227KPOxVOLdXFuRiT" style="float: right"><img src="/download/lit_2016/youtube.png" style="width: 16px; height: 16px" title="Video auf YouTube"></a>Lightning Talks</h3>
+<div id="lightning"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Lightning_Talks/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a><a href="https://www.youtube.com/playlist?list=PLXyl7G_A8JHE6huo227KPOxVOLdXFuRiT" style="float: right"><img src="/download/lit_2016/youtube.png" style="width: 16px; height: 16px" title="Video auf YouTube"></a>Lightning Talks</h3>
 <p><em>Diverse Vortragende</em>, 11:45 Uhr, Raum B. Das ist kein Vortrag im herkömmlichen Sinn. Stattdessen präsentieren hier
 verschiedene ReferentInnen jeweils fünfminütige Kurzvorträge (Lightning Talks).
 Noch sind Plätze frei. Wer selbst einen Kurzvortrag präsentieren möchte, kann
@@ -187,7 +187,7 @@ Verwaltung der Dienste über den Umgang mit Journal (Logs) bis hin zur
 Netzwerkkonfiguration. Was war bisher notwendig und wie wird das mit
 systemd gemacht?</p></div>
 
-<div id="backups"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/albrecht-sicheres-backup.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Sicheres Backup, rsync, ssh und LUKS im Team</h3>
+<div id="backups"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Sichere_Backups/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Sicheres Backup, rsync, ssh und LUKS im Team</h3>
 <p><em>Richard Albrecht</em>, 13:15 Uhr, Raum A. Sicherheitskopien sind ein Problem. Sie werden zu selten gemacht.
 Die Werkzeuge <em>rsync/rsnapshot</em>, <em>cron</em>, <em>ssh</em> und
 <em>LUKS</em> sind in Linux vorhanden und bilden die Basis für eine
@@ -199,7 +199,7 @@ Einsatz der Linux-Bordmittel und preiswerter Hardware aufbaut.</p><p>Ziel ist ei
 dem Zugriff Dritter. Die Vor- und Nachteile verschiedener Szenarien 
 werden diskutiert.</p></div>
 
-<div id="hunz"><h3>Offene Hardware für offene Software (Gnublin2)</h3>
+<div id="hunz"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Offene_Hardware/">Offene Hardware für offene Software (Gnublin2)</a></h3>
 <p><em>Benedikt &bdquo;Hunz&ldquo; Heinz</em>, 13:15 Uhr, Raum B. Wer kennt den Raspberry Pi noch nicht? Für circa 30&nbsp;&euro; bekommt man einen
 vollständigen kleinen Linux-Computer der die Rechenleistung meines ersten
 Rechners um ein Hundertfaches übertrifft.</p><p>Einen Schönheitsfehler hat die Sache aber: Der Raspberry Pi ist zwar
@@ -271,7 +271,7 @@ wenn das nicht gehen sollte. Keine Sorge: Wir werden das vorhandene
 Laptopsystem nicht ändern. Wir werden den Laptop nur verwenden, um auf eine
 bestimmte Webseite zu gehen.</p><p>Kontakt zu Carina: <a href="mailto:lit-2016@luga.de">lit-2016@luga.de</a></p></div>
 
-<div id="schneller"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/hofmann-html-beschleunigen.html" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Schneller und sicherer im Internet surfen</h3>
+<div id="schneller"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Schnelles_sicheres_Surfen/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Schneller und sicherer im Internet surfen</h3>
 <p><em>Frank Hofmann</em>, 14:15 Uhr, Raum A. Baut sich eine Webseite im Webbrowser nur sehr langsam auf, ist es
 einfach, mit dem Finger nur auf die Bandbreite der Netzwerkverbindung
 oder der Hardware zu zeigen. Zwischen dem Abrufen der Webseite und der
@@ -284,7 +284,7 @@ Prozess, in dem etliche Faktoren eine Rolle spielen.</p><p>Im Vortrag gehen wir 
 </ul><p>Im Anschluss diskutieren wir die vorgestellten Möglichkeiten. Es soll einen
 regen Austausch hinsichtlich eigener Erfahrungen und Tipps im Alltag geben.</p></div>
 
-<div id="testen"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/ingold-pythonskripte-testen.html" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Pythonskripte testen: wie und warum?</h3>
+<div id="testen"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Pythonskripte_testen/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Pythonskripte testen: wie und warum?</h3>
 <p><em>Gert-Ludwig Ingold</em>, 14:15 Uhr, Raum B. Oft werden Programme nur sehr informell getestet und Werkzeuge, wie
 sie zum Beispiel die populäre Programmiersprache Python für das Testen
 anbietet, nicht genutzt.</p><p>Wir werden diskutieren, warum das Erstellen von Tests sinnvoll ist, und
@@ -311,7 +311,7 @@ tun kann, als auch Fortgeschrittene, die möglicherweise schon Hardware haben
 oder zwar schon mal Signalverarbeitung gemacht haben, bisher aber noch nicht
 mit Open-Source-Lösungen.</p></div>
 
-<div id="dpkg"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/beckert-hofmann-blick-hinter-die-kulissen-eines-freien-buchs.html" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Das Debian-Paketmanagement-Buch. Blick hinter die Kulissen eines freien Buchs</h3>
+<div id="dpkg"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Blick_freies_Buch/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Das Debian-Paketmanagement-Buch. Blick hinter die Kulissen eines freien Buchs</h3>
 <p><em>Axel Beckert und Frank Hofmann</em>, 15:15 Uhr, Raum A. Seit 2013 arbeiten wir an einem Buch zum Thema Debian-Paketmanagement.
 Dieses steht seit Sommer 2015 unter einer Creative Commons
 (CC-BY-SA)-Lizenz und ist für jeden Interessierten zur freien Nutzung
@@ -324,7 +324,7 @@ Die bestehenden Möglichkeiten, um ein fertiges Buch selbst zu
 publizieren, kommen dabei ebenfalls nicht zu kurz.</p><p>Siehe auch: <a href="http://www.dpmb.org/">Webseite zum Buch</a>,
 <a href="https://github.com/dpmb/dpmb">Quellcode auf GitHub</a></p></div>
 
-<div id="wawision"><h3>Open-Source-ERP WaWision aus Augsburg</h3>
+<div id="wawision"><h3><a href="../../../Angebote/Vortraege/2016-04-30-WaWision/">Open-Source-ERP WaWision aus Augsburg</a></h3>
 <p><em>Benedikt Sauter</em>, 15:15 Uhr, Raum B. Ursprünglich für den eigenen Bedarf der Firma embedded projects entwickelt ist
 <a href="http://www.wawision.de/download/">WaWision</a> mittlerweile eine
 umfassende ERP-Software. WaWision ist eine in PHP und MySQL entwickelte
@@ -348,7 +348,7 @@ eines kleinen Grafikprojekts. Ausblick: Zusammenarbeit mit anderen
 Programmen (Scribus (DTP), Blender (3D-Grafik))</p><p>Wer GIMP gleich ausprobieren möchte, ist herzlich eingeladen, seinen Laptop zum
 Workshop mitzubringen.</p></div>
 
-<div id="klaenge"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/poertge-physik-der-klaenge.html" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Die Physik der Klänge &ndash; Experimente mit Linux-Bordmitteln</h3>
+<div id="klaenge"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Physik_der_Klaenge/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Die Physik der Klänge &ndash; Experimente mit Linux-Bordmitteln</h3>
 <p><em>Veronika Pörtge</em>, 16:15 Uhr, Raum A. Wie kommt es, dass ein Saxophon viel voller klingt als etwa eine Panflöte oder
 eine einfache Stimmgabel? Und was genau versteht man überhaupt unter dem &bdquo;Klang&ldquo;
 eines Instruments? Wie kann man Schallwellen sichtbar machen? Was haben Schall
@@ -361,7 +361,7 @@ Modem programmieren: Ein Laptop wird Daten in Töne umwandeln und diese
 ausgeben, ein anderer wird diese Töne aufnehmen und wieder zu Daten
 zusammensetzen.</p><p>Der Vortrag setzt weder technisches noch physikalisches Vorwissen voraus.</p></div>
 
-<div id="lynx"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/beckert-schlanke-webbrowser.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a><a href="https://www.youtube.com/watch?v=rKEiI9lBGvU" style="float: right"><img src="/download/lit_2016/youtube.png" style="width: 16px; height: 16px" title="Video auf YouTube"></a>Surfen unter Linux auf alten oder schwachen Computern mit alternativen Webbrowsern</h3>
+<div id="lynx"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Surfen_auf_schwachen_Computern/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a><a href="https://www.youtube.com/watch?v=rKEiI9lBGvU" style="float: right"><img src="/download/lit_2016/youtube.png" style="width: 16px; height: 16px" title="Video auf YouTube"></a>Surfen unter Linux auf alten oder schwachen Computern mit alternativen Webbrowsern</h3>
 <p><em>Axel Beckert</em>, 16:15 Uhr, Raum B. Firefox, Chrome/Chromium und WebKit-basierte Browser werden immer
 größer und ressourcenhungriger. Nutzt man Linux auf alten Computern, um sie
 nicht wegwerfen zu müssen, oder auf nicht allzu leistungsfähigen
