@@ -1,6 +1,18 @@
 #Register der Vorträge;
 #Neueste Vorträge bitte oben einfügen;
 #datum YYYY-MM-DD|Titel|Referent|Dateiname
+2016-04-30|Blick hinter die Kulissen eines freien Buchs|Axel Beckert und Frank Hofmann|2016-04-30-Blick_freies_Buch
+2016-04-30|Fernzugriff auf eigene Computer|Heinz-M. Graesing|2016-04-30-Fernzugriff_auf_eigene_Computer
+2016-04-30|Lightning Talks|diverse Referenten|2016-04-30-Lightning_Talks
+2016-04-30|Offene Hardware für offene Software (Gnublin2)|Benedikt „Hunz“ Heinz|2016-04-30-Offene_Hardware
+2016-04-30|Physik der Klänge|Veronika Pörtge|2016-04-30-Physik_der_Klaenge
+2016-04-30|Pythonskripte testen|Gert-Ludwig Ingold|2016-04-30-Pythonskripte_testen
+2016-04-30|Schneller und sicherer surfen|Frank Hofmann|2016-04-30-Schnelles_sicheres_Surfen
+2016-04-30|Sichere Backups|Richard Albrecht|2016-04-30-Sichere_Backups
+2016-04-30|Surfen auf schwachen Computern|Axel Beckert|2016-04-30-Surfen_auf_schwachen_Computern
+2016-04-30|Vim für Fortgeschrittene reloaded|Oliver Rath|2016-04-30-Vim_fuer_Fortgeschrittene
+2016-04-30|Open-Source-ERP WaWision|Benedikt Sauter|2016-04-30-WaWision
+2016-04-30|Welche Daten verschickt eigentlich mein Browser?|Ingo Blechschmidt|2016-04-30-Welche_Daten_verschickt_mein_Browser
 2015-10-07|UNIX Dateirechte|Michael Hartmann|UNIX_Dateirechte
 2015-03-28|Zentrale Konfigurationsverwaltung mit Puppet|Ulrich Habel|Puppet_LIT_2015
 2015-03-28|YubiKey. Praktikable Zwei-Faktor-Authentifizierung für Linux und mobile Geräte|Frank Hofmann|YubiKey_LIT_2015
