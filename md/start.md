@@ -17,5 +17,6 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 ## Aktuelles
 |||
 |-|-|
+|22. Oktober 2016|[Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/)|
 |2. November 2016|[Novembertreffen 2016](/Treffen/Termine/11_2016/)|
 |7. Dezember 2016|[Dezembertreffen 2016](/Treffen/Termine/12_2016/)|
