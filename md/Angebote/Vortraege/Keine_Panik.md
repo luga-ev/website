@@ -1,31 +1,24 @@
-
- 
 ## Sicher ist sicher: Backup und restore
 
 
-### Referent(en)
- Karl Deutsch
+### Referent
+Karl Deutsch
 
 ### Datum
- 29.03.2008
+29.03.2008
 
 ### Kurzbeschreibung
-In diesem Vortrag werden Tools f&uuml;r die Sicherung und Wiederherstellung                                                               
-von Dateien und Festplattenpartitionen vorgestellt.</p>                                                                             
+In diesem Vortrag werden Tools für die Sicherung und Wiederherstellung von
+Dateien und Festplattenpartitionen vorgestellt.
 
-###Inhalt
+### Inhalt
 
-* Regeln f&uuml;r die Datensicherung                                                                                 
-* Erkennen, welche Daten gesichert werden m&uuml;ssen
-* Software f&uuml;r Datensicherung und Wiederherstellung &ndash; lokal und in einem Netzwerk
-* Beispiele f&uuml;r Sicherung, Wiederherstellung und Datenabgleich                                      
-* Software f&uuml;r Komplettsicherungen eines Computersystems                                                               
+* Regeln für die Datensicherung
+* Erkennen, welche Daten gesichert werden müssen
+* Software für Datensicherung und Wiederherstellung - lokal und in einem Netzwerk
+* Beispiele für Sicherung, Wiederherstellung und Datenabgleich
+* Software für Komplettsicherungen eines Computersystems
 
 ### Manuskript
 
-          
 * [PDF-Version](/download/Vortraege/Keine_Panik.pdf) (1196 kB)
-                 
-      
-  
-

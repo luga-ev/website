@@ -1,28 +1,20 @@
-
- 
 ## Bildungs- und Lernsoftware unter Linux
 
 
-### Referent(en)
- Erik Baerwaldt
+### Referent
+Erik Baerwaldt
 
 ### Datum
- 29.03.2008
+29.03.2008
 
 ### Kurzbeschreibung
- Inhalt des Vortrags:
-  >* Vorstellung verschiedener kompletter Edu-Distributionen (Edubuntu,
-  Klixxa, Juxlala)  >* Vorstellung diverser &bdquo;Referenzprogramme&ldquo; f&uuml;r
-  verschiedene Altersgruppen (childsplay, gcompris, KEdu)  >* ggf. noch Vorstellung des Genesis-Projektes f&uuml;r eingeschr&auml;nkte
-  Personenkreise  >* M&ouml;glichkeiten des praktischen Einsatzes der
-  Software/Distributionen</i>
+Inhalt des Vortrags:
+* Vorstellung verschiedener kompletter Edu-Distributionen (_Edubuntu_, _Klixxa_, _Juxlala_)
+* Vorstellung diverser _Referenzprogramm_ für verschiedene Altersgruppen (_childsplay_, _gcompris_, _KEdu_)
+* ggf. noch Vorstellung des Genesis-Projektes für eingeschränkte Personenkreise
+* Möglichkeiten des praktischen Einsatzes der Software/Distributionen
 
 
 ### Manuskript
 
-          
 * [PDF-Version](/download/Vortraege/Lern_Bildungssoftware.pdf) (2795 kB)
-                 
-      
-  
-

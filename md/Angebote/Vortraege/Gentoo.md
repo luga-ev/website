@@ -1,16 +1,13 @@
 ## Gentoo Linux
 
 ### Referent(en)
-
- Christian Wazulek
+Christian Wazulek
 
 ### Datum
-
- 02.10.2002
+02.10.2002
 
 ### Kurzbeschreibung
-
- Vortrag rund um Gentoo Linux, eine quellenbasierte Linux-Distribution.
+Vortrag rund um Gentoo Linux, eine quellenbasierte Linux-Distribution.
 
 ### Manuskript
 
