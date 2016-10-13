@@ -1,7 +1,6 @@
-
 ## Titel
 
-### Referent(en)
+### Referent
 > Name
 
 ### Datum
@@ -13,4 +12,3 @@
 ### Manuskript
           
 >* [PDF-Version](/download/dateinmae.pdf) (1633 kB)
-

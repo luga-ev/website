@@ -14,10 +14,11 @@ Webbrowser läuft aber mittlerweile ein recht aufwendiger Prozess, in dem
 etliche Faktoren eine Rolle spielen.
 
 Im Vortrag gehen wir den folgenden Punkten nach:
-  * Überblick zu den Ursachen von erhöhtem Datentransfer
-  * Latenzverstärker identifizieren und ausschalten
-  * Datenspuren minimieren oder vermeiden
-  * Welche Einflussmöglichkeiten hat man als BenutzerIn, RedakteurIn und AdministratorIn?
+
+* Überblick zu den Ursachen von erhöhtem Datentransfer
+* Latenzverstärker identifizieren und ausschalten
+* Datenspuren minimieren oder vermeiden
+* Welche Einflussmöglichkeiten hat man als BenutzerIn, RedakteurIn und AdministratorIn?
 
 Im Anschluss diskutieren wir die vorgestellten Möglichkeiten. Es soll einen
 regen Austausch hinsichtlich eigener Erfahrungen und Tipps im Alltag geben.
