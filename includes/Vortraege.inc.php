@@ -11,6 +11,7 @@ $reiter = '';
 $n = 1;
 $von = 0;
 $bis = 0;
+$list_items = array();
 
 $menu->main = 'Angebote';
 $menu->sub = 'Vortraege';
@@ -23,10 +24,40 @@ $code = '<table id="vortraege">
 		</tr>
 		</thead>';
 
-$fh = fopen($v_liste_file, 'r');
+//$fh = fopen($v_liste_file, 'r');
+$file_list = scandir('../md/Angebote/Vortraege');
+chdir('../md/Angebote/Vortraege');
 
-// Zeile für Zeile einlesen
-while ($zeile = fgets($fh))	{
+foreach ($file_list as $md_file)	{
+
+	if(substr($md_file, 0, 1) != '_' and substr($md_file, 0, 1) != '.')	{
+
+		$content = file_get_contents($md_file);
+		preg_match('/##(.*)\n/', $content, $match);
+		$title = $match[1];
+		$titel = trim($title);
+
+		preg_match('/###.*Ref.*\n(.*)\n/', $content, $match);
+		$referent = trim($match[1]);
+		// Eckige Klammern enttfernen
+		$referent = str_replace('[', '', $referent);
+		$referent = str_replace(']', '', $referent);
+		$referent = preg_replace('/\(.*\)/', '', $referent);
+
+		preg_match('/###.*Datum.*\n(.*)\n/', $content, $match);
+		$date = trim($match[1]);
+		$datum = substr($date, 6, 4) . '-' . substr($date, 3, 2) . '-' . substr($date, 3, 2);
+
+		$link = str_replace('.md', '', $md_file);
+		$list_items[] = "$datum|$titel|$referent|$link";
+
+	}
+}
+
+// Listen nach Datum und Titel sortieren
+rsort($list_items);
+
+foreach ($list_items as $listitem)	{
 
 	// neuer Tbody?
 	if($counter == 0)	{
@@ -43,17 +74,17 @@ while ($zeile = fgets($fh))	{
 
 	}
 
-	// Kommentarzeilen # überlesen
-	if(substr($zeile, 0, 1) != '#')	{
-		list($datum, $titel, $referent, $link)	= explode('|', $zeile);
-		$datum = iso_to_date($datum);
-		$link = str_replace("\n", '', $link);
-		$code .= "<tr><td class=\"datum\">$datum</td><td class=\"v_titel\"><a href=\"$link/\">$titel</a></td><td class=\"referent\">$referent</td></tr>\n";
-	}
+
+	list($datum, $titel, $referent, $link) = explode('|', $listitem);
+	$datum = iso_to_date($datum);
+
+	$code .= "<tr><td class=\"datum\">$datum</td><td class=\"v_titel\"><a href=\"$link/\">$titel</a></td><td class=\"referent\">$referent</td></tr>\n";
 
 	$n++;
 	$counter++;
 	if($counter == $max)	$counter = 0;
+
+
 }
 
 $bis = $n -1 ;
