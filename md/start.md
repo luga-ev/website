@@ -4,15 +4,32 @@ Die Linux User Group Augsburg bietet Linux-Anwendern und solchen, die es werden 
 
 Auf unserer Homepage bieten wir Ihnen unter anderem:
 
-* Informationen über den Verein (Vorstand, Satzung, Mitgliedschaft, Geschichte und Photoalbum)
-* Details zu den monatlichen Treffen (Termine, Treffpunkt und Newsflash)
-* weitere Angebote (Vortragsskripten, unsere Bibliothek und Mailinglisten)
-* die LUGA-News der letzten Jahre
-* und ein paar Links auf andere Linux-Seiten
+* Informationen über den Verein ([Vorstand](/Wir_ueber_uns/Kontakte/), 
+[Satzung](/Wir_ueber_uns/Satzung/), [Mitgliedschaft](/Wir_ueber_uns/Mitgliedschaft/), 
+[Geschichte](/Wir_ueber_uns/Geschichte/) und [Photoalbum](/Wir_ueber_uns/Album/))
+* Details zu den monatlichen [Treffen](/Treffen/) ([Termine](/Treffen/Termine/) und 
+[Treffpunkt](/Treffen/Treffpunkt/))
+* weitere [Angebote](/Angebote/) ([Vortragsskripten](/Angebote/Vortraege/),
+unsere [Bibliothek](/Angebote/Bibliothek/) und [Mailinglisten](/Angebote/Mailinglisten/))
 
 Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind. Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen. 
+
+##Linux Presentation Day 2016.2 in Augsburg
+
+Am 22. Oktober findet der [Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/)
+von 10:00 Uhr bis 17:00 Uhr in den Räumen des OpenLabs statt. Bereits zum
+zweiten mal dieses Jahr übernimmt die Linux User Group Augsburg zusammen mit
+dem OpenLab Augsburg die Organisation des Linux Presentation Day 2016.2.
+
+Die Veranstaltung richtet sich an eine breite Öffentlichkeit. Zielgruppe sind
+Leute, die Linux bisher gar nicht oder kaum kennen. Wir zeigen wie dieses
+"Linux" aussieht, helfen bei der Installation von Linux oder bei Problemen mit
+bereits installierten Linux-Systemen.
+
+Der Eintritt ist kostenlos, weitere Informationen finden sich unter
+[Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/).
 
 ## Termine
 |||
