@@ -32,7 +32,7 @@ Deutschland und leitete bei Campact e.V. unter anderem die Kampagne
 &bdquo;Schutz für Edward Snowden in Deutschland&ldquo;. Seit März arbeitet sie
 als Campaignerin für Wikimedia Deutschland.</p></div>
 
-<div id="sniffing"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/blechschmidt-welche-daten-verschickt-eigentlich-mein-browser.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Welche Daten verschickt eigentlich mein Browser? Ein augenöffnender Vortrag über Internet(un)sicherheit</h3>
+<div id="sniffing"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Welche_Daten_verschickt_mein_Browser/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Welche Daten verschickt eigentlich mein Browser? Ein augenöffnender Vortrag über Internet(un)sicherheit</h3>
 <p><em>Ingo Blechschmidt</em>, 10:45 Uhr, Raum A. Oft hört man in Medien, dass Internet und Mails so unsicher wie Postkarten
 seien. Aber selten hat man eine plastische Vorstellung davon, was das
 eigentlich bedeutet. Noch dazu sind solche Aussagen untertrieben, denn im
