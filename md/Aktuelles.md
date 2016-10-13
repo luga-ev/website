@@ -1,3 +1,19 @@
+##Linux Presentation Day 2016.2 in Augsburg
+
+Am 22. Oktober findet der [Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/)
+von 10:00 Uhr bis 17:00 Uhr in den Räumen des OpenLabs statt. Bereits zum
+zweiten mal dieses Jahr übernimmt die Linux User Group Augsburg zusammen mit
+dem OpenLab Augsburg die Organisation des Linux Presentation Day 2016.2.
+
+Die Veranstaltung richtet sich an eine breite Öffentlichkeit. Zielgruppe sind
+Leute, die Linux bisher gar nicht oder kaum kennen. Wir zeigen wie dieses
+"Linux" aussieht, helfen bei der Installation von Linux oder bei Problemen mit
+bereits installierten Linux-Systemen.
+
+Der Eintritt ist kostenlos, weitere Informationen finden sich unter
+[Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/).
+
+
 ##www.luga.de in neuem Webdesign
 
 Nach mehr als einjähriger Planung, Konzeption und Umsetzung 
