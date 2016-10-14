@@ -5,19 +5,23 @@ function showTab(id)	{
 	var max = tbodies.length;
 	var i = 0;
 	var reiter;
+	var qreiter;
 	var z;
 	
 	// Alle ausblenden
 	while( i < max )	{
 		z = i + 1;
 		reiter = 'reiter' + z;
+		qreiter = 'qreiter' + z;
 		
 		if(i == id - 1)	{
 			tbodies[i].style.display = '';
 			document.getElementById(reiter).className = 'reiter reiteraktiv';
+			document.getElementById(qreiter).className = 'reiter reiteraktiv';
 		} else {
 			tbodies[i].style.display = 'none';
 			document.getElementById(reiter).className = 'reiter';
+			document.getElementById(qreiter).className = 'reiter';
 		}
 		i++;
 	}

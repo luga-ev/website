@@ -82,14 +82,7 @@ if (file_exists($include_file)) {
 <div id="main" style="">
 		<div class="header">
 			<img id="logo" alt="Logo LUGA" src="/images/LUGA_Logo.svg">
-<!--
-			<form name="headsearch" style="display: inline-block;"
-				action="/start/suche/" method="post">
-				<input type="text" name="searchitem" class="headinput" size="12"
-					placeholder="Suchen" onblur="checkFindSubmit(this.value)">
-			</form>
- -->
-			<img alt="Tux" id="tux"
+			<img alt="Tux" id="tux" style="height: 9em; width: 9em;"
 				title="Tux graphic by Larry Ewing, Simon Budig, Anja Gerwinski [Attribution]"
 				src="/images/Tux.svg">
 		</div>

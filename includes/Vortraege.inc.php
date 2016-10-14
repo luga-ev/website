@@ -49,15 +49,31 @@ foreach ($file_list as $md_file)	{
 		$datum = substr($date, 6, 4) . '-' . substr($date, 3, 2) . '-' . substr($date, 3, 2);
 
 		$link = str_replace('.md', '', $md_file);
-		$list_items[] = "$datum|$titel|$referent|$link";
+		$list_items[$datum][] = "$titel|$referent|$link";
 
 	}
 }
 
+$vortraege = array();
 // Listen nach Datum und Titel sortieren
-rsort($list_items);
+krsort($list_items);
+//print_r($list_items);
 
-foreach ($list_items as $listitem)	{
+foreach ($list_items as $key => &$liste)	{
+	sort($liste);
+	foreach ($liste as $values)	{
+		list($a, $b, $c) = explode('|', $values);
+		$vortraege[] = array(
+				$key,
+				$a,
+				$b,
+				$c,
+		);
+	}
+}
+
+
+foreach ($vortraege as $listitem)	{
 
 	// neuer Tbody?
 	if($counter == 0)	{
@@ -67,6 +83,7 @@ foreach ($list_items as $listitem)	{
 			$bis = $n -1;
 
 			$reiter .= "<div class=\"reiter\" id=\"reiter$tbody\" onclick=\"showTab($tbody)\">$von&ndash;$bis</div>\n";
+			$qreiter .= "<div class=\"reiter\" id=\"qreiter$tbody\" onclick=\"showTab($tbody)\">$von&ndash;$bis</div>\n";
 		}
 		$code .= "<tbody id=\"tb$tbody\">\n";
 		$tbody++;
@@ -75,10 +92,9 @@ foreach ($list_items as $listitem)	{
 	}
 
 
-	list($datum, $titel, $referent, $link) = explode('|', $listitem);
-	$datum = iso_to_date($datum);
+	$datum = iso_to_date($listitem[0]);
 
-	$code .= "<tr><td class=\"datum\">$datum</td><td class=\"v_titel\"><a href=\"$link/\">$titel</a></td><td class=\"referent\">$referent</td></tr>\n";
+	$code .= "<tr><td class=\"datum\">$datum</td><td class=\"v_titel\"><a href=\"$listitem[3]/\">$listitem[1]</a></td><td class=\"referent\">$listitem[2]</td></tr>\n";
 
 	$n++;
 	$counter++;
@@ -89,6 +105,7 @@ foreach ($list_items as $listitem)	{
 
 $bis = $n -1 ;
 $reiter .= "<div class=\"reiter\" id=\"reiter$tbody\" onclick=\"showTab($tbody)\">$von&ndash;$bis</div>\n";
+$qreiter .= "<div class=\"reiter\" id=\"qreiter$tbody\" onclick=\"showTab($tbody)\">$von&ndash;$bis</div>\n";
 $code .= "</tbody>\n</table>\n";
 fclose($fh);
 
@@ -96,7 +113,7 @@ $code = "<h2>Vorträge</h2>
 <p>Ein wichtiger Bestandteil der LUGA e.V. Aktivitäten ist die Weitergabe von Linux-Kenntnissen
  an Mitglieder und Nichtmitglieder. Aus diesem Grund werden auf den monatlichen Treffen
 Vorträge zu verschiedenen Themen aus dem Linux Bereich gehalten. Alle Vorträge werden
-zusätzlich an dieser Stelle veröffentlicht.</p>" . $reiter . $code . $reiter .
+zusätzlich an dieser Stelle veröffentlicht.</p>" . $reiter . $code . $qreiter .
 '<script type="text/javascript">
 		tabInit();
 </script>';
