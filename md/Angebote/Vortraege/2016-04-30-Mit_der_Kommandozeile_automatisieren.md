@@ -25,4 +25,4 @@ ausprobieren möchte, ist eingeladen, seinen Laptop zum Workshop mitzubringen.
 
 ### Manuskript
 
-* [HTML-Version](/download/Vortraege/lit2016-b1-systems-some-bashing.pdf) (521 kB)
+* [PDF-Version](/download/Vortraege/lit2016-b1-systems-some-bashing.pdf) (521 kB)
