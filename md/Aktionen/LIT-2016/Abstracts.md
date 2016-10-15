@@ -68,7 +68,7 @@ Remote Editing, Omnicompletion, Operatorfunktionen und die neue
 Regex-Maschine von Vim 7.4 präsentiert.</p><p>PS: Auch Emacs-Guerillakämpfer und andere potentielle Konvertiten sind herzlich
 willkommen ;-)</p></div>
 
-<div id="herz"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/herz-suricata.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Angriffserkennung und -abwehr mit Open-Source-Werkzeugen wie Suricata</h3>
+<div id="herz"><h3><a href="/Angebote/Vortraege/2016-04-30-Angriffserkennung_und_Abwehr/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Angriffserkennung und -abwehr mit Open-Source-Werkzeugen wie Suricata</h3>
 <p><em>Andreas Herz</em>, 10:45 Uhr, Raum C. Um heutigen Angriffszenarien besser beizukommen, gibt es neben dedizierten
 Firewalls mehrere weitere Möglichkeiten, diesen zu begegnen. In diesem Vortrag
 wird ein Einblick in die Funktionsweise von sogenannten Intrusion-Prevention-
@@ -90,7 +90,7 @@ Geräten einfach virtuell zusammenzustöpseln. In dem Workshop werden wir
 gemeinsam versuchen, ein Musikstück von der Idee bis zur Fertigstellung zu
 bringen. Dieses Jahr soll es auch um Musikvideos gehen.</p></div>
 
-<div id="konsole"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/b1-systems-some-bashing.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Mit der Kommandozeile Abläufe automatisieren [WORKSHOP]</h3>
+<div id="konsole"><h3><a href="/Angebote/Vortraege/2016-04-30-Mit_der_Kommandozeile_automatisieren/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Mit der Kommandozeile Abläufe automatisieren [WORKSHOP]</h3>
 <p><em>B1 Systems</em>, 10:45 Uhr, Raum E. Der Workshop zeigt, wie sich mit Werkzeugen der Bash Abläufe
 automatisieren lassen. Anhand kleiner Beispiele aus dem Alltag soll er
 spielerisch auf ein paar Möglichkeiten beim Umgang mit der Bash hinweisen:</p><ul>
@@ -104,7 +104,7 @@ spielerisch auf ein paar Möglichkeiten beim Umgang mit der Bash hinweisen:</p><
 </ul><p>Der Workshop richtet sich an AnfängerInnen. Wer die Kommandozeilentricks gleich
 ausprobieren möchte, ist eingeladen, seinen Laptop zum Workshop mitzubringen.</p></div>
 
-<div id="kernel"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/sailer-linux-kernel-entwicklung.html" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Linux-Kernel-Entwicklung [WORKSHOP]</h3>
+<div id="kernel"><h3><a href="/Angebote/Vortraege/2016-04-30-Linux_Kernelentwicklung/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Linux-Kernel-Entwicklung [WORKSHOP]</h3>
 <p><em>Richard Sailer</em>, 10:45 Uhr, Raum F. Der Linux-Kernel ist das pulsierende Herzstück jedes Debian-Servers, jedes
 Ubuntu-Desktop-Systems und jedes Android-Smartphones. Der Quellcode ist
 gleichzeitig für alle offen einseh- und auch für den eigenen Computer
@@ -176,7 +176,7 @@ Themen Beiträge eingereicht:</p><ul>
 <li><em>Thomas Glamsch.</em> PDF-Dateien auf der Kommandozeile editieren</li>
 </ul></div>
 
-<div id="systemd"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/b1-systems-systemd-im-alltag.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>systemd im Alltag</h3>
+<div id="systemd"><h3><a href="/Angebote/Vortraege/2016-04-30-systemd/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>systemd im Alltag</h3>
 <p><em>B1 Systems</em>, 11:45 Uhr, Raum C. SysVinit, Upstart, OpenRC &hellip; Diese und andere Linux-Init-Systeme
 begleiteten viele Jahre den Start jedes Linuxsystems. 2010 erblickte ein
 neues Init-System die Linuxwelt und mochte vieles umkrempeln. Seit
@@ -187,7 +187,7 @@ Verwaltung der Dienste über den Umgang mit Journal (Logs) bis hin zur
 Netzwerkkonfiguration. Was war bisher notwendig und wie wird das mit
 systemd gemacht?</p></div>
 
-<div id="backups"><h3><a href="../../../Angebote/Vortraege/2016-04-30-Sichere_Backups/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Sicheres Backup, rsync, ssh und LUKS im Team</h3>
+<div id="backups"><h3><a href="/Angebote/Vortraege/2016-04-30-Sichere_Backups/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Sicheres Backup, rsync, ssh und LUKS im Team</h3>
 <p><em>Richard Albrecht</em>, 13:15 Uhr, Raum A. Sicherheitskopien sind ein Problem. Sie werden zu selten gemacht.
 Die Werkzeuge <em>rsync/rsnapshot</em>, <em>cron</em>, <em>ssh</em> und
 <em>LUKS</em> sind in Linux vorhanden und bilden die Basis für eine
@@ -215,7 +215,7 @@ Leistungsaufnahme von nur 0,3&nbsp;Watt im Leerlauf-Zustand.</p><p>In dem Vortra
 Herangehensweise sowie die vielfältigen Herausforderungen, die dabei zu
 bewältigen sind.</p></div>
 
-<div id="tiling"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/buerk-tiling-window-manager.html" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Effiziente Arbeit auf dem UNIX-Desktop mittels Tiling Window-Manager</h3>
+<div id="tiling"><h3><a href="/Angebote/Vortraege/2016-04-30-twm/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Effiziente Arbeit auf dem UNIX-Desktop mittels Tiling Window-Manager</h3>
 <p><em>Ingo Bürk</em>, 13:15 Uhr, Raum C. Der Window-Manager ist ein integraler Bestandteil des UNIX-Desktops.
 Seine Aufgabe ist es, Fenster zu verwalten, zu dekorieren und die
 BenutzerInnen mit diesen interagieren zu lassen. Es gibt eine Vielzahl von
@@ -228,7 +228,7 @@ einer einsteigerInnenfreundlichen Konfiguration und der mühelosen Bedienung
 per Tastatur definiert dies ein in der Windows-Welt weitgehend
 unbekanntes Erlebnis für den Desktop.</p></div>
 
-<div id="gnupg"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/b1-systems-e-mail-verschluesselung.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>E-Mail-Verschlüsselung mit GnuPG am Beispiel von Thunderbird mit Enigmail [WORKSHOP]</h3>
+<div id="gnupg"><h3><a href="/Angebote/Vortraege/2016-04-30-EMail-Verschluesselung/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>E-Mail-Verschlüsselung mit GnuPG am Beispiel von Thunderbird mit Enigmail [WORKSHOP]</h3>
 <p><em>B1 Systems</em>, 13:15 Uhr, Raum D. Wie der <a href="#sniffing">Vortrag zu Internetunsicherheit</a> plastisch
 vorführt, werden Daten im Internet meist unverschlüsselt übertragen und sind
 für viele Dritte sichtbar. Das stimmt insbesondere für Mails.</p><p>Zum Glück gibt es eine umfassende Lösung für dieses Problem:
@@ -241,7 +241,7 @@ Thunderbird konfigurieren, um die Verschlüsselung für einen Account zu
 aktivieren. Wir besprechen, wie man seine E-Mails signieren, ver- und
 entschlüsseln kann und was es mit dem <em>Web of Trust</em> auf sich hat.</p><p>Es kommen grafische Werkzeuge sowie einige Kommandozeilenbefehle zum Einsatz.</p><p><strong>Bitte einen Laptop zum Workshop mitbringen.</strong></p></div>
 
-<div id="strace"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/koenig-strace.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Mit strace zum Linux- und Bash-Verstehenden [WORKSHOP]</h3>
+<div id="strace"><h3><a href="/Angebote/Vortraege/2016-04-30-strace/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Mit strace zum Linux- und Bash-Verstehenden [WORKSHOP]</h3>
 <p><em>Harald König</em>, 13:15 Uhr, Raum E. Systemprobleme aller Art lassen sich mit <em>strace</em> analysieren.
 Prozessabläufe in Linux erkennt und versteht man so viel besser.</p><p>Im Vortrag wird an konkreten Beispielen gezeigt, wie man mit strace viel über
 die Abläufe und Interna von Linux erfahren kann: Mit strace beobachtet man
@@ -259,7 +259,7 @@ nicht anders umgehen muss.</p><p>Der Workshop richtet sich an neugierige Einstei
 Wer strace gleich ausprobieren möchte, ist eingeladen, seinen Laptop zum
 Workshop mitzubringen.</p></div>
 
-<div id="kids"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/willbold-python-fuer-kinder.html" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Programmier-Workshop für SchülerInnen [WORKSHOP]</h3>
+<div id="kids"><h3><a href="/Angebote/Vortraege/2016-04-30-Programmierworkshop/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Programmier-Workshop für SchülerInnen [WORKSHOP]</h3>
 <p><em>Carina Willbold</em>, 13:15 Uhr, Raum F. Python ist eine moderne Programmiersprache, mit der man zum Beispiel eigene
 Spiele und Webseiten erstellen kann. Im Workshop unternehmen wir gemeinsam
 erste Schritte in dieser Sprache. Es sind keinerlei Computer- oder
@@ -293,7 +293,7 @@ arbeitet. Dabei wird sich herausstellen, dass der Nutzen dieser Werkzeuge
 deutlich über die reine Überprüfung der Funktionalität eines Programms
 hinausgehen kann.</p></div>
 
-<div id="signalhacking"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/classen-software-defined-radio.pdf" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Software Defined Radio &ndash; Open Source Wireless Hacking</h3>
+<div id="signalhacking"><h3><a href="/Angebote/Vortraege/2016-04-30-Software_Defined_Radio/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>Software Defined Radio &ndash; Open Source Wireless Hacking</h3>
 <p><em>Jiska Classen</em>, 14:15 Uhr, Raum C. Unter Software Defined Radio fasst man Konzepte für Hochfrequenz-Sender
 und -Empfänger zusammen, bei denen kleinere oder größere Anteile der
 Signalverarbeitung mit Software statt Hardware verwirklicht werden. Software
@@ -334,7 +334,7 @@ sehr pragmatischen Ansatz. In dem Vortrag wird die Software von der
 Installation, über den Einsatz und der Programmierung von eigenen Modulen
 vorgestellt.</p></div>
 
-<div id="internet"><h3><a href="https://www.speicherleck.de/iblech/stuff/lit2016/egger-bgp-und-ospf.html" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>BGP und OSPF &ndash; wie das Internet funktioniert</h3>
+<div id="internet"><h3><a href="/Angebote/Vortraege/2016-04-30-BGP_und_OSPF/" style="float: right"><img src="/download/lit_2016/pdf.png" style="width: 16px; height: 16px" title="PDF-Unterlagen"></a>BGP und OSPF &ndash; wie das Internet funktioniert</h3>
 <p><em>Christoph Egger</em>, 15:15 Uhr, Raum C. Der Vortrag erklärt, wie das &bdquo;Internet&ldquo; im Hintergrund funktioniert. Wie
 findet ein Paket sein Ziel? Was passiert eigentlich, wenn ein
 Unterseekabel ausfällt? Und wie kann man diese Technologie auf
