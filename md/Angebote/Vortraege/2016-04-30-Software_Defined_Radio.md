@@ -29,4 +29,4 @@ mit Open-Source-Lösungen.
 
 ### Manuskript
 
-* [PDF-Version](/download/Vortraege/classen-software-defined-radio.pdf) (2.9 MB)
+* [PDF-Version](/download/Vortraege/lit2016-software-defined-radio.pdf) (2.9 MB)

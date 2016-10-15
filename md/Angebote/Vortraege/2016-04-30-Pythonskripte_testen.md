@@ -17,5 +17,5 @@ wird sich herausstellen, dass der Nutzen dieser Werkzeuge deutlich über die
 reine Überprüfung der Funktionalität eines Programms hinausgehen kann.
 
 ### Manuskript
-* [PDF-Version](/download/lit_2016/ingold-pythonskripte-testen.pdf) (197 kB)
+* [PDF-Version](/download/Vortraege/lit2016-pythonskripte-testen.pdf) (197 kB)
 * [Vortrag und Beispiele auf github](https://github.com/gertingold/lit2016)

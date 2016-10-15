@@ -20,6 +20,6 @@ Webbrowser, die im Textmodus funktionieren, damit nicht einmal eine grafische
 Oberfläche brauchen und so besonders ressourcenschonend sind.
 
 ### Manuskript
-* [PDF-Version](/download/lit_2016/beckert-schlanke-webbrowser.pdf) (46 kB)
-* [PDF-Version](/download/lit_2016/beckert-schlanke-webbrowser.tpp) (5 kB)
+* [PDF-Version](/download/Vortraege/lit2016-schlanke-webbrowser.pdf) (46 kB)
+* [PDF-Version](/download/Vortraege/lit2016-schlanke-webbrowser.tpp) (5 kB)
 * [Vortrag als Videomitschnitt](https://www.youtube.com/watch?v=rKEiI9lBGvU)

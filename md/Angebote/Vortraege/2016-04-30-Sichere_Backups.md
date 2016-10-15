@@ -23,4 +23,4 @@ diskutiert.
 
 ### Manuskript
 
-* [PDF-Version](/download/lit_2016/albrecht-sicheres-backup.pdf) (103 kB)
+* [PDF-Version](/download/Vortraege/lit2016-sicheres-backup.pdf) (103 kB)

@@ -15,4 +15,4 @@ Und wie kann man diese Technologie auf seinem Linux-System selbst ausprobieren
 
 ### Manuskript
 
-* [PDF-Version](/download/Vortraege/bgp-LUGA-2016-04-16.pdf) (112 kB)
+* [PDF-Version](/download/Vortraege/lit2016-BGP.pdf) (112 kB)

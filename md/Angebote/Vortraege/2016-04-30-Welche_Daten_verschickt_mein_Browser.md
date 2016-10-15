@@ -28,4 +28,4 @@ Vorträge besuchen. Dieser Vortrag setzt keinerlei technisches Vorwissen voraus.
 
 ### Manuskript
 
-* [PDF-Version](/download/lit_2016/blechschmidt-welche-daten-verschickt-eigentlich-mein-browser.pdf) (120 kB)
+* [PDF-Version](/download/Vortraege/lit2016-daten-browser.pdf) (120 kB)

@@ -19,4 +19,4 @@ Einfluss haben systemd und Wayland?
 
 ### Manuskript
 
-* [PDF-Version](/download/lit_2016/graesing-remote-protokolle.pdf) (103 kB)
+* [PDF-Version](/download/Vortraege/lit2016-graesing-remote-protokolle.pdf) (103 kB)

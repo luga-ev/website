@@ -25,4 +25,4 @@ regen Austausch hinsichtlich eigener Erfahrungen und Tipps im Alltag geben.
 
 ### Manuskript
 
-* [PDF-Version](/download/lit_2016/html-beschleunigen-luga2016.pdf) (993 kB)
+* [PDF-Version](/download/Vortraege/lit2016-html-beschleunigen-luga2016.pdf) (993 kB)
