@@ -20,4 +20,4 @@ verwandte und ergänzende Open-Source-Werkzeuge gegeben.
 
 ### Manuskript
 
-* [PDF-Version](/download/Vortraege/lit2016-herz-suricata.pdf) (320 kB)
+* [PDF-Version](/download/Vortraege/lit2016-suricata.pdf) (320 kB)
