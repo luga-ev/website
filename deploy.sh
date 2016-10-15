@@ -66,6 +66,9 @@ find -not -path "./.git/*" -not -name ".git" -delete
 echo "* Mirroring website..." >&2
 
 wget -nv -D luga-dummy -r -l inf -p http://luga-dummy/ || true
+cp -a "$root/html/galleries" luga-dummy/
+# wget holt natürlich nicht Ressourcen, die nur von JavaScript aus referenziert
+# werden. Daher ist eine manuelle Kopie der JavaScript-Gallerien nötig.
 
 mv luga-dummy/* .
 rmdir luga-dummy
