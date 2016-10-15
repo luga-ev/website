@@ -10,7 +10,7 @@
 
 cd -- "$1"
 find . | while read; do
-    curl -sf http://luga-dummy/"$REPLY" >/dev/null || echo "$REPLY"
+    curl -Lsf http://luga-dummy/"$REPLY" >/dev/null || echo "$REPLY"
 done | egrep -v "/LUGA_Logo|corner_tr|/onepixel|/corner_top|/line_t|/edge_top|/corner_bl|/Pinguin|/corner_tl|/corner_br" | while read; do
     REPLY="${REPLY:2}"
     REPLY="${REPLY%.1}"  # von wget ergänzte Suffixe
@@ -18,12 +18,18 @@ done | egrep -v "/LUGA_Logo|corner_tr|/onepixel|/corner_top|/line_t|/edge_top|/c
     basename="$(basename "$REPLY")"
     ohneindexhtml="${REPLY%index.html}"
 
-    if curl -sf http://luga-dummy/download/Vortraege/"$basename" >/dev/null; then
+    if curl -Lsf http://luga-dummy/"$REPLY" >/dev/null; then
+        # alles gut: Dann sind wir von einem von wget ergänzten Suffix wie ".1"
+        # oder ".2" in die Irre geleitet worden.
+        :
+    elif curl -Lsf http://luga-dummy/download/Vortraege/"$basename" >/dev/null; then
         echo "Redirect permanent /$REPLY https://www.luga.de/download/$basename"
-    elif curl -sf http://luga-dummy/"$REPLY"/ >/dev/null; then
-        echo "Redirect permanent /$REPLY https://www.luga.de/$REPLY/"
-    elif curl -sf http://luga-dummy/"$ohneindexhtml" >/dev/null; then
+    elif curl -Lsf http://luga-dummy/"$ohneindexhtml" >/dev/null; then
         echo "Redirect permanent /$REPLY https://www.luga.de/$ohneindexhtml"
+    elif curl -Lsf http://luga-dummy/"$REPLY"/ >/dev/null; then
+        # Sollte niemals eintreten
+        echo "Huh? $REPLY"
+        exit 1
     else
         echo "# :-( $REPLY"
     fi
