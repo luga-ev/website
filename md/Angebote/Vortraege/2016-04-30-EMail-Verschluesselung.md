@@ -8,7 +8,7 @@ B1 Systems
 
 ### Kurzbeschreibung
 Wie der Vortrag zu
-[Internetunsicherheit](2016-04-30-Welche_Daten_verschickt_mein_Browser)
+[Internetunsicherheit](/Angebote/Vortraege/2016-04-30-Welche_Daten_verschickt_mein_Browser/)
 plastisch vorführt, werden Daten im Internet meist unverschlüsselt übertragen
 und sind für viele Dritte sichtbar.  Das stimmt insbesondere für Mails.
 
