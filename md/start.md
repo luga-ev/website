@@ -31,6 +31,9 @@ bereits installierten Linux-Systemen.
 Der Eintritt ist kostenlos, weitere Informationen finden sich unter
 [Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/).
 
+Wenn Sie Schwierigkeiten haben, den etwas versteckten Hinterhof zu finden, dann
+rufen Sie uns einfach an: 0176/95110311
+
 ## Termine
 |||
 |-|-|
