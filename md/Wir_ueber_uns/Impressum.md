@@ -5,7 +5,8 @@
 Arberstr. 5  
 86179 Augsburg  
 Telefon: 0821/598-5601 oder 0176/95110311    
-E-Mail: info at luga.de  
+E-Mail: info at luga.de
+**Die Treffen finden nicht in der Arberstraße, sondern <a href="/Treffen/Treffpunkt/">in Pfersee</a> statt.**
 
 Registergericht: Amtsgericht Augsburg  
 Registernummer: VR 2092  
