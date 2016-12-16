@@ -16,27 +16,8 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind. Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen. 
 
-##Linux Presentation Day 2016.2 in Augsburg
-
-Am 22. Oktober findet der [Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/)
-von 10:00 Uhr bis 17:00 Uhr in den Räumen des OpenLabs statt. Bereits zum
-zweiten mal dieses Jahr übernimmt die Linux User Group Augsburg zusammen mit
-dem OpenLab Augsburg die Organisation des Linux Presentation Day 2016.2.
-
-Die Veranstaltung richtet sich an eine breite Öffentlichkeit. Zielgruppe sind
-Leute, die Linux bisher gar nicht oder kaum kennen. Wir zeigen wie dieses
-"Linux" aussieht, helfen bei der Installation von Linux oder bei Problemen mit
-bereits installierten Linux-Systemen.
-
-Der Eintritt ist kostenlos, weitere Informationen finden sich unter
-[Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/).
-
-Wenn Sie Schwierigkeiten haben, den etwas versteckten Hinterhof zu finden, dann
-rufen Sie uns einfach an: 0176/95110311
-
 ## Termine
 |||
 |-|-|
-|22. Oktober 2016|[Linux Presentation Day 2016.2](/Aktionen/LPD-2016-2/)|
-|2. November 2016|[Novembertreffen 2016](/Treffen/Termine/11_2016/)|
-|7. Dezember 2016|[Dezembertreffen 2016](/Treffen/Termine/12_2016/)|
+|4. Januar 2017|[Januartreffen 2017](/Treffen/Termine/01_2017/)|
+|1. Februar 2017|[Februartreffen 2017](/Treffen/Termine/02_2017/)|
