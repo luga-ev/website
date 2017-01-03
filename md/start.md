@@ -21,3 +21,17 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 |-|-|
 |4. Januar 2017|[Januartreffen 2017](/Treffen/Termine/01_2017/)|
 |1. Februar 2017|[Februartreffen 2017](/Treffen/Termine/02_2017/)|
+
+## Linux-Infotag am 29. April
+
+Am **29. April** findet zum sechszehnten Mal in Folge der Linux-Infotag statt. Details folgen.
+
+Auf dem Linux-Infotag können sich Neulinge einen Überblick über die Anwendungsmöglichkeiten von   
+Linux und Open-Source-Software verschaffen und fortgeschrittene NutzerInnen können sich durch   
+den Einblick in neue Entwicklungen inspirieren lassen. Projektstände bieten die Möglichkeit zum   
+direkten Kontakt zwischen EntwicklerInnen, ProtagonistInnen und AnwenderInnen. Außerdem wird der   
+Bogen zu allgemeineren Themen wie Kunst und digitale Gesellschaft, Politik und Überwachung slowie Bildung von Kindern und Jugendlichen gespannt.                        
+                                                                                                      
+Organisiert wird der Linux-Infotag seit 2001 von  der Linux User Group Augsburg und   
+der Hochschule Augsburg und zählt mit regelmäßig mehr als 350 BesucherInnen zu den ältesten  und   
+größten Linux-Veranstaltungen im süddeutschen Raum.                     
