@@ -32,5 +32,5 @@ vorausgesetzt.
 
 * [PDF-Version](/download/Vortraege/Niedrigenergietransfer.pdf) (2797 kB)
 * [Video einer anderen Version des Vortrags](https://www.youtube.com/watch?v=v4NTjTxdNug)
-* [Interaktive Orbitalmechanikdemo](http://rawgit.com/iblech/mathezirkel-kurs/master/orbitalmechanik/simulation.html) (auf einen Körper klicken, um ihn zu beschleunigen; "p" pausiert, "m" verschnellert, "n" verlangsamt, "i" und "o" zoomen, "a" bis "e" laden vordefinierte Szenarien)
-* [Orbitalmechanikdemo](http://rawgit.com/iblech/mathezirkel-kurs/master/orbitalmechanik/simulation-rotating.html) (mitdrehendes Bezugssystem)
+* [Interaktive Orbitalmechanikdemo](http://rawgit.com/iblech/mathezirkel-kurs/master/orbitalmechanik/simulation/simulation.html) (auf einen Körper klicken, um ihn zu beschleunigen; "p" pausiert, "m" verschnellert, "n" verlangsamt, "i" und "o" zoomen, "a" bis "e" laden vordefinierte Szenarien)
+* [Orbitalmechanikdemo](http://rawgit.com/iblech/mathezirkel-kurs/master/orbitalmechanik/simulation/simulation-rotating.html) (mitdrehendes Bezugssystem)
