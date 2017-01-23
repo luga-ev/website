@@ -22,9 +22,9 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 |4. Januar 2017|[Januartreffen 2017](/Treffen/Termine/01_2017/)|
 |1. Februar 2017|[Februartreffen 2017](/Treffen/Termine/02_2017/)|
 
-## Linux-Infotag am ??. April
+## Linux-Infotag am 22. April
 
-Am **??. April** findet zum sechszehnten Mal in Folge der Linux-Infotag statt. Details folgen.
+Am **22. April** findet zum sechszehnten Mal in Folge der Linux-Infotag statt. Details folgen.
 
 Auf dem Linux-Infotag können sich Neulinge einen Überblick über die Anwendungsmöglichkeiten von   
 Linux und Open-Source-Software verschaffen und fortgeschrittene NutzerInnen können sich durch   
