@@ -4,6 +4,7 @@ Hier findet sich eine kurze Zusammenfassung der von der Linux User Group Augsbur
 In der Vergangenheit hat die Linux User Group Augsburg e.V. immer wieder größere Veranstaltungen maßgeblich mitgestaltet. Die entsprechenden Informationen sind hier gesammelt.
  
 ### Augsburger Linux-Infotage:
+* <a href="LIT-2017/">16. Augsburger Linux-Infotag (22. April 2017)</a>
 * <a href="LIT-2016/">15. Augsburger Linux-Infotag (16. April 2016)</a>
 * <a href="LIT-2015/">14. Augsburger Linux-Infotag (28. März 2015)</a>
 * <a href="LIT-2014/">13. Augsburger Linux-Infotag (22. März 2014)</a>
