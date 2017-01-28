@@ -24,7 +24,7 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 
 ## Linux-Infotag am 22. April
 
-Am **22. April** findet zum sechszehnten Mal in Folge der Linux-Infotag statt. Details folgen.
+Am **22. April** findet zum sechszehnten Mal in Folge der Linux-Infotag statt.
 
 Auf dem Linux-Infotag können sich Neulinge einen Überblick über die Anwendungsmöglichkeiten von   
 Linux und Open-Source-Software verschaffen und fortgeschrittene NutzerInnen können sich durch   
@@ -34,4 +34,6 @@ Bogen zu allgemeineren Themen wie Kunst und digitale Gesellschaft, Politik und �
                                                                                                       
 Organisiert wird der Linux-Infotag seit 2001 von  der Linux User Group Augsburg und   
 der Hochschule Augsburg und zählt mit regelmäßig mehr als 350 BesucherInnen zu den ältesten  und   
-größten Linux-Veranstaltungen im süddeutschen Raum.                     
+größten Linux-Veranstaltungen im süddeutschen Raum.
+
+Weitere Informationen [hier](Aktionen/LIT-2017/).
