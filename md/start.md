@@ -36,4 +36,4 @@ Organisiert wird der Linux-Infotag seit 2001 von  der Linux User Group Augsburg 
 der Hochschule Augsburg und zählt mit regelmäßig mehr als 350 BesucherInnen zu den ältesten  und   
 größten Linux-Veranstaltungen im süddeutschen Raum.
 
-Weitere Informationen [hier](Aktionen/LIT-2017/).
+Weitere Informationen [hier](/Aktionen/LIT-2017/).
