@@ -7,7 +7,7 @@
 # Oder parallel: for i in *.txt; do ./rewrite-http-to-https.pl "$i" & sleep 0.1; done
 
 sub check_link {
-    system(qw< curl -f -o /dev/null -s -- >, $_[0]) == 0;
+    system(qw< curl -m 30 -f -o /dev/null -s -- >, $_[0]) == 0;
 }
 
 sub http2https {
@@ -19,14 +19,18 @@ sub http2https {
 s#(http://.*?)([\s\)\]}"<>])#
     my $url       = $1;
     my $delimiter = $2;
+
+    print STDERR "... $url";
+
     if(not check_link($url)) {
-        warn "404 $url\n";
+        print STDERR "\033[2K\r404 $url\n";
     } else {
+        print STDERR "\033[2K\r... $url";
         if(check_link(http2https($url))) {
-            warn "SEC $url\n";
+            print STDERR "\033[2K\rSEC $url\n";
             $url = http2https($url);
         } else {
-            warn "UNS $url\n";
+            print STDERR "\033[2K\rUNS $url\n";
         }
     }
     "$url$delimiter";
