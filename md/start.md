@@ -19,8 +19,8 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 ## Termine
 |||
 |-|-|
-|4. Januar 2017|[Januartreffen 2017](/Treffen/Termine/01_2017/)|
-|1. Februar 2017|[Februartreffen 2017](/Treffen/Termine/02_2017/)|
+|1. März 2017|[Märztreffen 2017](/Treffen/Termine/03_2017/)|
+|5. April 2017|[Apriltreffen 2017](/Treffen/Termine/04_2017/)|
 
 ## Linux-Infotag am 22. April
 
