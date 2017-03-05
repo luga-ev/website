@@ -22,6 +22,7 @@ In der Vergangenheit hat die Linux User Group Augsburg e.V. immer wieder größe
 * <a href="LIT/">1. Augsburger Linux-Infotag (9. März 2002)</a>
 
 ### Linux Presentation Days:
+* <a href="LPD-2017-1/">Linux Presentation Day in Augsburg (2017.1)</a>
 * <a href="LPD-2016-2/">Linux Presentation Day in Augsburg (2016.2)</a>
 * <a href="LPD-2016-1/">Linux Presentation Day in Augsburg (2016.1)</a>
 * <a href="LPD-2015/">Linux Presentation Day in Augsburg (2015)</a>
