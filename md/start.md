@@ -22,18 +22,13 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 |1. März 2017|[Märztreffen 2017](/Treffen/Termine/03_2017/)|
 |5. April 2017|[Apriltreffen 2017](/Treffen/Termine/04_2017/)|
 
-## Linux-Infotag am 22. April
+## [Linux-Infotag am 22. April](/Aktionen/LIT-2017/)
 
-Am **22. April** findet zum sechszehnten Mal in Folge der Linux-Infotag statt.
+**Am 22. April findet zum sechszehnten Mal in Folge der
+[Linux-Infotag](/Aktionen/LIT-2017/) statt.**
 
-Auf dem Linux-Infotag können sich Neulinge einen Überblick über die Anwendungsmöglichkeiten von   
-Linux und Open-Source-Software verschaffen und fortgeschrittene NutzerInnen können sich durch   
-den Einblick in neue Entwicklungen inspirieren lassen. Projektstände bieten die Möglichkeit zum   
-direkten Kontakt zwischen EntwicklerInnen, ProtagonistInnen und AnwenderInnen. Außerdem wird der   
-Bogen zu allgemeineren Themen wie Kunst und digitale Gesellschaft, Politik und Überwachung slowie Bildung von Kindern und Jugendlichen gespannt.                        
+Auf dem Linux-Infotag können sich Neulinge einen Überblick über die Anwendungsmöglichkeiten von Linux und Open-Source-Software verschaffen und fortgeschrittene NutzerInnen können sich durch den Einblick in neue Entwicklungen inspirieren lassen. Projektstände bieten die Möglichkeit zum direkten Kontakt zwischen EntwicklerInnen, ProtagonistInnen und AnwenderInnen. Außerdem wird der Bogen zu allgemeineren Themen wie Kunst und digitale Gesellschaft, Politik und Überwachung slowie Bildung von Kindern und Jugendlichen gespannt.
                                                                                                       
-Organisiert wird der Linux-Infotag seit 2001 von  der Linux User Group Augsburg und   
-der Hochschule Augsburg und zählt mit regelmäßig mehr als 350 BesucherInnen zu den ältesten  und   
-größten Linux-Veranstaltungen im süddeutschen Raum.
+Organisiert wird der Linux-Infotag seit 2001 von der Linux User Group Augsburg und der Hochschule Augsburg und zählt mit regelmäßig mehr als 350 BesucherInnen zu den ältesten und größten Linux-Veranstaltungen im süddeutschen Raum.
 
 Weitere Informationen [hier](/Aktionen/LIT-2017/).
