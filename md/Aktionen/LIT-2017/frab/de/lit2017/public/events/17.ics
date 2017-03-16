@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+RDATE:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T161500
+DTSTAMP;VALUE=DATE-TIME:20170305T214854Z
+UID:db965495-35f8-43ed-ab79-7be7b43ee530@frab.nixos.community
+DESCRIPTION:Was bedeutet ReCoBS (Remote-Controlled-Browsers-System)? Wies
+ o ist es ein viel effektiverer Schutz als Virenscanner\, Firewall\, oder
+  UTM? Wie baut man sich so etwas mit Linux und X2Go selbst\, ohne auf se
+ in Windows verzichten zu müssen?
+URL:/schedule.html/events/17.html
+SUMMARY:Windows-Systeme effektiv & günstig vor Ransomware schützen – mit 
+ Linux und X2Go
+ORGANIZER:lit2017
+LOCATION:lit2017 - Raum C
+END:VEVENT
+END:VCALENDAR

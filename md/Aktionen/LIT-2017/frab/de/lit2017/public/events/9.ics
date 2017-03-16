@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+RDATE:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T104500
+DTSTAMP;VALUE=DATE-TIME:20170305T215521Z
+UID:afc64fe1-f2ed-455b-8c81-a642172025d5@frab.nixos.community
+DESCRIPTION:Zeitmanagement und "Getting Things Done" im Texteditor? Der V
+ ortrag zeigt\, dass dies nicht nur möglich ist\, sondern man sich so ein
+  höchst effizientes System bauen kann welches einem den täglichen Irrsin
+ n im Job und auch in der Freizeit zu überblicken hilft. 
+URL:/schedule.html/events/9.html
+SUMMARY:Orgmode - your life in plain text
+ORGANIZER:lit2017
+LOCATION:lit2017 - Raum A
+END:VEVENT
+END:VCALENDAR

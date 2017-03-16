@@ -1,0 +1,202 @@
+.cell-height1 { height: 20px; }
+.cell-height2 { height: 37px; }
+.cell-height3 { height: 57px; }
+.cell-height4 { height: 77px; }
+.cell-height5 { height: 97px; }
+.cell-height6 { height: 117px; }
+.cell-height7 { height: 137px; }
+.cell-height8 { height: 157px; }
+.cell-height9 { height: 177px; }
+.cell-height10 { height: 197px; }
+.cell-height11 { height: 217px; }
+.cell-height12 { height: 237px; }
+.cell-height13 { height: 257px; }
+.cell-height14 { height: 277px; }
+.cell-height15 { height: 297px; }
+.cell-height16 { height: 317px; }
+.cell-height17 { height: 337px; }
+.cell-height18 { height: 357px; }
+.cell-height19 { height: 377px; }
+.cell-height20 { height: 397px; }
+.cell-height21 { height: 417px; }
+.cell-height22 { height: 437px; }
+.cell-height23 { height: 457px; }
+.cell-height24 { height: 477px; }
+.cell-height25 { height: 497px; }
+.cell-height26 { height: 517px; }
+.cell-height27 { height: 537px; }
+.cell-height28 { height: 557px; }
+.cell-height29 { height: 577px; }
+.cell-height30 { height: 597px; }
+.cell-height31 { height: 617px; }
+.cell-height32 { height: 637px; }
+.cell-height33 { height: 657px; }
+.cell-height34 { height: 677px; }
+.cell-height35 { height: 697px; }
+.cell-height36 { height: 717px; }
+.cell-height37 { height: 737px; }
+.cell-height38 { height: 757px; }
+.cell-height39 { height: 777px; }
+.cell-height40 { height: 797px; }
+.cell-height41 { height: 817px; }
+.cell-height42 { height: 837px; }
+.cell-height43 { height: 857px; }
+.cell-height44 { height: 877px; }
+.cell-height45 { height: 897px; }
+.cell-height46 { height: 917px; }
+.cell-height47 { height: 937px; }
+.cell-height48 { height: 957px; }
+
+
+.event.track-default {
+  background-color: #79f018;
+  border-color: #79f018;
+}
+
+.event.track-default div.event-header {
+  background-color: #79f018;
+}
+
+.event.track-default div.event-header a {
+  color: #000;
+}
+
+.conference-background {
+  background-color: #79f018;
+}
+
+
+.event.track-digitale-gesellschaft {
+  background-color: #fcd600;
+  border-color: #fcd600;
+}
+.event.track-digitale-gesellschaft div.event-header {
+  background-color: #fcd600;
+}
+
+.event.track-digitale-gesellschaft div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-digitale-gesellschaft {
+  background-color: #fcd600;
+}
+
+.event.track-effizientes-arbeiten-mit-linux {
+  background-color: #fefd7f;
+  border-color: #fefd7f;
+}
+.event.track-effizientes-arbeiten-mit-linux div.event-header {
+  background-color: #fefd7f;
+}
+
+.event.track-effizientes-arbeiten-mit-linux div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-effizientes-arbeiten-mit-linux {
+  background-color: #fefd7f;
+}
+
+.event.track-linux-interna-und-devops {
+  background-color: #fc937e;
+  border-color: #fc937e;
+}
+.event.track-linux-interna-und-devops div.event-header {
+  background-color: #fc937e;
+}
+
+.event.track-linux-interna-und-devops div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-linux-interna-und-devops {
+  background-color: #fc937e;
+}
+
+.event.track-privatsphare-sicherheit {
+  background-color: #7db3fa;
+  border-color: #7db3fa;
+}
+.event.track-privatsphare-sicherheit div.event-header {
+  background-color: #7db3fa;
+}
+
+.event.track-privatsphare-sicherheit div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-privatsphare-sicherheit {
+  background-color: #7db3fa;
+}
+
+.event.track-programm-fur-kinder-und-jugendliche {
+  background-color: #c263eb;
+  border-color: #c263eb;
+}
+.event.track-programm-fur-kinder-und-jugendliche div.event-header {
+  background-color: #c263eb;
+}
+
+.event.track-programm-fur-kinder-und-jugendliche div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-programm-fur-kinder-und-jugendliche {
+  background-color: #c263eb;
+}
+
+.event.track-programmieren-software-entwickeln {
+  background-color: #fc7ed6;
+  border-color: #fc7ed6;
+}
+.event.track-programmieren-software-entwickeln div.event-header {
+  background-color: #fc7ed6;
+}
+
+.event.track-programmieren-software-entwickeln div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-programmieren-software-entwickeln {
+  background-color: #fc7ed6;
+}
+
+.event.track-rahmenvortrage {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.event.track-rahmenvortrage div.event-header {
+  background-color: #ffffff;
+}
+
+.event.track-rahmenvortrage div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-rahmenvortrage {
+  background-color: #ffffff;
+}
+
+#colorkeys {
+  font-size: .8em;
+  opacity: .85;
+}
+
+#colorkeys ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#colorkeys ul li {
+  margin: 0 .2em;
+  float: right;
+}
+
+#colorkeys ul li div {
+  padding: 0;
+}
+
+/* Custom Conference CSS */
+

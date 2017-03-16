@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html; charset=utf-8' http-equiv='content-type'>
+<title>Programm Augsburger Linux-Infotag 2017</title>
+<link rel="stylesheet" media="screen" href="../../../../assets/public_schedule-fe5c2995f8fa4b0f51bd82df5c41e84e7e7c12485fe767c4a3cf56ad83b2844e.css" />
+<link rel="stylesheet" media="all" href="../schedule/style.css" />
+<link rel="stylesheet" media="print" href="../../../../assets/public_schedule_print-99d3251f43ed74e6a77a8013f74ce1ee07c4de819a619a15d8b8bb5dc9d4dad1.css" />
+</head>
+<body>
+<div id='wrapper'>
+<div id='banner'></div>
+<div id='header'>
+<h1>Programm Augsburger Linux-Infotag 2017</h1>
+</div>
+<div id='navigation'>
+<ul>
+<li>
+<a href="../schedule.html">Übersicht</a>
+</li>
+<li class='selected'>
+<a href='../schedule/0.html'>
+Zeitplan
+</a>
+</li>
+<li>
+<a href="../speakers.html">Referenten</a>
+</li>
+<li class='selected'>
+<a href="../events.html">Veranstaltungen</a>
+</li>
+<li>
+<a href="../qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id='main-content'>
+<p class='release'>
+Version 0.1
+</p>
+<h2>Vortrag: Capabilities</h2>
+<h3 class='title'>Das vergessene Linux-Security-Feature</h3>
+<div class='column left' id='basic'>
+<div class="image large"><img src="../../../../assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large" /></div>
+<p class="abstract">Mit den Capabilities bietet der Linux-Kernel schon seit längerem die Möglichkeit Rechte feingranularer zu vergeben, als nur Root- und Nicht-Root-Rechte. Bisher werden sie noch selten genutzt, dabei könnten sie die Sicherheit von Linux-Clients und -Servern erhöhen und gleichzeitig stellt das nicht-wissen über ihre Existenz eine Gefahr für die Sicherheit dar.</p>
+<p class="description"><p>Beispiel: Ein NTP-Daemon muss die Zeit des Systems ändern, das dies ein normaler User nicht darf, läuft er üblicherweise mit Root-Rechten. Das heißt aber auch, der NTP-Daemon darf auch Dateisystem mounten, fremde Dateien löschen, Firewallregeln verändern, Festplatten formatieren, etc. Schaft es ein Angreifer nun durch einen Bufferoverflow in ntp Code einzuschleusen, so wird dieser mit den selben vollen Root-Rechten ausgeführt und darf somit auch all dies.</p></p>
+
+<p class="description"><p>Mit den Capabilities bietet der Linux-Kernel die Möglichkeit dies feiner einzuschränken um im Idealfall jedem Prozess nur die Rechte einräumen die sie benötigen um ihren Dienst zu tun. Dies kann ähnlich zu den SUID-Bits in den Metadaten der Datei, mit Systemd oder mit anderen Werkzeugen geschehen.
+<br /></p></p>
+</div>
+<div class='column left' id='details'>
+<h3>Info</h3>
+<p>
+<b>Tag:</b>
+<a href="../schedule/0.html">22.04.2017</a>
+<br>
+<b>Anfang:</b>
+14:15 Uhr
+<br>
+<b>Dauer:</b>
+00:45
+<br>
+<b>Raum:</b>
+Raum C
+<br>
+<b>Track:</b>
+<font class='event track-linux-interna-und-devops'>
+<a href="../events.html#linux%20interna%20und%20devops">Linux Interna und DevOps</a>
+</font>
+<br>
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="10.ics">iCalendar</a></li>
+</ul>
+<div class='column left' id='concurrent_events'>
+<h3><span class="translation_missing" title="translation missing: de.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class='dl-horizontal'>
+<dt>Raum B</dt>
+<dd><a href="8.html">Vom Digital Native zum Digital Naiv </a></dd>
+<dt>Raum A</dt>
+<dd><a href="27.html">Nextcloud</a></dd>
+</dl>
+</div>
+</div>
+<div class='column right' id='sidebar'>
+<h3>Referenten</h3>
+<table class='list'>
+<tbody>
+<tr>
+<td><div class="image small"><img src="../../../../system/people/avatars/000/000/010/small/P1490964.JPG%3F1487981392" alt="P1490964" /></div></td>
+<td><a href="../speakers/10.html">Michael Schönitzer</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class='span16'>
+</div>
+
+<br class='clear'>
+</div>
+</div>
+</body>
+</html>

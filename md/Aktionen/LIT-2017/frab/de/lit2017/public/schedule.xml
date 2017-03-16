@@ -1,0 +1,1021 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<schedule>
+<version>0.1</version>
+<conference>
+<acronym>lit2017</acronym>
+<title>Augsburger Linux-Infotag 2017</title>
+<start>2017-04-22</start>
+<end>2017-04-22</end>
+<days>1</days>
+<timeslot_duration>00:05</timeslot_duration>
+</conference>
+<day date='2017-04-22' end='2017-04-22T17:30:00+02:00' index='1' start='2017-04-22T09:30:00+02:00'>
+<room name='Raum A'>
+<event guid='25570e00-e93b-4018-8da6-7a3e6db27c65' id='30'>
+<date>2017-04-22T09:45:00+02:00</date>
+<start>09:45</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>lit2017-30-keynote</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Keynote</title>
+<subtitle></subtitle>
+<track>Rahmenvorträge</track>
+<type></type>
+<language></language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='29'>Bernadette Längle</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='afc64fe1-f2ed-455b-8c81-a642172025d5' id='9'>
+<date>2017-04-22T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>lit2017-9-orgmode_-_your_life_in_plain_text</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Orgmode - your life in plain text</title>
+<subtitle>Selbstorganisation unter Linux</subtitle>
+<track>effizientes Arbeiten mit Linux</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Zeitmanagement und &quot;Getting Things Done&quot; im Texteditor? Der Vortrag zeigt, dass dies nicht nur möglich ist, sondern man sich so ein höchst effizientes System bauen kann welches einem den täglichen Irrsinn im Job und auch in der Freizeit zu überblicken hilft. </abstract>
+<description>&lt;p&gt;Viele Menschen sind gestresst weil sie zu viele Dinge erledigen wollen und oft gar nicht mehr wissen, was eigentlich alles zu tun ist.&lt;/p&gt; 
+&lt;p&gt;Linux bietet ein extrem effizientes System zum Zeit- und Selbstmanagement an, es versteckt sich as Erweiterung des Textediors Emasc. &lt;b&gt;Orgmode&lt;/b&gt; wird von vielen Nutzern als &quot;My life in plain text&quot; beschrieben, was der Sache durchaus nahekommt. Aber dank der Intelligenz von Emacs können wir dem Text eine Bedeutung geben, eben z.B. einfach Aufgaben und Projekte definieren. &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Zielgruppe:&lt;/b&gt; Der Vortrag wendet sich an Menschen, die aus der Tretmühle des ständigen Reagierens (weil man wieder was vergessen) hat herauskommen wollen und statt dessem lieber die Kontrolle über ihr Leben und ihre Zeit zurückgewinnen wollen. Der Vortrag ist als &quot;Überblick&quot; gedacht und soll motivieren, sich einmal näher damit zu befassen. Wer tiefer einsteigen will findet auf dem YouTube-Kanal des Vortragenden dann mehr als 30 detaillierte Einführungsvideos (allerdings in Englisch) die jeweils zwischen 10 und 25 Minuten lang sind. &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inhalt:&lt;/b&gt; Der Vortrag wird einen überblick über folgende Funktionen von Orgmode geben:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Outliner mit Überschrifen und Hierarchie&lt;/li&gt;
+&lt;li&gt;TODO-Keywords um Aufgaben und ihren gegenwärtigen Erledigungsstatus zu beschreiben&lt;/li&gt;
+&lt;li&gt;Datumsstempel um zu planen wann man etwas tut und bis wann es erledigt sein muss&lt;/li&gt;
+&lt;li&gt;Wiederkehrende Aufgaben&lt;/li&gt;
+&lt;li&gt;Agenda Ansichten, die einen Blick auf das, was &lt;b&gt;jetzt&lt;/b&gt; zu tun ist ermöglichen&lt;/li&gt;
+&lt;li&gt;Capture Templates die ein schnelle Erfassung von neuen Aufgaben ermöglichen&lt;/li&gt;
+&lt;li&gt;Protokollieren des Aufgabenfortschrittes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;Rainer König nutzt Orgmode seit vielen Jahren und vergisst dank Orgmode auch nicht, wann z.B. irgendwelche Wartungsarbeiten im Haus fällig sind. &lt;/p&gt;</description>
+<logo></logo>
+<persons>
+<person id='19'>Rainer König</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='40b773f1-365e-40ee-87c0-f828739e3b9a' id='38'>
+<date>2017-04-22T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>lit2017-38-schicke_briefe_und_andere_texte_teil_2</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Schicke Briefe und andere Texte (Teil 2)</title>
+<subtitle></subtitle>
+<track>effizientes Arbeiten mit Linux</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Stressfrei mit LibreOffice arbeiten – Teil 2: Wie man mit ein bisschen Planung viel Arbeit sparen kann. Nicht nur, dass im letzten Jahr vom Vortragsskript noch so viele interessante Punkte übrig geblieben sind. Kürzlich erschien auch noch ein kostenloses Buch über Gestaltungstipps mit LibreOffice. Daraus stellt Dieter Thalmayr ein Potpourri aus Arbeiten mit Formatvorlagen, Textbausteinen, Grafiken und vielem mehr zusammen. Texte sehen dann nicht nur hübsch aus, sondern waren auch ausgesprochen einfach erstellt.
+Der Vortrag benötigt kein tiefergehendes Vorwissen und setzt auch nicht voraus, dass man Teil 1 im vorletzten Jahr besucht hat.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='43'>Dieter Thalmayr</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='6ac10b18-e8a6-4f5f-8c02-241bf2f2da5e' id='12'>
+<date>2017-04-22T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>lit2017-12-gpx-tracks_anzeigen_und_nachbearbeiten</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>GPX-Tracks anzeigen und nachbearbeiten</title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Standortdaten auf der Basis von GPS erfassen Sie heute nebenbei mit ihrem Smartphone. Für die Auswertung und Nachbearbeitung der Tracks stehen Ihnen mehrere Werkzeuge zur Verfügung -- bspw. gpsprune, QLandkarteGT und QMapShack. Wir stellen Ihnen anhand von Praxisbeispielen vor, wie Sie die Tracks auf einer OpenStreetMapKarte anzeigen und nachträglich bearbeiten. Das hilft Ihnen, ihre Route auch später noch nachvollziehen zu können.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='20'>Frank Hofmann</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='a1a1e045-d715-468e-9376-c79a809c54d4' id='27'>
+<date>2017-04-22T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>lit2017-27-nextcloud</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Nextcloud</title>
+<subtitle>free, decentralized &amp; open</subtitle>
+<track>Privatsphäre &amp; Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Das Internet entstand als ein Netzwerk aus vielen gleichberechtigten Knoten. Jeder konnte seinen eigenen Mail Server aufsetzten, eine Webseite veröffentlichen und alle diese Dienste konnten miteinander interagieren. Seit gut 10 Jahren gibt es eine Tendenz, bei der sich immer mehr auf wenige geschlossene Dienste konzentriert. Diese Entwicklung, weg von einem freien, offenen und dezentralen Netzwerk hin zu einer Ansammlung von geschlossenen Diensten sollten wir entgegentreten. Nextcloud arbeitet genau daran, indem es ein dezentrales System schafft über das alle Arten von Daten geteilt, bearbeitet und synchronisiert werden können, auch über die Grenzen des eigenen Servers hinaus. Wie das alles funktioniert und warum auch du Nextcloud ausprobieren sollte erfährt man in diesem Vortrag.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/027/large/nextcloud.png?1488292927</logo>
+<persons>
+<person id='38'>Björn Schießle</person>
+</persons>
+<links>
+<link href='https://nextcloud.com'>Nextcloud</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='50669bcd-cea3-49ab-a25d-653ff87ea4b0' id='13'>
+<date>2017-04-22T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>lit2017-13-you_shall_not_pass</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>You shall not pass!</title>
+<subtitle>Wie wir neugierigen Leuten, die an unsere Daten wollen, das Leben schwerer machen</subtitle>
+<track>Privatsphäre &amp; Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Computersicherheit ist wichtig: Wer lässt andere schon gerne in seine Daten schauen?! Computersicherheit ist aber auch schwierig: so wie einen Sack Flöhe hüten. Kaum hat man einen Floh unter Kontrolle, macht ein anderer Probleme. Man weiß nicht, wo man anfangen soll ... und tut am besten gar nichts!? Und genau das wäre falsch. In diesem Vortrag – der hoffentlich besonders einsteigerfreundlich ist – zeigen wir deshalb einige Methoden, mit denen Sie Ihre Sicherheit erhöhen können, indem wir erst einmal die dicksten und wichtigsten Flöhe an die Kette legen.
+
+Inhalt:
+Pfiffige Verschlüsselung von USB-Sticks und Festplatten verhindert, dass jemand, der unseren PC in die Finger bekommt, an unsere Daten kommt. 
+Außerdem erschweren wir Angriffe über den Browser, das gegenwärtige Haupt-Angriffsziel. 
+Dann sorgen wir dafür, dass wir (unserem demokratischen Recht entsprechend) unerkannt im Internet umher wandern können. 
+Und zum Schluss besuchen wir die Schmuddelecken des Internet (Nachrichtenportale und Ähnliches), ohne Sorgen vor Infektionen zu haben, indem wir vorher die Hardware umbauen!
+
+Die gezeigten Methoden sind übrigens nicht mit den bekannten kommerziellen Betriebssystemen zu machen. Was wieder einmal zeigt: Linux macht mehr Spaß!</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='21'>Uwe Kremmin</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='2d61e12d-ba5b-40c4-985e-d960ccce1466' id='6'>
+<date>2017-04-22T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>lit2017-6-the_simpsons_meet_it</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>The Simpsons meet IT</title>
+<subtitle>Was wir von den Simpsons und Futurama über Mathematik, Kryptografie, IT und Quantenphysik lernen können</subtitle>
+<track>Rahmenvorträge</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der Vortrag stellt eine humoristische Verbindung zwischen den Simpsons und der mathematischen Realität dar. </abstract>
+<description></description>
+<logo>/system/events/logos/000/000/006/large/homer_pythagoras.png?1489448630</logo>
+<persons>
+<person id='16'>Markus Flingelli</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum B'>
+<event guid='c35fef63-c8a9-4ab5-ba64-1c774d6a1e37' id='35'>
+<date>2017-04-22T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>lit2017-35-lightning_talks</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Lightning Talks</title>
+<subtitle></subtitle>
+<track>Rahmenvorträge</track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description>Wir verwalten die Liste der Lightning Talks &lt;a href=&quot;https://etherpad.wikimedia.org/p/lit2017-lightning-talks&quot;&gt;in einem Etherpad&lt;/a&gt;. Trag dich unten ein, wenn du noch einen Lightning Talk halten möchtest!</description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='5a6c7c8d-71ad-4bb3-a7ce-d23f05c24039' id='33'>
+<date>2017-04-22T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>lit2017-33-bildverarbeitung_mit_python</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Bildverarbeitung mit Python</title>
+<subtitle></subtitle>
+<track>Programmieren &amp; Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Obwohl es sehr gute freie Bearbeitungssoftware für Bilder wie zum Beispiel Gimp gibt, kann es interessant sein, digitale Bilder mit einem Python-Skript zu bearbeiten. Es lassen sich dann leicht große
+Bildermengen auf die gleiche Weise bearbeiten. Zudem sind die Bearbeitungsschritte durch das Python-Skript dokumentiert und damit exakt reproduzierbar, was insbesondere in wissenschaftlichen
+Anwendungen wichtig sein kann. Andererseits erlaubt es die Verwendung von Python auch, einen Einblick in die Techniken der Bildverarbeitung zu gewinnen und auf einfache Weise mit eigenen Ideen zu experimentieren.
+
+Wir werden zunächst zeigen, wie man einfache Bearbeitungsschritte mit Hilfe von NumPy, der grundlegenden numerischen Programmbibliothek von Python, vornehmen kann. Für komplexere Aufgaben empfiehlt sich ein Blick in scikit-image, eine freie Programmbibliothek, die eine ganze
+Reihe interessanter Algorithmen für die Bildverarbeitung zur Verfügung stellt. An ausgewählten Beispielen werden wir einen Eindruck von den Möglichkeiten geben, die scikit-image bietet.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='42'>Gert-Ludwig Ingold</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='43d59eb8-6e0d-4e19-b12f-1b7d692a79e6' id='31'>
+<date>2017-04-22T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:25</duration>
+<room>Raum B</room>
+<slug>lit2017-31-tor</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Tor</title>
+<subtitle>Licht- &amp; Schatten in der Dunkelheit des Netzes</subtitle>
+<track>Privatsphäre &amp; Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Ein Vortrag zu Entstehungsgeschichte, Funktionsweise, Möglichkeiten und Gefahren von Tor; mit einer kurzen Demo von Tails am Ende.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/031/large/tor-project-logo.png?1489506958</logo>
+<persons>
+<person id='52'>Andreas Steil</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='77abf3e0-81ef-4c96-b371-7f0ea11155f8' id='24'>
+<date>2017-04-22T13:40:00+02:00</date>
+<start>13:40</start>
+<duration>00:30</duration>
+<room>Raum B</room>
+<slug>lit2017-24-einfuhrung_in_krita</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Einführung in Krita</title>
+<subtitle>Für Anfänger und alle die sich für Krita interessieren</subtitle>
+<track>effizientes Arbeiten mit Linux</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Eine Einführung in Krita und digitale Zeichenprogramme generell. Für alle, die Krita noch nie benutzt haben oder wenig bis gar keine Erfahrung mit Zeichenprogrammen haben.</abstract>
+<description>1. Einführung in das Programm Krita (Ich zeige und erkläre die Benutzeroberfläche, sowie ein paar wichtige Elemente die es beim traditionellen zeichnen nicht gibt, wie zum Beispiel Layer)
+2. Dann gehe ich näher auf ein paar Features ein (Ein paar wichtige Tools, Filter, Die Pop-up-Palette, Dockers, etc.)
+3. Außerdem zeige ich gerne auch noch kurz Frame-by-Frame-Animation
+4.Falls das alles dann zeitlich noch nicht genug sein sollte, könnte ich Krita kurz mit Gimp vergleichen</description>
+<logo></logo>
+<persons>
+<person id='34'>Helena</person>
+</persons>
+<links>
+<link href='https://krita.org/en/'>Die offizielle Krita Website</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3c884566-1ac1-46be-b43b-c6c864f47cbd' id='8'>
+<date>2017-04-22T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>lit2017-8-vom_digital_native_zum_digital_naiv</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Vom Digital Native zum Digital Naiv </title>
+<subtitle>Agiles Projektmanagement 4.0</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Durch die vermehrte Digitalisierung des Projektmanagements zeigen sich Mängel der Projektbeteiligten in der Projektabwicklung und Projektsteuerung.
+Banale Grundsätze des Projektmanagements werden ignoriert oder gleich gar nicht zur Kenntnis genommen.
+Gängige Sätze wie: &quot;Ich bin nicht zuständig&quot; oder &quot;Ich bin nicht verantwortlich&quot; lassen erfahrene Projektleiter zunehmend verzweifeln.
+Computer und Copy-Paste-Fehler führen dazu, dass die Wirklichkeit in den Rechnern und auf Wikipedia vermutet wird und nicht mehr auf den Baustellen.
+Dass ein Balkenplan auf einem Netzplan basiert ist oft unbekannt und führt zu heftigen Diskussionen in den Projektsitzungen.</abstract>
+<description>Durch die vermehrte Digitalisierung des Projektmanagements zeigen sich zunehmend Mängel der Projektbeteiligten in der Projektabwicklung und Projektsteuerung.
+Banale Grundsätze des Projektmanagements werden immer mehr ignoriert oder gleich gar nicht zur Kenntnis genommen.
+Trotz hervorragender computergestützter Tools werden eklatante Mängel in der Projektsteuerung und im Engineering deutlich, die zu vermehrten Fehlern und dadurch zu Projektverlängerungen und Mehrkosten führen.
+Die fehlende Bereitschaft Verantwortung für das eigene Tun und für das Team zu übernehmen führen immer wieder zu Missverständnissen und Fehlern.
+Gängige Sätze wie: &quot;Ich bin nicht zuständig&quot; oder &quot;Ich bin nicht verantwortlich&quot; lassen erfahrene Projektleiter zunehmend verzweifeln.
+Die Digitalisierung führt hierbei vermehrt zu Copy-Paste-Fehlern und ein Vertrauen auf die Bildschirminformationen anstatt sich auf den Baustellen oder in der Entwicklungsabteilung/Montage ein Bild vor Ort zu machen.
+Nicht zuletzt führt fehlendes Allgemeinwissen inzwischen zu kuriosen Situationen auf den Baustellen/in den Werkhallen und in den Projektsitzungen.
+Ebenso wird nicht vorgenommene Planung durch Projektmanagement per Handy ersetzt.
+Insbesondere die Generationen Y und Z neigen inzwischen dazu wesentliche Grundlagen einfach zu ignorieren oder selbst um zu deuten.</description>
+<logo>/system/events/logos/000/000/008/large/Logo_Haupt.jpg?1486742301</logo>
+<persons>
+<person id='18'>Gerhard Krug</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='8dc17e70-fd5c-4a5c-8547-21b0b0e79a2b' id='39'>
+<date>2017-04-22T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>lit2017-39-wie_lernen_kunstliche_intelligenzen</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Wie lernen künstliche Intelligenzen?</title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description>Traditionelle Computeralgorithmen sind uns Menschen in vielerlei Hinsicht
+überlegen: Wenn es etwa darum geht, große Zahlen zu multiplizieren oder
+durch die Analyse unzähliger Züge beim Schach zu gewinnen. Viele Aufgaben, die
+uns Menschen typischerweise kinderleicht fallen, übersteigen aber ihre
+Kapazitäten: Mit starren Algorithmen lassen sich weder menschliche Sprache noch
+menschliche Handschrift entziffern und keine Autos steuern.
+
+Die jüngsten Fortschritte auf dem Gebiet der künstlichen Intelligenz, die es
+etwa ermöglichen, dass wir Smartphones mit unserer Sprache steuern, dass
+Tablets unsere Handschrift lesen und dass Autos sich teilweise selbst steuern
+können, beruhen daher auf einem ganz anderen Ansatz: künstlichen neuronalen
+Netzen, die von von der partiell verstandenen Funktionsweise des menschlichen
+Gehirns inspiriert sind.
+
+Das Besondere an künstlichen neuronalen Netzen ist, dass sie selbstständig
+&lt;em&gt;lernfähig&lt;/em&gt; sind: ProgrammiererInnen geben nur ihre grobe Struktur und
+Testdatensätze vor, schreiben aber keine einzige Zeile Programmcode, der ihr
+Verhalten festlegen würde.
+
+Der Vortrag wird beleuchten, wie künstliche neuronale Netze funktionieren und
+wie sie das Kunststück des Lernens vollbringen. Der Vortrag wird auch erklären,
+welcher mathematische Durchbruch die großen Fortschritte auf dem Gebiet der
+künstlichen Intelligenz in den letzten Jahren möglich machte, und den Blick auf
+neue ethische Fragen richten, die diese Fortschritte aufwerfen.
+
+Der Vortrag setzt keinerlei technisches oder mathematisches Vorwissen voraus.
+</description>
+<logo></logo>
+<persons>
+<person id='5'>Ingo Blechschmidt</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='5f30c00c-7492-4217-ba6b-4a2839992e95' id='23'>
+<date>2017-04-22T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>lit2017-23-fli4l</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>fli4l</title>
+<subtitle>Der flexible internet router for linux.</subtitle>
+<track>Linux Interna und DevOps</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>fli4l ist eine Linux-basierte ISDN-, DSL- und Ethernet-Router-Distribution, die in der Grundausstattung ab einer 586er CPU (mit MMX-Erweiterung) betrieben werden kann. </abstract>
+<description>Fli4l ist modular aufgebaut. Dadurch ist es möglich, verschiedene Funktionen individuell zusammenzustellen. In der Standarddistribution stehen beispielsweise Pakete zur Verfügung, mit denen es möglich ist, Netzwerke über das Internet verschlüsselt zu verbinden (VPN), potentielle Gefahren beim Surfen zu filtern (Proxy) oder fli4l in einer virtuellen Maschine laufen zu lassen (XEN). Außerdem kann fli4l problemlos mit eigenen Paketen erweitert werden. Die Erweiterungen können dann über eine zentrale Datenbank zur Verfügung gestellt werden.
+
+fli4l lässt sich problemlos auf Festplatten, Speicherkarten oder auf CD installieren. </description>
+<logo></logo>
+<persons>
+<person id='35'>Stefan Krister</person>
+</persons>
+<links>
+<link href='http://www.fli4l.de/'>Fli4l</link>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum C'>
+<event guid='cd9da7c2-106b-4d14-ba0b-9705ab067330' id='37'>
+<date>2017-04-22T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>lit2017-37-dark_corners_of_c</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Dark Corners of C</title>
+<subtitle></subtitle>
+<track>Programmieren &amp; Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Stolpersteine, Sicherheitslücken und undefiniertes Verhalten in C.</abstract>
+<description>Die Programmiersprache C wurde bereits Anfang der 70er Jahre entwickelt und erfreut sich nach wie vor großer Beliebtheit. Der Linux-Kernel ist in C geschrieben, ebenso wie beispielsweise die bash, die Standardimplementierung von Python oder der Webserver Apache.
+
+Allerdings sind auch viele Konzepte und Ideen von C noch aus grauer Vorzeit und mitunter macht es die Sprache dem Programmierer nicht leicht. Buffer overflows oder Double-Free Fehler sind verbreitete auch im 21. Jahrhundert verbreitete Sicherheitslücken. Und dann gibt es natürlich auch noch undefiniertes Verhalten...
+
+Dieser Vortrag gibt einen Überblick über die unschönen Seiten von C, zeigt wie typische Sicherheitslücken entstehen und ausgenutzt werden, und was undefiniertes Verhalten bedeutet.</description>
+<logo></logo>
+<persons>
+<person id='41'>Michael Hartmann</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e5bec55c-63ac-432d-aaa6-2bf600c2f953' id='25'>
+<date>2017-04-22T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>lit2017-25-effektives_monitoring_von_linux_und_services</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Effektives Monitoring von Linux und Services</title>
+<subtitle></subtitle>
+<track>Linux Interna und DevOps</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>In zunehmend komplex werdenden Infrastrukturen wird effektives Monitoring immer wichtiger. Aber auch für kleine Setups ist Monitoring bereits essentiell. Dabei müssen Punkte wie spezifische Grenzwerte, Performance sowie Benachrichtigungen beachtet werden. </abstract>
+<description>Zielgruppe: Interessierte technisch versierte Personen, Linux Anwender
+Vorkenntnisse: Man sollte wissen wie Computer und das Internet
+funktionieren. Idealerweise hat man Linux Grundkenntnisse.
+Thema des Talks:
+  - Für was man Monitoring braucht
+  - Warum das jeder braucht, der einen Server/Service betreibt
+  - Was soll man überwachen?
+  - Warum effektives Monitoring keine einfache Aufgabe ist
+  - Zu was führt falsch konfiguriertes Monitoring
+  - Wie man effektives Monitoring konfiguriert (Am Beispiel Nagios/Icinga)
+  - Ausblick auf komplexe Infrastrukturen</description>
+<logo>/system/events/logos/000/000/025/large/605.jpg?1488183938</logo>
+<persons>
+<person id='36'>Claus-Theodor Riegg</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='23fc404d-5939-4ec1-aa07-662431a04180' id='5'>
+<date>2017-04-22T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>lit2017-5-professionelle_software-entwicklung_mit_linux</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Professionelle Software-Entwicklung mit Linux</title>
+<subtitle>Ein Erfahrungsbericht zum Einsatz von Linux in der Produktentwicklung</subtitle>
+<track>Programmieren &amp; Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Im Vortrag wird beschrieben, wie professionelle Software-Entwicklung unter Linux betrieben werden kann. Hierbei wird der Schwerpunkt auf die eingesetzte Software gelegt. Die meisten der hierbei genutzten Server-Dienste und Programme laufen unter Linux (meist Debian).</abstract>
+<description>Die hier beschriebenen Vorgehensweisen werden in einem mittelständischen Unternehmen im produktiven Einsatz eingesetzt.</description>
+<logo>/system/events/logos/000/000/005/large/linux_256.png?1489448553</logo>
+<persons>
+<person id='16'>Markus Flingelli</person>
+</persons>
+<links>
+<link href='mailto:mflingelli@blackned.de'>Kontakt</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='fb5bd61a-46c9-48cb-8269-eae75d7dab32' id='10'>
+<date>2017-04-22T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>lit2017-10-capabilities</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Capabilities</title>
+<subtitle>Das vergessene Linux-Security-Feature</subtitle>
+<track>Linux Interna und DevOps</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Mit den Capabilities bietet der Linux-Kernel schon seit längerem die Möglichkeit Rechte feingranularer zu vergeben, als nur Root- und Nicht-Root-Rechte. Bisher werden sie noch selten genutzt, dabei könnten sie die Sicherheit von Linux-Clients und -Servern erhöhen und gleichzeitig stellt das nicht-wissen über ihre Existenz eine Gefahr für die Sicherheit dar.</abstract>
+<description>&lt;p&gt;Beispiel: Ein NTP-Daemon muss die Zeit des Systems ändern, das dies ein normaler User nicht darf, läuft er üblicherweise mit Root-Rechten. Das heißt aber auch, der NTP-Daemon darf auch Dateisystem mounten, fremde Dateien löschen, Firewallregeln verändern, Festplatten formatieren, etc. Schaft es ein Angreifer nun durch einen Bufferoverflow in ntp Code einzuschleusen, so wird dieser mit den selben vollen Root-Rechten ausgeführt und darf somit auch all dies.&lt;/p&gt;
+
+&lt;p&gt;Mit den Capabilities bietet der Linux-Kernel die Möglichkeit dies feiner einzuschränken um im Idealfall jedem Prozess nur die Rechte einräumen die sie benötigen um ihren Dienst zu tun. Dies kann ähnlich zu den SUID-Bits in den Metadaten der Datei, mit Systemd oder mit anderen Werkzeugen geschehen.
+&lt;/p&gt;</description>
+<logo></logo>
+<persons>
+<person id='10'>Michael Schönitzer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='9ac33360-4094-46f1-ae00-438474b365af' id='40'>
+<date>2017-04-22T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>lit2017-40-wird_nachgereicht</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>(wird nachgereicht)</title>
+<subtitle></subtitle>
+<track>Linux Interna und DevOps</track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='45'>Benedikt „Hunz“ Heinz</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='db965495-35f8-43ed-ab79-7be7b43ee530' id='17'>
+<date>2017-04-22T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>lit2017-17-windows-systeme_effektiv_gunstig_vor_ransomware_schutzen_mit_linux_und_x2go</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Windows-Systeme effektiv &amp; günstig vor Ransomware schützen – mit Linux und X2Go</title>
+<subtitle>Kein Vortrag für Windows-Hasser! :-)</subtitle>
+<track>Privatsphäre &amp; Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Was bedeutet ReCoBS (Remote-Controlled-Browsers-System)? Wieso ist es ein viel effektiverer Schutz als Virenscanner, Firewall, oder UTM? Wie baut man sich so etwas mit Linux und X2Go selbst, ohne auf sein Windows verzichten zu müssen?</abstract>
+<description>Vor 4 Jahren, aufgerüttelt durch Snowden, hatte jeder Angst, per Trojaner ausgespäht zu werden. Das Risiko, durch einen Virenbefall nicht mehr an seine Daten zu kommen, war im Vergleich zum „Datenleck“ gering. Heute ist Ransomware in aller Munde. Kurz: Gestern standen wir am Abgrund, heute sind wir einen Schritt weiter. Auftritt ReCoBS: Schon vor über 10 Jahren durch das BSI als Konzept entwickelt, aber bislang viel zu wenig beachtet. 
+Wir gehen kurz auf die ReCoBS-Historie ein und blicken auf 7 Jahre Praxiserfahrung mit einer konkreten Umsetzung auf Basis X2Go als fertiger Appliance zurück. Anschließend zeigen wir, dass X2Go/Linux/OpenSource gut skaliert: Ein X2Go-ReCoBS, individuell auf die eigenen Bedürfnisse angepasst, und als virtuelle Maschine installiert, ist sehr kostengünstig machbar - egal ob für 5 oder 500 Nutzer.</description>
+<logo>/system/events/logos/000/000/017/large/x2go-logo-rotated-with-text.png?1487946058</logo>
+<persons>
+<person id='24'>Stefan Baur</person>
+</persons>
+<links>
+<link href='http://www.x2go.org/'>X2Go Homepage</link>
+<link href='http://www.baur-itcs.de/'>BAUR-ITCS UG (haftungsbeschränkt)</link>
+<link href='https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Internetsicherheit/recobslanginfo_pdf.html'>ReCoBS-Konzept des BSI</link>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum D (Workshop)'>
+<event guid='0bfa18c6-d0ef-4096-bd71-52b2462922c4' id='36'>
+<date>2017-04-22T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>02:00</duration>
+<room>Raum D (Workshop)</room>
+<slug>lit2017-36-nodeschool</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>NodeSchool</title>
+<subtitle>Workshops that teach web software skills</subtitle>
+<track>Programmieren &amp; Software entwickeln</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Du wolltest schon immer mal programmieren? Oder willst endlich mal Node.js ausprobieren? Nimm teil und lerne Programmieren mit Node.js ganz einfach - versprochen! Es hilft, wenn du schon mal etwas mit JavaScript gemacht hast - wenn nicht, komm trotzdem! Wir helfen gern. </abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='50'>Markus Dobmann</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='dcb30e54-c360-4ce0-b5a4-302724e0d541' id='22'>
+<date>2017-04-22T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>02:00</duration>
+<room>Raum D (Workshop)</room>
+<slug>lit2017-22-vim_fur_einsteiger</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Vim für Einsteiger</title>
+<subtitle>Oder: Wie man mit dem Editor für die Konsole Freundschaft schließt</subtitle>
+<track>effizientes Arbeiten mit Linux</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Dieser Workshop zum Mitmachen und selber probieren vermittelt die wichtigsten Grundlagen um mit dem mächtigen Editor Freundschaft zu schließen.</abstract>
+<description>Vim ist ein Texteditor für die Konsole und wird daher traditionell ohne Maus bedient.  
+Er wird von vielen Entwicklern wegen seiner Fülle an Features (z.B. Syntax Hervorhebung, Zeilennummerierung, Autovervollständigung, sprachenspezifische Einrückung,…) und seiner Bedienung, die ein effizientes und schnelles Bearbeiten von Dateien erlaubt, sehr geschätzt.   
+Es kostet allerdings auch etwas Überwindung und Durchhaltevermögen, um mit seinem ungewohnten Bedienkonzept zurecht zu kommen.  
+
+Dieser Workshop fängt von vorne an und vermittelt die wichtigsten Kommandos, die man als Einsteiger braucht, um in vim schnell von A nach B zu kommen und effizient Dateien zu bearbeiten.
+
+* Einfache Bewegungen
+* Die 3 Betriebsmodi (Command, Insert, Visual)
+* Dateien öffnen, bearbeiten, speichern
+* Einfügen, Überschreiben, Change
+* Suchen und ersetzen
+* Komplexere Bewegungen
+* Mit mehreren Dateien gleichzeitig arbeiten
+* Wenn noch Zeit: Überleben leicht gemacht (die kleinen Helferlein): Autocomplete, Makros, Code-Folding</description>
+<logo></logo>
+<persons>
+<person id='30'>B1 Systems | Philipp Kammerer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='7013ee1e-e582-4581-8ccd-e8b708756d14' id='2'>
+<date>2017-04-22T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>02:00</duration>
+<room>Raum D (Workshop)</room>
+<slug>lit2017-2-servicemanagement_mit_systemd</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Servicemanagement mit systemd</title>
+<subtitle></subtitle>
+<track>Linux Interna und DevOps</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>systemd ist ein System- und Service Management Framework für Linux, das unter anderem von Ubuntu, Debian, Arch, Fedora und Red Hat verwendet wird. Es wird beim Booten als erster Prozess gestartet und sorgt dafür, dass alle weiteren Prozesse wie Systemdienste, Systemkomponenten und dauerhaft laufende Anwendungen automatisiert gestartet, überwacht und lauffähig gehalten werden. 
+Im Rahmen des Workshops lernt wie ihr eigene Startskripte, sog. Unit-Files, erstellen könnt und wie man damit Abhängigkeiten zu anderen Diensten, zeitgesteuerte Ausführung und Bedingungen für automatische Neustarts definieren kann. Außerdem schauen wir uns an, wie man die Logmeldungen der gestarteten Dienste mit Bordmitteln effizient auswerten kann.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='3'>Christine Koppelt</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum E (Workshop)'>
+<event guid='b654d3e9-212b-45e2-8360-fd1556c8f990' id='3'>
+<date>2017-04-22T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>01:00</duration>
+<room>Raum E (Workshop)</room>
+<slug>lit2017-3-bitcoin_und_die_blockchain_-_eine_einfuhrung</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Bitcoin und die Blockchain - Eine Einführung</title>
+<subtitle>Eine seltsame Internetwährung und eine Blockchain, die angeblich bald die Welt verändern soll - was ist dran?</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Wir hangeln uns durch die (Vor-)geschichte des Kryptogeldes und machen Schritt für Schritt deutlich, aus welchen Puzzleteilen und Konzepten sich das Bitcoin-System letztendlich zusammensetzt. Dann zeigen wir auf, welche Zukunftsvisionen diese Technologie inspiriert, in einer Art und Weise, dass auch technische Laien sich davon ein Bild machen und besser einschätzen können, welche Auswirkungen sie auf die Gesellschaft wirklich haben könnte.</abstract>
+<description>- Das Wer, Was, Wann, Wo, Warum, Wie, Wozu
+- Die Wurzeln im Cypherpunk und Krypto-Anarchismus
+- Die (Vor-)geschichte von digitalem Bargeld
+- Welche technischen Probleme wurden konkret auf dem Weg dorthin gelöst, welche Hindernisse überwunden?
+- Wie funktioniert das genau? Verständlich und anschaulich Schritt-für-Schritt durch die Blockchain
+- Was kann die Blockchain noch? Was ist dran an dem ganzen Hype?
+- Nahe Zukunftsvisionen: Uber ohne Uber, Airbnb ohne Airbnb, Plattformen ohne Betreiber?
+- Eine Technologie ohne Zugangsbeschränkung für alle, oder am Ende doch nur interessant für Banken und Konzerne?
+</description>
+<logo>/system/events/logos/000/000/003/large/bitcoin-binary.png?1486514978</logo>
+<persons>
+<person id='15'>Michael Epner</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='5df6fd5e-d954-461d-ac53-f441f828f9ce' id='4'>
+<date>2017-04-22T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>01:00</duration>
+<room>Raum E (Workshop)</room>
+<slug>lit2017-4-bitcoin_und_die_blockchain_-_workshop_zum_vortrag</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Bitcoin und die Blockchain - Workshop zum Vortrag</title>
+<subtitle>Hand anlegen an die Blockchain</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Spielerisch und experimentierfreudig sollen die Bitcoins und die Blockchain greifbar und erfahrbar gemacht werden.</abstract>
+<description>Nach dem Bitcoin-Vortrag geht es nun darum, selbst Hand anzulegen.
+
+Bringt eure Notebooks und/oder andere Gerätschaften, und ich zeige euch die Basics, wie man ein Wallet installiert, wie man Bitcoins benutzt, und so weiter.
+
+Wir werden Bitcoins hin- und herschicken und dabei verschiedene Methoden benutzen. 
+
+Zudem zeige ich euch interessante Ressourcen im Web, wie etwa die Live-Darstellung der Blockchain, und wie man sie versteht.
+
+Auch Plattformen, die über den Anwendungfall digitale Währung hinausgehen, gibt es bereits und können ausprobiert werden.
+
+Außerdem werden Fragen beantwortet, die nach dem Vortrag garantiert alle noch nicht abgehandelt wurden.
+</description>
+<logo>/system/events/logos/000/000/004/large/blockchain-proof-of-work.png?1486515303</logo>
+<persons>
+<person id='15'>Michael Epner</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='5293709d-301d-45e9-9945-d0da74438cda' id='16'>
+<date>2017-04-22T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>02:00</duration>
+<room>Raum E (Workshop)</room>
+<slug>lit2017-16-openldap_workshop</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>OpenLDAP Workshop</title>
+<subtitle>Grundlagen der Nutzung von OpenLDAP</subtitle>
+<track>Linux Interna und DevOps</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>&lt;H1&gt;OpenLDAP im Umfeld&lt;/H1&gt;
+Zentrale Objektablage wird in unserer Zeit immer wichtiger, die Anzahl der Systeme steigt, so dass zentrale User/Gruppenverwaltung in einem Verzeichnisdienst selbst bei kleineren/mittelgroßen Umgebungen sinnvoll wird. Hier wird der Einstieg und abhängig vom Publikum auch fortgeschrittener Aufbau und  Integration des OpenLDAP gezeigt.</abstract>
+<description>Der Workshop dient als Einstieg in die Verzeichnisdienste. Es wird die Grundstruktur und Grundbefehle zum Aufbau und Nutzung gezeigt, dabei auch die moderne Online Konfiguration genutzt.&lt;br&gt; Im Anschluss wird die Anbindung von Linuxsystemen in versch. Varianten (sssd / nslcd / nss-ldap) für System User/Gruppen und versch.Applikationen gezeigt.
+&lt;br&gt; Zur Ausfallsicherheit und Skalierung wird eine Master/Slave Replikation aufgebaut, sowie zur Unterstützung und Lösung von komplexen Problemen  kommt es auch zum Einsatz von Overlays, in die ein Einstieg gezeigt wird (memberof, refint, dynlist, auditlog, accesslog, ...).&lt;br&gt; Falls noch Zeit bleibt kann noch auf offene Fragen eingegangen werden. &lt;br&gt;Notebooks mit Virtualisierung sind für die Übungen empfehlenswert. Betriebssysteme Debian und Centos werden zum Kopieren als kvm Images mitgebracht.
+</description>
+<logo></logo>
+<persons>
+<person id='26'>Michael Wandel, B1-Systems</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='d3ff7d90-9591-41c8-a793-10785996ca8b' id='43'>
+<date>2017-04-22T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>02:00</duration>
+<room>Raum E (Workshop)</room>
+<slug>lit2017-43-cryptoparty</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CryptoParty</title>
+<subtitle></subtitle>
+<track>Privatsphäre &amp; Sicherheit</track>
+<type>workshop</type>
+<language></language>
+<abstract>&lt;p&gt;
+Unsere Cryptoparty soll einen Überblick darüber geben
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;welche digitalen Spuren du hinterlässt&lt;/li&gt;
+&lt;li&gt;und wie du deinen Computer und deine digitale Identität besser absichern kannst&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;strong&gt;Eine Cryptoparty ist für Einsteiger ohne Vorwissen gedacht.&lt;/strong&gt;
+&lt;/p&gt;</abstract>
+<description>&lt;p&gt;
+Die Veranstaltung gliedert sich in
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;eine Einführung (ca. eine Stunde) in&lt;ul&gt;
+&lt;li&gt;Datenspuren beim Web-Surfen&lt;ul&gt;
+&lt;li&gt;welche Daten fallen an&lt;/li&gt;
+&lt;li&gt;wie kann man anonym&lt;em&gt;er&lt;/em&gt; surfen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sicherheit von Passwörtern&lt;/li&gt;
+&lt;li&gt;E-Mail-Verschlüsselung: was ist was (“E-Mail made in Germany”, TLS, OpenPGP, …)&lt;/li&gt;
+&lt;li&gt;und das dazu nötige Hintergrundwissen zu Kryptographie&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;einen praktischen Teil. Hier könnt ihr&lt;ul&gt;
+&lt;li&gt;einen Passwort-Manager einrichten&lt;/li&gt;
+&lt;li&gt;euren Browser konfigurieren, um weniger Spuren zu hinterlassen&lt;/li&gt;
+&lt;li&gt;das Tor Browser Bundle installieren&lt;/li&gt;
+&lt;li&gt;E-Mail-Transportverschlüsselung einrichten&lt;/li&gt;
+&lt;li&gt;einen eigenen PGP-Schlüssel erstellen und erste Ende-zu-Ende-verschlüsselte Mails verschicken&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+Die anwesenden Helfer decken ein großes Themenspektrum ab – ihr könnt uns also gerne viele Fragen stellen!
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;strong&gt;Bringt eure eigene Hardware (Notebook, Smartphone, …) mit&lt;/strong&gt;, da wir euch dann bei der Installation und Konfiguration unterstützen und ihr mit eurem Gerät üben könnt.
+&lt;/p&gt;</description>
+<logo></logo>
+<persons>
+<person id='49'>Michael Weiner, CCC München</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum F (Workshop)'>
+<event guid='4d226e57-cefa-430c-a14d-99942f19948e' id='14'>
+<date>2017-04-22T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>02:00</duration>
+<room>Raum F (Workshop)</room>
+<slug>lit2017-14-let_s_make_the_iot_great_again_-</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Let's make the IoT great again! ;-)</title>
+<subtitle>ESP8266 mit Arduino programmieren</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Einführung zur Programmierung des ESP8266.
+</abstract>
+<description>Der ESP8266 ist ein sehr günstiger WLAN Mikrocontroller.
+Seit dem er auch über die Arduino-IDE programmiert werden kann, ist er in der Maker-Szene sehr beliebt.
+Bitte eigenes Laptop (evtl. Arduino vorinstalliert) und ESP8266 falls vorhanden mitbringen.
+Dieser Workshop ist eine Einführung in die Programmierung des ESP8266 und was man damit machen kann.</description>
+<logo></logo>
+<persons>
+<person id='22'>Dieter „Sam“ Mayer (OpenLab Augsburg)</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='cb60a14c-97ba-4e27-97a0-c809a65268cb' id='41'>
+<date>2017-04-22T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>02:00</duration>
+<room>Raum F (Workshop)</room>
+<slug>lit2017-41-programmier-workshop_fur_schulerinnen</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Programmier-Workshop für SchülerInnen</title>
+<subtitle></subtitle>
+<track>Programm für Kinder und Jugendliche</track>
+<type>workshop</type>
+<language>de</language>
+<abstract></abstract>
+<description>Python ist eine moderne Programmiersprache, mit der man zum Beispiel eigene Spiele und Webseiten erstellen kann. Im Workshop unternehmen wir gemeinsam erste Schritte in dieser Sprache. Es sind keinerlei Computer- oder Programmier-Vorkenntnisse nötig.
+
+Wenn du nicht genau weißt, was dich in dem Workshop erwartet, oder wenn du sonstige Fragen oder Wünsche hast, kannst du uns jederzeit informal und unverbindlich eine Mail schreiben.
+
+Wenn du mindestens in die vierte Klasse gehst, bist du herzlich zu diesem Workshop eingeladen! Bring einen Laptop mit oder melde dich vorab per Mail an, wenn das nicht gehen sollte, dann kannst du einen Laptop von uns haben. Keine Sorge: Wir werden das vorhandene Laptopsystem nicht ändern. Wir werden den Laptop nur verwenden, um auf eine bestimmte Webseite zu gehen.</description>
+<logo></logo>
+<persons>
+<person id='46'>Matheschülerzirkel Augsburg</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='96b86696-8ebe-46bf-ba57-03bf8364461e' id='32'>
+<date>2017-04-22T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>02:00</duration>
+<room>Raum F (Workshop)</room>
+<slug>lit2017-32-datenbasierte_entscheidungsfindung_mit_python</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Datenbasierte Entscheidungsfindung mit Python</title>
+<subtitle></subtitle>
+<track>effizientes Arbeiten mit Linux</track>
+<type>workshop</type>
+<language></language>
+<abstract>Wer aufgrund von Daten eine Entscheidung fällen muss, greift oft zu Tabellenkalkulationsprogrammen, um vergleichende Berechnungen durchzuführen oder die Daten graphisch aufzubereiten. Das ist bequem, aber oft ist es später sowohl für andere als auch sich selbst nur noch schwer nachzuvollziehen, welche Kriterien in die Entscheidung eingeflossen sind. Daher möchte ich eine Alternative zur Tabellenkalkulation vorstellen: Python mit Jupyter Notebook, Numpy und Matplotlib. In dieser Kombination lassen sich Dokumente schreiben, die Dokumentation zur Entscheidungsfindung, Skripte zur Datenanalyse und graphische Aufbereitung vereinen.
+
+In meinem Workshop werde ich zunächst einige Ideen zu strukturiertem Arbeiten und einige mathematische Grundlagen vorstellen. Danach gebe ich eine Einführung in Python, Jupyter, Numpy und Matplotlib. Im Anschluss können die Teilnehmer selbstständig ein Problem in Angriff nehmen, wobei ich natürlich mit helfender Hand zur Seite stehe. Dazu werde ich einige Beispielprobleme vorbereiten, wer aber selbst eine Idee hat, darf diese gerne vorbringen.
+
+Vorherige Programmierkenntnisse sind nicht notwendig, du solltest aber genug mit der Kommandozeile umgehen können, um die benötigten Python-Pakete zu installieren. Welche genau das sind und weitere Informationen findest du spätestens eine Woche im vorraus unter https://cruzr.github.io/numpy-workshop/.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='27'>Thomas Glamsch</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Pseudo-Raum G'>
+<event guid='2ac69a75-803e-4447-8a5b-7385814e1c38' id='42'>
+<date>2017-04-22T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>02:00</duration>
+<room>Pseudo-Raum G</room>
+<slug>lit2017-42-eine_botschaft_an_ausserirdische_und_beweise_ohne_worte</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Eine Botschaft an Außerirdische und Beweise ohne Worte</title>
+<subtitle></subtitle>
+<track>Programm für Kinder und Jugendliche</track>
+<type>workshop</type>
+<language>de</language>
+<abstract></abstract>
+<description>&lt;strong&gt;Botschaft an Außerirdische:&lt;/strong&gt; Vor etwa 15 Jahren schickte die Menschheit eine Radiobotschaft an ausgewählte Sterne, in der Hoffnung, dass die Nachricht Außerirdische erreicht, diese die Nachricht verstehen und uns antworten. Die Nachricht ist nicht auf Deutsch oder Englisch verfasst, sondern bedient sich einer eigens entwickelten Symbolsprache. Schaffen wenigstens wir Menschen, die Botschaft zu entziffern? Das wollen wir in dem Workshop an uns selbst testen und herausfinden!
+
+Kinder ab einschließlich der vierten Klasse, Jugendliche und Erwachsene können hier gleichermaßen versuchen, die Cosmic-Call-Botschaft zu entziffern. Kinder entdecken dabei spielerisch das Binärsystem, wenn sie es nicht schon kannten. Erwachsene können ihre Kenntnisse von Atommodellen aufpolieren. Man kann während der gesamten Workshopzeit jederzeit kommen und gehen.
+
+&lt;strong&gt;Beweise ohne Worte:&lt;/strong&gt; In der Schule besteht Mathematik zu einem großen Teil aus Rechnungen. Das ist aber nicht das, was Mathematik wirklich ausmacht! Dazu gehören nämlich ergreifende Aha-Momente beim Verstehen von Zusammenhängen. Mathematik ist die Kunst, das Verborgene auf das Offensichtliche zurückzuführen! Kinder ab einschließlich der vierten Klasse, Jugendliche und Erwachsene können hier gleichermaßen einige solcher Aha-Momente erleben. Man kann während der gesamten Workshopzeit jederzeit kommen und gehen.</description>
+<logo></logo>
+<persons>
+<person id='46'>Matheschülerzirkel Augsburg</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+</day>
+</schedule>

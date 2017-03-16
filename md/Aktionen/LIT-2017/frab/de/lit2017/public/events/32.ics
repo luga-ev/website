@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+RDATE:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T171500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T151500
+DTSTAMP;VALUE=DATE-TIME:20170306T192932Z
+UID:96b86696-8ebe-46bf-ba57-03bf8364461e@frab.nixos.community
+DESCRIPTION:Wer aufgrund von Daten eine Entscheidung fällen muss\, greift
+  oft zu Tabellenkalkulationsprogrammen\, um vergleichende Berechnungen d
+ urchzuführen oder die Daten graphisch aufzubereiten. Das ist bequem\, ab
+ er oft ist es später sowohl für andere als auch sich selbst nur noch sch
+ wer nachzuvollziehen\, welche Kriterien in die Entscheidung eingeflossen
+  sind. Daher möchte ich eine Alternative zur Tabellenkalkulation vorstel
+ len: Python mit Jupyter Notebook\, Numpy und Matplotlib. In dieser Kombi
+ nation lassen sich Dokumente schreiben\, die Dokumentation zur Entscheid
+ ungsfindung\, Skripte zur Datenanalyse und graphische Aufbereitung verei
+ nen.\n\nIn meinem Workshop werde ich zunächst einige Ideen zu strukturie
+ rtem Arbeiten und einige mathematische Grundlagen vorstellen. Danach geb
+ e ich eine Einführung in Python\, Jupyter\, Numpy und Matplotlib. Im Ans
+ chluss können die Teilnehmer selbstständig ein Problem in Angriff nehmen
+ \, wobei ich natürlich mit helfender Hand zur Seite stehe. Dazu werde ic
+ h einige Beispielprobleme vorbereiten\, wer aber selbst eine Idee hat\, 
+ darf diese gerne vorbringen.\n\nVorherige Programmierkenntnisse sind nic
+ ht notwendig\, du solltest aber genug mit der Kommandozeile umgehen könn
+ en\, um die benötigten Python-Pakete zu installieren. Welche genau das s
+ ind und weitere Informationen findest du spätestens eine Woche im vorrau
+ s unter https://cruzr.github.io/numpy-workshop/.
+URL:/schedule.html/events/32.html
+SUMMARY:Datenbasierte Entscheidungsfindung mit Python
+ORGANIZER:lit2017
+LOCATION:lit2017 - Raum F (Workshop)
+END:VEVENT
+END:VCALENDAR

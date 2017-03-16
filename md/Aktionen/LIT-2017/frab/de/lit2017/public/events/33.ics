@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+RDATE:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T114500
+DTSTAMP;VALUE=DATE-TIME:20170305T215835Z
+UID:5a6c7c8d-71ad-4bb3-a7ce-d23f05c24039@frab.nixos.community
+DESCRIPTION:Obwohl es sehr gute freie Bearbeitungssoftware für Bilder wie
+  zum Beispiel Gimp gibt\, kann es interessant sein\, digitale Bilder mit
+  einem Python-Skript zu bearbeiten. Es lassen sich dann leicht große\nBi
+ ldermengen auf die gleiche Weise bearbeiten. Zudem sind die Bearbeitungs
+ schritte durch das Python-Skript dokumentiert und damit exakt reproduzie
+ rbar\, was insbesondere in wissenschaftlichen\nAnwendungen wichtig sein 
+ kann. Andererseits erlaubt es die Verwendung von Python auch\, einen Ein
+ blick in die Techniken der Bildverarbeitung zu gewinnen und auf einfache
+  Weise mit eigenen Ideen zu experimentieren.\n\nWir werden zunächst zeig
+ en\, wie man einfache Bearbeitungsschritte mit Hilfe von NumPy\, der gru
+ ndlegenden numerischen Programmbibliothek von Python\, vornehmen kann. F
+ ür komplexere Aufgaben empfiehlt sich ein Blick in scikit-image\, eine f
+ reie Programmbibliothek\, die eine ganze\nReihe interessanter Algorithme
+ n für die Bildverarbeitung zur Verfügung stellt. An ausgewählten Beispie
+ len werden wir einen Eindruck von den Möglichkeiten geben\, die scikit-i
+ mage bietet.
+URL:/schedule.html/events/33.html
+SUMMARY:Bildverarbeitung mit Python
+ORGANIZER:lit2017
+LOCATION:lit2017 - Raum B
+END:VEVENT
+END:VCALENDAR

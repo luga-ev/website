@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+RDATE:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T171500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T151500
+DTSTAMP;VALUE=DATE-TIME:20170313T192853Z
+UID:7013ee1e-e582-4581-8ccd-e8b708756d14@frab.nixos.community
+DESCRIPTION:systemd ist ein System- und Service Management Framework für 
+ Linux\, das unter anderem von Ubuntu\, Debian\, Arch\, Fedora und Red Ha
+ t verwendet wird. Es wird beim Booten als erster Prozess gestartet und s
+ orgt dafür\, dass alle weiteren Prozesse wie Systemdienste\, Systemkompo
+ nenten und dauerhaft laufende Anwendungen automatisiert gestartet\, über
+ wacht und lauffähig gehalten werden. \nIm Rahmen des Workshops lernt wie
+  ihr eigene Startskripte\, sog. Unit-Files\, erstellen könnt und wie man
+  damit Abhängigkeiten zu anderen Diensten\, zeitgesteuerte Ausführung un
+ d Bedingungen für automatische Neustarts definieren kann. Außerdem schau
+ en wir uns an\, wie man die Logmeldungen der gestarteten Dienste mit Bor
+ dmitteln effizient auswerten kann.
+URL:/schedule.html/events/2.html
+SUMMARY:Servicemanagement mit systemd
+ORGANIZER:lit2017
+LOCATION:lit2017 - Raum D (Workshop)
+END:VEVENT
+END:VCALENDAR

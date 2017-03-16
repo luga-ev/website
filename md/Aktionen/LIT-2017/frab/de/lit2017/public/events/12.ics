@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+RDATE:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T131500
+DTSTAMP;VALUE=DATE-TIME:20170305T205408Z
+UID:6ac10b18-e8a6-4f5f-8c02-241bf2f2da5e@frab.nixos.community
+DESCRIPTION:Standortdaten auf der Basis von GPS erfassen Sie heute nebenb
+ ei mit ihrem Smartphone. Für die Auswertung und Nachbearbeitung der Trac
+ ks stehen Ihnen mehrere Werkzeuge zur Verfügung -- bspw. gpsprune\, QLan
+ dkarteGT und QMapShack. Wir stellen Ihnen anhand von Praxisbeispielen vo
+ r\, wie Sie die Tracks auf einer OpenStreetMapKarte anzeigen und nachträ
+ glich bearbeiten. Das hilft Ihnen\, ihre Route auch später noch nachvoll
+ ziehen zu können.
+URL:/schedule.html/events/12.html
+SUMMARY:GPX-Tracks anzeigen und nachbearbeiten
+ORGANIZER:lit2017
+LOCATION:lit2017 - Raum A
+END:VEVENT
+END:VCALENDAR

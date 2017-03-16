@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+RDATE:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T114500
+DTSTAMP;VALUE=DATE-TIME:20170305T212201Z
+UID:e5bec55c-63ac-432d-aaa6-2bf600c2f953@frab.nixos.community
+DESCRIPTION:In zunehmend komplex werdenden Infrastrukturen wird effektive
+ s Monitoring immer wichtiger. Aber auch für kleine Setups ist Monitoring
+  bereits essentiell. Dabei müssen Punkte wie spezifische Grenzwerte\, Pe
+ rformance sowie Benachrichtigungen beachtet werden. 
+URL:/schedule.html/events/25.html
+SUMMARY:Effektives Monitoring von Linux und Services
+ORGANIZER:lit2017
+LOCATION:lit2017 - Raum C
+END:VEVENT
+END:VCALENDAR

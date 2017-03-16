@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+RDATE:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20170422T141500
+DTSTAMP;VALUE=DATE-TIME:20170305T214824Z
+UID:a1a1e045-d715-468e-9376-c79a809c54d4@frab.nixos.community
+DESCRIPTION:Das Internet entstand als ein Netzwerk aus vielen gleichberec
+ htigten Knoten. Jeder konnte seinen eigenen Mail Server aufsetzten\, ein
+ e Webseite veröffentlichen und alle diese Dienste konnten miteinander in
+ teragieren. Seit gut 10 Jahren gibt es eine Tendenz\, bei der sich immer
+  mehr auf wenige geschlossene Dienste konzentriert. Diese Entwicklung\, 
+ weg von einem freien\, offenen und dezentralen Netzwerk hin zu einer Ans
+ ammlung von geschlossenen Diensten sollten wir entgegentreten. Nextcloud
+  arbeitet genau daran\, indem es ein dezentrales System schafft über das
+  alle Arten von Daten geteilt\, bearbeitet und synchronisiert werden kön
+ nen\, auch über die Grenzen des eigenen Servers hinaus. Wie das alles fu
+ nktioniert und warum auch du Nextcloud ausprobieren sollte erfährt man i
+ n diesem Vortrag.
+URL:/schedule.html/events/27.html
+SUMMARY:Nextcloud
+ORGANIZER:lit2017
+LOCATION:lit2017 - Raum A
+END:VEVENT
+END:VCALENDAR
