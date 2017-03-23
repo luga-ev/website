@@ -19,8 +19,8 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 ## Termine
 |||
 |-|-|
-|1. März 2017|[Märztreffen 2017](/Treffen/Termine/03_2017/)|
-|5. April 2017|[Apriltreffen 2017](/Treffen/Termine/04_2017/)|
+|5. April 2017|[Apriltreffen 2017](/Treffen/Termine/04_2017/)|Vortrag: SQL-Datenbanken und LibreOffice (Michael Roppel)|
+|3. Mai 017|[Maitreffen 2017](/Treffen/Termine/05_2017/)|
 
 ## [Linux-Infotag am 22. April](/Aktionen/LIT-2017/)
 
