@@ -558,7 +558,7 @@ digitalen Vorlagen herstellen); Schönheit und Kunst.</p></div>
 führen live einen 50 Liter Brauvorgang vor, beginnend um 10:00h. Eine
 kleine Einstimmung kommt als Lightning Talk.</p>
 
-Folgende Komponenten werden durch OS-Software gesteuert:
+<p><Folgende Komponenten werden durch OS-Software gesteuert:</p>
 
 <ul>
 <li>Rührwerk</li>
