@@ -170,22 +170,26 @@ sowie frei zugängliche Vorlagen für Objekte; digitale Fabrikation (Dinge nach
 digitalen Vorlagen herstellen); Schönheit und Kunst.</p></div>
 
 <div id="bierbrauen"><h3>OpenSource Bier Brauen u.a. mit dem Raspberry Pi</h3>
+
 <p>Freie Software hilft in vielen Bereichen, so auch beim Bierbrauen. Wir
 führen live einen 50 Liter Brauvorgang vor, beginnend um 10:00h. Eine
 kleine Einstimmung kommt als Lightning Talk.</p>
 
+<p>
 Folgende Komponenten werden durch OS-Software gesteuert:
-- Rührwerk
-- Heizplatte (Induktion)
-- Temperatursteuerung (Sensor DS18B20)
-- Messung Zucker/Alkoholkonzentration via GY-521 Gyrosensor (iSpindel,
-  Wemos D1 Mini Controller)
-- Messung der Würzetrübheit mit Trubsensor (evtl.)
-- Ansteuerung der Verzuckerungsrasten
-- Grafische Übersicht via BrewPI
-- Übertragung der Messergebnisse für die Hopfenmenge via Feinwaage
-  mit RS232-Schnittstelle
-
+</p>
+<ul>
+<li>Rührwerk</li>
+  <li>Heizplatte (Induktion)</li>
+  <li>Temperatursteuerung (Sensor DS18B20)</li>
+  <li>Messung Zucker/Alkoholkonzentration via GY-521 Gyrosensor (iSpindel,
+  <li>Wemos D1 Mini Controller)</li>
+  <li>Messung der Würzetrübheit mit Trubsensor (evtl.)</li>
+  <li>Ansteuerung der Verzuckerungsrasten</li>
+  <li>Grafische Übersicht via BrewPI</li>
+  <li>Übertragung der Messergebnisse für die Hopfenmenge via Feinwaage
+  mit RS232-Schnittstelle</li>
+  </ul>
 </div>
 
 <div id="osm"><h3><a href="https://www.openstreetmap.de/">OpenStreetMap</a></h3>
