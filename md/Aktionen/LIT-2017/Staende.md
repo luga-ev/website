@@ -169,6 +169,7 @@ reparieren oder aus defekten Geräten neue bauen); freie Software und Hardware
 sowie frei zugängliche Vorlagen für Objekte; digitale Fabrikation (Dinge nach
 digitalen Vorlagen herstellen); Schönheit und Kunst.</p></div>
 
+<div id="bierbrauen"><h3>OpenSource Bier Brauen u.a. mit dem Raspberry Pi</h3>
 
 <div id="osm"><h3><a href="https://www.openstreetmap.de/">OpenStreetMap</a></h3>
 
