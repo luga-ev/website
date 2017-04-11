@@ -134,7 +134,7 @@ einer kleinen Werkstatt. Die Mikrocontroller-Projektgruppe (mcPG) ist ein Teil
 des Augsburger Computer Forum e.V. (ACF).</p></div>
 
 
-<div id="nix"><h3><a href="https://nixs.org/">NixOS: die rein funktionale Linux-Distribution</a></h3>
+<div id="nix"><h3><a href="https://nixos.org/">NixOS: die rein funktionale Linux-Distribution</a></h3>
 
 <p>NixOS ist eine Linux-Distribution, die einen einzigartigen Ansatz zur Paket-
 und Konfigurationsverwaltung verfolgt. Aufbauend auf der Nix-Paketdatenbank
