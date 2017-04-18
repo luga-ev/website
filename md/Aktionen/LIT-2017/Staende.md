@@ -101,7 +101,7 @@ Krita, eine mächtige PIM-Suite (E-Mail, Kalender, Kontakte) und viele mehr.</p>
 Plasma-Mobile-Prototyp ausprobiert werden.</p></div>
 
 
-<div id="lugo"><h3><a href="https://lug-ottobrunn.de/wiki/Augsburger_Linux_Infotag_2016">Linux User Group Ottobrunn</a></h3>
+<div id="lugo"><h3><a href="https://lug-ottobrunn.de/wiki/Augsburger_Linux_Infotag_2017">Linux User Group Ottobrunn</a></h3>
 
 <ul>
 <li>LUKS und rsync, rsnaphot. Pollendes Backup per SSH über schlechte Leitungen.
@@ -116,12 +116,6 @@ nicht ausschliesslich</li>
 
 
 <div id="mcpg"><h3><a href="https://www.augusta.de/AG/micro/">Mikrocontroller-Projektgruppe (mcPG) des Augsburger Computer Forum e.V.</a></h3>
-
-<p>In diesem Jahr sind wir mit unserem elektronischen Schachbrett in
-Turniergröße ein großen Schritt weiter gekommen. Die ersten Platinen
-sind bestückt, sodass der Mikrocontroller per RFID-Antenne unter
-jedem Feld die darauf stehende Figur erkennen kann. Die Auswertung
-erfolgt über einen Raspberry PI oder PC.</p>
 
 <p>Unter dem Motto &bdquo;Back to the roots&ldquo; finden regelmäßige Treffen der
 Mikrocontroller-Projektgruppe (mcPG) statt. Ziel der Projektgruppe ist es,
