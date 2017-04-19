@@ -37,6 +37,30 @@ allgemeinen und speziellen Themen, das auch Nichtmitgliedern offen steht,
 runden das Angebot des Vereins ab.</p></div>
 
 
+<div id="bierbrauen"><h3>OpenSource Bier Brauen u.a. mit dem Raspberry Pi</h3>
+
+<p>Freie Software hilft in vielen Bereichen, so auch beim Bierbrauen. Wir
+führen live einen 50 Liter Brauvorgang vor, beginnend um 10:00h. Eine
+kleine Einstimmung kommt als Lightning Talk.</p>
+
+<p>
+Folgende Komponenten werden durch OS-Software gesteuert:
+</p>
+<ul>
+<li>Rührwerk</li>
+  <li>Heizplatte (Induktion)</li>
+  <li>Temperatursteuerung (Sensor DS18B20)</li>
+  <li>Messung Zucker/Alkoholkonzentration via GY-521 Gyrosensor (iSpindel,
+  <li>Wemos D1 Mini Controller)</li>
+  <li>Messung der Würzetrübheit mit Trubsensor (evtl.)</li>
+  <li>Ansteuerung der Verzuckerungsrasten</li>
+  <li>Grafische Übersicht via BrewPI</li>
+  <li>Übertragung der Messergebnisse für die Hopfenmenge via Feinwaage
+  mit RS232-Schnittstelle</li>
+  </ul>
+</div>
+
+
 <div id="buch7"><h3><a href="https://www.buch7.de/">Büchertisch von buch7.de, dem Buchhandel mit der sozialen Seite</a></h3>
 
 <p>buch7.de ist <em>der Buchhandel mit der sozialen Seite</em> 75&nbsp;% des Gewinns
@@ -101,6 +125,16 @@ Krita, eine mächtige PIM-Suite (E-Mail, Kalender, Kontakte) und viele mehr.</p>
 Plasma-Mobile-Prototyp ausprobiert werden.</p></div>
 
 
+<div id="linogate"><h3><a href="https://www.linogate.de">Linogate Internet Technologies</a></h3>
+
+<p>Linogate ist Hersteller eines redhat-basierten Internet-Security-Gateways
+namens "DEFENDO" und wurde 1998 gegründet.  DEFENDO beinhaltet alle notwendigen
+Security-Module wie Firewall, Proxies, Virenscan, Anti-Spam, VPN usw. um kleine
+bis mittelgroße Unternehmen und Organisationen gesichert mit dem Internet zu
+verbinden.  Linogate bietet derzeit einen Praktikumsplatz für Werksstudenten
+an.</p></div>
+
+
 <div id="lugo"><h3><a href="https://lug-ottobrunn.de/wiki/Augsburger_Linux_Infotag_2017">Linux User Group Ottobrunn</a></h3>
 
 <ul>
@@ -163,28 +197,6 @@ reparieren oder aus defekten Geräten neue bauen); freie Software und Hardware
 sowie frei zugängliche Vorlagen für Objekte; digitale Fabrikation (Dinge nach
 digitalen Vorlagen herstellen); Schönheit und Kunst.</p></div>
 
-<div id="bierbrauen"><h3>OpenSource Bier Brauen u.a. mit dem Raspberry Pi</h3>
-
-<p>Freie Software hilft in vielen Bereichen, so auch beim Bierbrauen. Wir
-führen live einen 50 Liter Brauvorgang vor, beginnend um 10:00h. Eine
-kleine Einstimmung kommt als Lightning Talk.</p>
-
-<p>
-Folgende Komponenten werden durch OS-Software gesteuert:
-</p>
-<ul>
-<li>Rührwerk</li>
-  <li>Heizplatte (Induktion)</li>
-  <li>Temperatursteuerung (Sensor DS18B20)</li>
-  <li>Messung Zucker/Alkoholkonzentration via GY-521 Gyrosensor (iSpindel,
-  <li>Wemos D1 Mini Controller)</li>
-  <li>Messung der Würzetrübheit mit Trubsensor (evtl.)</li>
-  <li>Ansteuerung der Verzuckerungsrasten</li>
-  <li>Grafische Übersicht via BrewPI</li>
-  <li>Übertragung der Messergebnisse für die Hopfenmenge via Feinwaage
-  mit RS232-Schnittstelle</li>
-  </ul>
-</div>
 
 <div id="osm"><h3><a href="https://www.openstreetmap.de/">OpenStreetMap</a></h3>
 
