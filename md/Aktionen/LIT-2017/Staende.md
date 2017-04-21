@@ -91,6 +91,7 @@ Freiheit in einer sich entwickelnden digitalen Gesellschaft widmet. Am Stand
 gibt es Informationen über Freie Software und zur Arbeit der FSFE.</p></div>
 
 
+<!--
 <div id="freifunk"><h3><a href="http://augsburg.freifunk.net/">Freifunk Augsburg</a></h3>
 
 <p>Freifunk ist ein sich selbst organisierendes und unkommerzielles
@@ -100,6 +101,7 @@ Funkkontakt untereinander zu einer großen Netzwerkwolke (Mesh) verbunden. Die
 FreifunkerInnen zeigen WLAN-Router und Antennen, informieren über die Ziele des
 Projekts und geben einen Überblick über das Freifunknetz in Augsburg, das
 derzeit aus etwa 25 Knoten besteht.</p></div>
+-->
 
 
 <div id="kde"><h3><a href="https://www.kde.org/">KDE</a></h3>
