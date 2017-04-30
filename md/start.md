@@ -20,15 +20,12 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 |||
 |-|-|
 |5. April 2017|[Apriltreffen 2017](/Treffen/Termine/04_2017/)|Vortrag: SQL-Datenbanken und LibreOffice (Michael Roppel)|
-|3. Mai 017|[Maitreffen 2017](/Treffen/Termine/05_2017/)|
+|3. Mai 2017|[Maitreffen 2017](/Treffen/Termine/05_2017/)|
 
-## [Linux-Infotag am 22. April](/Aktionen/LIT-2017/)
+## [Linux Presentation Day am 6. Mai](/Aktionen/LPD-2017-1/)
 
-**Am 22. April findet zum sechszehnten Mal in Folge der
-[Linux-Infotag](/Aktionen/LIT-2017/) statt.**
+**Am 6. Mai findet in Augsburg und zahlreichen weiteren Städten der [Linux Presentation Day](/Aktionen/LPD-2017-1/) statt.**
 
-Auf dem Linux-Infotag können sich Neulinge einen Überblick über die Anwendungsmöglichkeiten von Linux und Open-Source-Software verschaffen und fortgeschrittene NutzerInnen können sich durch den Einblick in neue Entwicklungen inspirieren lassen. Projektstände bieten die Möglichkeit zum direkten Kontakt zwischen EntwicklerInnen, ProtagonistInnen und AnwenderInnen. Außerdem wird der Bogen zu allgemeineren Themen wie Kunst und digitale Gesellschaft, Politik und Überwachung slowie Bildung von Kindern und Jugendlichen gespannt.
-                                                                                                      
-Organisiert wird der Linux-Infotag seit 2001 von der Linux User Group Augsburg und der Hochschule Augsburg und zählt mit regelmäßig mehr als 350 BesucherInnen zu den ältesten und größten Linux-Veranstaltungen im süddeutschen Raum.
+Beim Linux Presentation Day kann man sich über die Vorzüge von Linux informieren und an Vorführcomputern Linux in Aktion erleben. Wer einen eigenen Laptop mitbringt, kann unter Anleitung Linux installieren und es so nach Hause mitnehmen. Dabei wird das bereits vorhandene Betriebssystem natürlich nicht gelöscht.
 
-Weitere Informationen [hier](/Aktionen/LIT-2017/).
+Die Veranstaltung richtet sich an eine breite Öffentlichkeit. Zielgruppe sind nicht technisch versierte Expertinnen oder Experten, sondern Leute, die Linux bisher gar nicht oder kaum kennen. Der Linux Presentation Day wird ehrenamtlich organisiert und ist für Besucherinnen und Besucher kostenlos. Wer sich nach oder während des Besuchs des Linux Presentation Day dafür entscheidet, Linux auf dem eigenen Computer auszuprobieren, kann dafür auch bei den monatlichen Treffen der Linux User Group Augsburg kostenlos Hilfe bekommen.
