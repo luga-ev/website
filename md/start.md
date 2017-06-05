@@ -21,6 +21,7 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 |-|-|
 |5. April 2017|[Apriltreffen 2017](/Treffen/Termine/04_2017/)|Vortrag: SQL-Datenbanken und LibreOffice (Michael Roppel)|
 |3. Mai 2017|[Maitreffen 2017](/Treffen/Termine/05_2017/)|
+|7. Juni 2017|[Junitreffen 2017](/Treffen/Termine/06_2017/)|Vorträge: Lockpicking und Chaostheorie|
 
 ## [Linux Presentation Day am 6. Mai](/Aktionen/LPD-2017-1/)
 
