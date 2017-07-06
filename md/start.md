@@ -20,7 +20,6 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 ## Termine
 |||
 |-|-|
-|5. Juli 2017|[Julitreffen 2017](/Treffen/Termine/07_2017/)|Vortrag: Gimp Grundlagen|
-|2. August 2017|[Augusttreffen 2017](/Treffen/Termine/08_2017/)|Noch kein Vortrag festgelegt|
+|2. August 2017|[Augusttreffen 2017](/Treffen/Termine/08_2017/)|Vortrag: Gimp Grundlagen|
 
 
