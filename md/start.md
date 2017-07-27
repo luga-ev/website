@@ -18,11 +18,11 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen. 
 
 
-**Am 2. August 2017 findet das Treffen nicht bei den Sportschützen statt, sondern im [OpenLab Augsburg](https://openlab-augsburg.de/kontakt/).**
-
 ## Termine
+** Achtung! Geänderter Treffpunkt: Das Augusttreffen findet im [OpenLab Augsburg](https://openlab-augsburg.de/kontakt/) statt.**
+
 |||
 |-|-|
-|2. August 2017|[Augusttreffen 2017](/Treffen/Termine/08_2017/)|Vortrag: Gimp Grundlagen|
+|2. August 2017|[Augusttreffen 2017 im OpenLab Augsburg](/Treffen/Termine/08_2017/)|Vortrag: Gimp Grundlagen|
 
 
