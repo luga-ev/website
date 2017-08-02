@@ -1,0 +1,211 @@
+<!DOCTYPE html">
+<html>
+<head>
+<title>Die Ebenenmaske</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/format.css">
+<meta http-equiv="Content-Style-Type" content="text/css">
+</head>
+<body>
+	<a name="top"></a>
+	<div
+		style="margin-top: 8px; background-image: url('images/filmstreifen.png'); background-repeat: repeat-x; height: 160px;">
+		&nbsp;</div>
+	<div id="menue" style="clear: right;">
+		<h3>GIMP- GNU Image Manipulation Program</h3>
+<a href="index.html" class="menu">Vorwort</a>
+<a href="helligkeit.html" class="menu">Aufhellen</a>
+<a href="abdunkeln.html" class="menu">Abdunkeln</a>
+<a href="orton.html" class="menu">Orton-Effekt</a>
+<a href="farbmanipulation.html" class="menu">Farben manipulieren</a>
+<a href="ausblenden.html" class="menu">Kanten ausblenden</a>
+<a href="schaerfen.html" class="menu">Bildschärfe</a>
+<a href="ebenenmaske.html" class="menu" id="menu_active">Ebenenmaske</a>
+<a href="bildmanipulation.html" class="menu">Bilder manipulieren</a>
+<a href="perspektive.html" class="menu">Stürzende Linien</a>
+<a href="beschriftung.html" class="menu">Beschriftung</a>
+</div>
+	<div id="content">
+		<div class="footer">
+			<table width="100%">
+				<tr>
+					<td>
+<a href="schaerfen_manuell.html">&lt;&lt; Hintergrundwissen - Manuell schärfen</a></td>
+					<td align="right"><a href="bildmanipulation.html">Bilder manipulieren &gt;&gt;</a></td>
+				</tr>
+			</table>
+		</div>
+		<h1>Die Ebenenmaske</h1>
+Zwei Bilder sollen zu einem kombiniert und ineinander verlaufen. Ein
+Effekt, der häufiger in Prospekten und Werbebroschüren zu sehen ist.<br>
+Hier die zwei Ausgangsbilder:<br>
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Der Gaskessel in Augsburg" src="vorlagen/Gaskessel.jpg"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb. 1: Der "Gaskessel" in Augsburg<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+<br>
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Das Mühlrad" src="vorlagen/M%C3%BChle.jpg"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb. 2: Das Mühlrad in der Altstadt<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+<br>
+Das Mühlrad wird nun mit Strg + C kopiert und mit Strg +V beim
+Gasgessel eingefügt. Beim Einfügen entsteht zunächst eine schwebende
+Auswahl, die im Ebenen-Werkzeug als neue Ebene definiert werden muss.
+Dazu auf die "Neu" Schaltfläche links unten klicken:<br>
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Ebenen-Werkzeug" src="images/ueberblenden1.png"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb.
+3: Die schwebende Auswahl muss als neue Ebene definiert werden<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+Ein Bild, das aus der Zwischenablage eingefügt wurde, wird zunächst als
+"Schwebende Auswahl" eingefügt. Anschließend muss entschieden werden,
+ob die Auswahl verankert, also mit der unteren Ebene vereinigt wird,
+oder ob die "Schwebende Auswahl" eine neue Ebene wird. Hier wird eine
+neue Ebene definiert. Das Problem dabei war, dass die Bilder
+unterschiedliche Größen haben. Der karierte Bereich markiert die
+Fläche, um den das Mühlenbild größer ist, als jenes mit dem Gaskessel:
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Der Gaskessel vor dem Zuschnitt" src="images/ueberblenden3.png"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb.
+4: Das eingefügte Bild ist größer als das ursprüngliche.<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+Wir möchten nun das Bild auf die Größe des Gaskesselbildes zuschneiden.
+Dazu benötigen wir das Werkzeug <span class="mp">Bild</span> → <span
+ class="mp">Automatisch zuschneiden</span>. (ohne Abbildung)<br>
+<br>
+Um den Überblendeffekt zu realisieren, wird eine Ebenenmaske benötigt.
+Dazu müssen wir die obere Ebene aktivieren und dann mit der rechten
+Maustaste den Menüpunkt <span class="mp">Ebenenmaske hinzufügen</span> anklicken. Im
+darauffolgenden Dialog wurde "Weiß, volle Deckkraft" gewählt:<br>
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Ebenenmaske hinzufügen" src="images/ueberblenden4.png"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb.
+5: Eine Ebenenmaske hinzufügen<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+<br>
+Im Ebenen-Werkzeug erscheint eine weiße Fläche:<br>
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Ebenen-Werkzeug" src="images/ueberblenden5.png"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb.
+6: Nach dem hinzufügen der Ebenenmaske<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+<br>
+Die Ebenenmaske bewirkt, dass der Hintergrund bei allen schwarzen
+Flächen durchscheint und bei weißen Flächen die obere Ebene voll
+sichtbar ist. Grauabstufungen bewirken ein mehr oder weniger starkes
+Durchscheinen des Hintergrundes. Um die Ebenenmaske anzuzeigen, muss im
+Ebenen-Werkzeug mit der rechten Maustaste auf die Ebene geklickt und im
+Kontextmenü der Eintrag <span class="mp">Ebenenmaske anzeigen</span> ausgewählt werden.<br>
+Die Bildansicht zeigt daraufhin ein weißes Bild, die Ebenenmaske. Zum
+Überblenden wird nun im Werkzeugkasten der Farbverlauf angewählt und
+ein Verlauf von Schwarz nach Weiß definiert:<br>
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Ein Farbverlauf wird markiert" src="images/ueberblenden6.png"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb.
+7: Den Farbverlauf mit der Maus markieren<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+<br>
+Das Ergebnis ist hier zu sehen:<br>
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Der Farbverlauf" src="images/ueberblenden7.png"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb.
+8. Der Farbverlauf<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+Die Ebenenmaske muss über das Kontenxtmenü nun wieder ausgeblendet werden (<span class="mp">Ebenenmaske anzeigen</span>).
+Nachdem die Ebenen zusammengefügt wurden, sieht das fertige Bild so aus:<br>
+<div class="rahmen"><table>
+  <tbody>
+    <tr>
+      <td><img alt="Bildverlauf" src="images/ueberblenden8.jpg"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Abb.
+9: Zwei ineinander verlaufende Bilder<br>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+<br>
+<br>
+		<div class="footer">
+			<table width="100%">
+				<tr>
+					<td>
+<a href="schaerfen_manuell.html">&lt;&lt; Hintergrundwissen - Manuell schärfen</a></td>
+					<td><a href="#top">Nach oben</a></td>
+					<td align="right"><a href="bildmanipulation.html">Bilder manipulieren &gt;&gt;</a></td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<p style="text-align: right; font-size: small;">© 2009-2017 Michael Roppel</p>
+	</div>
+</body>
+</html>
+
