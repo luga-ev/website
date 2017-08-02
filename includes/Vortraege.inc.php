@@ -46,7 +46,7 @@ foreach ($file_list as $md_file)	{
 
 		preg_match('/###.*Datum.*\n(.*)\n/', $content, $match);
 		$date = trim($match[1]);
-		$datum = substr($date, 6, 4) . '-' . substr($date, 3, 2) . '-' . substr($date, 3, 2);
+		$datum = substr($date, 6, 4) . '-' . substr($date, 3, 2) . '-' . substr($date, 0, 2);
 
 		$link = str_replace('.md', '', $md_file);
 		$list_items[$datum][] = "$titel|$referent|$link";
