@@ -19,10 +19,11 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 
 ## Termine
-** Achtung! Geänderter Treffpunkt: Das Augusttreffen findet im [OpenLab Augsburg](https://openlab-augsburg.de/kontakt/) statt.**
+
 
 |||
 |-|-|
-|2. August 2017|[Augusttreffen 2017 im OpenLab Augsburg](/Treffen/Termine/08_2017/)|Vortrag: Gimp Grundlagen|
+|26. August 2017|Grillfeier im [Doggenclub](http://www.openstreetmap.org/node/268101338), Beginn 18:00 Uhr - alle Mitglieder sind herzlich willkommen!|
+|6. September 2017|[Septembertreffen 2017](/Treffen/Termine/09_2017/)|
 
 
