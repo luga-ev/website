@@ -17,13 +17,14 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind.
 Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen. 
 
+## Aktuell
+Die für den 26. August angesetzte Grillfeier muss leider entfallen. Es hatten sich zu wenig Personen angemeldet. 
 
 ## Termine
 
 
 |||
 |-|-|
-|26. August 2017|Grillfeier im [Doggenclub](http://www.openstreetmap.org/node/268101338), Beginn 18:00 Uhr - alle Mitglieder sind herzlich willkommen!|
 |6. September 2017|[Septembertreffen 2017](/Treffen/Termine/09_2017/)|
 
 
