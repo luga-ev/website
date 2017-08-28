@@ -17,11 +17,7 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind.
 Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen. 
 
-## Aktuell
-Die für den 26. August angesetzte Grillfeier entfällt leider. Vielleicht klappt es ja nächstes Jahr.
-
 ## Termine
-
 
 |||
 |-|-|
