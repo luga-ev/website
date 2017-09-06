@@ -77,10 +77,10 @@ if [ ! -e luga-dummy/index.html ]; then
 
     # Simple "shell" for debugging purposes
     for i in `seq -w 30`; do
-        until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh; do
-            sleep 10
+        until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh 2>/dev/null; do
+            sleep 3
         done
-        . debug.sh
+        . debug.sh || true
     done
 
     exit 1
