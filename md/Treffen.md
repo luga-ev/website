@@ -9,4 +9,7 @@ Außerdem stehen ab und zu auch Vorträge zu Themen rund um Linux auf der Agenda
 Unter [Termine](/Treffen/Termine/) kann man sich über die Termine der monatlichen Treffen informieren. Näheres zum Ort des Treffens gibt es [hier](/Treffen/Treffpunkt/). 
 
 
-**Am 2. August 2017 findet das Treffen nicht bei den Sportschützen statt, sondern im [OpenLab Augsburg](https://openlab-augsburg.de/kontakt/).**
+**Am 2. August 2017 findet das Treffen nicht bei den Sportschützen statt,
+sondern im [OpenLab Augsburg](https://openlab-augsburg.de/kontakt/). Das
+Treffen am 6. September 2017 findet wieder wie üblichen bei den Sportschützen
+statt.**
