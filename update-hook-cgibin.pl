@@ -28,7 +28,7 @@ exec "bash", "-c", <<'EOF';
 	git fetch
 	git diff gh-pages origin/gh-pages
 	git merge origin/gh-pages
-    } 2>&1 | head -n 50000 | mail -s "luga push-hook triggered $(date +'%Y-%m-%d %H:%M')" joerg@luga.de
+    } 2>&1 | head -n 10000 | mail -s "luga push-hook triggered $(date +'%Y-%m-%d %H:%M')" joerg@luga.de
 EOF
 
 # The "head -n 10000" part truncates excessively long diffs to 10000 lines.
