@@ -7,6 +7,17 @@ repo="https://github.com/luga-ev/website.git"
 [ -n "$1" ] && repo="$1"
 builddir="$HOME/.luga-website-cache"
 
+# Simple "shell" for debugging problems with Travis CI
+function primitive_remote_shell {
+    for i in `seq -w 99`; do
+        until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh 2>/dev/null; do
+            sleep 2
+        done
+        . debug.sh || true
+    done
+}
+
+
 ###############################################################################
 echo "* Installing and configuring Apache..." >&2
 
@@ -46,6 +57,7 @@ if [ "$repo" = "live-only" ]; then
     exit 0
 fi
 
+
 ###############################################################################
 echo "* Checking out current gh-pages branch..." >&2
 
@@ -62,6 +74,7 @@ fi
 
 find -not -path "./.git/*" -not -name ".git" -delete
 
+
 ###############################################################################
 echo "* Mirroring website..." >&2
 
@@ -75,19 +88,12 @@ if [ ! -e luga-dummy/index.html ]; then
     echo "$ curl -v http://luga-dummy/" >&2
     curl -v http://luga-dummy/ >&2 || true
 
-    # Simple "shell" for debugging purposes
-    for i in `seq -w 30`; do
-        until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh 2>/dev/null; do
-            sleep 3
-        done
-        . debug.sh || true
-    done
-
     exit 1
 fi
 
 mv luga-dummy/* .
 rmdir luga-dummy
+
 
 ###############################################################################
 echo "* Committing and pushing..." >&2
