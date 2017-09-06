@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>BIDI demo</title>
+		<style>
+			html { font-size:large;}
+			noscript * { background-color:red; color:white;}
+			input[type="text"]{ width:100%; cursor:pointer; font-size:larger; }
+		</style>
+		<script>
+			function prune(node){
+				while(null !=  node.firstChild){
+					node.removeChild(node.firstChild);
+				}
+			}
+			function text2list(){
+				var raw = document.getElementById('text').value;
+				var ana = document.getElementById('analyse');
+				prune(ana);
+				var len = raw.length;
+				var i;
+				for(i = 0; i < len; i++){
+					var x = document.createElement("li");
+					var info = charInfo(raw.substr(i, 1));
+					x.appendChild(info);
+					ana.appendChild(x);
+				}
+			}
+
+			
+			function charInfo(c){
+				var s = String(c);
+				var u = Number(c.charCodeAt(0));
+				var info = "";
+				switch(u){
+					case 1576: info = "[Beh]"; break;
+					case 1607: info = "[Heh]"; break;
+					case 1639: info = "[7]"; break;
+					case 1640: info = "[8]"; break;
+					case 776: info = "[Diaresis]"; break;
+				}
+				u = u.toString(16).toUpperCase();
+				while(u.length < 4){
+					u = "0" + u;
+				}
+				info = info + " " + "(U+" + u + ")";
+				var t = " " + s + " " + info;
+
+
+				return document.createTextNode(t);
+			}
+
+			function append(node){
+				document.getElementById('text').value += node.value;
+				text2list();
+			}
+		</script>
+	</head>
+	<body>
+		<noscript>
+			<p>
+				Diese Seite ben&#246;tigt JavaScript!
+			</p>
+		</noscript>
+		<fieldset>
+			<legend>Eingabe</legend>
+			<input type='button' alt='Diaresis' value='&#776;' onclick='append(this);' />
+			<input type='button' alt='Beh' value='&#1576;' onclick='append(this);' />
+			<input type='button' alt='Heh' value='&#1607;' onclick='append(this);' />
+			<input type='button' alt='7' value='&#1639;' onclick='append(this);' />
+			<input type='button' alt='8' value='&#1640;' onclick='append(this);' />
+			<input type='button' onclick='text2list();' value="Analysieren" />
+			<input type='text' id='text' onchange='text2list();'>
+		</fieldset>
+		<fieldset>
+			<legend>Analyse</legend>
+			<ol id='analyse'>
+			</ol>
+		</fieldset>
+
+	</body>
+</html>
