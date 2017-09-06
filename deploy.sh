@@ -51,6 +51,18 @@ grep luga-dummy /etc/hosts >/dev/null || \
 sudo service apache2 restart
 # "restart" statt "reload" wegen der Modulaktivierung oben
 
+# Damit Apache auf $root/html zugreifen kann
+if [ "$TRAVIS" = "true" ]; then
+    chmod o+rx $HOME
+fi
+
+curl -sLf http://luga-dummy/ >/dev/null || {
+    echo "The website is supposed to be accessible at http://luga-dummy/," >&2
+    echo "but something went wrong. Check Apache's permissions for $root/html." >&2
+    echo "Aborting." >&2
+    exit 1
+}
+
 if [ "$repo" = "live-only" ]; then
     echo "Live-only mode; not mirroring website." >&2
     echo "Check out the website at http://luga-dummy/." >&2
