@@ -21,6 +21,6 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 |||
 |-|-|
-|6. September 2017|[Septembertreffen 2017](/Treffen/Termine/09_2017/)|
-
-
+|4. Oktober 2017|[Oktobertreffen 2017](/Treffen/Termine/10_2017/)|
+|1. November 2017|[Novembertreffen 2017](/Treffen/Termine/11_2017/)|
+|6. Dezember 2017|[Dezembertreffen 2017](/Treffen/Termine/12_2017/)|Nikolausfeier|
