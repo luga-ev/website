@@ -2,27 +2,28 @@
 
 ###Adresse
 **Linux User Group Augsburg (LUGA) e.V.**  
-Arberstr. 5  
-86179 Augsburg  
-Telefon: 0821/598-5601 oder 0176/95110311    
+Martin Vill
+Zollhausstraße 14
+86405 Erlingen  
 E-Mail: info at luga.de
-**Die Treffen finden nicht in der Arberstraße, sondern <a href="/Treffen/Treffpunkt/">in Pfersee</a> statt.**
+**Die Treffen finden nicht in Erlingen statt, sondern <a href="/Treffen/Treffpunkt/">in Pfersee</a>.**
 
 Registergericht: Amtsgericht Augsburg  
-Registernummer: VR 2092  
+Registernummer: VR 2092
+  
+**Vertretungsberechtigter Vorstand**  
 
-**Vertretungsberechtigter Vorstand**
 | | |
 |-|-|
-| Ingo Blechschmidt (1. Vorstand)<br>Arberstr. 5<br>86179 Augsburg<br>E-Mail: ingo.blechschmidt at luga.de | Martin Vill (2. Vorstand)<br>Zollhausstraße 14<br>86405 Meitingen<br>E-Mail: vill at luga.de |
+| Martin Vill (1. Vorsitzender)<br>Zollhausstraße 14<br>86405 Meitingen<br>E-Mail: vill at luga.de | Karsten Nordsiek (2. Vorsitzender)<br>Immelmannstraße 5<br>86159 Augsburg<br>E-Mail: nordsiek at luga.de
   
 **Weitere Vorstandsmitglieder**  
 Michael Roppel (Kassenführer)  
-Martin Wiedemann (Schriftführer) 
+Heidi Jovanovic (Schriftführerin) 
 
 **Beisitzer**  
 Dr. Jörg Lehmann  
-Karsten Nordsiek  
+Ingo Blechschmidt  
 Thomas Vill  
 
 Inhaltlich Verantwortlicher gemäß § 6 MDStV: Dr. Jörg Lehmann
