@@ -7,7 +7,7 @@
 # Oder parallel: for i in *.txt; do ./rewrite-http-to-https.pl "$i" & sleep 0.1; done
 
 sub check_link {
-    system(qw< curl -m 30 -f -o /dev/null -s -- >, $_[0]) == 0;
+    system(qw< curl -L -m 30 -f -o /dev/null -s -- >, $_[0]) == 0;
 }
 
 sub http2https {
