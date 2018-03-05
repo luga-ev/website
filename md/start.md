@@ -19,6 +19,11 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 **[Linux-Infotag am 21. April! Vorträge, Workshops und Stände gesucht.](/Aktionen/LIT-2018/)**
 
+<span style="font-color: red">**Wir ziehen um! Das Treffen im März findet noch
+[in unseren alten Räumlichkeiten in Pferrsee](/Treffen/Treffpunkt/) statt. Ab
+einschließlich April treffen wir uns im [OpenLab
+Augsburg](https://openlab-augsburg.de/).**</span>
+
 ## Termine
 
 |||
