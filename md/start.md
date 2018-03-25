@@ -18,7 +18,7 @@ Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nic
 Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen.
 
 <a href="/Aktionen/LIT-2018/">
-<img src="https://raw.githubusercontent.com/luga-ev/luga-orga/master/lit-2018/lit-banner.png" alt="Linux Info Tag 2018" />
+<img src="https://raw.githubusercontent.com/luga-ev/luga-orga/master/lit-2018/lit-banner.png" alt="Linux Info Tag 2018" width="100%" />
 </a>
 
 <span style="color: red">**Wir sind umgezogen!
