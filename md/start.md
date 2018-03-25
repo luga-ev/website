@@ -15,9 +15,11 @@ unsere [Bibliothek](/Angebote/Bibliothek/) und [Mailinglisten](/Angebote/Mailing
 Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind.
-Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen. 
+Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen.
 
-**[Linux-Infotag am 21. April! Vorträge, Workshops und Stände gesucht.](/Aktionen/LIT-2018/)**
+<a href="/Aktionen/LIT-2018/">
+<img src="https://raw.githubusercontent.com/luga-ev/luga-orga/master/lit-2018/lit-banner.png" alt="Linux Info Tag 2018" />
+</a>
 
 <span style="color: red">**Wir sind umgezogen!
 Ab [April](/Treffen/Termine/04_2018/) finden die monatlichen Treffen im [OpenLab Augsburg](/Treffen/Treffpunkt/) statt.**</span>
