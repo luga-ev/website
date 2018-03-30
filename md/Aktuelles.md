@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/02_2018/) findet am Mittwoch 7. Februar statt.  
+Das nächste [Treffen](/Treffen/Termine/04_2018/) findet am Mittwoch 4. April statt.  
 Ein Vortrag ist noch nicht geplant. 
 
 ## Linux-Infotag 2018

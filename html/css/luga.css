@@ -5,7 +5,6 @@
 
 body	{
 	font-family: Helvetica,Arial,sans-serif;
-	text-align: center;
 	overflow-y: scroll;
 	background-color: #aeb0b9
 }
@@ -100,8 +99,8 @@ td	{
 
 #main	{
 	background-color: white;
-	display: inline-block;
 	position: relative;
+	margin: 0 auto;
 	width: 60em;
 	text-align: left;
 	padding: 0.8em;	
