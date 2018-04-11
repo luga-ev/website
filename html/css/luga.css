@@ -45,6 +45,14 @@ blockquote	{
 	margin: 0 0 0.3em 1.6em;
 }
 
+legend	{
+	font-weight: bold;
+}
+
+fieldset	{
+	padding: 1em 1em 2em 1em;
+}
+
 .nowrap	{
 	white-space: nowrap;
 	padding-right: 1.5em !important;
