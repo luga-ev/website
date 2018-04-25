@@ -28,6 +28,5 @@ Ab [April](/Treffen/Termine/04_2018/) finden die monatlichen Treffen im [OpenLab
 
 |||
 |-|-|
-|7. Februar 2018|[Februartreffen 2018](/Treffen/Termine/02_2018/)|
-|7. März 2018|[Märztreffen 2018](/Treffen/Termine/03_2018/)|
 |4. April 2018|[Apriltreffen 2018](/Treffen/Termine/04_2018/)|
+|2. Mai 2018|[Maitreffen 2018](/Treffen/Termine/05_2018/)|
