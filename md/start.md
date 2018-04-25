@@ -22,7 +22,7 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 </a>
 
 <span style="color: red">**Wir sind umgezogen!
-Ab [April](/Treffen/Termine/04_2018/) finden die monatlichen Treffen im [OpenLab Augsburg](/Treffen/Treffpunkt/) statt.**</span>
+Die monatlichen Treffen finden nun im [OpenLab Augsburg](/Treffen/Treffpunkt/) statt.**</span>
 
 ## Termine
 
