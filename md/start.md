@@ -28,5 +28,6 @@ Die monatlichen Treffen finden nun im [OpenLab Augsburg](/Treffen/Treffpunkt/) s
 
 |||
 |-|-|
-|4. April 2018|[Apriltreffen 2018](/Treffen/Termine/04_2018/)|
 |2. Mai 2018|[Maitreffen 2018](/Treffen/Termine/05_2018/)|
+|5. Juni 2018|[Junitreffen 2018](/Treffen/Termine/06_2018/)|
+|4. Juli 2018|[Julitreffen 2018](/Treffen/Termine/07_2018/)|
