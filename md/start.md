@@ -17,13 +17,13 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind.
 Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen.
 
-<span style="color: red">**Wir sind umgezogen!
-Die monatlichen Treffen finden nun im [OpenLab Augsburg](/Treffen/Treffpunkt/) statt.**</span>
+**Wir sind umgezogen!
+Die monatlichen Treffen finden nun im [OpenLab Augsburg](/Treffen/Treffpunkt/) statt.**
 
 ## Termine
 
 |||
 |-|-|
-|2. Mai 2018|[Maitreffen 2018](/Treffen/Termine/05_2018/)|
-|5. Juni 2018|[Junitreffen 2018](/Treffen/Termine/06_2018/)|
+|5. Juni 2018|[Junitreffen 2018](/Treffen/Termine/06_2018/)|Vortrag: Tipps und Tricks zu Linux Mint (Michael Roppel)|
 |4. Juli 2018|[Julitreffen 2018](/Treffen/Termine/07_2018/)|
+|1. August 2018|[Augusttreffen 2018](/Treffen/Termine/08_2018/)|
