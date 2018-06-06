@@ -1,7 +1,7 @@
 <?php
 /**********************************************************
  * Suche nach Dateiinhalten über grep
- * Die Suchlogik folgt im Grober der von Google
+ * Die Suchlogik folgt im Groben der von Google
  * Mehrere Begriffe werden durch Leerzeichen
  * voneinander getrennt.
  * Durch Voransgtellen eines Minuszeichens - wird der
