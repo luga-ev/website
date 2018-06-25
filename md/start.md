@@ -24,6 +24,5 @@ Die monatlichen Treffen finden nun im [OpenLab Augsburg](/Treffen/Treffpunkt/) s
 
 |||
 |-|-|
-|6. Juni 2018|[Junitreffen 2018](/Treffen/Termine/06_2018/)|Vortrag: [Tipps und Tricks zu Linux Mint](/Angebote/Vortraege/2018-06-06-Linux_Mint/) (Michael Roppel)|
 |4. Juli 2018|[Julitreffen 2018](/Treffen/Termine/07_2018/)|
 |1. August 2018|[Augusttreffen 2018](/Treffen/Termine/08_2018/)|
