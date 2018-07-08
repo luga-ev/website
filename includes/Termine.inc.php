@@ -9,7 +9,6 @@ $pd = new Parsedown();
 $data = file_get_contents('../md/Termine.md');
 $code = $pd->text($data);
 
-
 $data = file_get_contents('../data/Termine.csv');
 $lines = explode("\n", $data);
 
@@ -31,6 +30,7 @@ foreach ($lines as $termin) {
 			if ($key < 2)	{
 				$code .= "<td class=\"nowrap\">" . $td . "</td>";
 			} else {
+				$td = $pd->text($td);
 				$code .= "<td>" . $td . "</td>";
 			}
 		}

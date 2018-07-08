@@ -34,6 +34,7 @@ require_once  '../includes/Parsedown/Parsedown.php';
 ini_set('Display-Errors', 'on');
 
 $ref = $_GET['ref'];
+
 if (empty($ref))	$ref = 'start/';
 $menu = new menu($ref);
 
@@ -51,18 +52,56 @@ if(isset($_GET['ref']))	{
 $include_file = "../includes/$ref_file.inc.php";
 if (file_exists($include_file)) {
 	include_once $include_file;
+}
+elseif (substr($ref, 0, 16) == 'Treffen/Termine/')	{
+
+	$pd = new Parsedown();
+	$pd->setMarkupEscaped(false);
+
+	if(file_exists($markdown_file))	{
+		$text = file_get_contents($markdown_file);
+	} else {
+		// Autogenerierung des MD-Textest
+		$data = file('../data/Termine.csv');
+		foreach ($data as $line)	{
+			if (strstr($line, $ref_file))	{
+				$parts = explode('|', $line);
+				if (!isset($parts[3]) or empty(trim($parts[3])))	{
+					$parts[3] = 'Noch kein Vortrag angekündigt';
+				}
+				$text = "## Termin und Ort
+$parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)
+
+## Zeitplan
+|||
+|-|-|
+|__19:00 Uhr__|Beginn|
+|__20:00 Uhr__|$parts[3]|
+|__anschließend__|Gemütliches Beisammensein und Informationsaustausch|";
+			}
+		}
+
+	}
+
+	$code = $pd->text($text);
+
+	// externe Links immer in einem separaten Fenster oder Tab öffnen
+	$code = preg_replace('/<a href="http(.+?)>/', "<a href=\"http$1 target=\"_blank\">", $code);
+
 } else {
+	$pd = new Parsedown();
+	$pd->setMarkupEscaped(false);
+
 	//$markdown_file = '../md/index.txt';
 	if(!file_exists($markdown_file))	{
 		// Fehlerseite laden
 		$markdown_file = '../md/error/error404.md';
 		// HTTP Header 404 senden
 		header("HTTP/1.0 404 Not Found");
+	} else {
+		$text = file_get_contents($markdown_file);
 	}
 
-	$pd = new Parsedown();
-	$pd->setMarkupEscaped(false);
-	$text = file_get_contents($markdown_file);
 	$code = $pd->text($text);
 
 	// externe Links immer in einem separaten Fenster oder Tab öffnen
