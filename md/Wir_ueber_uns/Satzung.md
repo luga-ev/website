@@ -17,7 +17,7 @@ Der Satzungszweck wird verwirklicht insbesondere durch Veranstaltungen, Vorträg
 Mitglied des Vereins kann jede Person werden. Für Minderjährige haben die Erziehungsberechtigten zu handeln. Über die Aufnahme entscheidet nach schriftlichem Antrag der Vorstand. Erfolgt eine Ablehnung, kann innerhalb eines Monats Berufung zur nächsten ordentlichen Mitgliederversammlung eingelegt werden. Die vom Vorstand beschlossene Aufnahme eines Mitgliedes wird erst wirksam mit der Bezahlung des ersten Jahresbeitrages. Der Jahresbeitrag wird von der Mitgliederversammlung festgelegt. Beiträge werden in Form von Geldzahlungen geleistet.
 ### §4 Ende der Mitgliedschaft
 
-1. Die Mitgliedschaft endet a) mit dem Tod eines Mitglieds, b) mit dem Austritt eines Mitglieds (vgl. Abs. 2), c) durch Streichung von der Mitgliederliste (vgl. Abs. 3), d) durch Ausschluß (vgl. § 5).
+1. Die Mitgliedschaft endet a) mit dem Tod eines Mitglieds, b) mit dem Austritt eines Mitglieds (vgl. Abs. 2), c) durch Streichung von der Mitgliederliste (vgl. Abs. 3), d) durch Ausschluss (vgl. § 5).
 
 2. Der Austritt ist nur jeweils zum Jahresende möglich und unter Einhaltung einer Frist von einem Monat schriftlich gegenüber dem Vorstand zu erklären.
 
@@ -83,6 +83,6 @@ Zur Änderung der Satzung ist eine Mehrheit von 2/3, zur Änderung des Vereinszw
 
 Bei Auflösung oder Aufhebung des Vereins oder bei Wegfall steuerbegünstigter Zwecke fällt das Vermögen des Vereins an eine juristische Person des öffentlichen Rechts oder eine andere steuerbegünstigte Körperschaft zur Verwendung für die Förderung von Wissenschaft, Forschung oder Bildung im Bereich der Datenverarbeitung.
 
-Die vorstehende Satzung wurde am 4.11.1995 errichtet und zuletzt am 6.7.2008 geändert.
+Die vorstehende Satzung wurde am 4.11.1995 errichtet und zuletzt am 29.03.2014 geändert.
 
 
