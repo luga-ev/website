@@ -1,3 +1,3 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/08_2018/) findet am Mittwoch, 1. August statt.  
+Das nächste [Treffen](/Treffen/Termine/09_2018/) findet am Mittwoch, 5. September statt.  
 
