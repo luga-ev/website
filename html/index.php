@@ -70,7 +70,7 @@ elseif (substr($ref, 0, 16) == 'Treffen/Termine/')	{
 					$parts[3] = 'Noch kein Vortrag angekündigt';
 				}
 				$text = "## Termin und Ort
-$parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)
+Mittwoch, $parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)
 
 ## Zeitplan
 |||
@@ -80,7 +80,6 @@ $parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)
 |__anschließend__|Gemütliches Beisammensein und Informationsaustausch|";
 			}
 		}
-
 	}
 
 	$code = $pd->text($text);
