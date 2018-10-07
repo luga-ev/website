@@ -24,6 +24,6 @@ Die monatlichen Treffen finden nun im [OpenLab Augsburg](/Treffen/Treffpunkt/) s
 
 |||
 |-|-|
-|3. Oktober 2018|[Oktobertreffen 2018](/Treffen/Termine/10_2018/)|Vortrag über den Raspberry Pi (Michael Roppel)|
 |7. November 2018|[Novembertreffen 2018](/Treffen/Termine/11_2018/)|
 |5. Dezember 2018|[Dezembertreffen 2018](/Treffen/Termine/12_2018/)|
+|2. Januar 2019|[Januartreffen 2019](/Treffen/Termine/01_2019/)|
