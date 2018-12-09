@@ -14,16 +14,19 @@ unsere [Bibliothek](/Angebote/Bibliothek/) und [Mailinglisten](/Angebote/Mailing
 
 Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
-Sie sind bei unseren monatlichen Treffen auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind.
+Sie sind bei unseren monatlichen [Treffen](/Treffen/) im [OpenLab Augsburg](https://openlab-augsburg.de) auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind.
 Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen.
 
-**Wir sind umgezogen!
-Die monatlichen Treffen finden nun im [OpenLab Augsburg](/Treffen/Treffpunkt/) statt.**
+## Vorankündigung
+Der Linux-Infotag 2019 wird am 6. April stattfinden; wie immer in der Hochschule Augsburg.
+
 
 ## Termine
 
 |||
 |-|-|
-|5. Dezember 2018|[Dezembertreffen 2018](/Treffen/Termine/12_2018/)|
 |2. Januar 2019|[Januartreffen 2019](/Treffen/Termine/01_2019/)|
 |6. Februar 2019|[Februartreffen 2019](/Treffen/Termine/02_2019/)|
+|6. März 2019|[Märztreffen 2019](/Treffen/Termine/03_2019/)|
+|3. April 2019|[Apriltreffen 2019](/Treffen/Termine/04_2019/)|
+|6. April 2019|Linux-Infotag 2019|

@@ -2,7 +2,7 @@
 ## Treffen der Linux User Group Augsburg
 
 Die monatlichen Treffen sind ein Hauptbestandteil des Vereinslebens. 
-Sie finden immer am ersten Mittwoch im Monat ab 19:00 Uhr statt. 
+Sie finden immer am ersten Mittwoch im Monat ab 19:00 Uhr im OpenLab Augsburg statt. 
 Hier treffen sich Neulinge und Einsteiger ebenso wie erfahrene Linux-Nutzer. 
 Daher sind sie die ideale Gelegenheit, alle Fragen rund um Linux zu klären. 
 Und wer seinen Computer mitbringt, dem kann dort vielleicht gleich direkt vor Ort geholfen werden, 
