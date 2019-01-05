@@ -25,7 +25,6 @@ Der Linux-Infotag 2019 wird am 6. April stattfinden; wie immer in der Hochschule
 
 |||
 |-|-|
-|2. Januar 2019|[Januartreffen 2019](/Treffen/Termine/01_2019/)|
 |6. Februar 2019|[Februartreffen 2019](/Treffen/Termine/02_2019/)|
 |6. März 2019|[Märztreffen 2019](/Treffen/Termine/03_2019/)|
 |3. April 2019|[Apriltreffen 2019](/Treffen/Termine/04_2019/)|
