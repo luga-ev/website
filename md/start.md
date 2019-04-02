@@ -24,7 +24,6 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 |||
 |-|-|
-|6. März 2019|[Märztreffen 2019](/Treffen/Termine/03_2019/)|
 |3. April 2019|[Apriltreffen 2019](/Treffen/Termine/04_2019/)|
 |6. April 2019|[Linux-Infotag 2019](/Aktionen/LIT-2019/)|
 |1. Mai 2019|[Maitreffen 2019](/Treffen/Termine/05_2019/)|
