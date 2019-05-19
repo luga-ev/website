@@ -24,6 +24,6 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 |||
 |-|-|
-|1. Mai 2019|[Maitreffen 2019](/Treffen/Termine/05_2019/)|
 |5. Juni 2019|[Junitreffen 2019](/Treffen/Termine/06_2019/)|
 |3. Juli 2019|[Julitreffen 2019](/Treffen/Termine/07_2019/)|
+|7. Augsut 2019|[Augusttreffen 2019](/Treffen/Termine/08_2019/)|
