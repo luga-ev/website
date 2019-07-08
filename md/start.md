@@ -24,7 +24,6 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 |||
 |-|-|
-|3. Juli 2019|[Julitreffen 2019](/Treffen/Termine/07_2019/)|
 |7. August 2019|[Augusttreffen 2019](/Treffen/Termine/08_2019/)|
 |24. August 2019|[Grillparty im Doggenclub](/Aktuelles/) 18:00 Uhr|
 |4. September 2019|[Septembertreffen 2019](/Treffen/Termine/09_2019/)|
