@@ -21,9 +21,9 @@ function primitive_remote_shell {
 ###############################################################################
 echo "* Installing and configuring Apache..." >&2
 
-{ which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php7.load" ]; } || \
+{ which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php7.0.load" ]; } || \
     sudo apt-get install apache2 libapache2-mod-php
-[ -e "/etc/apache2/mods-enabled/php7.load"    ] || sudo a2enmod php7
+[ -e "/etc/apache2/mods-enabled/php7.0.load"  ] || sudo a2enmod php7.0
 [ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
 sudo tee /etc/apache2/sites-enabled/luga-dummy.conf >/dev/null <<EOF
