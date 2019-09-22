@@ -95,10 +95,11 @@ cp -a "$root/html/galleries" luga-dummy/
 # wget holt natürlich nicht Ressourcen, die nur von JavaScript aus referenziert
 # werden. Daher ist eine manuelle Kopie der JavaScript-Gallerien nötig.
 
-if [ ! -e luga-dummy/index.html ]; then
-    echo "Didn't manage to mirror 'index.html'; something went wrong. Aborting." >&2
+if [ ! -e luga-dummy/index.html -o ! -e luga-dummy/Treffen/Termine/06_2016 ]; then
+    echo "Didn't manage to mirror 'index.html' or 'Treffen/Termine/06_2016'; something went wrong. Aborting." >&2
     echo "$ curl -v http://luga-dummy/" >&2
     curl -v http://luga-dummy/ >&2 || true
+    curl -v http://luga-dummy/Treffen/Termine/06_2016 >&2 || true
     exit 1
 fi
 
