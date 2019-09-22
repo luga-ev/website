@@ -100,6 +100,7 @@ if [ ! -e luga-dummy/index.html -o ! -e luga-dummy/Treffen/Termine/06_2016 ]; th
     echo "$ curl -v http://luga-dummy/" >&2
     curl -v http://luga-dummy/ >&2 || true
     curl -v http://luga-dummy/Treffen/Termine/06_2016 >&2 || true
+    curl -v http://luga-dummy/Treffen/Termine/06_2016/ >&2 || true
     exit 1
 fi
 
