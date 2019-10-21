@@ -19,6 +19,8 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 **[YouTube-Playlist vom Linux Infotag 2019](https://www.youtube.com/playlist?list=PLuekU6EyjBh6sW-h2wPiKh1-alpUP5hSq)**
 
+## Linux Infotag 2020
+Der Termin für den 19. Linux Infotag steht fest! Der **25.4.2020** kann im Kaldender vorgemerkt werden. Der Call for Participation wird auch bald hier online stehen.
 
 ## Termine
 
