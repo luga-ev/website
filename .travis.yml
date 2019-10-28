@@ -12,7 +12,7 @@ before_script:
 
 before_install:
  - sudo apt-get -qq update
- - sudo apt-get install apache2 libapache2-mod-php5
+ - sudo apt-get install apache2 libapache2-mod-php
 
 script:
   - ./deploy.sh git@github.com:luga-ev/website.git
