@@ -1,3 +1,2 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/09_2019/) findet am Mittwoch, 4. September statt.
-
+Das nächste [Treffen](/Treffen/Termine/11_2019/) findet am Mittwoch, 6. November statt.
