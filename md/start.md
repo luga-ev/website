@@ -24,6 +24,6 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 |||
 |-|-|
-|2. Oktober 2019|[Oktobertreffen 2019](/Treffen/Termine/10_2019/)|
 |6. November 2019|[Novembertreffen 2019](/Treffen/Termine/11_2019/)|
-|4. Dezember 2ß19|[Dezembertreffen 2019](/Treffen/Termine/12_2019/)|
+|4. Dezember 2019|[Dezembertreffen 2019](/Treffen/Termine/12_2019/)|
+|1. Januar 2020|[Januartreffen 2020](/Treffen/Termine/01_2020/)|
