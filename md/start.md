@@ -26,6 +26,6 @@ Der Termin für den 19. Linux Infotag steht fest! Der **25.4.2020** kann im Kald
 
 |||
 |-|-|
-|6. November 2019|[Novembertreffen 2019](/Treffen/Termine/11_2019/)|
-|4. Dezember 2019|[Dezembertreffen 2019](/Treffen/Termine/12_2019/)|
 |1. Januar 2020|[Januartreffen 2020](/Treffen/Termine/01_2020/)|
+|5. Februar 2020|[Februartreffen 2020](/Treffen/Termine/02_2020/)|
+|4. März 2020|[Märztreffen 2020](/Treffen/Termine/03_2020/)|
