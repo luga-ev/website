@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180421T121924Z
+UID:b2a7bd5a-8a48-49e6-8bc2-521c0533ee43@frab.luga.de
+DESCRIPTION:CipherMail ist ein zentraler Mail Transfer Agent (MTA)\, der 
+ nach dem "store and forward" Prinzip arbeitet: Eingehende E-Mails\, glei
+ chgültig ob von intern oder extern\, werden nur so lange gespeichert\, b
+ is sie ver- oder entschlüsselt wurden und an die Bestimmungsadresse weit
+ ergeleitet werden können. Dies geschieht ohne eine Änderung am E-Mail-Cl
+ ient!
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/4.html
+SUMMARY:E-Mail Encryption Gateway CipherMail
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum A
+END:VEVENT
+END:VCALENDAR

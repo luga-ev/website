@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180422T041737Z
+UID:8614f516-35cd-41bb-b79b-00bb617a2e55@frab.luga.de
+DESCRIPTION:pfSense ist eine auf FreeSD basierende Open Source Firewall/R
+ outer Software. Dieser Vortrag beschäftigt sich mit den Möglichkeiten vo
+ n pfsense und der Frage warum man sich mit den umfangreichen Fähigkeiten
+  beschäftigen sollte. 
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/37.html
+SUMMARY:Sichere Netzwerke mit pfSense
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum D
+END:VEVENT
+END:VCALENDAR

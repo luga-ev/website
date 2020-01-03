@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T141500
+DTSTAMP;VALUE=DATE-TIME:20180405T224502Z
+UID:f5c2d84d-ca10-4ec7-8757-34ce1224494b@frab.luga.de
+DESCRIPTION:In diesem Vortrag werden die Grundprinzipien des Nightly Buil
+ d sowie dessen Sinn und Zweck erläutert. Anhand eines Beispiels wird gez
+ eigt\, wie man mit Hilfe des Jenkins Build-Servers einen Nightly Build r
+ ealisiert.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/26.html
+SUMMARY:Nightly Build: Grundlagen automatisierter Builds
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum C
+END:VEVENT
+END:VCALENDAR

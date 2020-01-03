@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180423T112829Z
+UID:2fe75070-9863-43e8-882c-3eac5769fce9@frab.luga.de
+DESCRIPTION:Spectre und Meltdown haben Seitenkanalangriffe auf recht dram
+ atische Art und Weise in der Öffentlichkeit bekannt gemacht. In diesem V
+ ortrag werden Seitenkanalangriffe allgemein verständlich und anhand von 
+ Beispielen und Demos erklärt.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/27.html
+SUMMARY:Seitenkanalangriffe verständlich erklärt
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum A
+END:VEVENT
+END:VCALENDAR

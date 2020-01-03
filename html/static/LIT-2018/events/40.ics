@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180421T160050Z
+UID:68aaf2e3-4428-4457-ab8c-197a36fe3f2b@frab.luga.de
+DESCRIPTION:Vor etwa 15 Jahren schickte die Menschheit eine Radiobotschaf
+ t an ausgewählte Sterne\, in der Hoffnung\, dass die Nachricht Außerirdi
+ sche erreicht\, diese die Nachricht verstehen und uns antworten. Die Nac
+ hricht ist nicht auf Deutsch oder Englisch verfasst\, sondern bedient si
+ ch einer eigens entwickelten Symbolsprache. Schaffen wenigstens wir Mens
+ chen\, die Botschaft zu entziffern? Das wollen wir in dem Workshop an un
+ s selbst testen und herausfinden!\n\nKinder ab einschließlich der vierte
+ n Klasse\, Jugendliche und Erwachsene können hier gleichermaßen versuche
+ n\, die Cosmic-Call-Botschaft zu entziffern. Kinder entdecken dabei spie
+ lerisch das Binärsystem\, wenn sie es nicht schon kannten. Erwachsene kö
+ nnen ihre Kenntnisse von Atommodellen aufpolieren.\n\n<strong>Man kann w
+ ährend der gesamten Workshopzeit jederzeit kommen und gehen.</strong>
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/40.html
+SUMMARY:Eine Botschaft an Außerirdische
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum G
+END:VEVENT
+END:VCALENDAR

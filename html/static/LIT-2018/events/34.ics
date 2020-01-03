@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180405T224613Z
+UID:73eca1eb-e43c-42d9-b8e5-1320be37878f@frab.luga.de
+DESCRIPTION:Die besten Geschichten schreibt das Leben wohl selber. In dem
+  Vortrag berichte ich wie wir von einem Hardware-Hersteller zu einem Sof
+ twarehersteller mit mittlerweile 15 Mitarbeitern für ein Warenwirtschaft
+ ssystem geworden sind. Begonnen hat alles mit einer Open-Source Version 
+ aus unserer Eigenentwicklung.\n\nDas Geschäftsmodelle mit Open-Source fu
+ nktionieren ist ja bekannt. Aber wenn man damit selber startet hat man n
+ atürlich viele Bedenkenträger und Skeptiker.\n\nDaher werde ich von unse
+ rem Werdegang als Erfahrungsbericht erzählen. Vom Auswahl der passenden 
+ Lizenz\,  Aufbau der Struktur  und welche Aufgaben noch gemacht werden m
+ ussten.\n\nDer Vortrag soll einmal einem die Angst nehmen ein Modell bas
+ ierend auf Open-Source aufzubauen und Anregungen geben wie man selber so
+  ein Geschäftsmodell aufbauen könnte.\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/34.html
+SUMMARY:WaWision: Vom Hardwarehersteller zur ERP Firma mit einer Open-Sou
+ rce Version
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum D
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180417T110748Z
+UID:f6ee2de7-d18e-4762-b0a2-184e75c8a687@frab.luga.de
+DESCRIPTION:Während der vergangenen 12 Monate haben wir unsere Entwicklun
+ gs- und Production-Umgebungen auf Docker umgestellt. Ziel war es\, dem g
+ esamten Team sowohl auf Mac als auch auf Windows identische Setups und S
+ oftware Versionen (Betriebssystem\, PHP\, OXID\, MySQL\, Ontraq Module e
+ tc.) zur Verfügung zu stellen. Inzwischen haben wir auch damit begonnen\
+ , die Production-Umgebungen unserer Kunden von physikalischen Servern un
+ ter Verwendung von Docker Swarms auf skalierbare Setups umzustellen. Die
+ ser Vortrag soll anhand von Beispielen darstellen\, was wir im Laufe die
+ ses Prozesses gelernt haben.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/32.html
+SUMMARY:Der Einsatz von Docker in Entwicklungs- und Production-Umgebungen
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum E
+END:VEVENT
+END:VCALENDAR

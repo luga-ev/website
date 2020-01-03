@@ -1,0 +1,588 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180405T224633Z
+UID:0aba4310-78f4-4350-a867-e02a6b82c45a@frab.luga.de
+DESCRIPTION:WLAN im 2.4 GHz-Bereich ist absolut unsicher hinsichtlich Sab
+ otage-Angriffen. Mit einfacher Hardware und der entsprechenden Software 
+ lässt sich fast jedes WLAN deaktivieren. Ich zeige\, wie man das eigene 
+ WLAN testen kann\, Angriffe erkennt und welche Schutzmöglichkeiten es gi
+ bt.\nDer IEEE 802.11 Standard für WLAN weist einen sehr kritischen Desig
+ n-Fehler auf. Über unprotected Management-Frames lassen sich AccessPoint
+ s mit einfachen Mitteln dahingehend manipulieren\, dass sie alle bestehe
+ nden Verbindungen dauerhaft trennen. Dies geschieht über Deauthenticatio
+ n-Frames\, die der AccessPoint akzeptiert und ausführt. Der verbesserte 
+ Standard IEEE 802.11w-2009\, welcher dies verhindern würde\, hat sich le
+ ider bis jetzt nicht durchgesetzt. Ein Schutz lässt sich aber auch über 
+ die Firmware realisieren\, indem entsprechende Frames nicht ausgeführt w
+ erden.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/35.html
+SUMMARY:2.4 GHz WLAN – ganz sicher unsicher! - Helmut Stult (schinfo)
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T102500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T094000
+DTSTAMP;VALUE=DATE-TIME:20180423T111102Z
+UID:4e60924b-785a-4240-be31-80c7ab326e8d@frab.luga.de
+DESCRIPTION:Euch erwarten aktuelle Beispiele aus dem Jahr 2018 von Datens
+ chutz- und IT-Sicherheitsversagen aus dem Bereich Internet der Dinge (Io
+ T)\, die ich im Zuge meiner Arbeit als Journalistin sammle. Was bedeutet
+  ein Internet der unsicheren Dinge für die Gesellschaft? Was bedeutet es
+  für unsere Privatsphäre? Und - was für Alternativen gibt es?
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/9.html
+SUMMARY:Das Internet der unsicheren Dinge - Barbara Wimmer
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180417T110748Z
+UID:f6ee2de7-d18e-4762-b0a2-184e75c8a687@frab.luga.de
+DESCRIPTION:Während der vergangenen 12 Monate haben wir unsere Entwicklun
+ gs- und Production-Umgebungen auf Docker umgestellt. Ziel war es\, dem g
+ esamten Team sowohl auf Mac als auch auf Windows identische Setups und S
+ oftware Versionen (Betriebssystem\, PHP\, OXID\, MySQL\, Ontraq Module e
+ tc.) zur Verfügung zu stellen. Inzwischen haben wir auch damit begonnen\
+ , die Production-Umgebungen unserer Kunden von physikalischen Servern un
+ ter Verwendung von Docker Swarms auf skalierbare Setups umzustellen. Die
+ ser Vortrag soll anhand von Beispielen darstellen\, was wir im Laufe die
+ ses Prozesses gelernt haben.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/32.html
+SUMMARY:Der Einsatz von Docker in Entwicklungs- und Production-Umgebungen
+  - Chris Jolly
+LOCATION:Raum E
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T141500
+DTSTAMP;VALUE=DATE-TIME:20180423T112212Z
+UID:fe629524-442c-4cfb-bbe7-65bc2a616737@frab.luga.de
+DESCRIPTION:Als Einstieg ein krasses aktuelles Reallife- Ownbody-Beispiel
+  aus dem Personaldienstleistungsbereich\, was so alles "passiert".\n\nRe
+ levante Änderungen durch die DSGVO\n\nWelche Rechte habe ich als sog. Be
+ troffene\nErweiterte Auskunfts- und Widerspruchsrechte\nRecht auf Verges
+ sen\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/36.html
+SUMMARY:Die neue europäische Datenschutzgrundverordnung DSGVO - Bernhard 
+ Rietzl
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180421T155719Z
+UID:1970f0b1-49fd-4cdd-88a5-443075c1cb87@frab.luga.de
+DESCRIPTION:<strong>Bei den vielen technischen und gesellschaftlichen Vor
+ trägen Lust auf etwas ganz anderes?</strong>\n\n    Liebe ist unendlich.
+  Gott ist unendlich. Das sind vertraute     Vorstellungen\, die in unser
+ em Denken mit Unendlichkeit verknüpft     sind. Weitere\, zunächst verbo
+ rgene Perspektiven eröffnet die     Mathematik. \n\n    Es stellt sich n
+ ämlich heraus\, dass der bekannte Zahlenstrahl nicht der Weisheit letzte
+ r Schluss ist: Nach 1\, 2 und 3\, nach der Million     und der Trilliard
+ e\, nach der Anzahl Sandkörner – nach all diesen     Zahlen folgen die u
+ nendlich großen Zahlen. Verblüffenderweise können     wir Menschen trotz
+  unseres beschränkten Verstands diese unendliche     Hierachie unendlich
+  großer Zahlen erkunden und sichere Informationen     über sie gewinnen.
+ \n\n    Der Vortrag nimmt alle Interessierten auf eine Reise durch diese
+  wundersame Welt der     unendlich großen Zahlen mit. Anstelle von Forme
+ ln oder Rechnungen     wird es Bilder und anschauliche Gedankenexperimen
+ te geben. Die alte    Frage\, ob unendlich plus eins nun mehr sei wie un
+ endlich oder doch    wieder nur unendlich\, kann anschließend ohne jegli
+ che    Restzweifel selbst verständlich beantwortet werden.\n\n    Die Be
+ schäftigung mit Unendlichkeit verknüpft Mathematik mit    philosophische
+ r Erkenntnistheorie. Eine verwandte Frage über die    Natur der Unendlic
+ hkeit ist nämlich bis heute ungeklärt und wird das    bewiesenermaßen fü
+ r immer bleiben. Wie diese Frage lautet\, was ihr    die moderne Mathema
+ tik zu entgegnen hat und wie man sich endgültiger    Unkennbarkeit mit m
+ athematischer Präzision gewiss sein kann\, wird    der Vortrag ebenfalls
+  beleuchten.\n\n<a href="https://rawgit.com/iblech/mathezirkel-kurs/mast
+ er/superturingmaschinen/koenigsbrunner-campus2017.pdf"><strong>Vortragsf
+ olien</strong></a>\n<a href="https://www.youtube.com/watch?v=wZzn4INtbwY
+ &amp\;list=PLwpepnYDFK9OxuqUvLDQPoTBEGyuj4iLU"><strong>Aufzeichnung eine
+ r früheren Instanz des Vortrags</strong></a>\n<a href="https://www.youtu
+ be.com/watch?v=sUqwFbbwHQo"><strong>Superturingmaschinen</strong></a>
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/42.html
+SUMMARY:Die wundersame Welt der unendlich großen Zahlen – Glaube in der M
+ athematik? - Ingo Blechschmidt
+LOCATION:Raum G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180421T121924Z
+UID:b2a7bd5a-8a48-49e6-8bc2-521c0533ee43@frab.luga.de
+DESCRIPTION:CipherMail ist ein zentraler Mail Transfer Agent (MTA)\, der 
+ nach dem "store and forward" Prinzip arbeitet: Eingehende E-Mails\, glei
+ chgültig ob von intern oder extern\, werden nur so lange gespeichert\, b
+ is sie ver- oder entschlüsselt wurden und an die Bestimmungsadresse weit
+ ergeleitet werden können. Dies geschieht ohne eine Änderung am E-Mail-Cl
+ ient!
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/4.html
+SUMMARY:E-Mail Encryption Gateway CipherMail - Stefan Günther
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180421T160050Z
+UID:68aaf2e3-4428-4457-ab8c-197a36fe3f2b@frab.luga.de
+DESCRIPTION:Vor etwa 15 Jahren schickte die Menschheit eine Radiobotschaf
+ t an ausgewählte Sterne\, in der Hoffnung\, dass die Nachricht Außerirdi
+ sche erreicht\, diese die Nachricht verstehen und uns antworten. Die Nac
+ hricht ist nicht auf Deutsch oder Englisch verfasst\, sondern bedient si
+ ch einer eigens entwickelten Symbolsprache. Schaffen wenigstens wir Mens
+ chen\, die Botschaft zu entziffern? Das wollen wir in dem Workshop an un
+ s selbst testen und herausfinden!\n\nKinder ab einschließlich der vierte
+ n Klasse\, Jugendliche und Erwachsene können hier gleichermaßen versuche
+ n\, die Cosmic-Call-Botschaft zu entziffern. Kinder entdecken dabei spie
+ lerisch das Binärsystem\, wenn sie es nicht schon kannten. Erwachsene kö
+ nnen ihre Kenntnisse von Atommodellen aufpolieren.\n\n<strong>Man kann w
+ ährend der gesamten Workshopzeit jederzeit kommen und gehen.</strong>
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/40.html
+SUMMARY:Eine Botschaft an Außerirdische - 
+LOCATION:Raum G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180417T110724Z
+UID:88e34a4d-6aa3-424b-8d25-9c1e9f0b317a@frab.luga.de
+DESCRIPTION:SSH\, Secure Shell\, wird oft auf die reine Funktion eines si
+ cheren Zugriffs per Terminal reduziert. SSH kann aber viel mehr. Sieht m
+ an SSH als einen sicheren Kanal an\, über den man fast beliebig Daten se
+ nden kann und der eine sichere Punkt zu Punkt Verbindung zwischen zwei R
+ echnern aufbaut\, wird man dem Umfang der Möglichkeiten eher gerecht.\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/19.html
+SUMMARY:Einsatz von SSH zum Aufbau eines sicheren Netzes - Richard Albrec
+ ht
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180405T223951Z
+UID:21c84d6c-0fce-491a-ad8f-c51b17aa7aa4@frab.luga.de
+DESCRIPTION:Freifunk ist eine Bewegung dezentrale Bürger(mesh)netz mit WL
+ AN-Routern zu schaffen\, bei der jeder mitmachen kann. Wir wollen zeigen
+  worum es geht\, wo Freifunk z.Z. steht und wo es hingehen könnte.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/13.html
+SUMMARY:Freifunk - Moritz Warning
+LOCATION:Raum E
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180419T095230Z
+UID:67e52166-a325-4616-bc60-051a96402009@frab.luga.de
+DESCRIPTION:Nahezu jeder kennt Tor\, doch kaum einer kennt die Alternativ
+ en. Ich stelle hier I2P detailliert vor
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/7.html
+SUMMARY:I2P - (k)eine Alternative zu Tor - Lars Schimmer
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180421T091625Z
+UID:37452da1-7584-4fc3-8651-b48da5e37df1@frab.luga.de
+DESCRIPTION:Die zunehmende Vernetzung von Kleinstgeräten ermöglicht die E
+ ntwicklung von in der Vergangenheit undenkbaren vernetzten Systemen. Neb
+ en den neuen Möglichkeiten birgt dies aber auch viele neue Gefahren. Vor
+  allem Bereiche\, die vorher durch fehlende Schnittstellen nach Außen al
+ s relativ sicher galten\, sehen sich nun mit Fragestellungen der IT-Sich
+ erheit konfrontiert. Der Vortrag zeigt am Beispiel einer Heimnetzwerks a
+ uf\, wie eine solche Bedrohungsanalyse durchgeführt wird und damit Gefah
+ ren sowie mögliche Schwachstellen identifiziert werden können.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/18.html
+SUMMARY:IoT SECURITY-Check - Michael Schnelle
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180410T092940Z
+UID:b48969f8-2178-4e16-904c-73f24fee3259@frab.luga.de
+DESCRIPTION:Was ist LibreOffice? Woher kommt es? Wohin geht es? Welche Er
+ folge haben wir genossen\, und welche Hindernisse stehen vor uns? Wie kö
+ nnt ihr mitmachen – und was lernt ihr dabei? Was wollt ihr sonst wissen?
+  Wir anworten alles!
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/16.html
+SUMMARY:LibreOffice: Was wir tun\, wohin wir gehen – und mitmachen! - Mik
+ e Saunders
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180322T063304Z
+UID:31fdd4a7-09ac-46fe-8ad2-5a3a0b485677@frab.luga.de
+DESCRIPTION:Bunt gemische fünfminütige Kurzvorträge zu <a href="https://e
+ therpad.wikimedia.org/p/lit2018-lightning-talks">diversen Themen</a>.\n\
+ nNoch sind Einreichungen möglich! Bitte einfach auf dem verlinkten Ether
+ pad ergänzen.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/41.html
+SUMMARY:Lightning Talks - 
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T141500
+DTSTAMP;VALUE=DATE-TIME:20180422T170739Z
+UID:473dc2e7-0a5c-4741-bdb2-5202cac65e4c@frab.luga.de
+DESCRIPTION:Dieser Vortrag gibt einen Einblick in die Welt von Docker und
+  anderen Linux Container Systemen bieten. Wir befassen uns kurz mit der 
+ Geschichte von Containerisation auf Linux und anderen Plattformen\, welc
+ hen Nutzen diese Techniken stiften und wie sie auf Linux funktionieren. 
+ Anschließend darauf ein\, welche Rolle Docker und Kubernetes heute spiel
+ en und warum sie immer beliebter werden. Das Ende ist offen für Fragen u
+ nd/oder je nach Zeit ein paar live Demos mit Docker.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/28.html
+SUMMARY:Linux Container: Ein Einstieg - Anian Ziegler
+LOCATION:Raum E
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180422T165939Z
+UID:c1f9aac2-cfe9-4a10-85e5-549c3e8d6e68@frab.luga.de
+DESCRIPTION:
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/24.html
+SUMMARY:Linux Kernel Programmierung - richard_siegfried
+LOCATION:Raum F
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180422T165818Z
+UID:3d4c6fe5-b4b1-4340-ac62-5b3ab3528ec1@frab.luga.de
+DESCRIPTION:Der Vortrag stellt die Long-Range (LoRa) Funktechnologie vor\
+ , die zur\nKategorie der Low Power Wide Area Technologien (LPWAN) gehört
+ . Ausserdem wird das "Thethingsnetwork" LoRaWAN Gateway erläutert\, das 
+ seit Februar 2018 an der Hochschule betrieben wird. Es besteht aus einem
+  Raspberry-Pi\, einem LoRa Konzentrator und freier Linux Software. 
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/33.html
+SUMMARY:Lora und The Things Network - Hubert Högl
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180420T074156Z
+UID:c87b384c-f837-452b-81c9-681dcad5eff9@frab.luga.de
+DESCRIPTION:Wir gegen einen Überblick wie wir über 200 Server vollautomat
+ isiert und umfangreicher Konfiguration mit OpenSource Tools verwalten. O
+ penSource Werkzeuge sind der Schlüssel zum Erfolg und ermöglichen umfang
+ reiche Automatisierung und Skalierung.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/17.html
+SUMMARY:Manage over 200 Linux server with open source tools - Andreas Her
+ z
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180405T224010Z
+UID:5c32edb7-867e-4e04-bf21-ca42f2de5b85@frab.luga.de
+DESCRIPTION:Ich möchte live bei einigen Open Source Projekten kleine Ände
+ rungen einreichen. Dabei werden wir nicht nur Seiten wie github.com nutz
+ en\, sondern auch schauen\, wie das bei größeren Projekten wie dem Linux
+  Kernel funktionieren würde.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/14.html
+SUMMARY:Mitmachen bei Open Source Projekten - Moritz Warning
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180420T150955Z
+UID:9e422a0c-f8f6-4fad-a0a0-d9cba11c3854@frab.luga.de
+DESCRIPTION:ls\, grep\, find\, ifconfig. Wir kennen sie alle und nutzen s
+ ie täglich. Dabei gäbe es mittlerweile\, zum Teil bessere\, Alternativen
+ . Ein Blick auf die Kommandozeilenwerkzeuge des Jahres 2018.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/12.html
+SUMMARY:Moderne Kommandozeilen Werkzeuge - leyrer
+LOCATION:Raum E
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T141500
+DTSTAMP;VALUE=DATE-TIME:20180405T224502Z
+UID:f5c2d84d-ca10-4ec7-8757-34ce1224494b@frab.luga.de
+DESCRIPTION:In diesem Vortrag werden die Grundprinzipien des Nightly Buil
+ d sowie dessen Sinn und Zweck erläutert. Anhand eines Beispiels wird gez
+ eigt\, wie man mit Hilfe des Jenkins Build-Servers einen Nightly Build r
+ ealisiert.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/26.html
+SUMMARY:Nightly Build: Grundlagen automatisierter Builds - Robert Wimmer
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180405T224440Z
+UID:494cd9b9-ef5a-4bd5-83fe-7335391a7a90@frab.luga.de
+DESCRIPTION:<p>Nix wird als der „Retter der Paketverwaltung“ gehandelt. W
+ as da dran ist\, wie es funktioniert und was man damit machen kann (z.B.
+  eine komplette Distribution!)\, darum geht es in diesem Talk.</p>\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/25.html
+SUMMARY:Nix(OS): Package-management done right - Profpatsch
+LOCATION:Raum E
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180405T223825Z
+UID:e501483e-70e7-4250-9e58-eab7538280c8@frab.luga.de
+DESCRIPTION:Im Rahmen des Linux Info Tages wollen wir eine kleine NodeSch
+ ool anbieten. Was das ist?\nDu wolltest schon immer mal programmieren? O
+ der willst endlich mal Node.js ausprobieren? Nimm teil und lerne Program
+ mieren mit Node.js ganz einfach - versprochen! Es hilft\, wenn du schon 
+ mal etwas mit JavaScript gemacht hast - wenn nicht\, komm trotzdem! Wir 
+ helfen gern.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/6.html
+SUMMARY:Nodeschool - Nodeschool Augsburg
+LOCATION:Raum F
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180405T223806Z
+UID:f7fe4f17-a340-4b0b-a9c6-6f9a2d5a6b93@frab.luga.de
+DESCRIPTION:Wie intensiv wird Open Data in Südafrika genutzt? Ein Erfahru
+ ngsbericht
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/5.html
+SUMMARY:Open Data in Südafrika - Frank Hofmann
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180423T112522Z
+UID:3aab1286-f50b-4b1f-be49-70c126c77c8d@frab.luga.de
+DESCRIPTION:Es kann nur einen Weg geben\, sich aus dem Quasi-Monopol weni
+ ger Marktteilnehmer zu lösen: Alternativen zu nutzen. Selbstverständlich
+  ist es einfacher nach dem Prinzip zu leben "Nobody get fired for buying
+  Microsoft"\, allerdings begibt man sich strategisch in eine Richtung\, 
+ in der man zum Schluss wenig Wahlmöglichkeiten und Flexibilität hat. Die
+ ser Vortrag zeigt anhand von 3 (prominten) Beispielen aus erster Hand\, 
+ wie Organisationen nicht bequem waren\, sondern sich aktiv um alternativ
+ en kümmerten. Der Lohn von geringeren Kosten\, wesentlich höhere Flexibi
+ lität und gleichzeitig einer besseren Abbildung der organisatorischen Be
+ dürfnisse lässt sich nicht nur erfühlen\, sondern aktiv belegen. Open So
+ urce Produkte die in diesem Beispielen zum Einsatz kamen sind: Univentio
+ n\, Mattermost & Kopano.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/30.html
+SUMMARY:Open-Source: der Weg aus der Abhängigkeit von Microsoft - Michael
+  Kromer
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180321T195747Z
+UID:32129314-ce2a-4a80-9c63-2cdb2f102f7b@frab.luga.de
+DESCRIPTION:Python ist eine moderne Programmiersprache\, mit der man zum 
+ Beispiel eigene Spiele und Webseiten erstellen kann. Im Workshop unterne
+ hmen wir gemeinsam erste Schritte in dieser Sprache. Es sind keinerlei C
+ omputer- oder Programmier-Vorkenntnisse nötig.\n\nWenn du nicht genau we
+ ißt\, was dich in dem Workshop erwartet\, oder wenn du sonstige Fragen o
+ der Wünsche hast\, kannst du uns jederzeit informal und unverbindlich ei
+ ne Mail schreiben.\n\nWenn du mindestens in die vierte Klasse gehst\, bi
+ st du herzlich zu diesem Workshop eingeladen! Bring einen Laptop mit ode
+ r melde dich vorab per Mail an\, wenn das nicht gehen sollte\, dann kann
+ st du einen Laptop von uns haben. Keine Sorge: Wir werden das vorhandene
+  Laptopsystem nicht ändern. Wir werden den Laptop nur verwenden\, um auf
+  eine bestimmte Webseite zu gehen.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/39.html
+SUMMARY:Programmier-Workshop für Schülerinnen und Schüler - 
+LOCATION:Raum F
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180405T224309Z
+UID:5e6cc63a-f80b-4a1f-93cb-b821a92900c4@frab.luga.de
+DESCRIPTION:<a href="https://www.python.org/">Python</a> ist nicht nur ei
+ ne zunehmend populäre Programmiersprache\, sondern auch sehr gut für den
+  computergestützten Unterricht in Schule und Universität geeignet. Hierz
+ u trägt nicht nur bei\, dass Python relativ leicht erlernbar ist und von
+  umfangreichen\, frei verfügbaren Programmbibliotheken ergänzt wird. Ein
+ en wesentlichen Beitrag zur Verwendung im Unterricht leistet auch das <a
+  href="http://jupyter.org/">Jupter Notebook</a>\, das in verschiedener W
+ eise gewinnbringend eingesetzt werden kann. Ein Beispiel ist die <a href
+ ="https://github.com/jupyter/nbgrader">nbgrader</a>-Erweiterung\, die es
+  erlaubt\, von Schülern oder Studierenden bearbeitete Übungsaufgaben aut
+ omatisiert zu korrigieren. Im Vortrag wird am Beispiel von Python und se
+ inem Ökosystem gezeigt\, wie freie Software im Unterricht genutzt werden
+  kann.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/21.html
+SUMMARY:Python im Unterricht - Gert-Ludwig Ingold
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180410T092945Z
+UID:a6f503a4-2912-4d78-b76b-b65bc90b062d@frab.luga.de
+DESCRIPTION:QGIS ist unter den OpenSource Geoinformationssystemen der abs
+ olute Vorreiter und entwickelt sich dynamisch weiter. \nDer Vortrag zeig
+ t in einer kurzen Präsentation die vielfältigen Anwendungsmöglichkeiten 
+ von Geoinformationssystemen. Danach schließt sich ein kurzes Tutorial an
+ \, wie sich Daten\, welche man selbst generiert hat (zum Beispiel Postle
+ itzahlen von Kunden) in QGIS verarbeiten und kartographisch darstellen l
+ assen.\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/15.html
+SUMMARY:QGIS - Arbeiten mit Geodaten  - Matthias Köppel
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180423T112829Z
+UID:2fe75070-9863-43e8-882c-3eac5769fce9@frab.luga.de
+DESCRIPTION:Spectre und Meltdown haben Seitenkanalangriffe auf recht dram
+ atische Art und Weise in der Öffentlichkeit bekannt gemacht. In diesem V
+ ortrag werden Seitenkanalangriffe allgemein verständlich und anhand von 
+ Beispielen und Demos erklärt.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/27.html
+SUMMARY:Seitenkanalangriffe verständlich erklärt - Hunz
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180422T041737Z
+UID:8614f516-35cd-41bb-b79b-00bb617a2e55@frab.luga.de
+DESCRIPTION:pfSense ist eine auf FreeSD basierende Open Source Firewall/R
+ outer Software. Dieser Vortrag beschäftigt sich mit den Möglichkeiten vo
+ n pfsense und der Frage warum man sich mit den umfangreichen Fähigkeiten
+  beschäftigen sollte. 
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/37.html
+SUMMARY:Sichere Netzwerke mit pfSense - Hagen Bauer
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T141500
+DTSTAMP;VALUE=DATE-TIME:20180405T224328Z
+UID:d149f475-9d0c-4b32-b0f4-5855af5d72bd@frab.luga.de
+DESCRIPTION:
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/22.html
+SUMMARY:Sieben Brücken - Frank Hofmann
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180405T224732Z
+UID:9232170c-e85d-46b8-815b-fa690f137874@frab.luga.de
+DESCRIPTION:Im Mai 2017 haben wir unseren Diesel abgegeben und sind auf d
+ en Hyundai IONIQ umgestiegen. Leider bietet Hyundai bis heute keine App 
+ in Europa an\, mit der man aus der Ferne den Ladestand checken kann. Die
+ se fehlende Funktion habe ich mir mit dem Raspberry Pi nachgebaut.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/38.html
+SUMMARY:SoChack - Wie voll ist der Akku meines Autos? - Tobias Nitschmann
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180405T224251Z
+UID:0069522b-f56d-43c1-8191-5a78dadaa292@frab.luga.de
+DESCRIPTION:Durch Test-Automatisierung lässt sich zwar viel Testaufwand s
+ paren\, aber manuelle Systemtests sind für die Erkennung unerwarteter Fe
+ hler oft besser und daher eine sinnvolle Ergänzung.\nDie von uns entwick
+ elte Webanwendung "SystemTestPortal" erlaubt es Entwicklern\, Testern\, 
+ Test-Managern und Endanwendern mühelos beim Test von Systemen zusammenar
+ beiten.\nDas System ist in Golang implementiert\, sehr leichtgewichtig u
+ nd unter der GPLv3 verfügbar.\nIm Vortrag wollen wir anhand praxisnaher 
+ Szenarien demonstrieren\, wie der Einsatz des Systems zu einer Verbesser
+ ung in der Entwicklung freier Software beitragen kann.\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/20.html
+SUMMARY:SystemTestPortal - Daniel Kulesz\, Markus Haug\, Peter Werner
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T141500
+DTSTAMP;VALUE=DATE-TIME:20180405T224348Z
+UID:069da68f-dd39-4cfc-b277-b95af38664ff@frab.luga.de
+DESCRIPTION:Tor ist nicht nur etwas für investigative Journalisten\, Whis
+ tleblower\, auf Privatsphäre achtende Webnutzer oder böse Jungs. Man kan
+ n es auch als leicht einzurichtendes\, öffentliches "VPN" nutzen um durc
+ h einen NAT-Router hindurch auf eigene Dienste zuzugreifen.\n\nDieser Vo
+ rtrag soll anhand einer Live-Demonstration auf einem Raspberry Pi zeigen
+ \, wie man einen Webserver und SSH-Zugriff per Tor konfiguriert und dara
+ uf zugreift.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/23.html
+SUMMARY:Von überall her per Tor auf seinen Rechner gelangen - Axel Becker
+ t
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180405T224613Z
+UID:73eca1eb-e43c-42d9-b8e5-1320be37878f@frab.luga.de
+DESCRIPTION:Die besten Geschichten schreibt das Leben wohl selber. In dem
+  Vortrag berichte ich wie wir von einem Hardware-Hersteller zu einem Sof
+ twarehersteller mit mittlerweile 15 Mitarbeitern für ein Warenwirtschaft
+ ssystem geworden sind. Begonnen hat alles mit einer Open-Source Version 
+ aus unserer Eigenentwicklung.\n\nDas Geschäftsmodelle mit Open-Source fu
+ nktionieren ist ja bekannt. Aber wenn man damit selber startet hat man n
+ atürlich viele Bedenkenträger und Skeptiker.\n\nDaher werde ich von unse
+ rem Werdegang als Erfahrungsbericht erzählen. Vom Auswahl der passenden 
+ Lizenz\,  Aufbau der Struktur  und welche Aufgaben noch gemacht werden m
+ ussten.\n\nDer Vortrag soll einmal einem die Angst nehmen ein Modell bas
+ ierend auf Open-Source aufzubauen und Anregungen geben wie man selber so
+  ein Geschäftsmodell aufbauen könnte.\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/34.html
+SUMMARY:WaWision: Vom Hardwarehersteller zur ERP Firma mit einer Open-Sou
+ rce Version - Benedikt Sauter
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180405T223643Z
+UID:27ec21b5-87b2-4691-9fe2-4b8ac0f6b2c7@frab.luga.de
+DESCRIPTION:Wie lerne ich eine Programmiersprache wenn ich davor noch nie
+  programmiert habe oder wie bringe ich mir eine neue Programmiersprache 
+ am besten bei.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/1.html
+SUMMARY:Wie lerne ich richtig eine Programmiersprache? - Christian Loritz
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180419T155527Z
+UID:d90fbe26-5fe1-4b34-bbbb-d9da22e1119d@frab.luga.de
+DESCRIPTION:»brig« ist ein freies und komplett dezentrales Werkzeug zum s
+ icheren und einfachen Austausch und Versionieren von Dateien. Es bietet 
+ eine Reihe von Möglichkeiten\, die bislang kein anderes Tool oder Plattf
+ orm ermöglicht. Da »brig« an der Hochschule Augsburg entstand und weiter
+ hin in Augsburg entwickelt wird\, ist es nur konsequent den aktuellen En
+ twicklungsstand hier zu zeigen. \n\nDer Vortrag ist eine Projektvorstell
+ ung und zeigt das Tool selbst (samt Demo)\, was es noch können soll und 
+ wie man die Entwicklung unterstützen könnte.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/3.html
+SUMMARY:»brig« - dezentrale und sichere Dateisynchronisation - Chris Pahl
+LOCATION:Raum E
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180405T224732Z
+UID:9232170c-e85d-46b8-815b-fa690f137874@frab.luga.de
+DESCRIPTION:Im Mai 2017 haben wir unseren Diesel abgegeben und sind auf d
+ en Hyundai IONIQ umgestiegen. Leider bietet Hyundai bis heute keine App 
+ in Europa an\, mit der man aus der Ferne den Ladestand checken kann. Die
+ se fehlende Funktion habe ich mir mit dem Raspberry Pi nachgebaut.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/38.html
+SUMMARY:SoChack - Wie voll ist der Akku meines Autos?
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum D
+END:VEVENT
+END:VCALENDAR
