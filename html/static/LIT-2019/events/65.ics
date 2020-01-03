@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T114500
+DTSTAMP;VALUE=DATE-TIME:20190409T110503Z
+UID:b73cac7d-0ca8-47a4-8f9d-0b9ac5cd4e09@frab.luga.de
+DESCRIPTION:\nEgal ob im IoT-Heimnetzwerk oder im professionellen Bereich
+  - die immer\nkomplexer werdende moderne IT-Infrastruktur macht den Eins
+ atz von\nMonitoring-Tools unerlässlich\, welche den Admin im Ernstfall b
+ ei der\nFehlersuche unterstützen.\nIcinga ist ein einfach zu erweiternde
+ s Open Source Monitoring Tool\, das\ndie vorhandenen Systeme kontinuierl
+ ich überwacht\, dabei Daten zu\nVerfügbarkeit und Performance sammelt un
+ d so dem Admin bei der Erkennung\npotentieller Probleme und Engpässe hil
+ ft.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/65.html
+SUMMARY:System- und Netzwerkmonitoring mit Icinga
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum C
+END:VEVENT
+END:VCALENDAR

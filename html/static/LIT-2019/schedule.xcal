@@ -1,0 +1,802 @@
+<iCalendar xmlns:pentabarf='http://pentabarf.org' xmlns:xCal='urn:ietf:params:xml:ns:xcal'>
+<vcalendar>
+<version>2.0</version>
+<prodid>-//Pentabarf//Schedule//EN</prodid>
+<x-wr-caldesc>LIT2019 Schedule</x-wr-caldesc>
+<x-wr-calname>LIT2019 Schedule</x-wr-calname>
+<vevent>
+<method>PUBLISH</method>
+<uid>44@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>44</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-44-schatzsuche</pentabarf:event-slug>
+<pentabarf:title>Schatzsuche</pentabarf:title>
+<pentabarf:subtitle>Entdecken unbekannterer Linux-Kommandos</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T141500</dtstart>
+<dtend>20190406T150000</dtend>
+<duration>004500</duration>
+<summary>Schatzsuche- Entdecken unbekannterer Linux-Kommandos</summary>
+<description>Linux ist eine Wundertüte voller Werkzeuge. Da sind die bekannteren wie ls, cd, mkdir, touch, cat und grep. Aber da ist noch viel mehr. Wir freuen uns darauf, mit Euch die Liste der coolen Werkzeuge zu teilen,
+die euer Leben als Linux-Benutzer, Adminstrator und Entwickler
+vereinfacht. Schatzsuche, wie sie besser nicht sein kann</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/44.html</url>
+<location>Raum A</location>
+<attendee>Frank Hofmann</attendee>
+<attendee>Axel Beckert</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>46@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>46</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-46-linux_und_windows_gleichzeitig_auf_dem_rechner</pentabarf:event-slug>
+<pentabarf:title>Linux und Windows gleichzeitig auf dem Rechner</pentabarf:title>
+<pentabarf:subtitle>Virtualisizerung mit Xen oder Totgesagte leben länger</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T114500</dtstart>
+<dtend>20190406T123000</dtend>
+<duration>004500</duration>
+<summary>Linux und Windows gleichzeitig auf dem Rechner- Virtualisizerung mit Xen oder Totgesagte leben länger</summary>
+<description>Oft benötigt man meherer Betriebssysteme auf einem Gerät. Hier wird eine sehr komfortable Variante auf Basis von Xen (4.11+) vorgestellt</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/46.html</url>
+<location>Raum B</location>
+<attendee>Oliver Rath</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>47@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>47</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-47-linux_zertifizierungen_-_ein_uberblick</pentabarf:event-slug>
+<pentabarf:title>Linux Zertifizierungen - Ein Überblick</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T151500</dtstart>
+<dtend>20190406T160000</dtend>
+<duration>004500</duration>
+<summary>Linux Zertifizierungen - Ein Überblick- </summary>
+<description>Der Vortrag gibt einen Überblick über einige Anbieter von persönlichen Zertifizierungen rund um das Thema Linux. Der Schwerpunkt des Vortrags wird auf den Zertifizierungen des Linux Professional Institute - LPI liegen. Welche Zertifikate gibt es? Wie teuer sind die Prüfungen? Wie schwer sind die Prüfungen? Wie bereitet man sich vor? In welchen Sprachen werden die Prüfungen angeboten? Welches Schulungsmaterial gibt es? Wer bietet Schulungen an? Welche Vorteile hat eine Zertifizierung?
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/47.html</url>
+<location>Raum C</location>
+<attendee>Werner Heuser</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>48@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>48</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-48-basic_latex_fur_einsteiger</pentabarf:event-slug>
+<pentabarf:title>Basic LaTeX für Einsteiger</pentabarf:title>
+<pentabarf:subtitle>Die ersten Schritte mit dem Dokumentsatzsystem</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T131500</dtstart>
+<dtend>20190406T150000</dtend>
+<duration>014500</duration>
+<summary>Basic LaTeX für Einsteiger- Die ersten Schritte mit dem Dokumentsatzsystem</summary>
+<description>Ein kleiner Einstieg in LaTeX, das mächtige Textsatzprogramm.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/48.html</url>
+<location>Raum F (Workshop)</location>
+<attendee>Philipp Kammerer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>50@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>50</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-50-nonlinearer_videoschnitt_mit_kdenlive</pentabarf:event-slug>
+<pentabarf:title>Nonlinearer Videoschnitt mit Kdenlive</pentabarf:title>
+<pentabarf:subtitle>Crashkurs wie man Videos auf Linux im nonlinearen Videoschnitt bearbeitet. Clips anordnen, Effekte/Farbkorrektur, Übergänge.</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T104500</dtstart>
+<dtend>20190406T123000</dtend>
+<duration>014500</duration>
+<summary>Nonlinearer Videoschnitt mit Kdenlive- Crashkurs wie man Videos auf Linux im nonlinearen Videoschnitt bearbeitet. Clips anordnen, Effekte/Farbkorrektur, Übergänge.</summary>
+<description>Nonlinearer Videoschnitt mit Kdenlive</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/50.html</url>
+<location>Raum F (Workshop)</location>
+<attendee>Philipp Kammerer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>51@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>51</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-51-linux_business</pentabarf:event-slug>
+<pentabarf:title>Linux &amp; Business</pentabarf:title>
+<pentabarf:subtitle>Faktura 2018: Software für Freiberufler und Kleinunternehmer</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T104500</dtstart>
+<dtend>20190406T123000</dtend>
+<duration>014500</duration>
+<summary>Linux &amp; Business- Faktura 2018: Software für Freiberufler und Kleinunternehmer</summary>
+<description>Installation und Einführung Software </description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/51.html</url>
+<location>Raum E (Workshop)</location>
+<attendee>Stefan Klemm</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>52@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>52</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-52-aur-packages_selbst_bauen_und_testen</pentabarf:event-slug>
+<pentabarf:title>AUR-Packages selbst bauen und testen</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T151500</dtstart>
+<dtend>20190406T170000</dtend>
+<duration>014500</duration>
+<summary>AUR-Packages selbst bauen und testen- </summary>
+<description>Wie baue ich AUR (ArchLinux User Repositories) Packages selbst und wie teste ich sie im Docker-Conmtainer? Was muss ich beim Erstellen vom PKGBULD beachten? Welche Pakete braucht mein Docker-Container? Gibt es bereits ein Image? 
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/52.html</url>
+<location>Raum E (Workshop)</location>
+<attendee>Anton Müller</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>53@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>53</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-53-ich_habe_doch_nichts_zu_verbergen</pentabarf:event-slug>
+<pentabarf:title>Ich habe doch nichts zu verbergen!</pentabarf:title>
+<pentabarf:subtitle>Über den Schutz deiner Privatssphäre im Web</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T161500</dtstart>
+<dtend>20190406T170000</dtend>
+<duration>004500</duration>
+<summary>Ich habe doch nichts zu verbergen!- Über den Schutz deiner Privatssphäre im Web</summary>
+<description>Einführungsvortrag in die Problematik 
+Veranschaulichung der Methoden
+Strategien zur digitalen Selbstverteidigung</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/53.html</url>
+<location>Raum A</location>
+<attendee>Uli Kleemann</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>55@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>55</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-55-tiptoi_hacken</pentabarf:event-slug>
+<pentabarf:title>Tiptoi Hacken</pentabarf:title>
+<pentabarf:subtitle>Den Stift um- und neuprogrammieren</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T104500</dtstart>
+<dtend>20190406T113000</dtend>
+<duration>004500</duration>
+<summary>Tiptoi Hacken- Den Stift um- und neuprogrammieren</summary>
+<description>Der Tiptoi-Stift von Ravensburger kommt bei Kindern in Deutschland und darüber hinaus super an. Allerdings ist ein ein geschlossenes System, und Ravensburger sieht nur vor, dass man Ravensburger-Bücher und Spiele damit benutzt. Das durfte natürlich nicht so bleiben, und es dauerte nicht lange, bis wir das Dateiformat reverse-engineert haben, so dass man jetzt seine eigenen Tiptoi-Produkte erstellen kann. Die &lt;a href=&quot;http://tttool.entropia.de/#was-kann-ich-hier-machen&quot;&gt;Galerie des Projekts&lt;/a&gt; zeigt was da inzwischen so geht.
+
+Dieser Vortrag soll allen zukünftigen Tiptoi-Bastlern Starthilfe geben: Ich werde erklären, wie der Stift überhaupt funktioniert, wie man ihn umprogrammieren kann und wie man eigene Bilder dafür produziert, und nebenher das eine oder andere über das Reverse-Engineering erzählen.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/55.html</url>
+<location>Raum A</location>
+<attendee>Joachim Breitner</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>56@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>56</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-56-openwrt</pentabarf:event-slug>
+<pentabarf:title>OpenWrt</pentabarf:title>
+<pentabarf:subtitle>Linux auf dem WLAN-Router</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T141500</dtstart>
+<dtend>20190406T150000</dtend>
+<duration>004500</duration>
+<summary>OpenWrt- Linux auf dem WLAN-Router</summary>
+<description>OpenWrt ist quasi ein Ubuntu für handelsübliche Router die oft zuhause stehen und wenig Geld kosten. Damit lassen sich z.B. Dateiserver, Emailserver oder lokale Webseite betreiben. Im Vortrag wird gezeigt wie man OpenWrt installiert, bedient und wie man Fallstricke umgeht.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/56.html</url>
+<location>Raum C</location>
+<attendee>Moritz Warning</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>57@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>57</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-57-monitoring_von_bienen_und_mehr</pentabarf:event-slug>
+<pentabarf:title>Monitoring von Bienen und mehr</pentabarf:title>
+<pentabarf:subtitle>Einführung ins IT-Monitoring</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T151500</dtstart>
+<dtend>20190406T160000</dtend>
+<duration>004500</duration>
+<summary>Monitoring von Bienen und mehr- Einführung ins IT-Monitoring</summary>
+<description>Probleme mit seiner IT oder seiner Applikation sollte man als Administrator oder Entwickler wissen, bevor es die Nutzer tun. &lt;i&gt;Eigentlich.&lt;/i&gt;
+IT-Monitoring löst dies und ist zum Glück mittlerweile weit verbreitet, doch teils noch mit Stigmata behaftet. Es gibt mittlerweile einige gute Lösungen, die frei verfügbar sind, einfach zu nutzen und installieren sind. In diesem Vortrag stellen wir Monitoring generell vor und wie man dies am Beispiel von Check_MK einsetzen kann für selbst kuriose Sachen wie Bienenmonitoring.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/57.html</url>
+<location>Raum A</location>
+<attendee>Oscar Najera</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>58@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>58</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-58-linux_auf_arm</pentabarf:event-slug>
+<pentabarf:title>Linux auf ARM</pentabarf:title>
+<pentabarf:subtitle>Bootloader, Devicetree, Kernel und Userland</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T131500</dtstart>
+<dtend>20190406T140000</dtend>
+<duration>004500</duration>
+<summary>Linux auf ARM- Bootloader, Devicetree, Kernel und Userland</summary>
+<description>Im Vortrag wird gezeigt, wie der Linux-Bootprozess auf ARM-Geräten abläuft und wie man ein eigenes System auf solchen Geräten aufsetzen kann.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/58.html</url>
+<location>Raum B</location>
+<attendee>Hunz</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>59@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>59</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-59-codemetriken</pentabarf:event-slug>
+<pentabarf:title>Codemetriken</pentabarf:title>
+<pentabarf:subtitle>Abschätzung der Codequalität</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T114500</dtstart>
+<dtend>20190406T123000</dtend>
+<duration>004500</duration>
+<summary>Codemetriken- Abschätzung der Codequalität</summary>
+<description>Wie stellt man fest, ob ein Code gut oder weniger gut ist?
+Diese Frage kann man bis zu einem gewissen Grad mittels Codemetriken beantworten. Codemetriken helfen dabei, die Komplexität des Codes zu beschreiben und Hotspots zu identifizieren.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/59.html</url>
+<location>Raum D</location>
+<attendee>Robert Wimmer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>60@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>60</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-60-nodeschool_augsburg</pentabarf:event-slug>
+<pentabarf:title>NodeSchool Augsburg</pentabarf:title>
+<pentabarf:subtitle>workshops all around JS &amp; Node</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T151500</dtstart>
+<dtend>20190406T170000</dtend>
+<duration>014500</duration>
+<summary>NodeSchool Augsburg- workshops all around JS &amp; Node</summary>
+<description>Im Rahmen des Linux Info Tages wollen wir eine kleine NodeSchool anbieten. Was das ist?
+Du wolltest schon immer mal programmieren? Oder willst endlich mal Node.js ausprobieren? Nimm teil und lerne Programmieren mit Node.js ganz einfach - versprochen! Es hilft, wenn du schon mal etwas mit JavaScript gemacht hast - wenn nicht, komm trotzdem! Die Kurse sind für jedes Skill-level geeignet &amp; wir helfen gern bei allen Schwierigkeiten aus.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/60.html</url>
+<location>Raum F (Workshop)</location>
+<attendee>Nodeschool Augsburg</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>61@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>61</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-61-streaming_analytics_in_der_praxis</pentabarf:event-slug>
+<pentabarf:title>Streaming Analytics in der Praxis</pentabarf:title>
+<pentabarf:subtitle>In Echtzeit zu Erkenntnissen aus Kundenrezensionen</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T141500</dtstart>
+<dtend>20190406T150000</dtend>
+<duration>004500</duration>
+<summary>Streaming Analytics in der Praxis- In Echtzeit zu Erkenntnissen aus Kundenrezensionen</summary>
+<description>Die Auswertung von strukturierten Datenmengen gilt im Bereich der Datenanalyse längst als gelöstes Mysterium. Neue Herausforderung rücken in den Fokus: Die Extraktion von Nutzen aus unstrukturierten Daten. Wie können aus unstrukturierten Daten, wie beispielsweise Text, nutzbare Informationen gewonnen werden? Und wie geht das in Echtzeit, zum Beispiel bei gestreamten Daten?
+Daniel Wrigley stellt in diesem Vortrag einen entsprechenden Use Case vor. Gezeigt wird eine Referenzarchitektur bestehend aus Open Source Komponenten (u.a. Apache Kafka, Apache Spark), die die Analyse von Text illustriert, um dessen Bedeutung zu erfassen. Die Ergebnisse können so visualisiert und als Entscheidungsgrundlagen für geschäftskritische Handlungen genutzt werden.
+Eine mögliche, konkrete Anwendung wird anschließend in einer Demo gezeigt:  Die Verarbeitung von textbasierten Kundenrezensionen in Echtzeit.
+
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/61.html</url>
+<location>Raum E (Workshop)</location>
+<attendee>Daniel Wrigley, SHI GmbH</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>62@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>62</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-62-crosscompiling</pentabarf:event-slug>
+<pentabarf:title>Crosscompiling</pentabarf:title>
+<pentabarf:subtitle>Entwickeln für andere Systeme</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T131500</dtstart>
+<dtend>20190406T140000</dtend>
+<duration>004500</duration>
+<summary>Crosscompiling- Entwickeln für andere Systeme</summary>
+<description>Mittels Crosscompiling können Programme für andere Plattformen erstellt werden.
+
+Im Vortrag wird das für verschiedene Programmiersprachen und Systeme anhand von kurzen Beispielen gezeigt.
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/62.html</url>
+<location>Raum E (Workshop)</location>
+<attendee>Wolfgang Dautermann</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>63@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>63</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-63-ich_packe_meinen_koffer_-_paketverwaltung_unter_linux</pentabarf:event-slug>
+<pentabarf:title>Ich packe meinen Koffer... - Paketverwaltung unter Linux</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T141500</dtstart>
+<dtend>20190406T150000</dtend>
+<duration>004500</duration>
+<summary>Ich packe meinen Koffer... - Paketverwaltung unter Linux- </summary>
+<description>Wer Software einsetzen möchte, muss die Software zuerst installieren. Eigentlich leicht gesagt, wenn es nur ein Paketmanager bzw. ein Paketformat geben würde.
+
+Dieser Vortrag soll ein Einblick geben, wie man Software richtig verteilt und installiert. Außerdem soll es einen Überblick über die verschiedenen Paketmanager und Paketformate vermitteln, die es in der Linux Welt gibt.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/63.html</url>
+<location>Raum B</location>
+<attendee>Christian Loritz</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>64@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>64</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-64-systemtestportal</pentabarf:event-slug>
+<pentabarf:title>SystemTestPortal</pentabarf:title>
+<pentabarf:subtitle>Eine Plattform für die Koordination von systematischen Tests</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T151500</dtstart>
+<dtend>20190406T160000</dtend>
+<duration>004500</duration>
+<summary>SystemTestPortal- Eine Plattform für die Koordination von systematischen Tests</summary>
+<description>Projekte, die proprietäre Firmware durch alternative, freie Firmware ersetzen haben häufig erhebliche Probleme mit dem Testen ihrer Firmware. Das manuelle Testen jedes Firmware-Images für jedes Gerät vor jedem Releasen ist praktisch nicht machbar - und wird deshalb oft vernachlässigt. Dadurch kommt es zu dem Effekt, dass Nutzer angeblich unterstützte Hardware kaufen, nur um anschließend festzustellen, dass sie von der freien Firmware nicht vollständig oder überhaupt nicht unterstützt wird.
+Wir sind der Überzeugung, dass das Testen von freier Software - und ganz speziell von freier Firmware - eine gemeinschaftliche Aktivität sein sollte. Sie sollte Entwickler, Tester und Endanwender in den jeweiligen Projekten eng miteinander verbinden. Das von uns entwickelte SystemTestPortal ist eine leichtgewichtige Webanwendung, die die Erstellung, Ausführung und Analyse systematischer manueller Tests erlaubt.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/64.html</url>
+<location>Raum D</location>
+<attendee>Daniel Kulesz</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>65@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>65</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-65-system-_und_netzwerkmonitoring_mit_icinga</pentabarf:event-slug>
+<pentabarf:title>System- und Netzwerkmonitoring mit Icinga</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T114500</dtstart>
+<dtend>20190406T123000</dtend>
+<duration>004500</duration>
+<summary>System- und Netzwerkmonitoring mit Icinga- </summary>
+<description>
+Egal ob im IoT-Heimnetzwerk oder im professionellen Bereich - die immer
+komplexer werdende moderne IT-Infrastruktur macht den Einsatz von
+Monitoring-Tools unerlässlich, welche den Admin im Ernstfall bei der
+Fehlersuche unterstützen.
+Icinga ist ein einfach zu erweiterndes Open Source Monitoring Tool, das
+die vorhandenen Systeme kontinuierlich überwacht, dabei Daten zu
+Verfügbarkeit und Performance sammelt und so dem Admin bei der Erkennung
+potentieller Probleme und Engpässe hilft.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/65.html</url>
+<location>Raum C</location>
+<attendee>Moritz Tanzer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>66@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>66</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-66-blockchain-technologie</pentabarf:event-slug>
+<pentabarf:title>Blockchain-Technologie</pentabarf:title>
+<pentabarf:subtitle>Wird Blockchain-Technologie unsere Welt verändern?</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T114500</dtstart>
+<dtend>20190406T123000</dtend>
+<duration>004500</duration>
+<summary>Blockchain-Technologie- Wird Blockchain-Technologie unsere Welt verändern?</summary>
+<description>Funktion der Blockchain und ihre Einsatzmöglichkeiten</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/66.html</url>
+<location>Raum A</location>
+<attendee>Florian Schafhauser</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>68@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>68</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-68-free_bsd_und_seine_abarten</pentabarf:event-slug>
+<pentabarf:title>(Free)BSD und seine Abarten</pentabarf:title>
+<pentabarf:subtitle>Rundflug über die Ausprägungen von *BSD, insbesondere FreeBSD</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T104500</dtstart>
+<dtend>20190406T113000</dtend>
+<duration>004500</duration>
+<summary>(Free)BSD und seine Abarten- Rundflug über die Ausprägungen von *BSD, insbesondere FreeBSD</summary>
+<description>&quot;Willkommen in der Welt von *BSD!&quot; Die Veranstaltung stellt die bestehenden Abarten und Ausprägungen von BSD (UNIX) vor.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/68.html</url>
+<location>Raum B</location>
+<attendee>vater</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>69@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>69</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-69-cmake_-_buildsystem_und_mehr</pentabarf:event-slug>
+<pentabarf:title>CMake - Buildsystem und mehr</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T104500</dtstart>
+<dtend>20190406T113000</dtend>
+<duration>004500</duration>
+<summary>CMake - Buildsystem und mehr- </summary>
+<description>Immer mehr Projekte wechseln von GNU Autoconf/Automake zu CMake.
+Warum? Wie (einfach) funktioniert das Buildsystem mit CMake?</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/69.html</url>
+<location>Raum D</location>
+<attendee>Wolfgang Dautermann</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>70@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>70</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-70-linux_container_fur_den_alltagsgebrauch</pentabarf:event-slug>
+<pentabarf:title>Linux Container für den Alltagsgebrauch</pentabarf:title>
+<pentabarf:subtitle>Docker für den Heimserver einfach nutzen</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T104500</dtstart>
+<dtend>20190406T113000</dtend>
+<duration>004500</duration>
+<summary>Linux Container für den Alltagsgebrauch- Docker für den Heimserver einfach nutzen</summary>
+<description>Linux Container und damit zusammenhängende Technologien wie Kubernetes sind vor allem im Enterprise Umfeld und in den großen Clouds sehr beliebt. Aber auch für die Arbeit am eigenen PC oder den eigenen Nextcloud Server und andere Anwendungen auf dem heimischen Server kann Docker sehr hilfreich sein. Dieser Vortrag gibt einen kurze Einführung in die Linux Container Technologie an sich und zeigt dann an einigen Beispielen, wie man Container und Docker ohne großen Aufwand privat nutzen kann.  </description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/70.html</url>
+<location>Raum C</location>
+<attendee>Anian Ziegler</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>71@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>71</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-71-programmieren_fur_kinder</pentabarf:event-slug>
+<pentabarf:title>Programmieren für Kinder</pentabarf:title>
+<pentabarf:subtitle>Scratch-Workshop (bei Bedarf auch andere Programmiersprachen)</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T131500</dtstart>
+<dtend>20190406T150000</dtend>
+<duration>014500</duration>
+<summary>Programmieren für Kinder- Scratch-Workshop (bei Bedarf auch andere Programmiersprachen)</summary>
+<description>Wie funktioniert ein Computerprogramm? Wie erstelle ich ein erstes eigenes Programm? Einsteiger-Workshop für Kinder ab 8 Jahren auf der Basis von Scratch (scratch.mit.edu)</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/71.html</url>
+<location>Raum D</location>
+<attendee>Stefan Paul</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>75@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>75</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-75-welche_daten_verschickt_eigentlich_mein_browser</pentabarf:event-slug>
+<pentabarf:title>Welche Daten verschickt eigentlich mein Browser?</pentabarf:title>
+<pentabarf:subtitle>Ein augenöffnender Vortrag über Internet(un)sicherheit</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T151500</dtstart>
+<dtend>20190406T160000</dtend>
+<duration>004500</duration>
+<summary>Welche Daten verschickt eigentlich mein Browser?- Ein augenöffnender Vortrag über Internet(un)sicherheit</summary>
+<description>Oft hört man in Medien, dass Internet und Mails so unsicher wie Postkarten seien. Aber selten hat man eine plastische Vorstellung davon, was das eigentlich bedeutet. Noch dazu sind solche Aussagen untertrieben, denn im Regelfall ist es für meine NachbarInnen nicht ganz leicht, unbemerkt meine Post einzusehen. Wer allerdings mit mir im selben öffentlichen WiFi-Netzwerk surft, kann ohne besondere Raffinesse mein Internetverhalten verfolgen.
+
+Der Vortrag stellt das Programm Wireshark vor, mit dem man den Netzverkehr, der über den eigenen Computer geht, sichtbar machen kann. So erkennt man mit eigenen Augen, welche Daten Fremde eigentlich mitlesen können, und schärft so sein Sicherheitsbewusstsein. Das werden zahlreiche Live-Vorführungen, die man auch zu Hause nachspielen kann, demonstrieren.
+
+Zum Abschluss des Vortrags inspizieren wir den Datenverkehr mutiger Freiwilliger.
+
+Wer Wireshark schon kennt, sollte einen der anderen zeitgleich stattfindenden Vorträge besuchen. Dieser Vortrag setzt keinerlei technisches Vorwissen voraus.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/75.html</url>
+<location>Pseudo-Raum G</location>
+<attendee>Ingo Blechschmidt</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>76@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>76</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-76-programm_fur_kinder_jugendliche_und_alle_sonstigen_interessierten</pentabarf:event-slug>
+<pentabarf:title>Programm für Kinder, Jugendliche und alle sonstigen Interessierten</pentabarf:title>
+<pentabarf:subtitle>Eine Botschaft an Außerirdische, Beweise ohne Worte, Herkulas Kampf gegen die Hydra, Zauberwürfel (Rubik&#39;s Cube)</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T104500</dtstart>
+<dtend>20190406T123000</dtend>
+<duration>014500</duration>
+<summary>Programm für Kinder, Jugendliche und alle sonstigen Interessierten- Eine Botschaft an Außerirdische, Beweise ohne Worte, Herkulas Kampf gegen die Hydra, Zauberwürfel (Rubik&#39;s Cube)</summary>
+<description>&lt;strong&gt;Botschaft an Außerirdische.&lt;/strong&gt;
+Vor etwa 15 Jahren schickte die Menschheit eine Radiobotschaft an ausgewählte Sterne, in der Hoffnung, dass die Nachricht Außerirdische erreicht, diese die Nachricht verstehen und uns antworten. Die Nachricht ist nicht auf Deutsch oder Englisch verfasst, sondern bedient sich einer eigens entwickelten Symbolsprache. Schaffen wenigstens wir Menschen, die Botschaft zu entziffern? Das wollen wir in dem Workshop an uns selbst testen und herausfinden!
+
+&lt;strong&gt;Beweise ohne Worte.&lt;/strong&gt;
+Mathematik ist die Kunst, das Verborgene auf das Offensichtliche zurückzuführen! Und das geht am besten nicht mit Formeln, sondern mit einsichtigen Bildern.
+
+&lt;strong&gt;Herkulas Kampf gegen die Hydra.&lt;/strong&gt;
+Liebe ist unendlich. Gott ist unendlich. Das sind vertraute Vorstellungen, die in unserem Denken mit Unendlichkeit verknüpft sind. Weitere, zunächst verborgene Perspektiven eröffnet die Mathematik. Es stellt sich nämlich heraus, dass der bekannte Zahlenstrahl nicht der Weisheit letzter Schluss ist: Nach 1, 2 und 3, nach der Million und der Trilliarde, nach der Anzahl Sandkörner – nach all diesen Zahlen folgen die unendlich großen Zahlen. In diesem Workshop lernen die Teilnehmenden spielerisch die wundersame Welt dieser Zahlen kennen, und nutzen sie, um zu verstehen, wieso Herkula gegen die unbesiegbar wirkende Hydra gewinnen kann.
+
+&lt;strong&gt;Zauberwürfel.&lt;/strong&gt;
+Wir lernen, wie man den Zauberwürfel (Rubik&#39;s Cube) löst! Wir haben Zauberwürfel für euch dabei (könnt ihr nach der Veranstaltung auch behalten).
+
+&lt;strong&gt;Jederzeit kommen und gehen.&lt;/strong&gt;
+Das Programm richtet sich an Schülerinnen und Schüler ab der dritten Klasse, sowie an alle Interessierten beliebigen Alters.
+
+Man kann während der gesamten Workshopzeit jederzeit kommen und gehen und zwischen den einzelnen Themen wechseln.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/76.html</url>
+<location>Pseudo-Raum G</location>
+<attendee>Matheschülerzirkel Augsburg</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>77@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>77</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-77-packaging_for_nixos_die_linux-distribution_mit_wenig_er_zustand</pentabarf:event-slug>
+<pentabarf:title>Packaging for NixOS: Die Linux-Distribution mit wenig(er) Zustand</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T151500</dtstart>
+<dtend>20190406T160000</dtend>
+<duration>004500</duration>
+<summary>Packaging for NixOS: Die Linux-Distribution mit wenig(er) Zustand- </summary>
+<description>Nach einer kleinen Einführung in die Welt des Nix Paketmanagers und der NixOS Linux Distribution, werden wir lernen Pakete für Nix zu schreiben und in die Welt der funktionalen, zustandslosen Paketverwaltung eintauchen.
+
+Der Vortrag schließt zwar an den Nix(OS) Vortrag vom letzen LIT (https://frab.luga.de/en/LIT2018/public/events/25) an, sollte aber auch ohne Vorkenntnisse verständlich sein.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/77.html</url>
+<location>Raum B</location>
+<attendee>Xaver Hörl</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>78@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>78</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-78-das_transfinite_und_seine_anwendungen</pentabarf:event-slug>
+<pentabarf:title>Das Transfinite und seine Anwendungen</pentabarf:title>
+<pentabarf:subtitle>Herkulas Kampf gegen die Hydra</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T161500</dtstart>
+<dtend>20190406T170000</dtend>
+<duration>004500</duration>
+<summary>Das Transfinite und seine Anwendungen- Herkulas Kampf gegen die Hydra</summary>
+<description>Dieser Vortrag richtet sich in erster Linie an Erwachsene, aber auch interessierte Schüler*innen ab der siebten Klasse werden auf ihre Kosten kommen.
+
+In der Mathematik ist nach dem bekannten Zahlenstrahl noch nicht Schluss: Nach 1, 2 und 3, nach der Million und der Trilliarde, nach der Anzahl Sandkörner – nach all diesen Zahlen folgen die unendlich großen Zahlen.
+
+Paradoxerweise benötigt man diese unendlich großen Zahlen, um manche ganz konkreten endlichen Probleme zu lösen. Manchmal kann man sogar beweisen, dass es ohne sie nicht ginge. Eines dieser Probleme &amp;ndash; wie Herkula die immer stärker werdende Hydra besiegen kann &amp;ndash; werden wir im Vortrag behandeln.
+
+Der Vortrag setzt keinerlei mathematisches Vorwissen voraus, weder Vorwissen aus Schule noch weiterführende Kenntnisse, und richtet sich an alle, die Spaß an logischen Überlegungen haben.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/78.html</url>
+<location>Raum C</location>
+<attendee>Ingo Blechschmidt</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>79@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>79</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-79-acf_fsfe_lug_ottobrunn_nextcloud_wireguard_openstreetmap_augsburg_siduction_blockchain_revolution_archivista_gmbh_b1-systems_igel_technology_gmbh_shi_gmbh_tuxedo</pentabarf:event-slug>
+<pentabarf:title>*** ACF *** FSFE *** LUG Ottobrunn (Nextcloud + Wireguard) *** OpenStreetMap Augsburg ***  siduction *** Blockchain Revolution *** Archivista GmbH *** B1-Systems *** IGEL Technology GmbH *** SHI Gmbh *** Tuxedo ***</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T093000</dtstart>
+<dtend>20190406T160000</dtend>
+<duration>063000</duration>
+<summary>*** ACF *** FSFE *** LUG Ottobrunn (Nextcloud + Wireguard) *** OpenStreetMap Augsburg ***  siduction *** Blockchain Revolution *** Archivista GmbH *** B1-Systems *** IGEL Technology GmbH *** SHI Gmbh *** Tuxedo ***- </summary>
+<description>- ACF (Augsburger Computer Forum eV)
+- FSFE (Free Software Foundation Europe)
+- LUG Ottobrunn (Nextcloud + Wireguard)
+- OpenStreetMap Augsburg
+- siduction (auf Debian unstable aufbauende Linux-Distribution) 
+- Blockchain Revolution
+
+- Archivista GmbH
+- B1-Systems
+- IGEL Technology GmbH
+- SHI Gmbh
+- Tuxedo</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/79.html</url>
+<location>Info-Stände</location>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>81@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>81</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-81-avmultimedia_linux-desktop_fur_beruf_und_freizeit</pentabarf:event-slug>
+<pentabarf:title>AVMultimedia: Linux-Desktop für Beruf und Freizeit</pentabarf:title>
+<pentabarf:subtitle>Office, Kodi, Videos und Musik bequem mit Linux managen</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T131500</dtstart>
+<dtend>20190406T140000</dtend>
+<duration>004500</duration>
+<summary>AVMultimedia: Linux-Desktop für Beruf und Freizeit- Office, Kodi, Videos und Musik bequem mit Linux managen</summary>
+<description>Das Projekt AVMultimedia bietet einen modernen Linux-Desktop an, um multimediale Inhalte (Musik, Fotos und Videos) mit Linux verwalten und bearbeiten zu können. Als Grundlage dient die ArchivistaBox.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/81.html</url>
+<location>Raum A</location>
+<attendee>upfister@archivista.ch</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>82@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>82</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-82-avmini_virtualisierung_mit_kvm</pentabarf:event-slug>
+<pentabarf:title>AVMini: Virtualisierung mit KVM</pentabarf:title>
+<pentabarf:subtitle>Server-Virtualisierung und Cluster mit einer 80-MByte-Mini-Distribution</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T161500</dtstart>
+<dtend>20190406T170000</dtend>
+<duration>004500</duration>
+<summary>AVMini: Virtualisierung mit KVM- Server-Virtualisierung und Cluster mit einer 80-MByte-Mini-Distribution</summary>
+<description>Server-Virtualsierung kann schlank und einfach sein. AVMini bietet mit 80 MByte eine komplette Linux-Distribution mit KVM an, die automatisiert bis hin zum Cluster eingerichtet und verwaltet werden kann.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/82.html</url>
+<location>Raum B</location>
+<attendee>upfister@archivista.ch</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>83@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>83</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-83-lightning_talks</pentabarf:event-slug>
+<pentabarf:title>Lightning Talks</pentabarf:title>
+<pentabarf:subtitle>Bunt gemische fünfminütige Kurzvorträge zu diversen Themen, u.a. zu Linux-Bordmitteln, Freifunk, Audio-Pong, ...</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T131500</dtstart>
+<dtend>20190406T140000</dtend>
+<duration>004500</duration>
+<summary>Lightning Talks- Bunt gemische fünfminütige Kurzvorträge zu diversen Themen, u.a. zu Linux-Bordmitteln, Freifunk, Audio-Pong, ...</summary>
+<description>Noch sind Einreichungen möglich, wir freuen uns auf deinen Beitrag. :-) Bitte einfach auf &lt;a href=&quot;https://etherpad.wikimedia.org/p/lit2019-lightning-talks&quot;&gt;auf diesem Etherpad&lt;/a&gt; ergänzen.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/83.html</url>
+<location>Raum C</location>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>84@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>84</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-84-keynote_20_jahre_als_uberzeugter_foss-entwickler</pentabarf:event-slug>
+<pentabarf:title>Keynote: 20 Jahre als überzeugter FOSS-Entwickler</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T094500</dtstart>
+<dtend>20190406T103000</dtend>
+<duration>004500</duration>
+<summary>Keynote: 20 Jahre als überzeugter FOSS-Entwickler- </summary>
+<description></description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/84.html</url>
+<location>Raum A</location>
+<attendee>Harald Welte</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>85@LIT2019@pentabarf.org</uid>
+<pentabarf:event-id>85</pentabarf:event-id>
+<pentabarf:event-slug>LIT2019-85-software_deployment_mit_freeway_in_raum_w3_18</pentabarf:event-slug>
+<pentabarf:title>Software Deployment mit Freeway  in Raum W3.18</pentabarf:title>
+<pentabarf:subtitle>Schulungsräume einfach installieren mit kostenloser Opensource Software.</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20190406T131500</dtstart>
+<dtend>20190406T150000</dtend>
+<duration>014500</duration>
+<summary>Software Deployment mit Freeway  in Raum W3.18- Schulungsräume einfach installieren mit kostenloser Opensource Software.</summary>
+<description>Freeway in Raum W3.18
+
+Mit wenigen Handgriffen einen Seminarraum oder ein Schullabor neu installieren?
+Freeway ist eine kleine Sammlung von Shellskripten und einem Webserver, die darauf ausgerichtet sind, einfach und verlässlich einen Rechner oder auch einen ganzen Schulungsraum auf einmal zu installieren.
+
+Dabei wird nicht nur ein Basissystem installiert, sondern ausserdem auch eine oder mehrere virtuelle Maschinen, die buchstäblich jedes Schulungsszenario möglich machen.
+
+Die Schulungsmaschinen auf einen sauberen Zustand zurücksetzen?
+Eine Sache von Sekunden.
+
+Neue Virtuelle Maschinen erzeugen?
+Dauert nur einen Augenblick.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/85.html</url>
+<location>Pseudo-Raum G</location>
+<attendee>Dieter_Thalmayr</attendee>
+</vevent>
+</vcalendar>
+</iCalendar>

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190328T093418Z
+UID:de3685bd-da2a-48b1-9bfc-908e6ca52237@frab.luga.de
+DESCRIPTION:Das Projekt AVMultimedia bietet einen modernen Linux-Desktop 
+ an\, um multimediale Inhalte (Musik\, Fotos und Videos) mit Linux verwal
+ ten und bearbeiten zu können. Als Grundlage dient die ArchivistaBox.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/81.html
+SUMMARY:AVMultimedia: Linux-Desktop für Beruf und Freizeit
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum A
+END:VEVENT
+END:VCALENDAR

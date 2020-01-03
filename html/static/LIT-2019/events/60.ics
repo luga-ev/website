@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190405T084059Z
+UID:464e91df-aa83-4dbb-8990-d7aeb678e802@frab.luga.de
+DESCRIPTION:Im Rahmen des Linux Info Tages wollen wir eine kleine NodeSch
+ ool anbieten. Was das ist?\nDu wolltest schon immer mal programmieren? O
+ der willst endlich mal Node.js ausprobieren? Nimm teil und lerne Program
+ mieren mit Node.js ganz einfach - versprochen! Es hilft\, wenn du schon 
+ mal etwas mit JavaScript gemacht hast - wenn nicht\, komm trotzdem! Die 
+ Kurse sind für jedes Skill-level geeignet & wir helfen gern bei allen Sc
+ hwierigkeiten aus.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/60.html
+SUMMARY:NodeSchool Augsburg
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum F (Workshop)
+END:VEVENT
+END:VCALENDAR

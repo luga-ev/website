@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T141500
+DTSTAMP;VALUE=DATE-TIME:20190407T190954Z
+UID:d2aff713-8c89-4ecd-b371-9b887125e944@frab.luga.de
+DESCRIPTION:Linux ist eine Wundertüte voller Werkzeuge. Da sind die bekan
+ nteren wie ls\, cd\, mkdir\, touch\, cat und grep. Aber da ist noch viel
+  mehr. Wir freuen uns darauf\, mit Euch die Liste der coolen Werkzeuge z
+ u teilen\,\ndie euer Leben als Linux-Benutzer\, Adminstrator und Entwick
+ ler\nvereinfacht. Schatzsuche\, wie sie besser nicht sein kann
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/44.html
+SUMMARY:Schatzsuche
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum A
+END:VEVENT
+END:VCALENDAR

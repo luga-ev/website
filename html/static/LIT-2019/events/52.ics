@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190429T101031Z
+UID:b0156400-443a-4240-b38f-72adc0f706f0@frab.luga.de
+DESCRIPTION:Wie baue ich AUR (ArchLinux User Repositories) Packages selbs
+ t und wie teste ich sie im Docker-Conmtainer? Was muss ich beim Erstelle
+ n vom PKGBULD beachten? Welche Pakete braucht mein Docker-Container? Gib
+ t es bereits ein Image? \n
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/52.html
+SUMMARY:AUR-Packages selbst bauen und testen
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum E (Workshop)
+END:VEVENT
+END:VCALENDAR

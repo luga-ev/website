@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190405T081926Z
+UID:45094892-2aa1-4e79-a29b-2ab46e92a175@frab.luga.de
+DESCRIPTION:Oft hört man in Medien\, dass Internet und Mails so unsicher 
+ wie Postkarten seien. Aber selten hat man eine plastische Vorstellung da
+ von\, was das eigentlich bedeutet. Noch dazu sind solche Aussagen untert
+ rieben\, denn im Regelfall ist es für meine NachbarInnen nicht ganz leic
+ ht\, unbemerkt meine Post einzusehen. Wer allerdings mit mir im selben ö
+ ffentlichen WiFi-Netzwerk surft\, kann ohne besondere Raffinesse mein In
+ ternetverhalten verfolgen.\n\nDer Vortrag stellt das Programm Wireshark 
+ vor\, mit dem man den Netzverkehr\, der über den eigenen Computer geht\,
+  sichtbar machen kann. So erkennt man mit eigenen Augen\, welche Daten F
+ remde eigentlich mitlesen können\, und schärft so sein Sicherheitsbewuss
+ tsein. Das werden zahlreiche Live-Vorführungen\, die man auch zu Hause n
+ achspielen kann\, demonstrieren.\n\nZum Abschluss des Vortrags inspizier
+ en wir den Datenverkehr mutiger Freiwilliger.\n\nWer Wireshark schon ken
+ nt\, sollte einen der anderen zeitgleich stattfindenden Vorträge besuche
+ n. Dieser Vortrag setzt keinerlei technisches Vorwissen voraus.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/75.html
+SUMMARY:Welche Daten verschickt eigentlich mein Browser?
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Pseudo-Raum G
+END:VEVENT
+END:VCALENDAR
