@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190407T191237Z
+UID:77572539-499d-463d-8b2f-60fc73fcb3b2@frab.luga.de
+DESCRIPTION:Probleme mit seiner IT oder seiner Applikation sollte man als
+  Administrator oder Entwickler wissen\, bevor es die Nutzer tun. <i>Eige
+ ntlich.</i>\nIT-Monitoring löst dies und ist zum Glück mittlerweile weit
+  verbreitet\, doch teils noch mit Stigmata behaftet. Es gibt mittlerweil
+ e einige gute Lösungen\, die frei verfügbar sind\, einfach zu nutzen und
+  installieren sind. In diesem Vortrag stellen wir Monitoring generell vo
+ r und wie man dies am Beispiel von Check_MK einsetzen kann für selbst ku
+ riose Sachen wie Bienenmonitoring.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/57.html
+SUMMARY:Monitoring von Bienen und mehr
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum A
+END:VEVENT
+END:VCALENDAR

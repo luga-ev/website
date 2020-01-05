@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190407T140711Z
+UID:86f51dec-bb69-424f-a7fb-28029556f99b@frab.luga.de
+DESCRIPTION:Der Tiptoi-Stift von Ravensburger kommt bei Kindern in Deutsc
+ hland und darüber hinaus super an. Allerdings ist ein ein geschlossenes 
+ System\, und Ravensburger sieht nur vor\, dass man Ravensburger-Bücher u
+ nd Spiele damit benutzt. Das durfte natürlich nicht so bleiben\, und es 
+ dauerte nicht lange\, bis wir das Dateiformat reverse-engineert haben\, 
+ so dass man jetzt seine eigenen Tiptoi-Produkte erstellen kann. Die <a h
+ ref="http://tttool.entropia.de/#was-kann-ich-hier-machen">Galerie des Pr
+ ojekts</a> zeigt was da inzwischen so geht.\n\nDieser Vortrag soll allen
+  zukünftigen Tiptoi-Bastlern Starthilfe geben: Ich werde erklären\, wie 
+ der Stift überhaupt funktioniert\, wie man ihn umprogrammieren kann und 
+ wie man eigene Bilder dafür produziert\, und nebenher das eine oder ande
+ re über das Reverse-Engineering erzählen.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/55.html
+SUMMARY:Tiptoi Hacken
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum A
+END:VEVENT
+END:VCALENDAR

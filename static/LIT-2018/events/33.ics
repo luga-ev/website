@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180422T165818Z
+UID:3d4c6fe5-b4b1-4340-ac62-5b3ab3528ec1@frab.luga.de
+DESCRIPTION:Der Vortrag stellt die Long-Range (LoRa) Funktechnologie vor\
+ , die zur\nKategorie der Low Power Wide Area Technologien (LPWAN) gehört
+ . Ausserdem wird das "Thethingsnetwork" LoRaWAN Gateway erläutert\, das 
+ seit Februar 2018 an der Hochschule betrieben wird. Es besteht aus einem
+  Raspberry-Pi\, einem LoRa Konzentrator und freier Linux Software. 
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/33.html
+SUMMARY:Lora und The Things Network
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum C
+END:VEVENT
+END:VCALENDAR

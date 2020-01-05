@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180405T224309Z
+UID:5e6cc63a-f80b-4a1f-93cb-b821a92900c4@frab.luga.de
+DESCRIPTION:<a href="https://www.python.org/">Python</a> ist nicht nur ei
+ ne zunehmend populäre Programmiersprache\, sondern auch sehr gut für den
+  computergestützten Unterricht in Schule und Universität geeignet. Hierz
+ u trägt nicht nur bei\, dass Python relativ leicht erlernbar ist und von
+  umfangreichen\, frei verfügbaren Programmbibliotheken ergänzt wird. Ein
+ en wesentlichen Beitrag zur Verwendung im Unterricht leistet auch das <a
+  href="http://jupyter.org/">Jupter Notebook</a>\, das in verschiedener W
+ eise gewinnbringend eingesetzt werden kann. Ein Beispiel ist die <a href
+ ="https://github.com/jupyter/nbgrader">nbgrader</a>-Erweiterung\, die es
+  erlaubt\, von Schülern oder Studierenden bearbeitete Übungsaufgaben aut
+ omatisiert zu korrigieren. Im Vortrag wird am Beispiel von Python und se
+ inem Ökosystem gezeigt\, wie freie Software im Unterricht genutzt werden
+  kann.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/21.html
+SUMMARY:Python im Unterricht
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum C
+END:VEVENT
+END:VCALENDAR

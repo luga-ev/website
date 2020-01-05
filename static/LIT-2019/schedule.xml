@@ -1,0 +1,1167 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<schedule>
+<version>final</version>
+<conference>
+<acronym>LIT2019</acronym>
+<title>18. Augsburger Linux-Infotag 2019</title>
+<start>2019-04-06</start>
+<end>2019-04-06</end>
+<days>1</days>
+<timeslot_duration>00:05</timeslot_duration>
+<base_url>https://www.luga.de/Aktionen/LIT-2019/Programm</base_url>
+</conference>
+<day date='2019-04-06' end='2019-04-06T18:00:00+02:00' index='1' start='2019-04-06T09:00:00+02:00'>
+<room name='Raum A'>
+<event guid='ef21acc8-889c-45d2-9b17-405757ae97ad' id='84'>
+<date>2019-04-06T09:45:00+02:00</date>
+<start>09:45</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2019-84-keynote_20_jahre_als_uberzeugter_foss-entwickler</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/84.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Keynote: 20 Jahre als überzeugter FOSS-Entwickler</title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='66'>Harald Welte</person>
+</persons>
+<links>
+<link href='http://gpl-violations.org'>gpl-violations.org</link>
+<link href='http://laforge.gnumonks.org/'>Homepage Harald Welte</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/070/original/Keynote_Harald-Welte.pdf?1555491719'>Folien</attachment>
+</attachments>
+</event>
+<event guid='86f51dec-bb69-424f-a7fb-28029556f99b' id='55'>
+<date>2019-04-06T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2019-55-tiptoi_hacken</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/55.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Tiptoi Hacken</title>
+<subtitle>Den Stift um- und neuprogrammieren</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der Tiptoi-Stift von Ravensburger kommt bei Kindern in Deutschland und darüber hinaus super an. Allerdings ist ein ein geschlossenes System, und Ravensburger sieht nur vor, dass man Ravensburger-Bücher und Spiele damit benutzt. Das durfte natürlich nicht so bleiben, und es dauerte nicht lange, bis wir das Dateiformat reverse-engineert haben, so dass man jetzt seine eigenen Tiptoi-Produkte erstellen kann. Die &lt;a href=&quot;http://tttool.entropia.de/#was-kann-ich-hier-machen&quot;&gt;Galerie des Projekts&lt;/a&gt; zeigt was da inzwischen so geht.
+
+Dieser Vortrag soll allen zukünftigen Tiptoi-Bastlern Starthilfe geben: Ich werde erklären, wie der Stift überhaupt funktioniert, wie man ihn umprogrammieren kann und wie man eigene Bilder dafür produziert, und nebenher das eine oder andere über das Reverse-Engineering erzählen.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/055/large/34c3-ad.jpg?1552246698</logo>
+<persons>
+<person id='53'>Joachim Breitner</person>
+</persons>
+<links>
+<link href='http://tttool.entropia.de/'>Das tttool</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3b618cb5-8a5b-46dd-91b0-e319c57629f0' id='66'>
+<date>2019-04-06T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2019-66-blockchain-technologie</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/66.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Blockchain-Technologie</title>
+<subtitle>Wird Blockchain-Technologie unsere Welt verändern?</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Funktion der Blockchain und ihre Einsatzmöglichkeiten</abstract>
+<description>Funktion der Blockchain und ihre Einsatzmöglichkeiten</description>
+<logo>/system/events/logos/000/000/066/large/2.png?1553460187</logo>
+<persons>
+<person id='58'>Florian Schafhauser</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/073/original/lit2019_handout.pdf?1564605204'>Folie</attachment>
+</attachments>
+</event>
+<event guid='de3685bd-da2a-48b1-9bfc-908e6ca52237' id='81'>
+<date>2019-04-06T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2019-81-avmultimedia_linux-desktop_fur_beruf_und_freizeit</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/81.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>AVMultimedia: Linux-Desktop für Beruf und Freizeit</title>
+<subtitle>Office, Kodi, Videos und Musik bequem mit Linux managen</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Das Projekt AVMultimedia bietet einen modernen Linux-Desktop an, um multimediale Inhalte (Musik, Fotos und Videos) mit Linux verwalten und bearbeiten zu können. Als Grundlage dient die ArchivistaBox.</abstract>
+<description>AVMultimedia arbeitet komplett im RAM (4 GB) und arbeitet daher auch auf älteren bzw. einfacheren Rechnern sehr schnell. Unterstützt werden neben klassischen Rechnern und Notebooks auch Tablets. AVMultimedia wird nicht installiert, sondern hochgefahren. Während diesem Prozess (ca. 1 Minute) wird der gesamte Desktop im Hauptspeicher eingerichtet und aufgebaut. Dadurch, dass die Distribution sich selber einrichtet und im Speicher läuft, bietet AVMultimedia sehr viel Privatsphäre an. AVMultimedia kann problemlos auch über eine andere Installation (z.B. Windows)  hochgefahren werden, ohne dass die Festplatte des Rechners verändert wird (USB-Stick einleigen reicht). Bestehende Festplatten können eingebunden werden, müssen aber nicht. 
+
+Der Vortrag stellt AVMultimedia aus der User-Perspektive vor. Dabei geht es um Themen wie Aufsetzen und Hochfahren, flüchtigem und permanentem Einrichten auf einem Rechner, dem Arbeiten mit den wichtigsten Applikationen. Beantwortet wird auch, welche Programme (Apps) einfach nachgerüstet werden können. Linux-Cracks (und alle die es werden möchten) erhalten zudem einen Einblick, wie AVMultimedia bequem erweitert werden kann (konkret an den Beispielen Inkscape/Sozzi sowie QMapShack).</description>
+<logo>/system/events/logos/000/000/081/large/avmultimedia1.png?1553705609</logo>
+<persons>
+<person id='44'>upfister@archivista.ch</person>
+</persons>
+<links>
+<link href='http://archivista.ch/cms/de/aktuell-blog/blogs-2018/avmultimedia/'>Vorstellung AVMultimedia</link>
+<link href='http://www.linux-community.de/ausgaben/linuxuser/2018/04/sehen-hoeren-editieren/'>Artikel Linux-User 2018/04</link>
+<link href='https://youtu.be/KrFP0Otxp2w'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/037/original/avmultimedia1.jpg?1553703781'>Desktop von AVMultimedia</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/066/original/avmultimedia.pdf?1554889186'>AVMultimedia Folien</attachment>
+</attachments>
+</event>
+<event guid='d2aff713-8c89-4ecd-b371-9b887125e944' id='44'>
+<date>2019-04-06T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2019-44-schatzsuche</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/44.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Schatzsuche</title>
+<subtitle>Entdecken unbekannterer Linux-Kommandos</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Linux ist eine Wundertüte voller Werkzeuge. Da sind die bekannteren wie ls, cd, mkdir, touch, cat und grep. Aber da ist noch viel mehr. Wir freuen uns darauf, mit Euch die Liste der coolen Werkzeuge zu teilen,
+die euer Leben als Linux-Benutzer, Adminstrator und Entwickler
+vereinfacht. Schatzsuche, wie sie besser nicht sein kann</abstract>
+<description>Linux ist eine Wundertüte voller Werkzeuge. Da sind die bekannteren wie ls, cd, mkdir, touch, cat und grep. Aber da ist noch viel mehr. Wir freuen uns darauf, mit Euch die Liste der coolen Werkzeuge zu teilen,
+die euer Leben als Linux-Benutzer, Adminstrator und Entwickler
+vereinfacht. Schatzsuche, wie sie besser nicht sein kann</description>
+<logo></logo>
+<persons>
+<person id='10'>Frank Hofmann</person>
+<person id='25'>Axel Beckert</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/072/original/weniger-bekannte-linux-werkzeuge.html?1555886438'>Folien</attachment>
+</attachments>
+</event>
+<event guid='77572539-499d-463d-8b2f-60fc73fcb3b2' id='57'>
+<date>2019-04-06T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2019-57-monitoring_von_bienen_und_mehr</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/57.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Monitoring von Bienen und mehr</title>
+<subtitle>Einführung ins IT-Monitoring</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Probleme mit seiner IT oder seiner Applikation sollte man als Administrator oder Entwickler wissen, bevor es die Nutzer tun. &lt;i&gt;Eigentlich.&lt;/i&gt;
+IT-Monitoring löst dies und ist zum Glück mittlerweile weit verbreitet, doch teils noch mit Stigmata behaftet. Es gibt mittlerweile einige gute Lösungen, die frei verfügbar sind, einfach zu nutzen und installieren sind. In diesem Vortrag stellen wir Monitoring generell vor und wie man dies am Beispiel von Check_MK einsetzen kann für selbst kuriose Sachen wie Bienenmonitoring.</abstract>
+<description>&lt;ul&gt;
+&lt;li&gt;Einführung ins Monitoring - wieso brauche ich das überhaupt&lt;/li&gt;
+&lt;li&gt;Was kann man eigentlich überwachen - einige Anwendungsbeispiele&lt;/li&gt;
+&lt;li&gt;Was mache ich nun mit den ganzen Daten&lt;/li&gt;
+&lt;li&gt;Und was kann man eigentlich sonst noch so machen&lt;/li&gt;
+&lt;li&gt;Wie setze ich ein Monitoringsystem auf am Beispiel von Check_MK (Open-Source)&lt;/li&gt;
+&lt;li&gt;Kurioses Monitoring in Action: Bienenmonitoring&lt;/li&gt;
+&lt;li&gt;Normales Monitoring in Action II: Monitoring von typischer IT-Infrastruktur&lt;/li&gt;
+&lt;/ul&gt;</description>
+<logo>/system/events/logos/000/000/057/large/check_mk_vertikal.png?1552492247</logo>
+<persons>
+<person id='54'>Oscar Najera</person>
+</persons>
+<links>
+<link href='https://mathias-kettner.de'>Check_MK</link>
+<link href='https://youtu.be/OXTn0YFuwvE'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/044/original/Linuxtag_Augsburg.pdf?1554472550'>Präsentation Bienenmonitoring und mehr</attachment>
+</attachments>
+</event>
+<event guid='557d55f7-aaad-4154-ba3d-f26dcf5379b5' id='53'>
+<date>2019-04-06T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2019-53-ich_habe_doch_nichts_zu_verbergen</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/53.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Ich habe doch nichts zu verbergen!</title>
+<subtitle>Über den Schutz deiner Privatssphäre im Web</subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Einführungsvortrag in die Problematik 
+Veranschaulichung der Methoden
+Strategien zur digitalen Selbstverteidigung</abstract>
+<description>siehe PDF </description>
+<logo>/system/events/logos/000/000/053/large/rumpelstilzchen.jpg?1553027050</logo>
+<persons>
+<person id='49'>Uli Kleemann</person>
+</persons>
+<links>
+<link href='https://youtu.be/SDYq9iJS2d4'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/033/original/1_1vortrag_privatsphaere_lit_2019.pdf?1552155231'>Ich habe doch nichts zu verbergen!</attachment>
+</attachments>
+</event>
+</room>
+<room name='Raum B'>
+<event guid='e2f70d3d-b299-42d9-977e-43b4b64d04d5' id='68'>
+<date>2019-04-06T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2019-68-free_bsd_und_seine_abarten</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/68.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>(Free)BSD und seine Abarten</title>
+<subtitle>Rundflug über die Ausprägungen von *BSD, insbesondere FreeBSD</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>&quot;Willkommen in der Welt von *BSD!&quot; Die Veranstaltung stellt die bestehenden Abarten und Ausprägungen von BSD (UNIX) vor.</abstract>
+<description>GNU/Linux ist als Betriebssystem (ferner Kernel) zunehmend gut bekannt und etabliert. Bei BSD ist das vielleicht nicht ganz so. Ein Hoch für Diversität, Effizienz, Chaos oder so!
+
+Die Veranstaltung mag BSD bekannter machen. Dazu soll ein kleiner &quot;Rundflug&quot; über die aktuellen Ausprägungen von BSD gemacht werden. Der Fokus soll auf FreeBSD liegen. (FreeBSD ist seit Jahren mit Abstand das verbreitetste BSD und im Dezember 2018 wurde die Version 12 veröffentlicht.) Aber vorangestellt werden auch NetBSD, OpenBSD und DragonflyBSD kurz erläutert.
+
+FreeBSD soll - wie auch die vorangestellten Ausprägungen von BSD - auch kurz vorgestellt werden. Bei FreeBSD soll hingegen aber auch noch detailliert auf &quot;Abarten&quot; - häufig Erweiterungen - eingegangen werden. Auch sollen &quot;Trends&quot; bei FreeBSD benannt werden, die vermeintlich bestehende Irrtümer aufklären sollen.</description>
+<logo></logo>
+<persons>
+<person id='61'>vater</person>
+</persons>
+<links>
+<link href='https://wiki.c3d2.de/BSD'>&lt;&lt;&lt;/&gt;&gt;:Wiki:BSD</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='26c32c34-2dc5-4209-b4d9-c53673a54cf2' id='46'>
+<date>2019-04-06T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2019-46-linux_und_windows_gleichzeitig_auf_dem_rechner</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/46.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Linux und Windows gleichzeitig auf dem Rechner</title>
+<subtitle>Virtualisizerung mit Xen oder Totgesagte leben länger</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Oft benötigt man meherer Betriebssysteme auf einem Gerät. Hier wird eine sehr komfortable Variante auf Basis von Xen (4.11+) vorgestellt</abstract>
+<description>Wenn man mehrere Betriebssysteme gleichzeitig verwenden will, hat man unter Linux viele Möglichkeiten: qemu/kvm, Xen, Paravirtualisierung etc.
+Will man nun wirklich *gleichzeitig* mit mehreren arbeiten, bietet sich Xen an, was als Hypervisor über allen Betriebssystemen steht, aber sonst so gut wie unsichtbar ist und inzwischen extrem perfomant ist.
+Dieser Vortrag zeigt die Arbeitsumgebung und worauf man achten sollten, wenn man produktiv damit arbeiten will.</description>
+<logo></logo>
+<persons>
+<person id='42'>Oliver Rath</person>
+</persons>
+<links>
+<link href='https://www.xenproject.org'>Xen Projekt</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='41e55959-f7cc-4d3a-93b3-13d53a565c4f' id='58'>
+<date>2019-04-06T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2019-58-linux_auf_arm</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/58.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Linux auf ARM</title>
+<subtitle>Bootloader, Devicetree, Kernel und Userland</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Im Vortrag wird gezeigt, wie der Linux-Bootprozess auf ARM-Geräten abläuft und wie man ein eigenes System auf solchen Geräten aufsetzen kann.</abstract>
+<description>Single-Board-Computer (SBCs) mit ARM/ARM64 Chips gibt es mittlerweile haufenweise. Meistens lädt man sich einfach ein fertiges SD-Abbild runter, schreibt das auf eine Speicherkarte und hat ein lauffähiges System. Dabei bleibt das unbefriedigende Gefühl zurück, dass man nicht so recht weiß, was man da eigentlich gerade getan hat und welche komischen Binärdateien da jetzt auf diesem Gerät laufen.
+Spätestens wenn man eigene Peripherie anbinden, oder einen aktuelleren Linuxkernel booten will muss man sich etwas näher ansehen, wie der Bootprozess da eigentlich so funktioniert.
+Und hier soll der Vortrag helfen: Wir schauen uns den Bootprozess näher an. Wie funktionieren die Bootloader und was tun die? Wofür ist der Devicetree, wie kann ich den bearbeiten und z.B. zusätzliche Peripherie einbinden? Zu guter Letzt fehlt dann noch ein Userland.  Hier kann man recht bequem mittels debootstrap ein schlankes und dennoch mächtiges Basissystem aufsetzen.</description>
+<logo>/system/events/logos/000/000/058/large/beagle.jpg?1554534683</logo>
+<persons>
+<person id='19'>Hunz</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/048/original/arm_linux.pdf?1554534686'>slides</attachment>
+</attachments>
+</event>
+<event guid='3916c6f5-599a-463d-a50d-37a0f122c810' id='63'>
+<date>2019-04-06T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2019-63-ich_packe_meinen_koffer_-_paketverwaltung_unter_linux</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/63.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Ich packe meinen Koffer... - Paketverwaltung unter Linux</title>
+<subtitle></subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Wer Software einsetzen möchte, muss die Software zuerst installieren. Eigentlich leicht gesagt, wenn es nur ein Paketmanager bzw. ein Paketformat geben würde.
+
+Dieser Vortrag soll ein Einblick geben, wie man Software richtig verteilt und installiert. Außerdem soll es einen Überblick über die verschiedenen Paketmanager und Paketformate vermitteln, die es in der Linux Welt gibt.</abstract>
+<description>Wer Software einsetzen möchte, muss die Software zuerst installieren. Eigentlich leicht gesagt, wenn es nur ein Paketmanager bzw. ein Paketformat geben würde.
+
+Dieser Vortrag soll ein Einblick geben, wie man Software richtig verteilt und installiert. Außerdem soll es einen Überblick über die verschiedenen Paketmanager und Paketformate vermitteln, die es in der Linux Welt gibt.</description>
+<logo></logo>
+<persons>
+<person id='6'>Christian Loritz</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='833b38a9-a5ba-400e-bfd0-43d7f1b4d640' id='77'>
+<date>2019-04-06T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2019-77-packaging_for_nixos_die_linux-distribution_mit_wenig_er_zustand</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/77.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Packaging for NixOS: Die Linux-Distribution mit wenig(er) Zustand</title>
+<subtitle></subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Nach einer kleinen Einführung in die Welt des Nix Paketmanagers und der NixOS Linux Distribution, werden wir lernen Pakete für Nix zu schreiben und in die Welt der funktionalen, zustandslosen Paketverwaltung eintauchen.
+
+Der Vortrag schließt zwar an den Nix(OS) Vortrag vom letzen LIT (https://frab.luga.de/en/LIT2018/public/events/25) an, sollte aber auch ohne Vorkenntnisse verständlich sein.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/077/large/nixos-logo-only-hires-print.png?1553627691</logo>
+<persons>
+<person id='63'>Xaver Hörl</person>
+</persons>
+<links>
+<link href='https://nixos.org/'>Nix(OS)</link>
+<link href='http://curry-club-augsburg.de/'>Curry Club Augsburg</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='fecc19fb-1994-4ed5-9eb9-19f27faf0c51' id='82'>
+<date>2019-04-06T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2019-82-avmini_virtualisierung_mit_kvm</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/82.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>AVMini: Virtualisierung mit KVM</title>
+<subtitle>Server-Virtualisierung und Cluster mit einer 80-MByte-Mini-Distribution</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Server-Virtualsierung kann schlank und einfach sein. AVMini bietet mit 80 MByte eine komplette Linux-Distribution mit KVM an, die automatisiert bis hin zum Cluster eingerichtet und verwaltet werden kann.</abstract>
+<description>Anlässlich des Vortrages wird ein 2-er-Cluster mit KVM und DRBD (gespiegelte Festplatten über das Netzwerk) automatisiert eingerichtet und im Betrieb gezeigt. Dabei wird auf moderne Technologie (AMD Ryzen, 10 GBit-Netzwerkkarte und SSD-Platten) zurückgegriffen, die sowohl im semi- wie professionellen Umfeld zum Einsatz kommen kann.
+
+AVMini arbeitet konsolen- wie webbasiert. Damit lassen sich Gäste -- ohne zusätzliche Software -- sehr einfach und effizient verwalten und managen. Gezeigt werden auch praxisnahme Erste-Hilfe-Massnahmen sowie die Möglichkeit, wie mit dem Unterbau (KVM) kommuniziert werden kann.
+</description>
+<logo>/system/events/logos/000/000/082/large/avmini1.png?1553705212</logo>
+<persons>
+<person id='44'>upfister@archivista.ch</person>
+</persons>
+<links>
+<link href='http://archivista.ch/cms/de/aktuell-blog/jahresrueckblick/archivistabox-2016x/'>AVMini kurz vorgestellt</link>
+<link href='https://youtu.be/wB75h7Cx5SI'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/038/original/avmini.png?1553705214'>AVMini: Start-Screen im Setup</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/067/original/avmini.pdf?1554889228'>AVMini Folien</attachment>
+</attachments>
+</event>
+</room>
+<room name='Raum C'>
+<event guid='72ded5a9-e8ed-4f84-aa81-ab3e75486157' id='70'>
+<date>2019-04-06T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2019-70-linux_container_fur_den_alltagsgebrauch</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/70.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Linux Container für den Alltagsgebrauch</title>
+<subtitle>Docker für den Heimserver einfach nutzen</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Linux Container und damit zusammenhängende Technologien wie Kubernetes sind vor allem im Enterprise Umfeld und in den großen Clouds sehr beliebt. Aber auch für die Arbeit am eigenen PC oder den eigenen Nextcloud Server und andere Anwendungen auf dem heimischen Server kann Docker sehr hilfreich sein. Dieser Vortrag gibt einen kurze Einführung in die Linux Container Technologie an sich und zeigt dann an einigen Beispielen, wie man Container und Docker ohne großen Aufwand privat nutzen kann.  </abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='3'>Anian Ziegler</person>
+</persons>
+<links>
+<link href='https://github.com/AnianZ/talks/tree/master/lit2019-docker'>GitHub Repository mit allen Beispielen</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/050/original/slides.pdf?1554544667'>Vortragsfolien - Linux Container für den Alltagsgebrach</attachment>
+</attachments>
+</event>
+<event guid='b73cac7d-0ca8-47a4-8f9d-0b9ac5cd4e09' id='65'>
+<date>2019-04-06T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2019-65-system-_und_netzwerkmonitoring_mit_icinga</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/65.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>System- und Netzwerkmonitoring mit Icinga</title>
+<subtitle></subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>
+Egal ob im IoT-Heimnetzwerk oder im professionellen Bereich - die immer
+komplexer werdende moderne IT-Infrastruktur macht den Einsatz von
+Monitoring-Tools unerlässlich, welche den Admin im Ernstfall bei der
+Fehlersuche unterstützen.
+Icinga ist ein einfach zu erweiterndes Open Source Monitoring Tool, das
+die vorhandenen Systeme kontinuierlich überwacht, dabei Daten zu
+Verfügbarkeit und Performance sammelt und so dem Admin bei der Erkennung
+potentieller Probleme und Engpässe hilft.</abstract>
+<description>Im Detail wird gezeigt:
+
+- Aufbau und Funktionsweise von Icinga
+- Webinterface
+- Visualisierung von Performancedaten zur Trenderkennung
+- Alarmierung bei Problemen
+- Erweiterung mit eigenem Plugin
+
+
+Zielgruppe:
+Fortgeschrittene Linux Admins</description>
+<logo></logo>
+<persons>
+<person id='47'>Moritz Tanzer</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/049/original/Linux-Infotag_2019.pdf?1554535724'>Präsentation</attachment>
+</attachments>
+</event>
+<event guid='78fe1b15-daa9-4958-81e6-e34ac8deee64' id='83'>
+<date>2019-04-06T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2019-83-lightning_talks</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/83.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Lightning Talks</title>
+<subtitle>Bunt gemische fünfminütige Kurzvorträge zu diversen Themen, u.a. zu Linux-Bordmitteln, Freifunk, Audio-Pong, ...</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Noch sind Einreichungen möglich, wir freuen uns auf deinen Beitrag. :-) Bitte einfach auf &lt;a href=&quot;https://etherpad.wikimedia.org/p/lit2019-lightning-talks&quot;&gt;auf diesem Etherpad&lt;/a&gt; ergänzen.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+<link href='https://hackmd.c3d2.de/p/clt_2019_linux-saugt#/4'>Linux Saugt!</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/047/original/Pine64_-_Manjaro-Linux_auf_ARM-Hardware.pdf?1554503772'>Pine64 - Manjaro-Linux auf ARM-Hardware</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/052/original/04_ablit-lt-matthias-beyer-imag.pdf?1554552788'>imag</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/053/original/05_ablit-lt-matthias-beyer-gitwogithub.pdf?1554552788'>git without github</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/054/original/06_Lightning-Talk_Freifunk.pdf?1554552788'>Freifunk</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/055/original/Chemnitz2017_Gantikow_TUEBIX-Lightning.pdf?1554552788'>tuebix</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/056/original/01_uli_lightning_talk_vpn.pdf?1554552788'>vpn</attachment>
+</attachments>
+</event>
+<event guid='4ab43ff7-edf9-4051-a774-9b3d270fe8b7' id='56'>
+<date>2019-04-06T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2019-56-openwrt</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/56.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>OpenWrt</title>
+<subtitle>Linux auf dem WLAN-Router</subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>OpenWrt ist quasi ein Ubuntu für handelsübliche Router die oft zuhause stehen und wenig Geld kosten. Damit lassen sich z.B. Dateiserver, Emailserver oder lokale Webseite betreiben. Im Vortrag wird gezeigt wie man OpenWrt installiert, bedient und wie man Fallstricke umgeht.</abstract>
+<description>Eine Einführung zu OpenWrt, welche Hardware geeignet ist und wie man Software installiert und konfiguriert. Dazu werden wir auch einen Router live flashen und in Betrieb nehmen und sehen das es doch eigentlich nicht so schwierig ist.
+Ansonsten wird gezeigt, wie die Hardware und Software ein wenig unter der Haube aussieht, ohne etwas kaputt zu machen.</description>
+<logo>/system/events/logos/000/000/056/large/openwrt.png?1552408000</logo>
+<persons>
+<person id='16'>Moritz Warning</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/069/original/openwrt_linux_info_tag_2019.pdf?1555321632'>Folien</attachment>
+</attachments>
+</event>
+<event guid='b3cb858b-9d91-424a-adc9-10dcba127f24' id='47'>
+<date>2019-04-06T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2019-47-linux_zertifizierungen_-_ein_uberblick</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/47.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Linux Zertifizierungen - Ein Überblick</title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der Vortrag gibt einen Überblick über einige Anbieter von persönlichen Zertifizierungen rund um das Thema Linux. Der Schwerpunkt des Vortrags wird auf den Zertifizierungen des Linux Professional Institute - LPI liegen. Welche Zertifikate gibt es? Wie teuer sind die Prüfungen? Wie schwer sind die Prüfungen? Wie bereitet man sich vor? In welchen Sprachen werden die Prüfungen angeboten? Welches Schulungsmaterial gibt es? Wer bietet Schulungen an? Welche Vorteile hat eine Zertifizierung?
+</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/047/large/hat-1674894_1280.png?1553876196</logo>
+<persons>
+<person id='45'>Werner Heuser</person>
+</persons>
+<links>
+<link href='bit.ly/linuxcerts'>Aktualisiere Folien</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/041/original/linux_zertifizierungen.pdf?1554219449'>Linux Zertifizierungen PDF</attachment>
+</attachments>
+</event>
+<event guid='d3d0a351-ea11-4785-8847-aaf584b4402c' id='78'>
+<date>2019-04-06T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2019-78-das_transfinite_und_seine_anwendungen</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/78.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Das Transfinite und seine Anwendungen</title>
+<subtitle>Herkulas Kampf gegen die Hydra</subtitle>
+<track>Programm für Kinder und Jugendliche</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Dieser Vortrag richtet sich in erster Linie an Erwachsene, aber auch interessierte Schüler*innen ab der siebten Klasse werden auf ihre Kosten kommen.
+
+In der Mathematik ist nach dem bekannten Zahlenstrahl noch nicht Schluss: Nach 1, 2 und 3, nach der Million und der Trilliarde, nach der Anzahl Sandkörner – nach all diesen Zahlen folgen die unendlich großen Zahlen.
+
+Paradoxerweise benötigt man diese unendlich großen Zahlen, um manche ganz konkreten endlichen Probleme zu lösen. Manchmal kann man sogar beweisen, dass es ohne sie nicht ginge. Eines dieser Probleme &amp;ndash; wie Herkula die immer stärker werdende Hydra besiegen kann &amp;ndash; werden wir im Vortrag behandeln.
+
+Der Vortrag setzt keinerlei mathematisches Vorwissen voraus, weder Vorwissen aus Schule noch weiterführende Kenntnisse, und richtet sich an alle, die Spaß an logischen Überlegungen haben.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='4'>Ingo Blechschmidt</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum D'>
+<event guid='9a5fdee5-00eb-4920-bfbc-20b300677d79' id='69'>
+<date>2019-04-06T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2019-69-cmake_-_buildsystem_und_mehr</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/69.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CMake - Buildsystem und mehr</title>
+<subtitle></subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Immer mehr Projekte wechseln von GNU Autoconf/Automake zu CMake.
+Warum? Wie (einfach) funktioniert das Buildsystem mit CMake?</abstract>
+<description>Anhand einfacher Beispiele wird das Buildsystem CMake vorgestellt.
+
+CMake umfasst neben dem Buildsystem auch noch Fähigkeiten zur Paketierung (CPack) und zum Programmtest (CTest). Auch diese Features (die bei anderen Buildsystemen nicht vorhanden sind) werden vorgestellt.</description>
+<logo></logo>
+<persons>
+<person id='60'>Wolfgang Dautermann</person>
+</persons>
+<links>
+<link href='https://cmake.org/'>CMake Webseite</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/040/original/vortrag.pdf?1553714669'>Vortragsfolien</attachment>
+</attachments>
+</event>
+<event guid='8a9902ff-b110-4dd3-94cc-b984d42040eb' id='59'>
+<date>2019-04-06T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2019-59-codemetriken</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/59.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Codemetriken</title>
+<subtitle>Abschätzung der Codequalität</subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Wie stellt man fest, ob ein Code gut oder weniger gut ist?
+Diese Frage kann man bis zu einem gewissen Grad mittels Codemetriken beantworten. Codemetriken helfen dabei, die Komplexität des Codes zu beschreiben und Hotspots zu identifizieren.</abstract>
+<description>Wenn man sich durch Code arbeitet, entwickelt man ein gewisses Bauchgefühl. Man kann ungefähr abschätzen, was gut oder was nicht optimal. Trotzdem bleibt immer dieses ungewisse Gefühl, nicht genau sagen zu können, warum der Code an einer Stelle nicht gut zu lesen oder zu warten ist. Ja, er ist verschachtelt. Das sind aber andere Codeteile ebenfalls, die aber besser zu verstehen sind.
+
+Codemetriken helfen dabei, gewisse Maßzahlen zur Beschreibung des Codes bereitzustellen. Das hilft dabei, die Hotspots, also verdächtige Codestellen, zu identifizieren. So kann man nicht nur Aussagen zum Code an sich treffen, sondern auch gezielt Maßnahmen zur Verbesserung der Qualität einleiten.
+
+Dieser Vortrag beleuchtet kurz die wichtigsten statischen Methoden zur Codeanalyse wie die bekannten Metriken Lines of Code und McCabe Komplexität. Aber auch weniger bekannte Metriken wie z.B. die Kognitive Komplexität oder LCOM finden hier ihren Platz.</description>
+<logo></logo>
+<persons>
+<person id='37'>Robert Wimmer</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/035/original/MM_Codemetriken_Statisch.pdf?1552633931'>Codemetriken - Statisch</attachment>
+</attachments>
+</event>
+<event guid='dfbb32f9-4f73-45a4-ab58-d2c76d7a0f63' id='71'>
+<date>2019-04-06T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>01:45</duration>
+<room>Raum D</room>
+<slug>LIT2019-71-programmieren_fur_kinder</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/71.html</url>
+<recording>
+<license></license>
+<optout>true</optout>
+</recording>
+<title>Programmieren für Kinder</title>
+<subtitle>Scratch-Workshop (bei Bedarf auch andere Programmiersprachen)</subtitle>
+<track>Programm für Kinder und Jugendliche</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Wie funktioniert ein Computerprogramm? Wie erstelle ich ein erstes eigenes Programm? Einsteiger-Workshop für Kinder ab 8 Jahren auf der Basis von Scratch (scratch.mit.edu)</abstract>
+<description>Scratch ist eine Programmiersprache und eine Online-Gemeinschaft, in der Kinder interaktive Medien wie Geschichten, Spiele und Animationen programmieren und weltweit mit anderen teilen können. Indem Kinder ihre Ideen mit Scratch umsetzen, lernen sie kreativ zu denken, mit anderen zusammenzuarbeiten und systematisch vorzugehen. Scratch wurde von der Lifelong-Kindergarten-Gruppe am MIT Media Lab des MIT geschaffen und wird von ihr gepflegt und ständig weiterentwickelt. 
+
+Dieser Workshop stellt in Scratch die typischen Werkzeuge vor, die bei der Erstellung von Programmen Anwendung finden (Programmschritte, Bedingungen, Schleifen...). Es wird kleine Übungen zu ersten Programmen geben, es bleibt aber auch Luft für eigene &quot;Experimente&quot;.</description>
+<logo></logo>
+<persons>
+<person id='39'>Stefan Paul</person>
+</persons>
+<links>
+<link href='https://scratch.mit.edu/'>Scratch</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='96a6dea6-37c1-4c6f-bc29-c6edc3f59217' id='64'>
+<date>2019-04-06T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2019-64-systemtestportal</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/64.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>SystemTestPortal</title>
+<subtitle>Eine Plattform für die Koordination von systematischen Tests</subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Projekte, die proprietäre Firmware durch alternative, freie Firmware ersetzen haben häufig erhebliche Probleme mit dem Testen ihrer Firmware. Das manuelle Testen jedes Firmware-Images für jedes Gerät vor jedem Releasen ist praktisch nicht machbar - und wird deshalb oft vernachlässigt. Dadurch kommt es zu dem Effekt, dass Nutzer angeblich unterstützte Hardware kaufen, nur um anschließend festzustellen, dass sie von der freien Firmware nicht vollständig oder überhaupt nicht unterstützt wird.
+Wir sind der Überzeugung, dass das Testen von freier Software - und ganz speziell von freier Firmware - eine gemeinschaftliche Aktivität sein sollte. Sie sollte Entwickler, Tester und Endanwender in den jeweiligen Projekten eng miteinander verbinden. Das von uns entwickelte SystemTestPortal ist eine leichtgewichtige Webanwendung, die die Erstellung, Ausführung und Analyse systematischer manueller Tests erlaubt.</abstract>
+<description>Der Vortrag behandelt folgende Themen:
+
+- Grundlagen des systematischen Testens
+- Verwalten von Testfällen und Testsequenzen im Systemtestportal
+- Planung und Koordination von Testausführungen mit Testern und der Community
+- Ausführung und Analyse von Testfällen
+- Integration manueller Tests in CI/CD-Workflows mittels SystemTestPortal und Gitlab
+- Geschichte und Ausblick unseres Projekts</description>
+<logo>/system/events/logos/000/000/064/large/stp11.png?1553431897</logo>
+<persons>
+<person id='15'>Daniel Kulesz</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum E (Workshop)'>
+<event guid='ee7f09f8-2061-4f06-86bf-4919d68ce771' id='51'>
+<date>2019-04-06T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>01:45</duration>
+<room>Raum E (Workshop)</room>
+<slug>LIT2019-51-linux_business</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/51.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Linux &amp; Business</title>
+<subtitle>Faktura 2018: Software für Freiberufler und Kleinunternehmer</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Installation und Einführung Software </abstract>
+<description>Für Linux gibt es kaum Software für Kleinunternehmer. Da ich nebenberuflich ein Ingenieurbüro für Softwareentwicklung betreibe und keine passende Linux-Software vorfand, habe ich meine eigene entwickelt um Angebote, Rechnungen, Einnahmen, Ausgaben usw. verbuchen zu können. Diese gibt es als kostenlose Community-Version, die ich in diesem Workshop vorstellen möchte:
+    Installation mit H2 - Datenbank
+    Wizzard / Anlegen Stammdaten
+      Kunden / Lieferanten
+      Steuerschlüssel
+      Kontenrahmen
+    Fakturieren
+      Angebote / AB / Lieferscheine / Muster
+      Rechnungen / Mahnungen / Gutschriften
+      XML-Rechnungen
+    Einnahmen / Ausgaben / Zahlungsausgleich
+    Listen für Steuerberater / FA
+    Backup
+    Zusatzmodule
+      - Abweichende Lieferadressen
+      - Gewerke
+      - Abschlagsrechnungen
+      - Auswertungen / Statistiken
+      - Geierlein einbinden
+   Ausblick
+
+Für den Workshop ist es sinnvoll, seinen Laptop mitzubringen.</description>
+<logo>/system/events/logos/000/000/051/large/faktura.png?1551546033</logo>
+<persons>
+<person id='48'>Stefan Klemm</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='47da1c3d-9049-4e0e-ae2a-3cff06a348c3' id='62'>
+<date>2019-04-06T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum E (Workshop)</room>
+<slug>LIT2019-62-crosscompiling</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/62.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Crosscompiling</title>
+<subtitle>Entwickeln für andere Systeme</subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Mittels Crosscompiling können Programme für andere Plattformen erstellt werden.
+
+Im Vortrag wird das für verschiedene Programmiersprachen und Systeme anhand von kurzen Beispielen gezeigt.
+</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='60'>Wolfgang Dautermann</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/065/original/vortrag.pdf?1554818185'>Vortragsfolien</attachment>
+</attachments>
+</event>
+<event guid='e3fcccaa-4168-4b4f-9a22-29ed2ddd3da5' id='61'>
+<date>2019-04-06T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum E (Workshop)</room>
+<slug>LIT2019-61-streaming_analytics_in_der_praxis</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/61.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Streaming Analytics in der Praxis</title>
+<subtitle>In Echtzeit zu Erkenntnissen aus Kundenrezensionen</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Die Auswertung von strukturierten Datenmengen gilt im Bereich der Datenanalyse längst als gelöstes Mysterium. Neue Herausforderung rücken in den Fokus: Die Extraktion von Nutzen aus unstrukturierten Daten. Wie können aus unstrukturierten Daten, wie beispielsweise Text, nutzbare Informationen gewonnen werden? Und wie geht das in Echtzeit, zum Beispiel bei gestreamten Daten?
+Daniel Wrigley stellt in diesem Vortrag einen entsprechenden Use Case vor. Gezeigt wird eine Referenzarchitektur bestehend aus Open Source Komponenten (u.a. Apache Kafka, Apache Spark), die die Analyse von Text illustriert, um dessen Bedeutung zu erfassen. Die Ergebnisse können so visualisiert und als Entscheidungsgrundlagen für geschäftskritische Handlungen genutzt werden.
+Eine mögliche, konkrete Anwendung wird anschließend in einer Demo gezeigt:  Die Verarbeitung von textbasierten Kundenrezensionen in Echtzeit.
+
+</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/061/large/SHI_Logo.jpg?1552907012</logo>
+<persons>
+<person id='56'>Daniel Wrigley, SHI GmbH</person>
+</persons>
+<links>
+<link href='https://www.shi-gmbh.com/'>SHI GmbH</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/046/original/Streaming_Analytics_in_der_Praxis.pdf?1554503629'>Streaming Analytics in der Praxis</attachment>
+</attachments>
+</event>
+<event guid='b0156400-443a-4240-b38f-72adc0f706f0' id='52'>
+<date>2019-04-06T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>01:45</duration>
+<room>Raum E (Workshop)</room>
+<slug>LIT2019-52-aur-packages_selbst_bauen_und_testen</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/52.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>AUR-Packages selbst bauen und testen</title>
+<subtitle></subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Wie baue ich AUR (ArchLinux User Repositories) Packages selbst und wie teste ich sie im Docker-Conmtainer? Was muss ich beim Erstellen vom PKGBULD beachten? Welche Pakete braucht mein Docker-Container? Gibt es bereits ein Image? 
+</abstract>
+<description>In diesem Workshop lernen die Teilnehmer den Grundaufbau von AUR-Paketen und Dockercontainern, sowie man dies bauen/testen.</description>
+<logo></logo>
+<persons>
+<person id='50'>Anton Müller</person>
+</persons>
+<links>
+<link href='https://github.com/TheRojam/archdevel-docker'>Docker-Repo</link>
+<link href='https://hub.docker.com/r/therojam/archdevel'>Docker Hub</link>
+<link href='https://github.com/TheRojam/LIT19-Workshop'>Workshop-Dateien</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/060/original/2019-04-06-ArchLinux_Build_Docker-presentation.pdf?1554560806'>Präsentation (PDF)\</attachment>
+</attachments>
+</event>
+</room>
+<room name='Raum F (Workshop)'>
+<event guid='135e4234-2d43-4ceb-93a2-8fe5c53195de' id='50'>
+<date>2019-04-06T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>01:45</duration>
+<room>Raum F (Workshop)</room>
+<slug>LIT2019-50-nonlinearer_videoschnitt_mit_kdenlive</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/50.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Nonlinearer Videoschnitt mit Kdenlive</title>
+<subtitle>Crashkurs wie man Videos auf Linux im nonlinearen Videoschnitt bearbeitet. Clips anordnen, Effekte/Farbkorrektur, Übergänge.</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Nonlinearer Videoschnitt mit Kdenlive</abstract>
+<description>Wir erstellen kleine Clips; übertragen diese auf den Computer und basteln damit im Kdenlive ein kurzes Video. Wie ist die Oberfläche aufgebaut? Wie läuft der Workflow ab? Effekte, Text und Überblendungen. Rendern vom finalen Film und weitere Bearbeitungsmöglichkeiten. Falls noch Zeit: Kleiner Ausblick in die Zusammenarbeit mit anderen Programmen wie Gimp, Inkscape und Blender.
+Wer kann: Bringe einen Laptop mit installiertem kdenlive mit; dann können wir gleich loslegen (bzw. verkürzen die Installationszeit für alle) und wenn vorhanden gerne auch Videomaterial mit dem du arbeiten willst.</description>
+<logo></logo>
+<persons>
+<person id='12'>Philipp Kammerer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='47904f54-39a8-4d7b-abcb-d75a394ab8fe' id='48'>
+<date>2019-04-06T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>01:45</duration>
+<room>Raum F (Workshop)</room>
+<slug>LIT2019-48-basic_latex_fur_einsteiger</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/48.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Basic LaTeX für Einsteiger</title>
+<subtitle>Die ersten Schritte mit dem Dokumentsatzsystem</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Ein kleiner Einstieg in LaTeX, das mächtige Textsatzprogramm.</abstract>
+<description>Mit LaTeX kann man lange Dokumente mit Rücksicht auf typografische Regeln und wunderschöne mathematische Formeln (und noch vieles mehr) einfach und elegant erstellen. LaTeX Distribution texlive unter Linux installieren, ein einfaches Eingabefile aufbauen und wichtige Kommandos zur Textformatierung und Gestaltung um am Ende einen kleinen Bericht zu erhalten ist Ziel des Workshops. Die Kurve geht über LaTeX vs. WYSIWYG. Es soll die Grundlage dafür geschaffen werden, auch selbst mal einen Fehler im Eingabefile/Dokument zu finden und ggf. das passende Paket zu installieren.</description>
+<logo></logo>
+<persons>
+<person id='12'>Philipp Kammerer</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/062/original/latex-for-newbies-presentation.pdf?1554576432'>Vortragsslides</attachment>
+</attachments>
+</event>
+<event guid='464e91df-aa83-4dbb-8990-d7aeb678e802' id='60'>
+<date>2019-04-06T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>01:45</duration>
+<room>Raum F (Workshop)</room>
+<slug>LIT2019-60-nodeschool_augsburg</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/60.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>NodeSchool Augsburg</title>
+<subtitle>workshops all around JS &amp; Node</subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Im Rahmen des Linux Info Tages wollen wir eine kleine NodeSchool anbieten. Was das ist?
+Du wolltest schon immer mal programmieren? Oder willst endlich mal Node.js ausprobieren? Nimm teil und lerne Programmieren mit Node.js ganz einfach - versprochen! Es hilft, wenn du schon mal etwas mit JavaScript gemacht hast - wenn nicht, komm trotzdem! Die Kurse sind für jedes Skill-level geeignet &amp; wir helfen gern bei allen Schwierigkeiten aus.</abstract>
+<description>Join us and learn coding with us. You are going to learn the basics of Node.js. It&#39;s a plus if you know some JavaScript beforehand, but if not we can help you out. Either in german or english we can make it work :) 
+
+Du lernst mit kleinen Programmen, die du selbst schreibst - keine langweiligen Vorträge! Alle Aufgaben sind Open Source und online unter nodeschool.io verfügbar, so kannst du auch ganz einfach nach der NodeSchool selber weiter lernen.
+
+You will go through a set of self-paced challenges. No boring talks. All challenges are Open Source and available online on nodeschool.io. This means you can continue learning after the event.</description>
+<logo>/system/events/logos/000/000/060/large/nodeschool-augsburg-logo.png?1552900026</logo>
+<persons>
+<person id='8'>Nodeschool Augsburg</person>
+</persons>
+<links>
+<link href='https://nodeschool.io/augsburg/'>NodeSchool Aux Homepage</link>
+<link href='http://meetu.ps/c/2McqJ/wTK0P/f'>Our MeetUp Events</link>
+<link href='https://twitter.com/nodeschoolaux?s=17'>Find us on Twitter</link>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Pseudo-Raum G'>
+<event guid='479e7a68-7a88-43fd-82e4-ef449cb50fbe' id='76'>
+<date>2019-04-06T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>01:45</duration>
+<room>Pseudo-Raum G</room>
+<slug>LIT2019-76-programm_fur_kinder_jugendliche_und_alle_sonstigen_interessierten</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/76.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Programm für Kinder, Jugendliche und alle sonstigen Interessierten</title>
+<subtitle>Eine Botschaft an Außerirdische, Beweise ohne Worte, Herkulas Kampf gegen die Hydra, Zauberwürfel (Rubik&#39;s Cube)</subtitle>
+<track>Programm für Kinder und Jugendliche</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>&lt;strong&gt;Botschaft an Außerirdische.&lt;/strong&gt;
+Vor etwa 15 Jahren schickte die Menschheit eine Radiobotschaft an ausgewählte Sterne, in der Hoffnung, dass die Nachricht Außerirdische erreicht, diese die Nachricht verstehen und uns antworten. Die Nachricht ist nicht auf Deutsch oder Englisch verfasst, sondern bedient sich einer eigens entwickelten Symbolsprache. Schaffen wenigstens wir Menschen, die Botschaft zu entziffern? Das wollen wir in dem Workshop an uns selbst testen und herausfinden!
+
+&lt;strong&gt;Beweise ohne Worte.&lt;/strong&gt;
+Mathematik ist die Kunst, das Verborgene auf das Offensichtliche zurückzuführen! Und das geht am besten nicht mit Formeln, sondern mit einsichtigen Bildern.
+
+&lt;strong&gt;Herkulas Kampf gegen die Hydra.&lt;/strong&gt;
+Liebe ist unendlich. Gott ist unendlich. Das sind vertraute Vorstellungen, die in unserem Denken mit Unendlichkeit verknüpft sind. Weitere, zunächst verborgene Perspektiven eröffnet die Mathematik. Es stellt sich nämlich heraus, dass der bekannte Zahlenstrahl nicht der Weisheit letzter Schluss ist: Nach 1, 2 und 3, nach der Million und der Trilliarde, nach der Anzahl Sandkörner – nach all diesen Zahlen folgen die unendlich großen Zahlen. In diesem Workshop lernen die Teilnehmenden spielerisch die wundersame Welt dieser Zahlen kennen, und nutzen sie, um zu verstehen, wieso Herkula gegen die unbesiegbar wirkende Hydra gewinnen kann.
+
+&lt;strong&gt;Zauberwürfel.&lt;/strong&gt;
+Wir lernen, wie man den Zauberwürfel (Rubik&#39;s Cube) löst! Wir haben Zauberwürfel für euch dabei (könnt ihr nach der Veranstaltung auch behalten).
+
+&lt;strong&gt;Jederzeit kommen und gehen.&lt;/strong&gt;
+Das Programm richtet sich an Schülerinnen und Schüler ab der dritten Klasse, sowie an alle Interessierten beliebigen Alters.
+
+Man kann während der gesamten Workshopzeit jederzeit kommen und gehen und zwischen den einzelnen Themen wechseln.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='67'>Matheschülerzirkel Augsburg</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='0991f81c-257e-4f6e-af80-323422ea8230' id='85'>
+<date>2019-04-06T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>01:45</duration>
+<room>Pseudo-Raum G</room>
+<slug>LIT2019-85-software_deployment_mit_freeway_in_raum_w3_18</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/85.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Software Deployment mit Freeway  in Raum W3.18</title>
+<subtitle>Schulungsräume einfach installieren mit kostenloser Opensource Software.</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Freeway in Raum W3.18
+
+Mit wenigen Handgriffen einen Seminarraum oder ein Schullabor neu installieren?
+Freeway ist eine kleine Sammlung von Shellskripten und einem Webserver, die darauf ausgerichtet sind, einfach und verlässlich einen Rechner oder auch einen ganzen Schulungsraum auf einmal zu installieren.
+
+Dabei wird nicht nur ein Basissystem installiert, sondern ausserdem auch eine oder mehrere virtuelle Maschinen, die buchstäblich jedes Schulungsszenario möglich machen.
+
+Die Schulungsmaschinen auf einen sauberen Zustand zurücksetzen?
+Eine Sache von Sekunden.
+
+Neue Virtuelle Maschinen erzeugen?
+Dauert nur einen Augenblick.</abstract>
+<description>Freeway ist ein Projekt, das aus der Notwendigkeit heraus entstand, Montag Morgens Schulungsräume neu
+zu installieren.
+Das macht es.
+Einfach und sehr flexibel.
+Damit ist es auch z.B. für Schulen und andere Bildungsinstitute interessant.
+Das System ist nicht nur auf Linux geeicht; die virtuellen Maschinen können problemlos auch Windows-Installationen tragen.
+Neue Profile anzulegen ist ebenfalls sehr einfach und wird während des Workshops auf Wunsch gezeigt.
+Da alle Komponenten Standard Opensource Software sind, ist es eine Kleinigkeit, neue Funktionalitäten einzubauen, die bestehenden Funktionen an beliebigen Umgebungen anzupassen.
+Alle Skripte sind Shell und daher sehr einfach les-, lern- und änderbar.</description>
+<logo></logo>
+<persons>
+<person id='65'>Dieter_Thalmayr</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='45094892-2aa1-4e79-a29b-2ab46e92a175' id='75'>
+<date>2019-04-06T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Pseudo-Raum G</room>
+<slug>LIT2019-75-welche_daten_verschickt_eigentlich_mein_browser</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/75.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Welche Daten verschickt eigentlich mein Browser?</title>
+<subtitle>Ein augenöffnender Vortrag über Internet(un)sicherheit</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Oft hört man in Medien, dass Internet und Mails so unsicher wie Postkarten seien. Aber selten hat man eine plastische Vorstellung davon, was das eigentlich bedeutet. Noch dazu sind solche Aussagen untertrieben, denn im Regelfall ist es für meine NachbarInnen nicht ganz leicht, unbemerkt meine Post einzusehen. Wer allerdings mit mir im selben öffentlichen WiFi-Netzwerk surft, kann ohne besondere Raffinesse mein Internetverhalten verfolgen.
+
+Der Vortrag stellt das Programm Wireshark vor, mit dem man den Netzverkehr, der über den eigenen Computer geht, sichtbar machen kann. So erkennt man mit eigenen Augen, welche Daten Fremde eigentlich mitlesen können, und schärft so sein Sicherheitsbewusstsein. Das werden zahlreiche Live-Vorführungen, die man auch zu Hause nachspielen kann, demonstrieren.
+
+Zum Abschluss des Vortrags inspizieren wir den Datenverkehr mutiger Freiwilliger.
+
+Wer Wireshark schon kennt, sollte einen der anderen zeitgleich stattfindenden Vorträge besuchen. Dieser Vortrag setzt keinerlei technisches Vorwissen voraus.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='4'>Ingo Blechschmidt</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Info-Stände'>
+<event guid='39aceb0d-b7ae-4b1b-a5a0-68ae8f5d31ff' id='79'>
+<date>2019-04-06T09:30:00+02:00</date>
+<start>09:30</start>
+<duration>06:30</duration>
+<room>Info-Stände</room>
+<slug>LIT2019-79-acf_fsfe_lug_ottobrunn_nextcloud_wireguard_openstreetmap_augsburg_siduction_blockchain_revolution_archivista_gmbh_b1-systems_igel_technology_gmbh_shi_gmbh_tuxedo</slug>
+<url>https://www.luga.de/Aktionen/LIT-2019/Programm/events/79.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>*** ACF *** FSFE *** LUG Ottobrunn (Nextcloud + Wireguard) *** OpenStreetMap Augsburg ***  siduction *** Blockchain Revolution *** Archivista GmbH *** B1-Systems *** IGEL Technology GmbH *** SHI Gmbh *** Tuxedo ***</title>
+<subtitle></subtitle>
+<track>[Info-Stände über OSS-Projekte und -Organisationen]</track>
+<type>meeting</type>
+<language>de</language>
+<abstract>- ACF (Augsburger Computer Forum eV)
+- FSFE (Free Software Foundation Europe)
+- LUG Ottobrunn (Nextcloud + Wireguard)
+- OpenStreetMap Augsburg
+- siduction (auf Debian unstable aufbauende Linux-Distribution) 
+- Blockchain Revolution
+
+- Archivista GmbH
+- B1-Systems
+- IGEL Technology GmbH
+- SHI Gmbh
+- Tuxedo</abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+</day>
+</schedule>

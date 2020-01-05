@@ -1,0 +1,814 @@
+<iCalendar xmlns:pentabarf='http://pentabarf.org' xmlns:xCal='urn:ietf:params:xml:ns:xcal'>
+<vcalendar>
+<version>2.0</version>
+<prodid>-//Pentabarf//Schedule//EN</prodid>
+<x-wr-caldesc>LIT2018 Schedule</x-wr-caldesc>
+<x-wr-calname>LIT2018 Schedule</x-wr-calname>
+<vevent>
+<method>PUBLISH</method>
+<uid>1@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>1</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-1-wie_lerne_ich_richtig_eine_programmiersprache</pentabarf:event-slug>
+<pentabarf:title>Wie lerne ich richtig eine Programmiersprache?</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T104500</dtstart>
+<dtend>20180421T113000</dtend>
+<duration>004500</duration>
+<summary>Wie lerne ich richtig eine Programmiersprache?- </summary>
+<description>Wie lerne ich eine Programmiersprache wenn ich davor noch nie programmiert habe oder wie bringe ich mir eine neue Programmiersprache am besten bei.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/1.html</url>
+<location>Raum C</location>
+<attendee>Christian Loritz</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>3@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>3</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-3-brig_-_dezentrale_und_sichere_dateisynchronisation</pentabarf:event-slug>
+<pentabarf:title>»brig« - dezentrale und sichere Dateisynchronisation</pentabarf:title>
+<pentabarf:subtitle>Von Tropfenschachteln und Zweimastern</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T114500</dtstart>
+<dtend>20180421T123500</dtend>
+<duration>005000</duration>
+<summary>»brig« - dezentrale und sichere Dateisynchronisation- Von Tropfenschachteln und Zweimastern</summary>
+<description>»brig« ist ein freies und komplett dezentrales Werkzeug zum sicheren und einfachen Austausch und Versionieren von Dateien. Es bietet eine Reihe von Möglichkeiten, die bislang kein anderes Tool oder Plattform ermöglicht. Da »brig« an der Hochschule Augsburg entstand und weiterhin in Augsburg entwickelt wird, ist es nur konsequent den aktuellen Entwicklungsstand hier zu zeigen. 
+
+Der Vortrag ist eine Projektvorstellung und zeigt das Tool selbst (samt Demo), was es noch können soll und wie man die Entwicklung unterstützen könnte.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/3.html</url>
+<location>Raum E</location>
+<attendee>Chris Pahl</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>4@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>4</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-4-e-mail_encryption_gateway_ciphermail</pentabarf:event-slug>
+<pentabarf:title>E-Mail Encryption Gateway CipherMail</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T131500</dtstart>
+<dtend>20180421T140000</dtend>
+<duration>004500</duration>
+<summary>E-Mail Encryption Gateway CipherMail- </summary>
+<description>CipherMail ist ein zentraler Mail Transfer Agent (MTA), der nach dem &quot;store and forward&quot; Prinzip arbeitet: Eingehende E-Mails, gleichgültig ob von intern oder extern, werden nur so lange gespeichert, bis sie ver- oder entschlüsselt wurden und an die Bestimmungsadresse weitergeleitet werden können. Dies geschieht ohne eine Änderung am E-Mail-Client!</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/4.html</url>
+<location>Raum A</location>
+<attendee>Stefan Günther</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>5@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>5</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-5-open_data_in_sudafrika</pentabarf:event-slug>
+<pentabarf:title>Open Data in Südafrika</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T114500</dtstart>
+<dtend>20180421T123000</dtend>
+<duration>004500</duration>
+<summary>Open Data in Südafrika- </summary>
+<description>Wie intensiv wird Open Data in Südafrika genutzt? Ein Erfahrungsbericht</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/5.html</url>
+<location>Raum B</location>
+<attendee>Frank Hofmann</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>6@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>6</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-6-nodeschool</pentabarf:event-slug>
+<pentabarf:title>Nodeschool</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T151500</dtstart>
+<dtend>20180421T170000</dtend>
+<duration>014500</duration>
+<summary>Nodeschool- </summary>
+<description>Im Rahmen des Linux Info Tages wollen wir eine kleine NodeSchool anbieten. Was das ist?
+Du wolltest schon immer mal programmieren? Oder willst endlich mal Node.js ausprobieren? Nimm teil und lerne Programmieren mit Node.js ganz einfach - versprochen! Es hilft, wenn du schon mal etwas mit JavaScript gemacht hast - wenn nicht, komm trotzdem! Wir helfen gern.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/6.html</url>
+<location>Raum F</location>
+<attendee>Nodeschool Augsburg</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>7@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>7</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-7-i2p_-_k_eine_alternative_zu_tor</pentabarf:event-slug>
+<pentabarf:title>I2P - (k)eine Alternative zu Tor</pentabarf:title>
+<pentabarf:subtitle>Was ist I2P, was kann es, was kann es nicht</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T151500</dtstart>
+<dtend>20180421T160000</dtend>
+<duration>004500</duration>
+<summary>I2P - (k)eine Alternative zu Tor- Was ist I2P, was kann es, was kann es nicht</summary>
+<description>Nahezu jeder kennt Tor, doch kaum einer kennt die Alternativen. Ich stelle hier I2P detailliert vor</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/7.html</url>
+<location>Raum A</location>
+<attendee>Lars Schimmer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>9@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>9</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-9-das_internet_der_unsicheren_dinge</pentabarf:event-slug>
+<pentabarf:title>Das Internet der unsicheren Dinge</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T094000</dtstart>
+<dtend>20180421T102500</dtend>
+<duration>004500</duration>
+<summary>Das Internet der unsicheren Dinge- </summary>
+<description>Euch erwarten aktuelle Beispiele aus dem Jahr 2018 von Datenschutz- und IT-Sicherheitsversagen aus dem Bereich Internet der Dinge (IoT), die ich im Zuge meiner Arbeit als Journalistin sammle. Was bedeutet ein Internet der unsicheren Dinge für die Gesellschaft? Was bedeutet es für unsere Privatsphäre? Und - was für Alternativen gibt es?</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/9.html</url>
+<location>Raum A</location>
+<attendee>Barbara Wimmer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>12@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>12</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-12-moderne_kommandozeilen_werkzeuge</pentabarf:event-slug>
+<pentabarf:title>Moderne Kommandozeilen Werkzeuge</pentabarf:title>
+<pentabarf:subtitle>Schneller, besser, praktischer - Alternativen zu grep, ls und find</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T104500</dtstart>
+<dtend>20180421T113000</dtend>
+<duration>004500</duration>
+<summary>Moderne Kommandozeilen Werkzeuge- Schneller, besser, praktischer - Alternativen zu grep, ls und find</summary>
+<description>ls, grep, find, ifconfig. Wir kennen sie alle und nutzen sie täglich. Dabei gäbe es mittlerweile, zum Teil bessere, Alternativen. Ein Blick auf die Kommandozeilenwerkzeuge des Jahres 2018.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/12.html</url>
+<location>Raum E</location>
+<attendee>leyrer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>13@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>13</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-13-freifunk</pentabarf:event-slug>
+<pentabarf:title>Freifunk</pentabarf:title>
+<pentabarf:subtitle>Eine Übersicht über das Thema und den aktuellen Stand.</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T161500</dtstart>
+<dtend>20180421T170000</dtend>
+<duration>004500</duration>
+<summary>Freifunk- Eine Übersicht über das Thema und den aktuellen Stand.</summary>
+<description>Freifunk ist eine Bewegung dezentrale Bürger(mesh)netz mit WLAN-Routern zu schaffen, bei der jeder mitmachen kann. Wir wollen zeigen worum es geht, wo Freifunk z.Z. steht und wo es hingehen könnte.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/13.html</url>
+<location>Raum E</location>
+<attendee>Moritz Warning</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>14@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>14</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-14-mitmachen_bei_open_source_projekten</pentabarf:event-slug>
+<pentabarf:title>Mitmachen bei Open Source Projekten</pentabarf:title>
+<pentabarf:subtitle>Wie funktionieren Open Source Projekte und wie kann jeder mitmachen.</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T104500</dtstart>
+<dtend>20180421T113000</dtend>
+<duration>004500</duration>
+<summary>Mitmachen bei Open Source Projekten- Wie funktionieren Open Source Projekte und wie kann jeder mitmachen.</summary>
+<description>Ich möchte live bei einigen Open Source Projekten kleine Änderungen einreichen. Dabei werden wir nicht nur Seiten wie github.com nutzen, sondern auch schauen, wie das bei größeren Projekten wie dem Linux Kernel funktionieren würde.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/14.html</url>
+<location>Raum B</location>
+<attendee>Moritz Warning</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>15@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>15</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-15-qgis_-_arbeiten_mit_geodaten</pentabarf:event-slug>
+<pentabarf:title>QGIS - Arbeiten mit Geodaten </pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T161500</dtstart>
+<dtend>20180421T170000</dtend>
+<duration>004500</duration>
+<summary>QGIS - Arbeiten mit Geodaten - </summary>
+<description>QGIS ist unter den OpenSource Geoinformationssystemen der absolute Vorreiter und entwickelt sich dynamisch weiter. 
+Der Vortrag zeigt in einer kurzen Präsentation die vielfältigen Anwendungsmöglichkeiten von Geoinformationssystemen. Danach schließt sich ein kurzes Tutorial an, wie sich Daten, welche man selbst generiert hat (zum Beispiel Postleitzahlen von Kunden) in QGIS verarbeiten und kartographisch darstellen lassen.
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/15.html</url>
+<location>Raum B</location>
+<attendee>Matthias Köppel</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>16@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>16</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-16-libreoffice_was_wir_tun_wohin_wir_gehen_und_mitmachen</pentabarf:event-slug>
+<pentabarf:title>LibreOffice: Was wir tun, wohin wir gehen – und mitmachen!</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T131500</dtstart>
+<dtend>20180421T140000</dtend>
+<duration>004500</duration>
+<summary>LibreOffice: Was wir tun, wohin wir gehen – und mitmachen!- </summary>
+<description>Was ist LibreOffice? Woher kommt es? Wohin geht es? Welche Erfolge haben wir genossen, und welche Hindernisse stehen vor uns? Wie könnt ihr mitmachen – und was lernt ihr dabei? Was wollt ihr sonst wissen? Wir anworten alles!</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/16.html</url>
+<location>Raum B</location>
+<attendee>Mike Saunders</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>17@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>17</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-17-manage_over_200_linux_server_with_open_source_tools</pentabarf:event-slug>
+<pentabarf:title>Manage over 200 Linux server with open source tools</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T151500</dtstart>
+<dtend>20180421T160000</dtend>
+<duration>004500</duration>
+<summary>Manage over 200 Linux server with open source tools- </summary>
+<description>Wir gegen einen Überblick wie wir über 200 Server vollautomatisiert und umfangreicher Konfiguration mit OpenSource Tools verwalten. OpenSource Werkzeuge sind der Schlüssel zum Erfolg und ermöglichen umfangreiche Automatisierung und Skalierung.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/17.html</url>
+<location>Raum C</location>
+<attendee>Andreas Herz</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>18@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>18</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-18-iot_security-check</pentabarf:event-slug>
+<pentabarf:title>IoT SECURITY-Check</pentabarf:title>
+<pentabarf:subtitle>Wie Sie Bedrohungen rechtzeitig erkennen </pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T104500</dtstart>
+<dtend>20180421T113000</dtend>
+<duration>004500</duration>
+<summary>IoT SECURITY-Check- Wie Sie Bedrohungen rechtzeitig erkennen </summary>
+<description>Die zunehmende Vernetzung von Kleinstgeräten ermöglicht die Entwicklung von in der Vergangenheit undenkbaren vernetzten Systemen. Neben den neuen Möglichkeiten birgt dies aber auch viele neue Gefahren. Vor allem Bereiche, die vorher durch fehlende Schnittstellen nach Außen als relativ sicher galten, sehen sich nun mit Fragestellungen der IT-Sicherheit konfrontiert. Der Vortrag zeigt am Beispiel einer Heimnetzwerks auf, wie eine solche Bedrohungsanalyse durchgeführt wird und damit Gefahren sowie mögliche Schwachstellen identifiziert werden können.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/18.html</url>
+<location>Raum A</location>
+<attendee>Michael Schnelle</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>19@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>19</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-19-einsatz_von_ssh_zum_aufbau_eines_sicheren_netzes</pentabarf:event-slug>
+<pentabarf:title>Einsatz von SSH zum Aufbau eines sicheren Netzes</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T114500</dtstart>
+<dtend>20180421T123000</dtend>
+<duration>004500</duration>
+<summary>Einsatz von SSH zum Aufbau eines sicheren Netzes- </summary>
+<description>SSH, Secure Shell, wird oft auf die reine Funktion eines sicheren Zugriffs per Terminal reduziert. SSH kann aber viel mehr. Sieht man SSH als einen sicheren Kanal an, über den man fast beliebig Daten senden kann und der eine sichere Punkt zu Punkt Verbindung zwischen zwei Rechnern aufbaut, wird man dem Umfang der Möglichkeiten eher gerecht.
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/19.html</url>
+<location>Raum A</location>
+<attendee>Richard Albrecht</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>20@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>20</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-20-systemtestportal</pentabarf:event-slug>
+<pentabarf:title>SystemTestPortal</pentabarf:title>
+<pentabarf:subtitle>Eine Webanwendung für den manuellen Systemtest</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T131500</dtstart>
+<dtend>20180421T140000</dtend>
+<duration>004500</duration>
+<summary>SystemTestPortal- Eine Webanwendung für den manuellen Systemtest</summary>
+<description>Durch Test-Automatisierung lässt sich zwar viel Testaufwand sparen, aber manuelle Systemtests sind für die Erkennung unerwarteter Fehler oft besser und daher eine sinnvolle Ergänzung.
+Die von uns entwickelte Webanwendung &quot;SystemTestPortal&quot; erlaubt es Entwicklern, Testern, Test-Managern und Endanwendern mühelos beim Test von Systemen zusammenarbeiten.
+Das System ist in Golang implementiert, sehr leichtgewichtig und unter der GPLv3 verfügbar.
+Im Vortrag wollen wir anhand praxisnaher Szenarien demonstrieren, wie der Einsatz des Systems zu einer Verbesserung in der Entwicklung freier Software beitragen kann.
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/20.html</url>
+<location>Raum C</location>
+<attendee>Daniel Kulesz</attendee>
+<attendee>Markus Haug</attendee>
+<attendee>Peter Werner</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>21@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>21</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-21-python_im_unterricht</pentabarf:event-slug>
+<pentabarf:title>Python im Unterricht</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T114500</dtstart>
+<dtend>20180421T123000</dtend>
+<duration>004500</duration>
+<summary>Python im Unterricht- </summary>
+<description>&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; ist nicht nur eine zunehmend populäre Programmiersprache, sondern auch sehr gut für den computergestützten Unterricht in Schule und Universität geeignet. Hierzu trägt nicht nur bei, dass Python relativ leicht erlernbar ist und von umfangreichen, frei verfügbaren Programmbibliotheken ergänzt wird. Einen wesentlichen Beitrag zur Verwendung im Unterricht leistet auch das &lt;a href=&quot;http://jupyter.org/&quot;&gt;Jupter Notebook&lt;/a&gt;, das in verschiedener Weise gewinnbringend eingesetzt werden kann. Ein Beispiel ist die &lt;a href=&quot;https://github.com/jupyter/nbgrader&quot;&gt;nbgrader&lt;/a&gt;-Erweiterung, die es erlaubt, von Schülern oder Studierenden bearbeitete Übungsaufgaben automatisiert zu korrigieren. Im Vortrag wird am Beispiel von Python und seinem Ökosystem gezeigt, wie freie Software im Unterricht genutzt werden kann.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/21.html</url>
+<location>Raum C</location>
+<attendee>Gert-Ludwig Ingold</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>22@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>22</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-22-sieben_brucken</pentabarf:event-slug>
+<pentabarf:title>Sieben Brücken</pentabarf:title>
+<pentabarf:subtitle>Fahrtenbuch mit Skripten auslesen</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T141500</dtstart>
+<dtend>20180421T150000</dtend>
+<duration>004500</duration>
+<summary>Sieben Brücken- Fahrtenbuch mit Skripten auslesen</summary>
+<description></description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/22.html</url>
+<location>Raum B</location>
+<attendee>Frank Hofmann</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>23@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>23</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-23-von_uberall_her_per_tor_auf_seinen_rechner_gelangen</pentabarf:event-slug>
+<pentabarf:title>Von überall her per Tor auf seinen Rechner gelangen</pentabarf:title>
+<pentabarf:subtitle>Tor als kostenloses, öffentliches &quot;VPN&quot; um NAT zu durchdringen</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T141500</dtstart>
+<dtend>20180421T150000</dtend>
+<duration>004500</duration>
+<summary>Von überall her per Tor auf seinen Rechner gelangen- Tor als kostenloses, öffentliches &quot;VPN&quot; um NAT zu durchdringen</summary>
+<description>Tor ist nicht nur etwas für investigative Journalisten, Whistleblower, auf Privatsphäre achtende Webnutzer oder böse Jungs. Man kann es auch als leicht einzurichtendes, öffentliches &quot;VPN&quot; nutzen um durch einen NAT-Router hindurch auf eigene Dienste zuzugreifen.
+
+Dieser Vortrag soll anhand einer Live-Demonstration auf einem Raspberry Pi zeigen, wie man einen Webserver und SSH-Zugriff per Tor konfiguriert und darauf zugreift.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/23.html</url>
+<location>Raum A</location>
+<attendee>Axel Beckert</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>24@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>24</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-24-linux_kernel_programmierung</pentabarf:event-slug>
+<pentabarf:title>Linux Kernel Programmierung</pentabarf:title>
+<pentabarf:subtitle>Grundwissen und Beispiele</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T104500</dtstart>
+<dtend>20180421T123000</dtend>
+<duration>014500</duration>
+<summary>Linux Kernel Programmierung- Grundwissen und Beispiele</summary>
+<description></description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/24.html</url>
+<location>Raum F</location>
+<attendee>richard_siegfried</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>25@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>25</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-25-nix_os_package-management_done_right</pentabarf:event-slug>
+<pentabarf:title>Nix(OS): Package-management done right</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T131500</dtstart>
+<dtend>20180421T140000</dtend>
+<duration>004500</duration>
+<summary>Nix(OS): Package-management done right- </summary>
+<description>&lt;p&gt;Nix wird als der „Retter der Paketverwaltung“ gehandelt. Was da dran ist, wie es funktioniert und was man damit machen kann (z.B. eine komplette Distribution!), darum geht es in diesem Talk.&lt;/p&gt;
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/25.html</url>
+<location>Raum E</location>
+<attendee>Profpatsch</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>26@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>26</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-26-nightly_build_grundlagen_automatisierter_builds</pentabarf:event-slug>
+<pentabarf:title>Nightly Build: Grundlagen automatisierter Builds</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T141500</dtstart>
+<dtend>20180421T150000</dtend>
+<duration>004500</duration>
+<summary>Nightly Build: Grundlagen automatisierter Builds- </summary>
+<description>In diesem Vortrag werden die Grundprinzipien des Nightly Build sowie dessen Sinn und Zweck erläutert. Anhand eines Beispiels wird gezeigt, wie man mit Hilfe des Jenkins Build-Servers einen Nightly Build realisiert.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/26.html</url>
+<location>Raum C</location>
+<attendee>Robert Wimmer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>27@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>27</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-27-seitenkanalangriffe_verstandlich_erklart</pentabarf:event-slug>
+<pentabarf:title>Seitenkanalangriffe verständlich erklärt</pentabarf:title>
+<pentabarf:subtitle>Spectre und Meltdown sind nur die Spitze des Eisbergs</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T161500</dtstart>
+<dtend>20180421T170000</dtend>
+<duration>004500</duration>
+<summary>Seitenkanalangriffe verständlich erklärt- Spectre und Meltdown sind nur die Spitze des Eisbergs</summary>
+<description>Spectre und Meltdown haben Seitenkanalangriffe auf recht dramatische Art und Weise in der Öffentlichkeit bekannt gemacht. In diesem Vortrag werden Seitenkanalangriffe allgemein verständlich und anhand von Beispielen und Demos erklärt.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/27.html</url>
+<location>Raum A</location>
+<attendee>Hunz</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>28@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>28</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-28-linux_container_ein_einstieg</pentabarf:event-slug>
+<pentabarf:title>Linux Container: Ein Einstieg</pentabarf:title>
+<pentabarf:subtitle>Das was und warum von Docker und co.</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T141500</dtstart>
+<dtend>20180421T150000</dtend>
+<duration>004500</duration>
+<summary>Linux Container: Ein Einstieg- Das was und warum von Docker und co.</summary>
+<description>Dieser Vortrag gibt einen Einblick in die Welt von Docker und anderen Linux Container Systemen bieten. Wir befassen uns kurz mit der Geschichte von Containerisation auf Linux und anderen Plattformen, welchen Nutzen diese Techniken stiften und wie sie auf Linux funktionieren. Anschließend darauf ein, welche Rolle Docker und Kubernetes heute spielen und warum sie immer beliebter werden. Das Ende ist offen für Fragen und/oder je nach Zeit ein paar live Demos mit Docker.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/28.html</url>
+<location>Raum E</location>
+<attendee>Anian Ziegler</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>30@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>30</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-30-open-source_der_weg_aus_der_abhangigkeit_von_microsoft</pentabarf:event-slug>
+<pentabarf:title>Open-Source: der Weg aus der Abhängigkeit von Microsoft</pentabarf:title>
+<pentabarf:subtitle>Schützt euch und eure liebsten (Daten)</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T151500</dtstart>
+<dtend>20180421T160000</dtend>
+<duration>004500</duration>
+<summary>Open-Source: der Weg aus der Abhängigkeit von Microsoft- Schützt euch und eure liebsten (Daten)</summary>
+<description>Es kann nur einen Weg geben, sich aus dem Quasi-Monopol weniger Marktteilnehmer zu lösen: Alternativen zu nutzen. Selbstverständlich ist es einfacher nach dem Prinzip zu leben &quot;Nobody get fired for buying Microsoft&quot;, allerdings begibt man sich strategisch in eine Richtung, in der man zum Schluss wenig Wahlmöglichkeiten und Flexibilität hat. Dieser Vortrag zeigt anhand von 3 (prominten) Beispielen aus erster Hand, wie Organisationen nicht bequem waren, sondern sich aktiv um alternativen kümmerten. Der Lohn von geringeren Kosten, wesentlich höhere Flexibilität und gleichzeitig einer besseren Abbildung der organisatorischen Bedürfnisse lässt sich nicht nur erfühlen, sondern aktiv belegen. Open Source Produkte die in diesem Beispielen zum Einsatz kamen sind: Univention, Mattermost &amp; Kopano.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/30.html</url>
+<location>Raum B</location>
+<attendee>Michael Kromer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>32@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>32</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-32-der_einsatz_von_docker_in_entwicklungs-_und_production-umgebungen</pentabarf:event-slug>
+<pentabarf:title>Der Einsatz von Docker in Entwicklungs- und Production-Umgebungen</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T151500</dtstart>
+<dtend>20180421T160000</dtend>
+<duration>004500</duration>
+<summary>Der Einsatz von Docker in Entwicklungs- und Production-Umgebungen- </summary>
+<description>Während der vergangenen 12 Monate haben wir unsere Entwicklungs- und Production-Umgebungen auf Docker umgestellt. Ziel war es, dem gesamten Team sowohl auf Mac als auch auf Windows identische Setups und Software Versionen (Betriebssystem, PHP, OXID, MySQL, Ontraq Module etc.) zur Verfügung zu stellen. Inzwischen haben wir auch damit begonnen, die Production-Umgebungen unserer Kunden von physikalischen Servern unter Verwendung von Docker Swarms auf skalierbare Setups umzustellen. Dieser Vortrag soll anhand von Beispielen darstellen, was wir im Laufe dieses Prozesses gelernt haben.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/32.html</url>
+<location>Raum E</location>
+<attendee>Chris Jolly</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>33@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>33</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-33-lora_und_the_things_network</pentabarf:event-slug>
+<pentabarf:title>Lora und The Things Network</pentabarf:title>
+<pentabarf:subtitle>Das &quot;Internet of Things&quot; ist nun auch in Augsburg angekommen.</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T161500</dtstart>
+<dtend>20180421T170000</dtend>
+<duration>004500</duration>
+<summary>Lora und The Things Network- Das &quot;Internet of Things&quot; ist nun auch in Augsburg angekommen.</summary>
+<description>Der Vortrag stellt die Long-Range (LoRa) Funktechnologie vor, die zur
+Kategorie der Low Power Wide Area Technologien (LPWAN) gehört. Ausserdem wird das &quot;Thethingsnetwork&quot; LoRaWAN Gateway erläutert, das seit Februar 2018 an der Hochschule betrieben wird. Es besteht aus einem Raspberry-Pi, einem LoRa Konzentrator und freier Linux Software. </description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/33.html</url>
+<location>Raum C</location>
+<attendee>Hubert Högl</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>34@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>34</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-34-wawision_vom_hardwarehersteller_zur_erp_firma_mit_einer_open-source_version</pentabarf:event-slug>
+<pentabarf:title>WaWision: Vom Hardwarehersteller zur ERP Firma mit einer Open-Source Version</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T151500</dtstart>
+<dtend>20180421T160000</dtend>
+<duration>004500</duration>
+<summary>WaWision: Vom Hardwarehersteller zur ERP Firma mit einer Open-Source Version- </summary>
+<description>Die besten Geschichten schreibt das Leben wohl selber. In dem Vortrag berichte ich wie wir von einem Hardware-Hersteller zu einem Softwarehersteller mit mittlerweile 15 Mitarbeitern für ein Warenwirtschaftssystem geworden sind. Begonnen hat alles mit einer Open-Source Version aus unserer Eigenentwicklung.
+
+Das Geschäftsmodelle mit Open-Source funktionieren ist ja bekannt. Aber wenn man damit selber startet hat man natürlich viele Bedenkenträger und Skeptiker.
+
+Daher werde ich von unserem Werdegang als Erfahrungsbericht erzählen. Vom Auswahl der passenden Lizenz,  Aufbau der Struktur  und welche Aufgaben noch gemacht werden mussten.
+
+Der Vortrag soll einmal einem die Angst nehmen ein Modell basierend auf Open-Source aufzubauen und Anregungen geben wie man selber so ein Geschäftsmodell aufbauen könnte.
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/34.html</url>
+<location>Raum D</location>
+<attendee>Benedikt Sauter</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>35@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>35</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-35-2_4_ghz_wlan_ganz_sicher_unsicher</pentabarf:event-slug>
+<pentabarf:title>2.4 GHz WLAN – ganz sicher unsicher!</pentabarf:title>
+<pentabarf:subtitle>SCHINFO is coming ... WiFi is going!</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T161500</dtstart>
+<dtend>20180421T170000</dtend>
+<duration>004500</duration>
+<summary>2.4 GHz WLAN – ganz sicher unsicher!- SCHINFO is coming ... WiFi is going!</summary>
+<description>WLAN im 2.4 GHz-Bereich ist absolut unsicher hinsichtlich Sabotage-Angriffen. Mit einfacher Hardware und der entsprechenden Software lässt sich fast jedes WLAN deaktivieren. Ich zeige, wie man das eigene WLAN testen kann, Angriffe erkennt und welche Schutzmöglichkeiten es gibt.
+Der IEEE 802.11 Standard für WLAN weist einen sehr kritischen Design-Fehler auf. Über unprotected Management-Frames lassen sich AccessPoints mit einfachen Mitteln dahingehend manipulieren, dass sie alle bestehenden Verbindungen dauerhaft trennen. Dies geschieht über Deauthentication-Frames, die der AccessPoint akzeptiert und ausführt. Der verbesserte Standard IEEE 802.11w-2009, welcher dies verhindern würde, hat sich leider bis jetzt nicht durchgesetzt. Ein Schutz lässt sich aber auch über die Firmware realisieren, indem entsprechende Frames nicht ausgeführt werden.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/35.html</url>
+<location>Raum D</location>
+<attendee>Helmut Stult (schinfo)</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>36@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>36</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-36-die_neue_europaische_datenschutzgrundverordnung_dsgvo</pentabarf:event-slug>
+<pentabarf:title>Die neue europäische Datenschutzgrundverordnung DSGVO</pentabarf:title>
+<pentabarf:subtitle>Meine Rechte als Betroffener</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T141500</dtstart>
+<dtend>20180421T150000</dtend>
+<duration>004500</duration>
+<summary>Die neue europäische Datenschutzgrundverordnung DSGVO- Meine Rechte als Betroffener</summary>
+<description>Als Einstieg ein krasses aktuelles Reallife- Ownbody-Beispiel aus dem Personaldienstleistungsbereich, was so alles &quot;passiert&quot;.
+
+Relevante Änderungen durch die DSGVO
+
+Welche Rechte habe ich als sog. Betroffene
+Erweiterte Auskunfts- und Widerspruchsrechte
+Recht auf Vergessen
+</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/36.html</url>
+<location>Raum D</location>
+<attendee>Bernhard Rietzl</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>37@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>37</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-37-sichere_netzwerke_mit_pfsense</pentabarf:event-slug>
+<pentabarf:title>Sichere Netzwerke mit pfSense</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T104500</dtstart>
+<dtend>20180421T113000</dtend>
+<duration>004500</duration>
+<summary>Sichere Netzwerke mit pfSense- </summary>
+<description>pfSense ist eine auf FreeSD basierende Open Source Firewall/Router Software. Dieser Vortrag beschäftigt sich mit den Möglichkeiten von pfsense und der Frage warum man sich mit den umfangreichen Fähigkeiten beschäftigen sollte. </description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/37.html</url>
+<location>Raum D</location>
+<attendee>Hagen Bauer</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>38@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>38</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-38-sochack_-_wie_voll_ist_der_akku_meines_autos</pentabarf:event-slug>
+<pentabarf:title>SoChack - Wie voll ist der Akku meines Autos?</pentabarf:title>
+<pentabarf:subtitle>Der Raspberry Pi als Gateway für mein E-Auto</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T131500</dtstart>
+<dtend>20180421T140000</dtend>
+<duration>004500</duration>
+<summary>SoChack - Wie voll ist der Akku meines Autos?- Der Raspberry Pi als Gateway für mein E-Auto</summary>
+<description>Im Mai 2017 haben wir unseren Diesel abgegeben und sind auf den Hyundai IONIQ umgestiegen. Leider bietet Hyundai bis heute keine App in Europa an, mit der man aus der Ferne den Ladestand checken kann. Diese fehlende Funktion habe ich mir mit dem Raspberry Pi nachgebaut.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/38.html</url>
+<location>Raum D</location>
+<attendee>Tobias Nitschmann</attendee>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>39@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>39</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-39-programmier-workshop_fur_schulerinnen_und_schuler</pentabarf:event-slug>
+<pentabarf:title>Programmier-Workshop für Schülerinnen und Schüler</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>{:Ga=&gt;&quot;Irish&quot;, :ab=&gt;&quot;Abkhazian&quot;, :ace=&gt;&quot;Achinese&quot;, :ach=&gt;&quot;Acoli&quot;, :ada=&gt;&quot;Adangme&quot;, :ady=&gt;&quot;Adyghe&quot;, :ae=&gt;&quot;Avestan&quot;, :af=&gt;&quot;Afrikaans&quot;, :afa=&gt;&quot;Afro-Asiatic Language&quot;, :afh=&gt;&quot;Afrihili&quot;, :ain=&gt;&quot;Ainu&quot;, :ak=&gt;&quot;Akan&quot;, :akk=&gt;&quot;Akkadian&quot;, :ale=&gt;&quot;Aleut&quot;, :alg=&gt;&quot;Algonquian Language&quot;, :alt=&gt;&quot;Southern Altai&quot;, :am=&gt;&quot;Amharic&quot;, :an=&gt;&quot;Aragonese&quot;, :ang=&gt;&quot;Old English&quot;, :anp=&gt;&quot;Angika&quot;, :apa=&gt;&quot;Apache Language&quot;, :ar=&gt;&quot;Arabic&quot;, :arc=&gt;&quot;Aramaic&quot;, :arn=&gt;&quot;Araucanian&quot;, :arp=&gt;&quot;Arapaho&quot;, :art=&gt;&quot;Artificial Language&quot;, :arw=&gt;&quot;Arawak&quot;, :as=&gt;&quot;Assamese&quot;, :ast=&gt;&quot;Asturian&quot;, :ath=&gt;&quot;Athapascan Language&quot;, :aus=&gt;&quot;Australian Language&quot;, :av=&gt;&quot;Avaric&quot;, :awa=&gt;&quot;Awadhi&quot;, :ay=&gt;&quot;Aymara&quot;, :az=&gt;&quot;Azerbaijani&quot;, :ba=&gt;&quot;Bashkir&quot;, :bad=&gt;&quot;Banda&quot;, :bai=&gt;&quot;Bamileke Language&quot;, :bal=&gt;&quot;Baluchi&quot;, :ban=&gt;&quot;Balinese&quot;, :bas=&gt;&quot;Basa&quot;, :bat=&gt;&quot;Baltic Language&quot;, :be=&gt;&quot;Belarusian&quot;, :bej=&gt;&quot;Beja&quot;, :bem=&gt;&quot;Bemba&quot;, :ber=&gt;&quot;Berber&quot;, :bg=&gt;&quot;Bulgarian&quot;, :bh=&gt;&quot;Bihari&quot;, :bho=&gt;&quot;Bhojpuri&quot;, :bi=&gt;&quot;Bislama&quot;, :bik=&gt;&quot;Bikol&quot;, :bin=&gt;&quot;Bini&quot;, :bla=&gt;&quot;Siksika&quot;, :bm=&gt;&quot;Bambara&quot;, :bn=&gt;&quot;Bengali&quot;, :bnt=&gt;&quot;Bantu&quot;, :bo=&gt;&quot;Tibetan&quot;, :br=&gt;&quot;Breton&quot;, :bra=&gt;&quot;Braj&quot;, :bs=&gt;&quot;Bosnian&quot;, :btk=&gt;&quot;Batak&quot;, :bua=&gt;&quot;Buriat&quot;, :bug=&gt;&quot;Buginese&quot;, :byn=&gt;&quot;Blin&quot;, :ca=&gt;&quot;Catalan&quot;, :cad=&gt;&quot;Caddo&quot;, :cai=&gt;&quot;Central American Indian Language&quot;, :car=&gt;&quot;Carib&quot;, :cau=&gt;&quot;Caucasian Language&quot;, :cch=&gt;&quot;Atsam&quot;, :ce=&gt;&quot;Chechen&quot;, :ceb=&gt;&quot;Cebuano&quot;, :cel=&gt;&quot;Celtic Language&quot;, :ch=&gt;&quot;Chamorro&quot;, :chb=&gt;&quot;Chibcha&quot;, :chg=&gt;&quot;Chagatai&quot;, :chk=&gt;&quot;Chuukese&quot;, :chm=&gt;&quot;Mari&quot;, :chn=&gt;&quot;Chinook Jargon&quot;, :cho=&gt;&quot;Choctaw&quot;, :chp=&gt;&quot;Chipewyan&quot;, :chr=&gt;&quot;Cherokee&quot;, :chy=&gt;&quot;Cheyenne&quot;, :cmc=&gt;&quot;Chamic Language&quot;, :co=&gt;&quot;Corsican&quot;, :cop=&gt;&quot;Coptic&quot;, :cpe=&gt;&quot;English-based Creole or Pidgin&quot;, :cpf=&gt;&quot;French-based Creole or Pidgin&quot;, :cpp=&gt;&quot;Portuguese-based Creole or Pidgin&quot;, :cr=&gt;&quot;Cree&quot;, :crh=&gt;&quot;Crimean Turkish&quot;, :crp=&gt;&quot;Creole or Pidgin&quot;, :cs=&gt;&quot;Czech&quot;, :csb=&gt;&quot;Kashubian&quot;, :cu=&gt;&quot;Church Slavic&quot;, :cus=&gt;&quot;Cushitic Language&quot;, :cv=&gt;&quot;Chuvash&quot;, :cy=&gt;&quot;Welsh&quot;, :da=&gt;&quot;Danish&quot;, :dak=&gt;&quot;Dakota&quot;, :dar=&gt;&quot;Dargwa&quot;, :day=&gt;&quot;Dayak&quot;, :de=&gt;&quot;German&quot;, :&quot;de-AT&quot;=&gt;&quot;Austrian German&quot;, :&quot;de-CH&quot;=&gt;&quot;Swiss High German&quot;, :del=&gt;&quot;Delaware&quot;, :den=&gt;&quot;Slave&quot;, :dgr=&gt;&quot;Dogrib&quot;, :din=&gt;&quot;Dinka&quot;, :doi=&gt;&quot;Dogri&quot;, :dra=&gt;&quot;Dravidian Language&quot;, :dsb=&gt;&quot;Lower Sorbian&quot;, :dua=&gt;&quot;Duala&quot;, :dum=&gt;&quot;Middle Dutch&quot;, :dv=&gt;&quot;Divehi&quot;, :dyu=&gt;&quot;Dyula&quot;, :dz=&gt;&quot;Dzongkha&quot;, :ee=&gt;&quot;Ewe&quot;, :efi=&gt;&quot;Efik&quot;, :egy=&gt;&quot;Ancient Egyptian&quot;, :eka=&gt;&quot;Ekajuk&quot;, :el=&gt;&quot;Greek&quot;, :elx=&gt;&quot;Elamite&quot;, :en=&gt;&quot;English&quot;, :&quot;en-AU&quot;=&gt;&quot;Australian English&quot;, :&quot;en-CA&quot;=&gt;&quot;Canadian English&quot;, :&quot;en-GB&quot;=&gt;&quot;British English&quot;, :&quot;en-US&quot;=&gt;&quot;U.S. English&quot;, :enm=&gt;&quot;Middle English&quot;, :eo=&gt;&quot;Esperanto&quot;, :es=&gt;&quot;Spanish&quot;, :&quot;es-ES&quot;=&gt;&quot;Iberian Spanish&quot;, :et=&gt;&quot;Estonian&quot;, :eu=&gt;&quot;Basque&quot;, :ewo=&gt;&quot;Ewondo&quot;, :fa=&gt;&quot;Persian&quot;, :false=&gt;&quot;Norwegian&quot;, :fan=&gt;&quot;Fang&quot;, :fat=&gt;&quot;Fanti&quot;, :ff=&gt;&quot;Fulah&quot;, :fi=&gt;&quot;Finnish&quot;, :fil=&gt;&quot;Filipino&quot;, :fiu=&gt;&quot;Finno-Ugrian Language&quot;, :fj=&gt;&quot;Fijian&quot;, :fo=&gt;&quot;Faroese&quot;, :fon=&gt;&quot;Fon&quot;, :fr=&gt;&quot;French&quot;, :&quot;fr-CA&quot;=&gt;&quot;Canadian French&quot;, :&quot;fr-CH&quot;=&gt;&quot;Swiss French&quot;, :frm=&gt;&quot;Middle French&quot;, :fro=&gt;&quot;Old French&quot;, :frr=&gt;&quot;Northern Frisian&quot;, :frs=&gt;&quot;Eastern Frisian&quot;, :fur=&gt;&quot;Friulian&quot;, :fy=&gt;&quot;Western Frisian&quot;, :ga=&gt;&quot;Irish&quot;, :gaa=&gt;&quot;Ga&quot;, :gay=&gt;&quot;Gayo&quot;, :gba=&gt;&quot;Gbaya&quot;, :gd=&gt;&quot;Scottish Gaelic&quot;, :gem=&gt;&quot;Germanic Language&quot;, :gez=&gt;&quot;Geez&quot;, :gil=&gt;&quot;Gilbertese&quot;, :gl=&gt;&quot;Galician&quot;, :gmh=&gt;&quot;Middle High German&quot;, :gn=&gt;&quot;Guarani&quot;, :goh=&gt;&quot;Old High German&quot;, :gon=&gt;&quot;Gondi&quot;, :gor=&gt;&quot;Gorontalo&quot;, :got=&gt;&quot;Gothic&quot;, :grb=&gt;&quot;Grebo&quot;, :grc=&gt;&quot;Ancient Greek&quot;, :gsw=&gt;&quot;Swiss German&quot;, :gu=&gt;&quot;Gujarati&quot;, :gv=&gt;&quot;Manx&quot;, :gwi=&gt;&quot;Gwichʼin&quot;, :ha=&gt;&quot;Hausa&quot;, :hai=&gt;&quot;Haida&quot;, :haw=&gt;&quot;Hawaiian&quot;, :he=&gt;&quot;Hebrew&quot;, :hi=&gt;&quot;Hindi&quot;, :hil=&gt;&quot;Hiligaynon&quot;, :him=&gt;&quot;Himachali&quot;, :hit=&gt;&quot;Hittite&quot;, :hmn=&gt;&quot;Hmong&quot;, :ho=&gt;&quot;Hiri Motu&quot;, :hr=&gt;&quot;Croatian&quot;, :hsb=&gt;&quot;Upper Sorbian&quot;, :ht=&gt;&quot;Haitian&quot;, :hu=&gt;&quot;Hungarian&quot;, :hup=&gt;&quot;Hupa&quot;, :hy=&gt;&quot;Armenian&quot;, :hz=&gt;&quot;Herero&quot;, :ia=&gt;&quot;Interlingua&quot;, :iba=&gt;&quot;Iban&quot;, :id=&gt;&quot;Indonesian&quot;, :ie=&gt;&quot;Interlingue&quot;, :ig=&gt;&quot;Igbo&quot;, :ii=&gt;&quot;Sichuan Yi&quot;, :ijo=&gt;&quot;Ijo&quot;, :ik=&gt;&quot;Inupiaq&quot;, :ilo=&gt;&quot;Iloko&quot;, :inc=&gt;&quot;Indic Language&quot;, :ine=&gt;&quot;Indo-European Language&quot;, :inh=&gt;&quot;Ingush&quot;, :io=&gt;&quot;Ido&quot;, :ira=&gt;&quot;Iranian Language&quot;, :iro=&gt;&quot;Iroquoian Language&quot;, :is=&gt;&quot;Icelandic&quot;, :it=&gt;&quot;Italian&quot;, :iu=&gt;&quot;Inuktitut&quot;, :ja=&gt;&quot;Japanese&quot;, :jbo=&gt;&quot;Lojban&quot;, :jpr=&gt;&quot;Judeo-Persian&quot;, :jrb=&gt;&quot;Judeo-Arabic&quot;, :jv=&gt;&quot;Javanese&quot;, :ka=&gt;&quot;Georgian&quot;, :kaa=&gt;&quot;Kara-Kalpak&quot;, :kab=&gt;&quot;Kabyle&quot;, :kac=&gt;&quot;Kachin&quot;, :kaj=&gt;&quot;Jju&quot;, :kam=&gt;&quot;Kamba&quot;, :kar=&gt;&quot;Karen&quot;, :kaw=&gt;&quot;Kawi&quot;, :kbd=&gt;&quot;Kabardian&quot;, :kcg=&gt;&quot;Tyap&quot;, :kfo=&gt;&quot;Koro&quot;, :kg=&gt;&quot;Kongo&quot;, :kha=&gt;&quot;Khasi&quot;, :khi=&gt;&quot;Khoisan Language&quot;, :kho=&gt;&quot;Khotanese&quot;, :ki=&gt;&quot;Kikuyu&quot;, :kj=&gt;&quot;Kuanyama&quot;, :kk=&gt;&quot;Kazakh&quot;, :kl=&gt;&quot;Kalaallisut&quot;, :km=&gt;&quot;Khmer&quot;, :kmb=&gt;&quot;Kimbundu&quot;, :kn=&gt;&quot;Kannada&quot;, :ko=&gt;&quot;Korean&quot;, :kok=&gt;&quot;Konkani&quot;, :kos=&gt;&quot;Kosraean&quot;, :kpe=&gt;&quot;Kpelle&quot;, :kr=&gt;&quot;Kanuri&quot;, :krc=&gt;&quot;Karachay-Balkar&quot;, :krl=&gt;&quot;Karelian&quot;, :kro=&gt;&quot;Kru&quot;, :kru=&gt;&quot;Kurukh&quot;, :ks=&gt;&quot;Kashmiri&quot;, :ku=&gt;&quot;Kurdish&quot;, :kum=&gt;&quot;Kumyk&quot;, :kut=&gt;&quot;Kutenai&quot;, :kv=&gt;&quot;Komi&quot;, :kw=&gt;&quot;Cornish&quot;, :ky=&gt;&quot;Kirghiz&quot;, :la=&gt;&quot;Latin&quot;, :lad=&gt;&quot;Ladino&quot;, :lah=&gt;&quot;Lahnda&quot;, :lam=&gt;&quot;Lamba&quot;, :lb=&gt;&quot;Luxembourgish&quot;, :lez=&gt;&quot;Lezghian&quot;, :lg=&gt;&quot;Ganda&quot;, :li=&gt;&quot;Limburgish&quot;, :ln=&gt;&quot;Lingala&quot;, :lo=&gt;&quot;Lao&quot;, :lol=&gt;&quot;Mongo&quot;, :loz=&gt;&quot;Lozi&quot;, :lt=&gt;&quot;Lithuanian&quot;, :lu=&gt;&quot;Luba-Katanga&quot;, :lua=&gt;&quot;Luba-Lulua&quot;, :lui=&gt;&quot;Luiseno&quot;, :lun=&gt;&quot;Lunda&quot;, :luo=&gt;&quot;Luo&quot;, :lus=&gt;&quot;Lushai&quot;, :lv=&gt;&quot;Latvian&quot;, :mad=&gt;&quot;Madurese&quot;, :mag=&gt;&quot;Magahi&quot;, :mai=&gt;&quot;Maithili&quot;, :mak=&gt;&quot;Makasar&quot;, :man=&gt;&quot;Mandingo&quot;, :map=&gt;&quot;Austronesian Language&quot;, :mas=&gt;&quot;Masai&quot;, :mdf=&gt;&quot;Moksha&quot;, :mdr=&gt;&quot;Mandar&quot;, :men=&gt;&quot;Mende&quot;, :mg=&gt;&quot;Malagasy&quot;, :mga=&gt;&quot;Middle Irish&quot;, :mh=&gt;&quot;Marshallese&quot;, :mi=&gt;&quot;Maori&quot;, :mic=&gt;&quot;Micmac&quot;, :min=&gt;&quot;Minangkabau&quot;, :mis=&gt;&quot;Miscellaneous Language&quot;, :mk=&gt;&quot;Macedonian&quot;, :mkh=&gt;&quot;Mon-Khmer Language&quot;, :ml=&gt;&quot;Malayalam&quot;, :mn=&gt;&quot;Mongolian&quot;, :mnc=&gt;&quot;Manchu&quot;, :mni=&gt;&quot;Manipuri&quot;, :mno=&gt;&quot;Manobo Language&quot;, :mo=&gt;&quot;Moldavian&quot;, :moh=&gt;&quot;Mohawk&quot;, :mos=&gt;&quot;Mossi&quot;, :mr=&gt;&quot;Marathi&quot;, :ms=&gt;&quot;Malay&quot;, :mt=&gt;&quot;Maltese&quot;, :mul=&gt;&quot;Multiple Languages&quot;, :mun=&gt;&quot;Munda Language&quot;, :mus=&gt;&quot;Creek&quot;, :mwl=&gt;&quot;Mirandese&quot;, :mwr=&gt;&quot;Marwari&quot;, :my=&gt;&quot;Burmese&quot;, :myn=&gt;&quot;Mayan Language&quot;, :myv=&gt;&quot;Erzya&quot;, :na=&gt;&quot;Nauru&quot;, :nah=&gt;&quot;Nahuatl&quot;, :nai=&gt;&quot;North American Indian Language&quot;, :nap=&gt;&quot;Neapolitan&quot;, :nb=&gt;&quot;Norwegian Bokmål&quot;, :nd=&gt;&quot;North Ndebele&quot;, :nds=&gt;&quot;Low German&quot;, :ne=&gt;&quot;Nepali&quot;, :new=&gt;&quot;Newari&quot;, :ng=&gt;&quot;Ndonga&quot;, :nia=&gt;&quot;Nias&quot;, :nic=&gt;&quot;Niger-Kordofanian Language&quot;, :niu=&gt;&quot;Niuean&quot;, :nl=&gt;&quot;Dutch&quot;, :&quot;nl-BE&quot;=&gt;&quot;Flemish&quot;, :nn=&gt;&quot;Norwegian Nynorsk&quot;, :nog=&gt;&quot;Nogai&quot;, :non=&gt;&quot;Old Norse&quot;, :nqo=&gt;&quot;N’Ko&quot;, :nr=&gt;&quot;South Ndebele&quot;, :nso=&gt;&quot;Northern Sotho&quot;, :nub=&gt;&quot;Nubian Language&quot;, :nv=&gt;&quot;Navajo&quot;, :nwc=&gt;&quot;Classical Newari&quot;, :ny=&gt;&quot;Nyanja&quot;, :nym=&gt;&quot;Nyamwezi&quot;, :nyn=&gt;&quot;Nyankole&quot;, :nyo=&gt;&quot;Nyoro&quot;, :nzi=&gt;&quot;Nzima&quot;, :oc=&gt;&quot;Occitan&quot;, :oj=&gt;&quot;Ojibwa&quot;, :om=&gt;&quot;Oromo&quot;, :or=&gt;&quot;Oriya&quot;, :os=&gt;&quot;Ossetic&quot;, :osa=&gt;&quot;Osage&quot;, :ota=&gt;&quot;Ottoman Turkish&quot;, :oto=&gt;&quot;Otomian Language&quot;, :pa=&gt;&quot;Punjabi&quot;, :paa=&gt;&quot;Papuan Language&quot;, :pag=&gt;&quot;Pangasinan&quot;, :pal=&gt;&quot;Pahlavi&quot;, :pam=&gt;&quot;Pampanga&quot;, :pap=&gt;&quot;Papiamento&quot;, :pau=&gt;&quot;Palauan&quot;, :peo=&gt;&quot;Old Persian&quot;, :phi=&gt;&quot;Philippine Language&quot;, :phn=&gt;&quot;Phoenician&quot;, :pi=&gt;&quot;Pali&quot;, :pl=&gt;&quot;Polish&quot;, :pon=&gt;&quot;Pohnpeian&quot;, :pra=&gt;&quot;Prakrit Language&quot;, :pro=&gt;&quot;Old Provençal&quot;, :ps=&gt;&quot;Pashto&quot;, :pt=&gt;&quot;Portuguese&quot;, :&quot;pt-BR&quot;=&gt;&quot;Brazilian Portuguese&quot;, :&quot;pt-PT&quot;=&gt;&quot;Iberian Portuguese&quot;, :qu=&gt;&quot;Quechua&quot;, :raj=&gt;&quot;Rajasthani&quot;, :rap=&gt;&quot;Rapanui&quot;, :rar=&gt;&quot;Rarotongan&quot;, :rm=&gt;&quot;Rhaeto-Romance&quot;, :rn=&gt;&quot;Rundi&quot;, :ro=&gt;&quot;Romanian&quot;, :roa=&gt;&quot;Romance Language&quot;, :rom=&gt;&quot;Romany&quot;, :ru=&gt;&quot;Russian&quot;, :rup=&gt;&quot;Aromanian&quot;, :rw=&gt;&quot;Kinyarwanda&quot;, :sa=&gt;&quot;Sanskrit&quot;, :sad=&gt;&quot;Sandawe&quot;, :sah=&gt;&quot;Yakut&quot;, :sai=&gt;&quot;South American Indian Language&quot;, :sal=&gt;&quot;Salishan Language&quot;, :sam=&gt;&quot;Samaritan Aramaic&quot;, :sas=&gt;&quot;Sasak&quot;, :sat=&gt;&quot;Santali&quot;, :sc=&gt;&quot;Sardinian&quot;, :scn=&gt;&quot;Sicilian&quot;, :sco=&gt;&quot;Scots&quot;, :sd=&gt;&quot;Sindhi&quot;, :se=&gt;&quot;Northern Sami&quot;, :sel=&gt;&quot;Selkup&quot;, :sem=&gt;&quot;Semitic Language&quot;, :sg=&gt;&quot;Sango&quot;, :sga=&gt;&quot;Old Irish&quot;, :sgn=&gt;&quot;Sign Language&quot;, :sh=&gt;&quot;Serbo-Croatian&quot;, :shn=&gt;&quot;Shan&quot;, :si=&gt;&quot;Sinhala&quot;, :sid=&gt;&quot;Sidamo&quot;, :sio=&gt;&quot;Siouan Language&quot;, :sit=&gt;&quot;Sino-Tibetan Language&quot;, :sk=&gt;&quot;Slovak&quot;, :sl=&gt;&quot;Slovenian&quot;, :sla=&gt;&quot;Slavic Language&quot;, :sm=&gt;&quot;Samoan&quot;, :sma=&gt;&quot;Southern Sami&quot;, :smi=&gt;&quot;Sami Language&quot;, :smj=&gt;&quot;Lule Sami&quot;, :smn=&gt;&quot;Inari Sami&quot;, :sms=&gt;&quot;Skolt Sami&quot;, :sn=&gt;&quot;Shona&quot;, :snk=&gt;&quot;Soninke&quot;, :so=&gt;&quot;Somali&quot;, :sog=&gt;&quot;Sogdien&quot;, :son=&gt;&quot;Songhai&quot;, :sq=&gt;&quot;Albanian&quot;, :sr=&gt;&quot;Serbian&quot;, :srn=&gt;&quot;Sranan Tongo&quot;, :srr=&gt;&quot;Serer&quot;, :ss=&gt;&quot;Swati&quot;, :ssa=&gt;&quot;Nilo-Saharan Language&quot;, :st=&gt;&quot;Southern Sotho&quot;, :su=&gt;&quot;Sundanese&quot;, :suk=&gt;&quot;Sukuma&quot;, :sus=&gt;&quot;Susu&quot;, :sux=&gt;&quot;Sumerian&quot;, :sv=&gt;&quot;Swedish&quot;, :sw=&gt;&quot;Swahili&quot;, :syc=&gt;&quot;Classical Syriac&quot;, :syr=&gt;&quot;Syriac&quot;, :ta=&gt;&quot;Tamil&quot;, :tai=&gt;&quot;Tai Language&quot;, :te=&gt;&quot;Telugu&quot;, :tem=&gt;&quot;Timne&quot;, :ter=&gt;&quot;Tereno&quot;, :tet=&gt;&quot;Tetum&quot;, :tg=&gt;&quot;Tajik&quot;, :th=&gt;&quot;Thai&quot;, :ti=&gt;&quot;Tigrinya&quot;, :tig=&gt;&quot;Tigre&quot;, :tiv=&gt;&quot;Tiv&quot;, :tk=&gt;&quot;Turkmen&quot;, :tkl=&gt;&quot;Tokelau&quot;, :tl=&gt;&quot;Tagalog&quot;, :tlh=&gt;&quot;Klingon&quot;, :tli=&gt;&quot;Tlingit&quot;, :tmh=&gt;&quot;Tamashek&quot;, :tn=&gt;&quot;Tswana&quot;, :to=&gt;&quot;Tonga&quot;, :tog=&gt;&quot;Nyasa Tonga&quot;, :tpi=&gt;&quot;Tok Pisin&quot;, :tr=&gt;&quot;Turkish&quot;, :trv=&gt;&quot;Taroko&quot;, :ts=&gt;&quot;Tsonga&quot;, :tsi=&gt;&quot;Tsimshian&quot;, :tt=&gt;&quot;Tatar&quot;, :tum=&gt;&quot;Tumbuka&quot;, :tup=&gt;&quot;Tupi Language&quot;, :tut=&gt;&quot;Altaic Language&quot;, :tvl=&gt;&quot;Tuvalu&quot;, :tw=&gt;&quot;Twi&quot;, :ty=&gt;&quot;Tahitian&quot;, :tyv=&gt;&quot;Tuvinian&quot;, :udm=&gt;&quot;Udmurt&quot;, :ug=&gt;&quot;Uighur&quot;, :uga=&gt;&quot;Ugaritic&quot;, :uk=&gt;&quot;Ukrainian&quot;, :umb=&gt;&quot;Umbundu&quot;, :und=&gt;&quot;Unknown or Invalid Language&quot;, :ur=&gt;&quot;Urdu&quot;, :uz=&gt;&quot;Uzbek&quot;, :vai=&gt;&quot;Vai&quot;, :ve=&gt;&quot;Venda&quot;, :vi=&gt;&quot;Vietnamese&quot;, :vo=&gt;&quot;Volapük&quot;, :vot=&gt;&quot;Votic&quot;, :wa=&gt;&quot;Walloon&quot;, :wak=&gt;&quot;Wakashan Language&quot;, :wal=&gt;&quot;Walamo&quot;, :war=&gt;&quot;Waray&quot;, :was=&gt;&quot;Washo&quot;, :wen=&gt;&quot;Sorbian Language&quot;, :wo=&gt;&quot;Wolof&quot;, :xal=&gt;&quot;Kalmyk&quot;, :xh=&gt;&quot;Xhosa&quot;, :yao=&gt;&quot;Yao&quot;, :yap=&gt;&quot;Yapese&quot;, :yi=&gt;&quot;Yiddish&quot;, :yo=&gt;&quot;Yoruba&quot;, :ypk=&gt;&quot;Yupik Language&quot;, :za=&gt;&quot;Zhuang&quot;, :zap=&gt;&quot;Zapotec&quot;, :zbl=&gt;&quot;Blissymbols&quot;, :zen=&gt;&quot;Zenaga&quot;, :zh=&gt;&quot;Chinese&quot;, :&quot;zh-Hans&quot;=&gt;&quot;Simplified Chinese&quot;, :&quot;zh-Hant&quot;=&gt;&quot;Traditional Chinese&quot;, :znd=&gt;&quot;Zande&quot;, :zu=&gt;&quot;Zulu&quot;, :zun=&gt;&quot;Zuni&quot;, :zxx=&gt;&quot;No linguistic content&quot;, :zza=&gt;&quot;Zaza&quot;}</pentabarf:language>
+<pentabarf:language-code></pentabarf:language-code>
+<dtstart>20180421T131500</dtstart>
+<dtend>20180421T150000</dtend>
+<duration>014500</duration>
+<summary>Programmier-Workshop für Schülerinnen und Schüler- </summary>
+<description>Python ist eine moderne Programmiersprache, mit der man zum Beispiel eigene Spiele und Webseiten erstellen kann. Im Workshop unternehmen wir gemeinsam erste Schritte in dieser Sprache. Es sind keinerlei Computer- oder Programmier-Vorkenntnisse nötig.
+
+Wenn du nicht genau weißt, was dich in dem Workshop erwartet, oder wenn du sonstige Fragen oder Wünsche hast, kannst du uns jederzeit informal und unverbindlich eine Mail schreiben.
+
+Wenn du mindestens in die vierte Klasse gehst, bist du herzlich zu diesem Workshop eingeladen! Bring einen Laptop mit oder melde dich vorab per Mail an, wenn das nicht gehen sollte, dann kannst du einen Laptop von uns haben. Keine Sorge: Wir werden das vorhandene Laptopsystem nicht ändern. Wir werden den Laptop nur verwenden, um auf eine bestimmte Webseite zu gehen.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/39.html</url>
+<location>Raum F</location>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>40@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>40</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-40-eine_botschaft_an_ausserirdische</pentabarf:event-slug>
+<pentabarf:title>Eine Botschaft an Außerirdische</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>{:Ga=&gt;&quot;Irish&quot;, :ab=&gt;&quot;Abkhazian&quot;, :ace=&gt;&quot;Achinese&quot;, :ach=&gt;&quot;Acoli&quot;, :ada=&gt;&quot;Adangme&quot;, :ady=&gt;&quot;Adyghe&quot;, :ae=&gt;&quot;Avestan&quot;, :af=&gt;&quot;Afrikaans&quot;, :afa=&gt;&quot;Afro-Asiatic Language&quot;, :afh=&gt;&quot;Afrihili&quot;, :ain=&gt;&quot;Ainu&quot;, :ak=&gt;&quot;Akan&quot;, :akk=&gt;&quot;Akkadian&quot;, :ale=&gt;&quot;Aleut&quot;, :alg=&gt;&quot;Algonquian Language&quot;, :alt=&gt;&quot;Southern Altai&quot;, :am=&gt;&quot;Amharic&quot;, :an=&gt;&quot;Aragonese&quot;, :ang=&gt;&quot;Old English&quot;, :anp=&gt;&quot;Angika&quot;, :apa=&gt;&quot;Apache Language&quot;, :ar=&gt;&quot;Arabic&quot;, :arc=&gt;&quot;Aramaic&quot;, :arn=&gt;&quot;Araucanian&quot;, :arp=&gt;&quot;Arapaho&quot;, :art=&gt;&quot;Artificial Language&quot;, :arw=&gt;&quot;Arawak&quot;, :as=&gt;&quot;Assamese&quot;, :ast=&gt;&quot;Asturian&quot;, :ath=&gt;&quot;Athapascan Language&quot;, :aus=&gt;&quot;Australian Language&quot;, :av=&gt;&quot;Avaric&quot;, :awa=&gt;&quot;Awadhi&quot;, :ay=&gt;&quot;Aymara&quot;, :az=&gt;&quot;Azerbaijani&quot;, :ba=&gt;&quot;Bashkir&quot;, :bad=&gt;&quot;Banda&quot;, :bai=&gt;&quot;Bamileke Language&quot;, :bal=&gt;&quot;Baluchi&quot;, :ban=&gt;&quot;Balinese&quot;, :bas=&gt;&quot;Basa&quot;, :bat=&gt;&quot;Baltic Language&quot;, :be=&gt;&quot;Belarusian&quot;, :bej=&gt;&quot;Beja&quot;, :bem=&gt;&quot;Bemba&quot;, :ber=&gt;&quot;Berber&quot;, :bg=&gt;&quot;Bulgarian&quot;, :bh=&gt;&quot;Bihari&quot;, :bho=&gt;&quot;Bhojpuri&quot;, :bi=&gt;&quot;Bislama&quot;, :bik=&gt;&quot;Bikol&quot;, :bin=&gt;&quot;Bini&quot;, :bla=&gt;&quot;Siksika&quot;, :bm=&gt;&quot;Bambara&quot;, :bn=&gt;&quot;Bengali&quot;, :bnt=&gt;&quot;Bantu&quot;, :bo=&gt;&quot;Tibetan&quot;, :br=&gt;&quot;Breton&quot;, :bra=&gt;&quot;Braj&quot;, :bs=&gt;&quot;Bosnian&quot;, :btk=&gt;&quot;Batak&quot;, :bua=&gt;&quot;Buriat&quot;, :bug=&gt;&quot;Buginese&quot;, :byn=&gt;&quot;Blin&quot;, :ca=&gt;&quot;Catalan&quot;, :cad=&gt;&quot;Caddo&quot;, :cai=&gt;&quot;Central American Indian Language&quot;, :car=&gt;&quot;Carib&quot;, :cau=&gt;&quot;Caucasian Language&quot;, :cch=&gt;&quot;Atsam&quot;, :ce=&gt;&quot;Chechen&quot;, :ceb=&gt;&quot;Cebuano&quot;, :cel=&gt;&quot;Celtic Language&quot;, :ch=&gt;&quot;Chamorro&quot;, :chb=&gt;&quot;Chibcha&quot;, :chg=&gt;&quot;Chagatai&quot;, :chk=&gt;&quot;Chuukese&quot;, :chm=&gt;&quot;Mari&quot;, :chn=&gt;&quot;Chinook Jargon&quot;, :cho=&gt;&quot;Choctaw&quot;, :chp=&gt;&quot;Chipewyan&quot;, :chr=&gt;&quot;Cherokee&quot;, :chy=&gt;&quot;Cheyenne&quot;, :cmc=&gt;&quot;Chamic Language&quot;, :co=&gt;&quot;Corsican&quot;, :cop=&gt;&quot;Coptic&quot;, :cpe=&gt;&quot;English-based Creole or Pidgin&quot;, :cpf=&gt;&quot;French-based Creole or Pidgin&quot;, :cpp=&gt;&quot;Portuguese-based Creole or Pidgin&quot;, :cr=&gt;&quot;Cree&quot;, :crh=&gt;&quot;Crimean Turkish&quot;, :crp=&gt;&quot;Creole or Pidgin&quot;, :cs=&gt;&quot;Czech&quot;, :csb=&gt;&quot;Kashubian&quot;, :cu=&gt;&quot;Church Slavic&quot;, :cus=&gt;&quot;Cushitic Language&quot;, :cv=&gt;&quot;Chuvash&quot;, :cy=&gt;&quot;Welsh&quot;, :da=&gt;&quot;Danish&quot;, :dak=&gt;&quot;Dakota&quot;, :dar=&gt;&quot;Dargwa&quot;, :day=&gt;&quot;Dayak&quot;, :de=&gt;&quot;German&quot;, :&quot;de-AT&quot;=&gt;&quot;Austrian German&quot;, :&quot;de-CH&quot;=&gt;&quot;Swiss High German&quot;, :del=&gt;&quot;Delaware&quot;, :den=&gt;&quot;Slave&quot;, :dgr=&gt;&quot;Dogrib&quot;, :din=&gt;&quot;Dinka&quot;, :doi=&gt;&quot;Dogri&quot;, :dra=&gt;&quot;Dravidian Language&quot;, :dsb=&gt;&quot;Lower Sorbian&quot;, :dua=&gt;&quot;Duala&quot;, :dum=&gt;&quot;Middle Dutch&quot;, :dv=&gt;&quot;Divehi&quot;, :dyu=&gt;&quot;Dyula&quot;, :dz=&gt;&quot;Dzongkha&quot;, :ee=&gt;&quot;Ewe&quot;, :efi=&gt;&quot;Efik&quot;, :egy=&gt;&quot;Ancient Egyptian&quot;, :eka=&gt;&quot;Ekajuk&quot;, :el=&gt;&quot;Greek&quot;, :elx=&gt;&quot;Elamite&quot;, :en=&gt;&quot;English&quot;, :&quot;en-AU&quot;=&gt;&quot;Australian English&quot;, :&quot;en-CA&quot;=&gt;&quot;Canadian English&quot;, :&quot;en-GB&quot;=&gt;&quot;British English&quot;, :&quot;en-US&quot;=&gt;&quot;U.S. English&quot;, :enm=&gt;&quot;Middle English&quot;, :eo=&gt;&quot;Esperanto&quot;, :es=&gt;&quot;Spanish&quot;, :&quot;es-ES&quot;=&gt;&quot;Iberian Spanish&quot;, :et=&gt;&quot;Estonian&quot;, :eu=&gt;&quot;Basque&quot;, :ewo=&gt;&quot;Ewondo&quot;, :fa=&gt;&quot;Persian&quot;, :false=&gt;&quot;Norwegian&quot;, :fan=&gt;&quot;Fang&quot;, :fat=&gt;&quot;Fanti&quot;, :ff=&gt;&quot;Fulah&quot;, :fi=&gt;&quot;Finnish&quot;, :fil=&gt;&quot;Filipino&quot;, :fiu=&gt;&quot;Finno-Ugrian Language&quot;, :fj=&gt;&quot;Fijian&quot;, :fo=&gt;&quot;Faroese&quot;, :fon=&gt;&quot;Fon&quot;, :fr=&gt;&quot;French&quot;, :&quot;fr-CA&quot;=&gt;&quot;Canadian French&quot;, :&quot;fr-CH&quot;=&gt;&quot;Swiss French&quot;, :frm=&gt;&quot;Middle French&quot;, :fro=&gt;&quot;Old French&quot;, :frr=&gt;&quot;Northern Frisian&quot;, :frs=&gt;&quot;Eastern Frisian&quot;, :fur=&gt;&quot;Friulian&quot;, :fy=&gt;&quot;Western Frisian&quot;, :ga=&gt;&quot;Irish&quot;, :gaa=&gt;&quot;Ga&quot;, :gay=&gt;&quot;Gayo&quot;, :gba=&gt;&quot;Gbaya&quot;, :gd=&gt;&quot;Scottish Gaelic&quot;, :gem=&gt;&quot;Germanic Language&quot;, :gez=&gt;&quot;Geez&quot;, :gil=&gt;&quot;Gilbertese&quot;, :gl=&gt;&quot;Galician&quot;, :gmh=&gt;&quot;Middle High German&quot;, :gn=&gt;&quot;Guarani&quot;, :goh=&gt;&quot;Old High German&quot;, :gon=&gt;&quot;Gondi&quot;, :gor=&gt;&quot;Gorontalo&quot;, :got=&gt;&quot;Gothic&quot;, :grb=&gt;&quot;Grebo&quot;, :grc=&gt;&quot;Ancient Greek&quot;, :gsw=&gt;&quot;Swiss German&quot;, :gu=&gt;&quot;Gujarati&quot;, :gv=&gt;&quot;Manx&quot;, :gwi=&gt;&quot;Gwichʼin&quot;, :ha=&gt;&quot;Hausa&quot;, :hai=&gt;&quot;Haida&quot;, :haw=&gt;&quot;Hawaiian&quot;, :he=&gt;&quot;Hebrew&quot;, :hi=&gt;&quot;Hindi&quot;, :hil=&gt;&quot;Hiligaynon&quot;, :him=&gt;&quot;Himachali&quot;, :hit=&gt;&quot;Hittite&quot;, :hmn=&gt;&quot;Hmong&quot;, :ho=&gt;&quot;Hiri Motu&quot;, :hr=&gt;&quot;Croatian&quot;, :hsb=&gt;&quot;Upper Sorbian&quot;, :ht=&gt;&quot;Haitian&quot;, :hu=&gt;&quot;Hungarian&quot;, :hup=&gt;&quot;Hupa&quot;, :hy=&gt;&quot;Armenian&quot;, :hz=&gt;&quot;Herero&quot;, :ia=&gt;&quot;Interlingua&quot;, :iba=&gt;&quot;Iban&quot;, :id=&gt;&quot;Indonesian&quot;, :ie=&gt;&quot;Interlingue&quot;, :ig=&gt;&quot;Igbo&quot;, :ii=&gt;&quot;Sichuan Yi&quot;, :ijo=&gt;&quot;Ijo&quot;, :ik=&gt;&quot;Inupiaq&quot;, :ilo=&gt;&quot;Iloko&quot;, :inc=&gt;&quot;Indic Language&quot;, :ine=&gt;&quot;Indo-European Language&quot;, :inh=&gt;&quot;Ingush&quot;, :io=&gt;&quot;Ido&quot;, :ira=&gt;&quot;Iranian Language&quot;, :iro=&gt;&quot;Iroquoian Language&quot;, :is=&gt;&quot;Icelandic&quot;, :it=&gt;&quot;Italian&quot;, :iu=&gt;&quot;Inuktitut&quot;, :ja=&gt;&quot;Japanese&quot;, :jbo=&gt;&quot;Lojban&quot;, :jpr=&gt;&quot;Judeo-Persian&quot;, :jrb=&gt;&quot;Judeo-Arabic&quot;, :jv=&gt;&quot;Javanese&quot;, :ka=&gt;&quot;Georgian&quot;, :kaa=&gt;&quot;Kara-Kalpak&quot;, :kab=&gt;&quot;Kabyle&quot;, :kac=&gt;&quot;Kachin&quot;, :kaj=&gt;&quot;Jju&quot;, :kam=&gt;&quot;Kamba&quot;, :kar=&gt;&quot;Karen&quot;, :kaw=&gt;&quot;Kawi&quot;, :kbd=&gt;&quot;Kabardian&quot;, :kcg=&gt;&quot;Tyap&quot;, :kfo=&gt;&quot;Koro&quot;, :kg=&gt;&quot;Kongo&quot;, :kha=&gt;&quot;Khasi&quot;, :khi=&gt;&quot;Khoisan Language&quot;, :kho=&gt;&quot;Khotanese&quot;, :ki=&gt;&quot;Kikuyu&quot;, :kj=&gt;&quot;Kuanyama&quot;, :kk=&gt;&quot;Kazakh&quot;, :kl=&gt;&quot;Kalaallisut&quot;, :km=&gt;&quot;Khmer&quot;, :kmb=&gt;&quot;Kimbundu&quot;, :kn=&gt;&quot;Kannada&quot;, :ko=&gt;&quot;Korean&quot;, :kok=&gt;&quot;Konkani&quot;, :kos=&gt;&quot;Kosraean&quot;, :kpe=&gt;&quot;Kpelle&quot;, :kr=&gt;&quot;Kanuri&quot;, :krc=&gt;&quot;Karachay-Balkar&quot;, :krl=&gt;&quot;Karelian&quot;, :kro=&gt;&quot;Kru&quot;, :kru=&gt;&quot;Kurukh&quot;, :ks=&gt;&quot;Kashmiri&quot;, :ku=&gt;&quot;Kurdish&quot;, :kum=&gt;&quot;Kumyk&quot;, :kut=&gt;&quot;Kutenai&quot;, :kv=&gt;&quot;Komi&quot;, :kw=&gt;&quot;Cornish&quot;, :ky=&gt;&quot;Kirghiz&quot;, :la=&gt;&quot;Latin&quot;, :lad=&gt;&quot;Ladino&quot;, :lah=&gt;&quot;Lahnda&quot;, :lam=&gt;&quot;Lamba&quot;, :lb=&gt;&quot;Luxembourgish&quot;, :lez=&gt;&quot;Lezghian&quot;, :lg=&gt;&quot;Ganda&quot;, :li=&gt;&quot;Limburgish&quot;, :ln=&gt;&quot;Lingala&quot;, :lo=&gt;&quot;Lao&quot;, :lol=&gt;&quot;Mongo&quot;, :loz=&gt;&quot;Lozi&quot;, :lt=&gt;&quot;Lithuanian&quot;, :lu=&gt;&quot;Luba-Katanga&quot;, :lua=&gt;&quot;Luba-Lulua&quot;, :lui=&gt;&quot;Luiseno&quot;, :lun=&gt;&quot;Lunda&quot;, :luo=&gt;&quot;Luo&quot;, :lus=&gt;&quot;Lushai&quot;, :lv=&gt;&quot;Latvian&quot;, :mad=&gt;&quot;Madurese&quot;, :mag=&gt;&quot;Magahi&quot;, :mai=&gt;&quot;Maithili&quot;, :mak=&gt;&quot;Makasar&quot;, :man=&gt;&quot;Mandingo&quot;, :map=&gt;&quot;Austronesian Language&quot;, :mas=&gt;&quot;Masai&quot;, :mdf=&gt;&quot;Moksha&quot;, :mdr=&gt;&quot;Mandar&quot;, :men=&gt;&quot;Mende&quot;, :mg=&gt;&quot;Malagasy&quot;, :mga=&gt;&quot;Middle Irish&quot;, :mh=&gt;&quot;Marshallese&quot;, :mi=&gt;&quot;Maori&quot;, :mic=&gt;&quot;Micmac&quot;, :min=&gt;&quot;Minangkabau&quot;, :mis=&gt;&quot;Miscellaneous Language&quot;, :mk=&gt;&quot;Macedonian&quot;, :mkh=&gt;&quot;Mon-Khmer Language&quot;, :ml=&gt;&quot;Malayalam&quot;, :mn=&gt;&quot;Mongolian&quot;, :mnc=&gt;&quot;Manchu&quot;, :mni=&gt;&quot;Manipuri&quot;, :mno=&gt;&quot;Manobo Language&quot;, :mo=&gt;&quot;Moldavian&quot;, :moh=&gt;&quot;Mohawk&quot;, :mos=&gt;&quot;Mossi&quot;, :mr=&gt;&quot;Marathi&quot;, :ms=&gt;&quot;Malay&quot;, :mt=&gt;&quot;Maltese&quot;, :mul=&gt;&quot;Multiple Languages&quot;, :mun=&gt;&quot;Munda Language&quot;, :mus=&gt;&quot;Creek&quot;, :mwl=&gt;&quot;Mirandese&quot;, :mwr=&gt;&quot;Marwari&quot;, :my=&gt;&quot;Burmese&quot;, :myn=&gt;&quot;Mayan Language&quot;, :myv=&gt;&quot;Erzya&quot;, :na=&gt;&quot;Nauru&quot;, :nah=&gt;&quot;Nahuatl&quot;, :nai=&gt;&quot;North American Indian Language&quot;, :nap=&gt;&quot;Neapolitan&quot;, :nb=&gt;&quot;Norwegian Bokmål&quot;, :nd=&gt;&quot;North Ndebele&quot;, :nds=&gt;&quot;Low German&quot;, :ne=&gt;&quot;Nepali&quot;, :new=&gt;&quot;Newari&quot;, :ng=&gt;&quot;Ndonga&quot;, :nia=&gt;&quot;Nias&quot;, :nic=&gt;&quot;Niger-Kordofanian Language&quot;, :niu=&gt;&quot;Niuean&quot;, :nl=&gt;&quot;Dutch&quot;, :&quot;nl-BE&quot;=&gt;&quot;Flemish&quot;, :nn=&gt;&quot;Norwegian Nynorsk&quot;, :nog=&gt;&quot;Nogai&quot;, :non=&gt;&quot;Old Norse&quot;, :nqo=&gt;&quot;N’Ko&quot;, :nr=&gt;&quot;South Ndebele&quot;, :nso=&gt;&quot;Northern Sotho&quot;, :nub=&gt;&quot;Nubian Language&quot;, :nv=&gt;&quot;Navajo&quot;, :nwc=&gt;&quot;Classical Newari&quot;, :ny=&gt;&quot;Nyanja&quot;, :nym=&gt;&quot;Nyamwezi&quot;, :nyn=&gt;&quot;Nyankole&quot;, :nyo=&gt;&quot;Nyoro&quot;, :nzi=&gt;&quot;Nzima&quot;, :oc=&gt;&quot;Occitan&quot;, :oj=&gt;&quot;Ojibwa&quot;, :om=&gt;&quot;Oromo&quot;, :or=&gt;&quot;Oriya&quot;, :os=&gt;&quot;Ossetic&quot;, :osa=&gt;&quot;Osage&quot;, :ota=&gt;&quot;Ottoman Turkish&quot;, :oto=&gt;&quot;Otomian Language&quot;, :pa=&gt;&quot;Punjabi&quot;, :paa=&gt;&quot;Papuan Language&quot;, :pag=&gt;&quot;Pangasinan&quot;, :pal=&gt;&quot;Pahlavi&quot;, :pam=&gt;&quot;Pampanga&quot;, :pap=&gt;&quot;Papiamento&quot;, :pau=&gt;&quot;Palauan&quot;, :peo=&gt;&quot;Old Persian&quot;, :phi=&gt;&quot;Philippine Language&quot;, :phn=&gt;&quot;Phoenician&quot;, :pi=&gt;&quot;Pali&quot;, :pl=&gt;&quot;Polish&quot;, :pon=&gt;&quot;Pohnpeian&quot;, :pra=&gt;&quot;Prakrit Language&quot;, :pro=&gt;&quot;Old Provençal&quot;, :ps=&gt;&quot;Pashto&quot;, :pt=&gt;&quot;Portuguese&quot;, :&quot;pt-BR&quot;=&gt;&quot;Brazilian Portuguese&quot;, :&quot;pt-PT&quot;=&gt;&quot;Iberian Portuguese&quot;, :qu=&gt;&quot;Quechua&quot;, :raj=&gt;&quot;Rajasthani&quot;, :rap=&gt;&quot;Rapanui&quot;, :rar=&gt;&quot;Rarotongan&quot;, :rm=&gt;&quot;Rhaeto-Romance&quot;, :rn=&gt;&quot;Rundi&quot;, :ro=&gt;&quot;Romanian&quot;, :roa=&gt;&quot;Romance Language&quot;, :rom=&gt;&quot;Romany&quot;, :ru=&gt;&quot;Russian&quot;, :rup=&gt;&quot;Aromanian&quot;, :rw=&gt;&quot;Kinyarwanda&quot;, :sa=&gt;&quot;Sanskrit&quot;, :sad=&gt;&quot;Sandawe&quot;, :sah=&gt;&quot;Yakut&quot;, :sai=&gt;&quot;South American Indian Language&quot;, :sal=&gt;&quot;Salishan Language&quot;, :sam=&gt;&quot;Samaritan Aramaic&quot;, :sas=&gt;&quot;Sasak&quot;, :sat=&gt;&quot;Santali&quot;, :sc=&gt;&quot;Sardinian&quot;, :scn=&gt;&quot;Sicilian&quot;, :sco=&gt;&quot;Scots&quot;, :sd=&gt;&quot;Sindhi&quot;, :se=&gt;&quot;Northern Sami&quot;, :sel=&gt;&quot;Selkup&quot;, :sem=&gt;&quot;Semitic Language&quot;, :sg=&gt;&quot;Sango&quot;, :sga=&gt;&quot;Old Irish&quot;, :sgn=&gt;&quot;Sign Language&quot;, :sh=&gt;&quot;Serbo-Croatian&quot;, :shn=&gt;&quot;Shan&quot;, :si=&gt;&quot;Sinhala&quot;, :sid=&gt;&quot;Sidamo&quot;, :sio=&gt;&quot;Siouan Language&quot;, :sit=&gt;&quot;Sino-Tibetan Language&quot;, :sk=&gt;&quot;Slovak&quot;, :sl=&gt;&quot;Slovenian&quot;, :sla=&gt;&quot;Slavic Language&quot;, :sm=&gt;&quot;Samoan&quot;, :sma=&gt;&quot;Southern Sami&quot;, :smi=&gt;&quot;Sami Language&quot;, :smj=&gt;&quot;Lule Sami&quot;, :smn=&gt;&quot;Inari Sami&quot;, :sms=&gt;&quot;Skolt Sami&quot;, :sn=&gt;&quot;Shona&quot;, :snk=&gt;&quot;Soninke&quot;, :so=&gt;&quot;Somali&quot;, :sog=&gt;&quot;Sogdien&quot;, :son=&gt;&quot;Songhai&quot;, :sq=&gt;&quot;Albanian&quot;, :sr=&gt;&quot;Serbian&quot;, :srn=&gt;&quot;Sranan Tongo&quot;, :srr=&gt;&quot;Serer&quot;, :ss=&gt;&quot;Swati&quot;, :ssa=&gt;&quot;Nilo-Saharan Language&quot;, :st=&gt;&quot;Southern Sotho&quot;, :su=&gt;&quot;Sundanese&quot;, :suk=&gt;&quot;Sukuma&quot;, :sus=&gt;&quot;Susu&quot;, :sux=&gt;&quot;Sumerian&quot;, :sv=&gt;&quot;Swedish&quot;, :sw=&gt;&quot;Swahili&quot;, :syc=&gt;&quot;Classical Syriac&quot;, :syr=&gt;&quot;Syriac&quot;, :ta=&gt;&quot;Tamil&quot;, :tai=&gt;&quot;Tai Language&quot;, :te=&gt;&quot;Telugu&quot;, :tem=&gt;&quot;Timne&quot;, :ter=&gt;&quot;Tereno&quot;, :tet=&gt;&quot;Tetum&quot;, :tg=&gt;&quot;Tajik&quot;, :th=&gt;&quot;Thai&quot;, :ti=&gt;&quot;Tigrinya&quot;, :tig=&gt;&quot;Tigre&quot;, :tiv=&gt;&quot;Tiv&quot;, :tk=&gt;&quot;Turkmen&quot;, :tkl=&gt;&quot;Tokelau&quot;, :tl=&gt;&quot;Tagalog&quot;, :tlh=&gt;&quot;Klingon&quot;, :tli=&gt;&quot;Tlingit&quot;, :tmh=&gt;&quot;Tamashek&quot;, :tn=&gt;&quot;Tswana&quot;, :to=&gt;&quot;Tonga&quot;, :tog=&gt;&quot;Nyasa Tonga&quot;, :tpi=&gt;&quot;Tok Pisin&quot;, :tr=&gt;&quot;Turkish&quot;, :trv=&gt;&quot;Taroko&quot;, :ts=&gt;&quot;Tsonga&quot;, :tsi=&gt;&quot;Tsimshian&quot;, :tt=&gt;&quot;Tatar&quot;, :tum=&gt;&quot;Tumbuka&quot;, :tup=&gt;&quot;Tupi Language&quot;, :tut=&gt;&quot;Altaic Language&quot;, :tvl=&gt;&quot;Tuvalu&quot;, :tw=&gt;&quot;Twi&quot;, :ty=&gt;&quot;Tahitian&quot;, :tyv=&gt;&quot;Tuvinian&quot;, :udm=&gt;&quot;Udmurt&quot;, :ug=&gt;&quot;Uighur&quot;, :uga=&gt;&quot;Ugaritic&quot;, :uk=&gt;&quot;Ukrainian&quot;, :umb=&gt;&quot;Umbundu&quot;, :und=&gt;&quot;Unknown or Invalid Language&quot;, :ur=&gt;&quot;Urdu&quot;, :uz=&gt;&quot;Uzbek&quot;, :vai=&gt;&quot;Vai&quot;, :ve=&gt;&quot;Venda&quot;, :vi=&gt;&quot;Vietnamese&quot;, :vo=&gt;&quot;Volapük&quot;, :vot=&gt;&quot;Votic&quot;, :wa=&gt;&quot;Walloon&quot;, :wak=&gt;&quot;Wakashan Language&quot;, :wal=&gt;&quot;Walamo&quot;, :war=&gt;&quot;Waray&quot;, :was=&gt;&quot;Washo&quot;, :wen=&gt;&quot;Sorbian Language&quot;, :wo=&gt;&quot;Wolof&quot;, :xal=&gt;&quot;Kalmyk&quot;, :xh=&gt;&quot;Xhosa&quot;, :yao=&gt;&quot;Yao&quot;, :yap=&gt;&quot;Yapese&quot;, :yi=&gt;&quot;Yiddish&quot;, :yo=&gt;&quot;Yoruba&quot;, :ypk=&gt;&quot;Yupik Language&quot;, :za=&gt;&quot;Zhuang&quot;, :zap=&gt;&quot;Zapotec&quot;, :zbl=&gt;&quot;Blissymbols&quot;, :zen=&gt;&quot;Zenaga&quot;, :zh=&gt;&quot;Chinese&quot;, :&quot;zh-Hans&quot;=&gt;&quot;Simplified Chinese&quot;, :&quot;zh-Hant&quot;=&gt;&quot;Traditional Chinese&quot;, :znd=&gt;&quot;Zande&quot;, :zu=&gt;&quot;Zulu&quot;, :zun=&gt;&quot;Zuni&quot;, :zxx=&gt;&quot;No linguistic content&quot;, :zza=&gt;&quot;Zaza&quot;}</pentabarf:language>
+<pentabarf:language-code></pentabarf:language-code>
+<dtstart>20180421T104500</dtstart>
+<dtend>20180421T123000</dtend>
+<duration>014500</duration>
+<summary>Eine Botschaft an Außerirdische- </summary>
+<description>Vor etwa 15 Jahren schickte die Menschheit eine Radiobotschaft an ausgewählte Sterne, in der Hoffnung, dass die Nachricht Außerirdische erreicht, diese die Nachricht verstehen und uns antworten. Die Nachricht ist nicht auf Deutsch oder Englisch verfasst, sondern bedient sich einer eigens entwickelten Symbolsprache. Schaffen wenigstens wir Menschen, die Botschaft zu entziffern? Das wollen wir in dem Workshop an uns selbst testen und herausfinden!
+
+Kinder ab einschließlich der vierten Klasse, Jugendliche und Erwachsene können hier gleichermaßen versuchen, die Cosmic-Call-Botschaft zu entziffern. Kinder entdecken dabei spielerisch das Binärsystem, wenn sie es nicht schon kannten. Erwachsene können ihre Kenntnisse von Atommodellen aufpolieren.
+
+&lt;strong&gt;Man kann während der gesamten Workshopzeit jederzeit kommen und gehen.&lt;/strong&gt;</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/40.html</url>
+<location>Raum G</location>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>41@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>41</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-41-lightning_talks</pentabarf:event-slug>
+<pentabarf:title>Lightning Talks</pentabarf:title>
+<pentabarf:subtitle></pentabarf:subtitle>
+<pentabarf:language>{:Ga=&gt;&quot;Irish&quot;, :ab=&gt;&quot;Abkhazian&quot;, :ace=&gt;&quot;Achinese&quot;, :ach=&gt;&quot;Acoli&quot;, :ada=&gt;&quot;Adangme&quot;, :ady=&gt;&quot;Adyghe&quot;, :ae=&gt;&quot;Avestan&quot;, :af=&gt;&quot;Afrikaans&quot;, :afa=&gt;&quot;Afro-Asiatic Language&quot;, :afh=&gt;&quot;Afrihili&quot;, :ain=&gt;&quot;Ainu&quot;, :ak=&gt;&quot;Akan&quot;, :akk=&gt;&quot;Akkadian&quot;, :ale=&gt;&quot;Aleut&quot;, :alg=&gt;&quot;Algonquian Language&quot;, :alt=&gt;&quot;Southern Altai&quot;, :am=&gt;&quot;Amharic&quot;, :an=&gt;&quot;Aragonese&quot;, :ang=&gt;&quot;Old English&quot;, :anp=&gt;&quot;Angika&quot;, :apa=&gt;&quot;Apache Language&quot;, :ar=&gt;&quot;Arabic&quot;, :arc=&gt;&quot;Aramaic&quot;, :arn=&gt;&quot;Araucanian&quot;, :arp=&gt;&quot;Arapaho&quot;, :art=&gt;&quot;Artificial Language&quot;, :arw=&gt;&quot;Arawak&quot;, :as=&gt;&quot;Assamese&quot;, :ast=&gt;&quot;Asturian&quot;, :ath=&gt;&quot;Athapascan Language&quot;, :aus=&gt;&quot;Australian Language&quot;, :av=&gt;&quot;Avaric&quot;, :awa=&gt;&quot;Awadhi&quot;, :ay=&gt;&quot;Aymara&quot;, :az=&gt;&quot;Azerbaijani&quot;, :ba=&gt;&quot;Bashkir&quot;, :bad=&gt;&quot;Banda&quot;, :bai=&gt;&quot;Bamileke Language&quot;, :bal=&gt;&quot;Baluchi&quot;, :ban=&gt;&quot;Balinese&quot;, :bas=&gt;&quot;Basa&quot;, :bat=&gt;&quot;Baltic Language&quot;, :be=&gt;&quot;Belarusian&quot;, :bej=&gt;&quot;Beja&quot;, :bem=&gt;&quot;Bemba&quot;, :ber=&gt;&quot;Berber&quot;, :bg=&gt;&quot;Bulgarian&quot;, :bh=&gt;&quot;Bihari&quot;, :bho=&gt;&quot;Bhojpuri&quot;, :bi=&gt;&quot;Bislama&quot;, :bik=&gt;&quot;Bikol&quot;, :bin=&gt;&quot;Bini&quot;, :bla=&gt;&quot;Siksika&quot;, :bm=&gt;&quot;Bambara&quot;, :bn=&gt;&quot;Bengali&quot;, :bnt=&gt;&quot;Bantu&quot;, :bo=&gt;&quot;Tibetan&quot;, :br=&gt;&quot;Breton&quot;, :bra=&gt;&quot;Braj&quot;, :bs=&gt;&quot;Bosnian&quot;, :btk=&gt;&quot;Batak&quot;, :bua=&gt;&quot;Buriat&quot;, :bug=&gt;&quot;Buginese&quot;, :byn=&gt;&quot;Blin&quot;, :ca=&gt;&quot;Catalan&quot;, :cad=&gt;&quot;Caddo&quot;, :cai=&gt;&quot;Central American Indian Language&quot;, :car=&gt;&quot;Carib&quot;, :cau=&gt;&quot;Caucasian Language&quot;, :cch=&gt;&quot;Atsam&quot;, :ce=&gt;&quot;Chechen&quot;, :ceb=&gt;&quot;Cebuano&quot;, :cel=&gt;&quot;Celtic Language&quot;, :ch=&gt;&quot;Chamorro&quot;, :chb=&gt;&quot;Chibcha&quot;, :chg=&gt;&quot;Chagatai&quot;, :chk=&gt;&quot;Chuukese&quot;, :chm=&gt;&quot;Mari&quot;, :chn=&gt;&quot;Chinook Jargon&quot;, :cho=&gt;&quot;Choctaw&quot;, :chp=&gt;&quot;Chipewyan&quot;, :chr=&gt;&quot;Cherokee&quot;, :chy=&gt;&quot;Cheyenne&quot;, :cmc=&gt;&quot;Chamic Language&quot;, :co=&gt;&quot;Corsican&quot;, :cop=&gt;&quot;Coptic&quot;, :cpe=&gt;&quot;English-based Creole or Pidgin&quot;, :cpf=&gt;&quot;French-based Creole or Pidgin&quot;, :cpp=&gt;&quot;Portuguese-based Creole or Pidgin&quot;, :cr=&gt;&quot;Cree&quot;, :crh=&gt;&quot;Crimean Turkish&quot;, :crp=&gt;&quot;Creole or Pidgin&quot;, :cs=&gt;&quot;Czech&quot;, :csb=&gt;&quot;Kashubian&quot;, :cu=&gt;&quot;Church Slavic&quot;, :cus=&gt;&quot;Cushitic Language&quot;, :cv=&gt;&quot;Chuvash&quot;, :cy=&gt;&quot;Welsh&quot;, :da=&gt;&quot;Danish&quot;, :dak=&gt;&quot;Dakota&quot;, :dar=&gt;&quot;Dargwa&quot;, :day=&gt;&quot;Dayak&quot;, :de=&gt;&quot;German&quot;, :&quot;de-AT&quot;=&gt;&quot;Austrian German&quot;, :&quot;de-CH&quot;=&gt;&quot;Swiss High German&quot;, :del=&gt;&quot;Delaware&quot;, :den=&gt;&quot;Slave&quot;, :dgr=&gt;&quot;Dogrib&quot;, :din=&gt;&quot;Dinka&quot;, :doi=&gt;&quot;Dogri&quot;, :dra=&gt;&quot;Dravidian Language&quot;, :dsb=&gt;&quot;Lower Sorbian&quot;, :dua=&gt;&quot;Duala&quot;, :dum=&gt;&quot;Middle Dutch&quot;, :dv=&gt;&quot;Divehi&quot;, :dyu=&gt;&quot;Dyula&quot;, :dz=&gt;&quot;Dzongkha&quot;, :ee=&gt;&quot;Ewe&quot;, :efi=&gt;&quot;Efik&quot;, :egy=&gt;&quot;Ancient Egyptian&quot;, :eka=&gt;&quot;Ekajuk&quot;, :el=&gt;&quot;Greek&quot;, :elx=&gt;&quot;Elamite&quot;, :en=&gt;&quot;English&quot;, :&quot;en-AU&quot;=&gt;&quot;Australian English&quot;, :&quot;en-CA&quot;=&gt;&quot;Canadian English&quot;, :&quot;en-GB&quot;=&gt;&quot;British English&quot;, :&quot;en-US&quot;=&gt;&quot;U.S. English&quot;, :enm=&gt;&quot;Middle English&quot;, :eo=&gt;&quot;Esperanto&quot;, :es=&gt;&quot;Spanish&quot;, :&quot;es-ES&quot;=&gt;&quot;Iberian Spanish&quot;, :et=&gt;&quot;Estonian&quot;, :eu=&gt;&quot;Basque&quot;, :ewo=&gt;&quot;Ewondo&quot;, :fa=&gt;&quot;Persian&quot;, :false=&gt;&quot;Norwegian&quot;, :fan=&gt;&quot;Fang&quot;, :fat=&gt;&quot;Fanti&quot;, :ff=&gt;&quot;Fulah&quot;, :fi=&gt;&quot;Finnish&quot;, :fil=&gt;&quot;Filipino&quot;, :fiu=&gt;&quot;Finno-Ugrian Language&quot;, :fj=&gt;&quot;Fijian&quot;, :fo=&gt;&quot;Faroese&quot;, :fon=&gt;&quot;Fon&quot;, :fr=&gt;&quot;French&quot;, :&quot;fr-CA&quot;=&gt;&quot;Canadian French&quot;, :&quot;fr-CH&quot;=&gt;&quot;Swiss French&quot;, :frm=&gt;&quot;Middle French&quot;, :fro=&gt;&quot;Old French&quot;, :frr=&gt;&quot;Northern Frisian&quot;, :frs=&gt;&quot;Eastern Frisian&quot;, :fur=&gt;&quot;Friulian&quot;, :fy=&gt;&quot;Western Frisian&quot;, :ga=&gt;&quot;Irish&quot;, :gaa=&gt;&quot;Ga&quot;, :gay=&gt;&quot;Gayo&quot;, :gba=&gt;&quot;Gbaya&quot;, :gd=&gt;&quot;Scottish Gaelic&quot;, :gem=&gt;&quot;Germanic Language&quot;, :gez=&gt;&quot;Geez&quot;, :gil=&gt;&quot;Gilbertese&quot;, :gl=&gt;&quot;Galician&quot;, :gmh=&gt;&quot;Middle High German&quot;, :gn=&gt;&quot;Guarani&quot;, :goh=&gt;&quot;Old High German&quot;, :gon=&gt;&quot;Gondi&quot;, :gor=&gt;&quot;Gorontalo&quot;, :got=&gt;&quot;Gothic&quot;, :grb=&gt;&quot;Grebo&quot;, :grc=&gt;&quot;Ancient Greek&quot;, :gsw=&gt;&quot;Swiss German&quot;, :gu=&gt;&quot;Gujarati&quot;, :gv=&gt;&quot;Manx&quot;, :gwi=&gt;&quot;Gwichʼin&quot;, :ha=&gt;&quot;Hausa&quot;, :hai=&gt;&quot;Haida&quot;, :haw=&gt;&quot;Hawaiian&quot;, :he=&gt;&quot;Hebrew&quot;, :hi=&gt;&quot;Hindi&quot;, :hil=&gt;&quot;Hiligaynon&quot;, :him=&gt;&quot;Himachali&quot;, :hit=&gt;&quot;Hittite&quot;, :hmn=&gt;&quot;Hmong&quot;, :ho=&gt;&quot;Hiri Motu&quot;, :hr=&gt;&quot;Croatian&quot;, :hsb=&gt;&quot;Upper Sorbian&quot;, :ht=&gt;&quot;Haitian&quot;, :hu=&gt;&quot;Hungarian&quot;, :hup=&gt;&quot;Hupa&quot;, :hy=&gt;&quot;Armenian&quot;, :hz=&gt;&quot;Herero&quot;, :ia=&gt;&quot;Interlingua&quot;, :iba=&gt;&quot;Iban&quot;, :id=&gt;&quot;Indonesian&quot;, :ie=&gt;&quot;Interlingue&quot;, :ig=&gt;&quot;Igbo&quot;, :ii=&gt;&quot;Sichuan Yi&quot;, :ijo=&gt;&quot;Ijo&quot;, :ik=&gt;&quot;Inupiaq&quot;, :ilo=&gt;&quot;Iloko&quot;, :inc=&gt;&quot;Indic Language&quot;, :ine=&gt;&quot;Indo-European Language&quot;, :inh=&gt;&quot;Ingush&quot;, :io=&gt;&quot;Ido&quot;, :ira=&gt;&quot;Iranian Language&quot;, :iro=&gt;&quot;Iroquoian Language&quot;, :is=&gt;&quot;Icelandic&quot;, :it=&gt;&quot;Italian&quot;, :iu=&gt;&quot;Inuktitut&quot;, :ja=&gt;&quot;Japanese&quot;, :jbo=&gt;&quot;Lojban&quot;, :jpr=&gt;&quot;Judeo-Persian&quot;, :jrb=&gt;&quot;Judeo-Arabic&quot;, :jv=&gt;&quot;Javanese&quot;, :ka=&gt;&quot;Georgian&quot;, :kaa=&gt;&quot;Kara-Kalpak&quot;, :kab=&gt;&quot;Kabyle&quot;, :kac=&gt;&quot;Kachin&quot;, :kaj=&gt;&quot;Jju&quot;, :kam=&gt;&quot;Kamba&quot;, :kar=&gt;&quot;Karen&quot;, :kaw=&gt;&quot;Kawi&quot;, :kbd=&gt;&quot;Kabardian&quot;, :kcg=&gt;&quot;Tyap&quot;, :kfo=&gt;&quot;Koro&quot;, :kg=&gt;&quot;Kongo&quot;, :kha=&gt;&quot;Khasi&quot;, :khi=&gt;&quot;Khoisan Language&quot;, :kho=&gt;&quot;Khotanese&quot;, :ki=&gt;&quot;Kikuyu&quot;, :kj=&gt;&quot;Kuanyama&quot;, :kk=&gt;&quot;Kazakh&quot;, :kl=&gt;&quot;Kalaallisut&quot;, :km=&gt;&quot;Khmer&quot;, :kmb=&gt;&quot;Kimbundu&quot;, :kn=&gt;&quot;Kannada&quot;, :ko=&gt;&quot;Korean&quot;, :kok=&gt;&quot;Konkani&quot;, :kos=&gt;&quot;Kosraean&quot;, :kpe=&gt;&quot;Kpelle&quot;, :kr=&gt;&quot;Kanuri&quot;, :krc=&gt;&quot;Karachay-Balkar&quot;, :krl=&gt;&quot;Karelian&quot;, :kro=&gt;&quot;Kru&quot;, :kru=&gt;&quot;Kurukh&quot;, :ks=&gt;&quot;Kashmiri&quot;, :ku=&gt;&quot;Kurdish&quot;, :kum=&gt;&quot;Kumyk&quot;, :kut=&gt;&quot;Kutenai&quot;, :kv=&gt;&quot;Komi&quot;, :kw=&gt;&quot;Cornish&quot;, :ky=&gt;&quot;Kirghiz&quot;, :la=&gt;&quot;Latin&quot;, :lad=&gt;&quot;Ladino&quot;, :lah=&gt;&quot;Lahnda&quot;, :lam=&gt;&quot;Lamba&quot;, :lb=&gt;&quot;Luxembourgish&quot;, :lez=&gt;&quot;Lezghian&quot;, :lg=&gt;&quot;Ganda&quot;, :li=&gt;&quot;Limburgish&quot;, :ln=&gt;&quot;Lingala&quot;, :lo=&gt;&quot;Lao&quot;, :lol=&gt;&quot;Mongo&quot;, :loz=&gt;&quot;Lozi&quot;, :lt=&gt;&quot;Lithuanian&quot;, :lu=&gt;&quot;Luba-Katanga&quot;, :lua=&gt;&quot;Luba-Lulua&quot;, :lui=&gt;&quot;Luiseno&quot;, :lun=&gt;&quot;Lunda&quot;, :luo=&gt;&quot;Luo&quot;, :lus=&gt;&quot;Lushai&quot;, :lv=&gt;&quot;Latvian&quot;, :mad=&gt;&quot;Madurese&quot;, :mag=&gt;&quot;Magahi&quot;, :mai=&gt;&quot;Maithili&quot;, :mak=&gt;&quot;Makasar&quot;, :man=&gt;&quot;Mandingo&quot;, :map=&gt;&quot;Austronesian Language&quot;, :mas=&gt;&quot;Masai&quot;, :mdf=&gt;&quot;Moksha&quot;, :mdr=&gt;&quot;Mandar&quot;, :men=&gt;&quot;Mende&quot;, :mg=&gt;&quot;Malagasy&quot;, :mga=&gt;&quot;Middle Irish&quot;, :mh=&gt;&quot;Marshallese&quot;, :mi=&gt;&quot;Maori&quot;, :mic=&gt;&quot;Micmac&quot;, :min=&gt;&quot;Minangkabau&quot;, :mis=&gt;&quot;Miscellaneous Language&quot;, :mk=&gt;&quot;Macedonian&quot;, :mkh=&gt;&quot;Mon-Khmer Language&quot;, :ml=&gt;&quot;Malayalam&quot;, :mn=&gt;&quot;Mongolian&quot;, :mnc=&gt;&quot;Manchu&quot;, :mni=&gt;&quot;Manipuri&quot;, :mno=&gt;&quot;Manobo Language&quot;, :mo=&gt;&quot;Moldavian&quot;, :moh=&gt;&quot;Mohawk&quot;, :mos=&gt;&quot;Mossi&quot;, :mr=&gt;&quot;Marathi&quot;, :ms=&gt;&quot;Malay&quot;, :mt=&gt;&quot;Maltese&quot;, :mul=&gt;&quot;Multiple Languages&quot;, :mun=&gt;&quot;Munda Language&quot;, :mus=&gt;&quot;Creek&quot;, :mwl=&gt;&quot;Mirandese&quot;, :mwr=&gt;&quot;Marwari&quot;, :my=&gt;&quot;Burmese&quot;, :myn=&gt;&quot;Mayan Language&quot;, :myv=&gt;&quot;Erzya&quot;, :na=&gt;&quot;Nauru&quot;, :nah=&gt;&quot;Nahuatl&quot;, :nai=&gt;&quot;North American Indian Language&quot;, :nap=&gt;&quot;Neapolitan&quot;, :nb=&gt;&quot;Norwegian Bokmål&quot;, :nd=&gt;&quot;North Ndebele&quot;, :nds=&gt;&quot;Low German&quot;, :ne=&gt;&quot;Nepali&quot;, :new=&gt;&quot;Newari&quot;, :ng=&gt;&quot;Ndonga&quot;, :nia=&gt;&quot;Nias&quot;, :nic=&gt;&quot;Niger-Kordofanian Language&quot;, :niu=&gt;&quot;Niuean&quot;, :nl=&gt;&quot;Dutch&quot;, :&quot;nl-BE&quot;=&gt;&quot;Flemish&quot;, :nn=&gt;&quot;Norwegian Nynorsk&quot;, :nog=&gt;&quot;Nogai&quot;, :non=&gt;&quot;Old Norse&quot;, :nqo=&gt;&quot;N’Ko&quot;, :nr=&gt;&quot;South Ndebele&quot;, :nso=&gt;&quot;Northern Sotho&quot;, :nub=&gt;&quot;Nubian Language&quot;, :nv=&gt;&quot;Navajo&quot;, :nwc=&gt;&quot;Classical Newari&quot;, :ny=&gt;&quot;Nyanja&quot;, :nym=&gt;&quot;Nyamwezi&quot;, :nyn=&gt;&quot;Nyankole&quot;, :nyo=&gt;&quot;Nyoro&quot;, :nzi=&gt;&quot;Nzima&quot;, :oc=&gt;&quot;Occitan&quot;, :oj=&gt;&quot;Ojibwa&quot;, :om=&gt;&quot;Oromo&quot;, :or=&gt;&quot;Oriya&quot;, :os=&gt;&quot;Ossetic&quot;, :osa=&gt;&quot;Osage&quot;, :ota=&gt;&quot;Ottoman Turkish&quot;, :oto=&gt;&quot;Otomian Language&quot;, :pa=&gt;&quot;Punjabi&quot;, :paa=&gt;&quot;Papuan Language&quot;, :pag=&gt;&quot;Pangasinan&quot;, :pal=&gt;&quot;Pahlavi&quot;, :pam=&gt;&quot;Pampanga&quot;, :pap=&gt;&quot;Papiamento&quot;, :pau=&gt;&quot;Palauan&quot;, :peo=&gt;&quot;Old Persian&quot;, :phi=&gt;&quot;Philippine Language&quot;, :phn=&gt;&quot;Phoenician&quot;, :pi=&gt;&quot;Pali&quot;, :pl=&gt;&quot;Polish&quot;, :pon=&gt;&quot;Pohnpeian&quot;, :pra=&gt;&quot;Prakrit Language&quot;, :pro=&gt;&quot;Old Provençal&quot;, :ps=&gt;&quot;Pashto&quot;, :pt=&gt;&quot;Portuguese&quot;, :&quot;pt-BR&quot;=&gt;&quot;Brazilian Portuguese&quot;, :&quot;pt-PT&quot;=&gt;&quot;Iberian Portuguese&quot;, :qu=&gt;&quot;Quechua&quot;, :raj=&gt;&quot;Rajasthani&quot;, :rap=&gt;&quot;Rapanui&quot;, :rar=&gt;&quot;Rarotongan&quot;, :rm=&gt;&quot;Rhaeto-Romance&quot;, :rn=&gt;&quot;Rundi&quot;, :ro=&gt;&quot;Romanian&quot;, :roa=&gt;&quot;Romance Language&quot;, :rom=&gt;&quot;Romany&quot;, :ru=&gt;&quot;Russian&quot;, :rup=&gt;&quot;Aromanian&quot;, :rw=&gt;&quot;Kinyarwanda&quot;, :sa=&gt;&quot;Sanskrit&quot;, :sad=&gt;&quot;Sandawe&quot;, :sah=&gt;&quot;Yakut&quot;, :sai=&gt;&quot;South American Indian Language&quot;, :sal=&gt;&quot;Salishan Language&quot;, :sam=&gt;&quot;Samaritan Aramaic&quot;, :sas=&gt;&quot;Sasak&quot;, :sat=&gt;&quot;Santali&quot;, :sc=&gt;&quot;Sardinian&quot;, :scn=&gt;&quot;Sicilian&quot;, :sco=&gt;&quot;Scots&quot;, :sd=&gt;&quot;Sindhi&quot;, :se=&gt;&quot;Northern Sami&quot;, :sel=&gt;&quot;Selkup&quot;, :sem=&gt;&quot;Semitic Language&quot;, :sg=&gt;&quot;Sango&quot;, :sga=&gt;&quot;Old Irish&quot;, :sgn=&gt;&quot;Sign Language&quot;, :sh=&gt;&quot;Serbo-Croatian&quot;, :shn=&gt;&quot;Shan&quot;, :si=&gt;&quot;Sinhala&quot;, :sid=&gt;&quot;Sidamo&quot;, :sio=&gt;&quot;Siouan Language&quot;, :sit=&gt;&quot;Sino-Tibetan Language&quot;, :sk=&gt;&quot;Slovak&quot;, :sl=&gt;&quot;Slovenian&quot;, :sla=&gt;&quot;Slavic Language&quot;, :sm=&gt;&quot;Samoan&quot;, :sma=&gt;&quot;Southern Sami&quot;, :smi=&gt;&quot;Sami Language&quot;, :smj=&gt;&quot;Lule Sami&quot;, :smn=&gt;&quot;Inari Sami&quot;, :sms=&gt;&quot;Skolt Sami&quot;, :sn=&gt;&quot;Shona&quot;, :snk=&gt;&quot;Soninke&quot;, :so=&gt;&quot;Somali&quot;, :sog=&gt;&quot;Sogdien&quot;, :son=&gt;&quot;Songhai&quot;, :sq=&gt;&quot;Albanian&quot;, :sr=&gt;&quot;Serbian&quot;, :srn=&gt;&quot;Sranan Tongo&quot;, :srr=&gt;&quot;Serer&quot;, :ss=&gt;&quot;Swati&quot;, :ssa=&gt;&quot;Nilo-Saharan Language&quot;, :st=&gt;&quot;Southern Sotho&quot;, :su=&gt;&quot;Sundanese&quot;, :suk=&gt;&quot;Sukuma&quot;, :sus=&gt;&quot;Susu&quot;, :sux=&gt;&quot;Sumerian&quot;, :sv=&gt;&quot;Swedish&quot;, :sw=&gt;&quot;Swahili&quot;, :syc=&gt;&quot;Classical Syriac&quot;, :syr=&gt;&quot;Syriac&quot;, :ta=&gt;&quot;Tamil&quot;, :tai=&gt;&quot;Tai Language&quot;, :te=&gt;&quot;Telugu&quot;, :tem=&gt;&quot;Timne&quot;, :ter=&gt;&quot;Tereno&quot;, :tet=&gt;&quot;Tetum&quot;, :tg=&gt;&quot;Tajik&quot;, :th=&gt;&quot;Thai&quot;, :ti=&gt;&quot;Tigrinya&quot;, :tig=&gt;&quot;Tigre&quot;, :tiv=&gt;&quot;Tiv&quot;, :tk=&gt;&quot;Turkmen&quot;, :tkl=&gt;&quot;Tokelau&quot;, :tl=&gt;&quot;Tagalog&quot;, :tlh=&gt;&quot;Klingon&quot;, :tli=&gt;&quot;Tlingit&quot;, :tmh=&gt;&quot;Tamashek&quot;, :tn=&gt;&quot;Tswana&quot;, :to=&gt;&quot;Tonga&quot;, :tog=&gt;&quot;Nyasa Tonga&quot;, :tpi=&gt;&quot;Tok Pisin&quot;, :tr=&gt;&quot;Turkish&quot;, :trv=&gt;&quot;Taroko&quot;, :ts=&gt;&quot;Tsonga&quot;, :tsi=&gt;&quot;Tsimshian&quot;, :tt=&gt;&quot;Tatar&quot;, :tum=&gt;&quot;Tumbuka&quot;, :tup=&gt;&quot;Tupi Language&quot;, :tut=&gt;&quot;Altaic Language&quot;, :tvl=&gt;&quot;Tuvalu&quot;, :tw=&gt;&quot;Twi&quot;, :ty=&gt;&quot;Tahitian&quot;, :tyv=&gt;&quot;Tuvinian&quot;, :udm=&gt;&quot;Udmurt&quot;, :ug=&gt;&quot;Uighur&quot;, :uga=&gt;&quot;Ugaritic&quot;, :uk=&gt;&quot;Ukrainian&quot;, :umb=&gt;&quot;Umbundu&quot;, :und=&gt;&quot;Unknown or Invalid Language&quot;, :ur=&gt;&quot;Urdu&quot;, :uz=&gt;&quot;Uzbek&quot;, :vai=&gt;&quot;Vai&quot;, :ve=&gt;&quot;Venda&quot;, :vi=&gt;&quot;Vietnamese&quot;, :vo=&gt;&quot;Volapük&quot;, :vot=&gt;&quot;Votic&quot;, :wa=&gt;&quot;Walloon&quot;, :wak=&gt;&quot;Wakashan Language&quot;, :wal=&gt;&quot;Walamo&quot;, :war=&gt;&quot;Waray&quot;, :was=&gt;&quot;Washo&quot;, :wen=&gt;&quot;Sorbian Language&quot;, :wo=&gt;&quot;Wolof&quot;, :xal=&gt;&quot;Kalmyk&quot;, :xh=&gt;&quot;Xhosa&quot;, :yao=&gt;&quot;Yao&quot;, :yap=&gt;&quot;Yapese&quot;, :yi=&gt;&quot;Yiddish&quot;, :yo=&gt;&quot;Yoruba&quot;, :ypk=&gt;&quot;Yupik Language&quot;, :za=&gt;&quot;Zhuang&quot;, :zap=&gt;&quot;Zapotec&quot;, :zbl=&gt;&quot;Blissymbols&quot;, :zen=&gt;&quot;Zenaga&quot;, :zh=&gt;&quot;Chinese&quot;, :&quot;zh-Hans&quot;=&gt;&quot;Simplified Chinese&quot;, :&quot;zh-Hant&quot;=&gt;&quot;Traditional Chinese&quot;, :znd=&gt;&quot;Zande&quot;, :zu=&gt;&quot;Zulu&quot;, :zun=&gt;&quot;Zuni&quot;, :zxx=&gt;&quot;No linguistic content&quot;, :zza=&gt;&quot;Zaza&quot;}</pentabarf:language>
+<pentabarf:language-code></pentabarf:language-code>
+<dtstart>20180421T114500</dtstart>
+<dtend>20180421T123000</dtend>
+<duration>004500</duration>
+<summary>Lightning Talks- </summary>
+<description>Bunt gemische fünfminütige Kurzvorträge zu &lt;a href=&quot;https://etherpad.wikimedia.org/p/lit2018-lightning-talks&quot;&gt;diversen Themen&lt;/a&gt;.
+
+Noch sind Einreichungen möglich! Bitte einfach auf dem verlinkten Etherpad ergänzen.</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/41.html</url>
+<location>Raum D</location>
+</vevent>
+<vevent>
+<method>PUBLISH</method>
+<uid>42@LIT2018@pentabarf.org</uid>
+<pentabarf:event-id>42</pentabarf:event-id>
+<pentabarf:event-slug>LIT2018-42-die_wundersame_welt_der_unendlich_grossen_zahlen_glaube_in_der_mathematik</pentabarf:event-slug>
+<pentabarf:title>Die wundersame Welt der unendlich großen Zahlen – Glaube in der Mathematik?</pentabarf:title>
+<pentabarf:subtitle>Hat absolut nichts mit Linux, Technik oder digitaler Gesellschaft zu tun</pentabarf:subtitle>
+<pentabarf:language>German</pentabarf:language>
+<pentabarf:language-code>de</pentabarf:language-code>
+<dtstart>20180421T151500</dtstart>
+<dtend>20180421T160000</dtend>
+<duration>004500</duration>
+<summary>Die wundersame Welt der unendlich großen Zahlen – Glaube in der Mathematik?- Hat absolut nichts mit Linux, Technik oder digitaler Gesellschaft zu tun</summary>
+<description>&lt;strong&gt;Bei den vielen technischen und gesellschaftlichen Vorträgen Lust auf etwas ganz anderes?&lt;/strong&gt;
+
+    Liebe ist unendlich. Gott ist unendlich. Das sind vertraute     Vorstellungen, die in unserem Denken mit Unendlichkeit verknüpft     sind. Weitere, zunächst verborgene Perspektiven eröffnet die     Mathematik. 
+
+    Es stellt sich nämlich heraus, dass der bekannte Zahlenstrahl nicht der Weisheit letzter Schluss ist: Nach 1, 2 und 3, nach der Million     und der Trilliarde, nach der Anzahl Sandkörner – nach all diesen     Zahlen folgen die unendlich großen Zahlen. Verblüffenderweise können     wir Menschen trotz unseres beschränkten Verstands diese unendliche     Hierachie unendlich großer Zahlen erkunden und sichere Informationen     über sie gewinnen.
+
+    Der Vortrag nimmt alle Interessierten auf eine Reise durch diese wundersame Welt der     unendlich großen Zahlen mit. Anstelle von Formeln oder Rechnungen     wird es Bilder und anschauliche Gedankenexperimente geben. Die alte    Frage, ob unendlich plus eins nun mehr sei wie unendlich oder doch    wieder nur unendlich, kann anschließend ohne jegliche    Restzweifel selbst verständlich beantwortet werden.
+
+    Die Beschäftigung mit Unendlichkeit verknüpft Mathematik mit    philosophischer Erkenntnistheorie. Eine verwandte Frage über die    Natur der Unendlichkeit ist nämlich bis heute ungeklärt und wird das    bewiesenermaßen für immer bleiben. Wie diese Frage lautet, was ihr    die moderne Mathematik zu entgegnen hat und wie man sich endgültiger    Unkennbarkeit mit mathematischer Präzision gewiss sein kann, wird    der Vortrag ebenfalls beleuchten.
+
+&lt;a href=&quot;https://rawgit.com/iblech/mathezirkel-kurs/master/superturingmaschinen/koenigsbrunner-campus2017.pdf&quot;&gt;&lt;strong&gt;Vortragsfolien&lt;/strong&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=wZzn4INtbwY&amp;amp;list=PLwpepnYDFK9OxuqUvLDQPoTBEGyuj4iLU&quot;&gt;&lt;strong&gt;Aufzeichnung einer früheren Instanz des Vortrags&lt;/strong&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=sUqwFbbwHQo&quot;&gt;&lt;strong&gt;Superturingmaschinen&lt;/strong&gt;&lt;/a&gt;</description>
+<class>PUBLIC</class>
+<status>CONFIRMED</status>
+<category>Lecture</category>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/42.html</url>
+<location>Raum G</location>
+<attendee>Ingo Blechschmidt</attendee>
+</vevent>
+</vcalendar>
+</iCalendar>

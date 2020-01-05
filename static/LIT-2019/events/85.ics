@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190405T083932Z
+UID:0991f81c-257e-4f6e-af80-323422ea8230@frab.luga.de
+DESCRIPTION:Freeway in Raum W3.18\n\nMit wenigen Handgriffen einen Semina
+ rraum oder ein Schullabor neu installieren?\nFreeway ist eine kleine Sam
+ mlung von Shellskripten und einem Webserver\, die darauf ausgerichtet si
+ nd\, einfach und verlässlich einen Rechner oder auch einen ganzen Schulu
+ ngsraum auf einmal zu installieren.\n\nDabei wird nicht nur ein Basissys
+ tem installiert\, sondern ausserdem auch eine oder mehrere virtuelle Mas
+ chinen\, die buchstäblich jedes Schulungsszenario möglich machen.\n\nDie
+  Schulungsmaschinen auf einen sauberen Zustand zurücksetzen?\nEine Sache
+  von Sekunden.\n\nNeue Virtuelle Maschinen erzeugen?\nDauert nur einen A
+ ugenblick.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/85.html
+SUMMARY:Software Deployment mit Freeway  in Raum W3.18
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Pseudo-Raum G
+END:VEVENT
+END:VCALENDAR

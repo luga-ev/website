@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T114500
+DTSTAMP;VALUE=DATE-TIME:20190325T204544Z
+UID:8a9902ff-b110-4dd3-94cc-b984d42040eb@frab.luga.de
+DESCRIPTION:Wie stellt man fest\, ob ein Code gut oder weniger gut ist?\n
+ Diese Frage kann man bis zu einem gewissen Grad mittels Codemetriken bea
+ ntworten. Codemetriken helfen dabei\, die Komplexität des Codes zu besch
+ reiben und Hotspots zu identifizieren.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/59.html
+SUMMARY:Codemetriken
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum D
+END:VEVENT
+END:VCALENDAR

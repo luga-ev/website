@@ -1,0 +1,537 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190325T201938Z
+UID:e2f70d3d-b299-42d9-977e-43b4b64d04d5@frab.luga.de
+DESCRIPTION:"Willkommen in der Welt von *BSD!" Die Veranstaltung stellt d
+ ie bestehenden Abarten und Ausprägungen von BSD (UNIX) vor.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/68.html
+SUMMARY:(Free)BSD und seine Abarten - vater
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T093000
+DTSTAMP;VALUE=DATE-TIME:20190404T084724Z
+UID:39aceb0d-b7ae-4b1b-a5a0-68ae8f5d31ff@frab.luga.de
+DESCRIPTION:- ACF (Augsburger Computer Forum eV)\n- FSFE (Free Software F
+ oundation Europe)\n- LUG Ottobrunn (Nextcloud + Wireguard)\n- OpenStreet
+ Map Augsburg\n- siduction (auf Debian unstable aufbauende Linux-Distribu
+ tion) \n- Blockchain Revolution\n\n- Archivista GmbH\n- B1-Systems\n- IG
+ EL Technology GmbH\n- SHI Gmbh\n- Tuxedo
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/79.html
+SUMMARY:*** ACF *** FSFE *** LUG Ottobrunn (Nextcloud + Wireguard) *** Op
+ enStreetMap Augsburg ***  siduction *** Blockchain Revolution *** Archiv
+ ista GmbH *** B1-Systems *** IGEL Technology GmbH *** SHI Gmbh *** Tuxed
+ o *** - 
+LOCATION:Info-Stände
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190429T101031Z
+UID:b0156400-443a-4240-b38f-72adc0f706f0@frab.luga.de
+DESCRIPTION:Wie baue ich AUR (ArchLinux User Repositories) Packages selbs
+ t und wie teste ich sie im Docker-Conmtainer? Was muss ich beim Erstelle
+ n vom PKGBULD beachten? Welche Pakete braucht mein Docker-Container? Gib
+ t es bereits ein Image? \n
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/52.html
+SUMMARY:AUR-Packages selbst bauen und testen - Anton Müller
+LOCATION:Raum E (Workshop)
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T161500
+DTSTAMP;VALUE=DATE-TIME:20190328T120825Z
+UID:fecc19fb-1994-4ed5-9eb9-19f27faf0c51@frab.luga.de
+DESCRIPTION:Server-Virtualsierung kann schlank und einfach sein. AVMini b
+ ietet mit 80 MByte eine komplette Linux-Distribution mit KVM an\, die au
+ tomatisiert bis hin zum Cluster eingerichtet und verwaltet werden kann.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/82.html
+SUMMARY:AVMini: Virtualisierung mit KVM - upfister@archivista.ch
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190328T093418Z
+UID:de3685bd-da2a-48b1-9bfc-908e6ca52237@frab.luga.de
+DESCRIPTION:Das Projekt AVMultimedia bietet einen modernen Linux-Desktop 
+ an\, um multimediale Inhalte (Musik\, Fotos und Videos) mit Linux verwal
+ ten und bearbeiten zu können. Als Grundlage dient die ArchivistaBox.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/81.html
+SUMMARY:AVMultimedia: Linux-Desktop für Beruf und Freizeit - upfister@arc
+ hivista.ch
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190406T192400Z
+UID:47904f54-39a8-4d7b-abcb-d75a394ab8fe@frab.luga.de
+DESCRIPTION:Ein kleiner Einstieg in LaTeX\, das mächtige Textsatzprogramm
+ .
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/48.html
+SUMMARY:Basic LaTeX für Einsteiger - Philipp Kammerer
+LOCATION:Raum F (Workshop)
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T114500
+DTSTAMP;VALUE=DATE-TIME:20190405T212300Z
+UID:3b618cb5-8a5b-46dd-91b0-e319c57629f0@frab.luga.de
+DESCRIPTION:Funktion der Blockchain und ihre Einsatzmöglichkeiten
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/66.html
+SUMMARY:Blockchain-Technologie - Florian Schafhauser
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190407T191121Z
+UID:9a5fdee5-00eb-4920-bfbc-20b300677d79@frab.luga.de
+DESCRIPTION:Immer mehr Projekte wechseln von GNU Autoconf/Automake zu CMa
+ ke.\nWarum? Wie (einfach) funktioniert das Buildsystem mit CMake?
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/69.html
+SUMMARY:CMake - Buildsystem und mehr - Wolfgang Dautermann
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T114500
+DTSTAMP;VALUE=DATE-TIME:20190325T204544Z
+UID:8a9902ff-b110-4dd3-94cc-b984d42040eb@frab.luga.de
+DESCRIPTION:Wie stellt man fest\, ob ein Code gut oder weniger gut ist?\n
+ Diese Frage kann man bis zu einem gewissen Grad mittels Codemetriken bea
+ ntworten. Codemetriken helfen dabei\, die Komplexität des Codes zu besch
+ reiben und Hotspots zu identifizieren.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/59.html
+SUMMARY:Codemetriken - Robert Wimmer
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190325T205735Z
+UID:47da1c3d-9049-4e0e-ae2a-3cff06a348c3@frab.luga.de
+DESCRIPTION:Mittels Crosscompiling können Programme für andere Plattforme
+ n erstellt werden.\n\nIm Vortrag wird das für verschiedene Programmiersp
+ rachen und Systeme anhand von kurzen Beispielen gezeigt.\n
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/62.html
+SUMMARY:Crosscompiling - Wolfgang Dautermann
+LOCATION:Raum E (Workshop)
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T161500
+DTSTAMP;VALUE=DATE-TIME:20190405T081937Z
+UID:d3d0a351-ea11-4785-8847-aaf584b4402c@frab.luga.de
+DESCRIPTION:Dieser Vortrag richtet sich in erster Linie an Erwachsene\, a
+ ber auch interessierte Schüler*innen ab der siebten Klasse werden auf ih
+ re Kosten kommen.\n\nIn der Mathematik ist nach dem bekannten Zahlenstra
+ hl noch nicht Schluss: Nach 1\, 2 und 3\, nach der Million und der Trill
+ iarde\, nach der Anzahl Sandkörner – nach all diesen Zahlen folgen die u
+ nendlich großen Zahlen.\n\nParadoxerweise benötigt man diese unendlich g
+ roßen Zahlen\, um manche ganz konkreten endlichen Probleme zu lösen. Man
+ chmal kann man sogar beweisen\, dass es ohne sie nicht ginge. Eines dies
+ er Probleme &ndash\; wie Herkula die immer stärker werdende Hydra besieg
+ en kann &ndash\; werden wir im Vortrag behandeln.\n\nDer Vortrag setzt k
+ einerlei mathematisches Vorwissen voraus\, weder Vorwissen aus Schule no
+ ch weiterführende Kenntnisse\, und richtet sich an alle\, die Spaß an lo
+ gischen Überlegungen haben.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/78.html
+SUMMARY:Das Transfinite und seine Anwendungen - Ingo Blechschmidt
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T161500
+DTSTAMP;VALUE=DATE-TIME:20190327T080212Z
+UID:557d55f7-aaad-4154-ba3d-f26dcf5379b5@frab.luga.de
+DESCRIPTION:Einführungsvortrag in die Problematik \nVeranschaulichung der
+  Methoden\nStrategien zur digitalen Selbstverteidigung
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/53.html
+SUMMARY:Ich habe doch nichts zu verbergen! - Uli Kleemann
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T141500
+DTSTAMP;VALUE=DATE-TIME:20190325T202801Z
+UID:3916c6f5-599a-463d-a50d-37a0f122c810@frab.luga.de
+DESCRIPTION:Wer Software einsetzen möchte\, muss die Software zuerst inst
+ allieren. Eigentlich leicht gesagt\, wenn es nur ein Paketmanager bzw. e
+ in Paketformat geben würde.\n\nDieser Vortrag soll ein Einblick geben\, 
+ wie man Software richtig verteilt und installiert. Außerdem soll es eine
+ n Überblick über die verschiedenen Paketmanager und Paketformate vermitt
+ eln\, die es in der Linux Welt gibt.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/63.html
+SUMMARY:Ich packe meinen Koffer... - Paketverwaltung unter Linux - Christ
+ ian Loritz
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T103000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T094500
+DTSTAMP;VALUE=DATE-TIME:20190407T191015Z
+UID:ef21acc8-889c-45d2-9b17-405757ae97ad@frab.luga.de
+DESCRIPTION:
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/84.html
+SUMMARY:Keynote: 20 Jahre als überzeugter FOSS-Entwickler - Harald Welte
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190405T140317Z
+UID:78fe1b15-daa9-4958-81e6-e34ac8deee64@frab.luga.de
+DESCRIPTION:Noch sind Einreichungen möglich\, wir freuen uns auf deinen B
+ eitrag. :-) Bitte einfach auf <a href="https://etherpad.wikimedia.org/p/
+ lit2019-lightning-talks">auf diesem Etherpad</a> ergänzen.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/83.html
+SUMMARY:Lightning Talks - 
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190402T105932Z
+UID:ee7f09f8-2061-4f06-86bf-4919d68ce771@frab.luga.de
+DESCRIPTION:Installation und Einführung Software 
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/51.html
+SUMMARY:Linux & Business - Stefan Klemm
+LOCATION:Raum E (Workshop)
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190405T144906Z
+UID:72ded5a9-e8ed-4f84-aa81-ab3e75486157@frab.luga.de
+DESCRIPTION:Linux Container und damit zusammenhängende Technologien wie K
+ ubernetes sind vor allem im Enterprise Umfeld und in den großen Clouds s
+ ehr beliebt. Aber auch für die Arbeit am eigenen PC oder den eigenen Nex
+ tcloud Server und andere Anwendungen auf dem heimischen Server kann Dock
+ er sehr hilfreich sein. Dieser Vortrag gibt einen kurze Einführung in di
+ e Linux Container Technologie an sich und zeigt dann an einigen Beispiel
+ en\, wie man Container und Docker ohne großen Aufwand privat nutzen kann
+ .  
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/70.html
+SUMMARY:Linux Container für den Alltagsgebrauch - Anian Ziegler
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190329T161638Z
+UID:b3cb858b-9d91-424a-adc9-10dcba127f24@frab.luga.de
+DESCRIPTION:Der Vortrag gibt einen Überblick über einige Anbieter von per
+ sönlichen Zertifizierungen rund um das Thema Linux. Der Schwerpunkt des 
+ Vortrags wird auf den Zertifizierungen des Linux Professional Institute 
+ - LPI liegen. Welche Zertifikate gibt es? Wie teuer sind die Prüfungen? 
+ Wie schwer sind die Prüfungen? Wie bereitet man sich vor? In welchen Spr
+ achen werden die Prüfungen angeboten? Welches Schulungsmaterial gibt es?
+  Wer bietet Schulungen an? Welche Vorteile hat eine Zertifizierung?\n
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/47.html
+SUMMARY:Linux Zertifizierungen - Ein Überblick - Werner Heuser
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190406T071126Z
+UID:41e55959-f7cc-4d3a-93b3-13d53a565c4f@frab.luga.de
+DESCRIPTION:Im Vortrag wird gezeigt\, wie der Linux-Bootprozess auf ARM-G
+ eräten abläuft und wie man ein eigenes System auf solchen Geräten aufset
+ zen kann.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/58.html
+SUMMARY:Linux auf ARM - Hunz
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T114500
+DTSTAMP;VALUE=DATE-TIME:20190414T123841Z
+UID:26c32c34-2dc5-4209-b4d9-c53673a54cf2@frab.luga.de
+DESCRIPTION:Oft benötigt man meherer Betriebssysteme auf einem Gerät. Hie
+ r wird eine sehr komfortable Variante auf Basis von Xen (4.11+) vorgeste
+ llt
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/46.html
+SUMMARY:Linux und Windows gleichzeitig auf dem Rechner - Oliver Rath
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190407T191237Z
+UID:77572539-499d-463d-8b2f-60fc73fcb3b2@frab.luga.de
+DESCRIPTION:Probleme mit seiner IT oder seiner Applikation sollte man als
+  Administrator oder Entwickler wissen\, bevor es die Nutzer tun. <i>Eige
+ ntlich.</i>\nIT-Monitoring löst dies und ist zum Glück mittlerweile weit
+  verbreitet\, doch teils noch mit Stigmata behaftet. Es gibt mittlerweil
+ e einige gute Lösungen\, die frei verfügbar sind\, einfach zu nutzen und
+  installieren sind. In diesem Vortrag stellen wir Monitoring generell vo
+ r und wie man dies am Beispiel von Check_MK einsetzen kann für selbst ku
+ riose Sachen wie Bienenmonitoring.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/57.html
+SUMMARY:Monitoring von Bienen und mehr - Oscar Najera
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190405T084059Z
+UID:464e91df-aa83-4dbb-8990-d7aeb678e802@frab.luga.de
+DESCRIPTION:Im Rahmen des Linux Info Tages wollen wir eine kleine NodeSch
+ ool anbieten. Was das ist?\nDu wolltest schon immer mal programmieren? O
+ der willst endlich mal Node.js ausprobieren? Nimm teil und lerne Program
+ mieren mit Node.js ganz einfach - versprochen! Es hilft\, wenn du schon 
+ mal etwas mit JavaScript gemacht hast - wenn nicht\, komm trotzdem! Die 
+ Kurse sind für jedes Skill-level geeignet & wir helfen gern bei allen Sc
+ hwierigkeiten aus.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/60.html
+SUMMARY:NodeSchool Augsburg - Nodeschool Augsburg
+LOCATION:Raum F (Workshop)
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20191108T161526Z
+UID:135e4234-2d43-4ceb-93a2-8fe5c53195de@frab.luga.de
+DESCRIPTION:Nonlinearer Videoschnitt mit Kdenlive
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/50.html
+SUMMARY:Nonlinearer Videoschnitt mit Kdenlive - Philipp Kammerer
+LOCATION:Raum F (Workshop)
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T141500
+DTSTAMP;VALUE=DATE-TIME:20190415T094646Z
+UID:4ab43ff7-edf9-4051-a774-9b3d270fe8b7@frab.luga.de
+DESCRIPTION:OpenWrt ist quasi ein Ubuntu für handelsübliche Router die of
+ t zuhause stehen und wenig Geld kosten. Damit lassen sich z.B. Dateiserv
+ er\, Emailserver oder lokale Webseite betreiben. Im Vortrag wird gezeigt
+  wie man OpenWrt installiert\, bedient und wie man Fallstricke umgeht.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/56.html
+SUMMARY:OpenWrt - Moritz Warning
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190405T084117Z
+UID:833b38a9-a5ba-400e-bfd0-43d7f1b4d640@frab.luga.de
+DESCRIPTION:Nach einer kleinen Einführung in die Welt des Nix Paketmanage
+ rs und der NixOS Linux Distribution\, werden wir lernen Pakete für Nix z
+ u schreiben und in die Welt der funktionalen\, zustandslosen Paketverwal
+ tung eintauchen.\n\nDer Vortrag schließt zwar an den Nix(OS) Vortrag vom
+  letzen LIT (https://frab.luga.de/en/LIT2018/public/events/25) an\, soll
+ te aber auch ohne Vorkenntnisse verständlich sein.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/77.html
+SUMMARY:Packaging for NixOS: Die Linux-Distribution mit wenig(er) Zustand
+  - Xaver Hörl
+LOCATION:Raum B
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190405T135941Z
+UID:479e7a68-7a88-43fd-82e4-ef449cb50fbe@frab.luga.de
+DESCRIPTION:<strong>Botschaft an Außerirdische.</strong>\nVor etwa 15 Jah
+ ren schickte die Menschheit eine Radiobotschaft an ausgewählte Sterne\, 
+ in der Hoffnung\, dass die Nachricht Außerirdische erreicht\, diese die 
+ Nachricht verstehen und uns antworten. Die Nachricht ist nicht auf Deuts
+ ch oder Englisch verfasst\, sondern bedient sich einer eigens entwickelt
+ en Symbolsprache. Schaffen wenigstens wir Menschen\, die Botschaft zu en
+ tziffern? Das wollen wir in dem Workshop an uns selbst testen und heraus
+ finden!\n\n<strong>Beweise ohne Worte.</strong>\nMathematik ist die Kuns
+ t\, das Verborgene auf das Offensichtliche zurückzuführen! Und das geht 
+ am besten nicht mit Formeln\, sondern mit einsichtigen Bildern.\n\n<stro
+ ng>Herkulas Kampf gegen die Hydra.</strong>\nLiebe ist unendlich. Gott i
+ st unendlich. Das sind vertraute Vorstellungen\, die in unserem Denken m
+ it Unendlichkeit verknüpft sind. Weitere\, zunächst verborgene Perspekti
+ ven eröffnet die Mathematik. Es stellt sich nämlich heraus\, dass der be
+ kannte Zahlenstrahl nicht der Weisheit letzter Schluss ist: Nach 1\, 2 u
+ nd 3\, nach der Million und der Trilliarde\, nach der Anzahl Sandkörner 
+ – nach all diesen Zahlen folgen die unendlich großen Zahlen. In diesem W
+ orkshop lernen die Teilnehmenden spielerisch die wundersame Welt dieser 
+ Zahlen kennen\, und nutzen sie\, um zu verstehen\, wieso Herkula gegen d
+ ie unbesiegbar wirkende Hydra gewinnen kann.\n\n<strong>Zauberwürfel.</s
+ trong>\nWir lernen\, wie man den Zauberwürfel (Rubik's Cube) löst! Wir h
+ aben Zauberwürfel für euch dabei (könnt ihr nach der Veranstaltung auch 
+ behalten).\n\n<strong>Jederzeit kommen und gehen.</strong>\nDas Programm
+  richtet sich an Schülerinnen und Schüler ab der dritten Klasse\, sowie 
+ an alle Interessierten beliebigen Alters.\n\nMan kann während der gesamt
+ en Workshopzeit jederzeit kommen und gehen und zwischen den einzelnen Th
+ emen wechseln.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/76.html
+SUMMARY:Programm für Kinder\, Jugendliche und alle sonstigen Interessiert
+ en - Matheschülerzirkel Augsburg
+LOCATION:Pseudo-Raum G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190414T121216Z
+UID:dfbb32f9-4f73-45a4-ab58-d2c76d7a0f63@frab.luga.de
+DESCRIPTION:Wie funktioniert ein Computerprogramm? Wie erstelle ich ein e
+ rstes eigenes Programm? Einsteiger-Workshop für Kinder ab 8 Jahren auf d
+ er Basis von Scratch (scratch.mit.edu)
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/71.html
+SUMMARY:Programmieren für Kinder - Stefan Paul
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T141500
+DTSTAMP;VALUE=DATE-TIME:20190407T190954Z
+UID:d2aff713-8c89-4ecd-b371-9b887125e944@frab.luga.de
+DESCRIPTION:Linux ist eine Wundertüte voller Werkzeuge. Da sind die bekan
+ nteren wie ls\, cd\, mkdir\, touch\, cat und grep. Aber da ist noch viel
+  mehr. Wir freuen uns darauf\, mit Euch die Liste der coolen Werkzeuge z
+ u teilen\,\ndie euer Leben als Linux-Benutzer\, Adminstrator und Entwick
+ ler\nvereinfacht. Schatzsuche\, wie sie besser nicht sein kann
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/44.html
+SUMMARY:Schatzsuche - Frank Hofmann\, Axel Beckert
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T131500
+DTSTAMP;VALUE=DATE-TIME:20190405T083932Z
+UID:0991f81c-257e-4f6e-af80-323422ea8230@frab.luga.de
+DESCRIPTION:Freeway in Raum W3.18\n\nMit wenigen Handgriffen einen Semina
+ rraum oder ein Schullabor neu installieren?\nFreeway ist eine kleine Sam
+ mlung von Shellskripten und einem Webserver\, die darauf ausgerichtet si
+ nd\, einfach und verlässlich einen Rechner oder auch einen ganzen Schulu
+ ngsraum auf einmal zu installieren.\n\nDabei wird nicht nur ein Basissys
+ tem installiert\, sondern ausserdem auch eine oder mehrere virtuelle Mas
+ chinen\, die buchstäblich jedes Schulungsszenario möglich machen.\n\nDie
+  Schulungsmaschinen auf einen sauberen Zustand zurücksetzen?\nEine Sache
+  von Sekunden.\n\nNeue Virtuelle Maschinen erzeugen?\nDauert nur einen A
+ ugenblick.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/85.html
+SUMMARY:Software Deployment mit Freeway  in Raum W3.18 - Dieter_Thalmayr
+LOCATION:Pseudo-Raum G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T141500
+DTSTAMP;VALUE=DATE-TIME:20190325T205855Z
+UID:e3fcccaa-4168-4b4f-9a22-29ed2ddd3da5@frab.luga.de
+DESCRIPTION:Die Auswertung von strukturierten Datenmengen gilt im Bereich
+  der Datenanalyse längst als gelöstes Mysterium. Neue Herausforderung rü
+ cken in den Fokus: Die Extraktion von Nutzen aus unstrukturierten Daten.
+  Wie können aus unstrukturierten Daten\, wie beispielsweise Text\, nutzb
+ are Informationen gewonnen werden? Und wie geht das in Echtzeit\, zum Be
+ ispiel bei gestreamten Daten?\nDaniel Wrigley stellt in diesem Vortrag e
+ inen entsprechenden Use Case vor. Gezeigt wird eine Referenzarchitektur 
+ bestehend aus Open Source Komponenten (u.a. Apache Kafka\, Apache Spark)
+ \, die die Analyse von Text illustriert\, um dessen Bedeutung zu erfasse
+ n. Die Ergebnisse können so visualisiert und als Entscheidungsgrundlagen
+  für geschäftskritische Handlungen genutzt werden.\nEine mögliche\, konk
+ rete Anwendung wird anschließend in einer Demo gezeigt:  Die Verarbeitun
+ g von textbasierten Kundenrezensionen in Echtzeit.\n\n
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/61.html
+SUMMARY:Streaming Analytics in der Praxis - Daniel Wrigley\, SHI GmbH
+LOCATION:Raum E (Workshop)
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T114500
+DTSTAMP;VALUE=DATE-TIME:20190409T110503Z
+UID:b73cac7d-0ca8-47a4-8f9d-0b9ac5cd4e09@frab.luga.de
+DESCRIPTION:\nEgal ob im IoT-Heimnetzwerk oder im professionellen Bereich
+  - die immer\nkomplexer werdende moderne IT-Infrastruktur macht den Eins
+ atz von\nMonitoring-Tools unerlässlich\, welche den Admin im Ernstfall b
+ ei der\nFehlersuche unterstützen.\nIcinga ist ein einfach zu erweiternde
+ s Open Source Monitoring Tool\, das\ndie vorhandenen Systeme kontinuierl
+ ich überwacht\, dabei Daten zu\nVerfügbarkeit und Performance sammelt un
+ d so dem Admin bei der Erkennung\npotentieller Probleme und Engpässe hil
+ ft.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/65.html
+SUMMARY:System- und Netzwerkmonitoring mit Icinga - Moritz Tanzer
+LOCATION:Raum C
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190325T205038Z
+UID:96a6dea6-37c1-4c6f-bc29-c6edc3f59217@frab.luga.de
+DESCRIPTION:Projekte\, die proprietäre Firmware durch alternative\, freie
+  Firmware ersetzen haben häufig erhebliche Probleme mit dem Testen ihrer
+  Firmware. Das manuelle Testen jedes Firmware-Images für jedes Gerät vor
+  jedem Releasen ist praktisch nicht machbar - und wird deshalb oft verna
+ chlässigt. Dadurch kommt es zu dem Effekt\, dass Nutzer angeblich unters
+ tützte Hardware kaufen\, nur um anschließend festzustellen\, dass sie vo
+ n der freien Firmware nicht vollständig oder überhaupt nicht unterstützt
+  wird.\nWir sind der Überzeugung\, dass das Testen von freier Software -
+  und ganz speziell von freier Firmware - eine gemeinschaftliche Aktivitä
+ t sein sollte. Sie sollte Entwickler\, Tester und Endanwender in den jew
+ eiligen Projekten eng miteinander verbinden. Das von uns entwickelte Sys
+ temTestPortal ist eine leichtgewichtige Webanwendung\, die die Erstellun
+ g\, Ausführung und Analyse systematischer manueller Tests erlaubt.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/64.html
+SUMMARY:SystemTestPortal - Daniel Kulesz
+LOCATION:Raum D
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190407T140711Z
+UID:86f51dec-bb69-424f-a7fb-28029556f99b@frab.luga.de
+DESCRIPTION:Der Tiptoi-Stift von Ravensburger kommt bei Kindern in Deutsc
+ hland und darüber hinaus super an. Allerdings ist ein ein geschlossenes 
+ System\, und Ravensburger sieht nur vor\, dass man Ravensburger-Bücher u
+ nd Spiele damit benutzt. Das durfte natürlich nicht so bleiben\, und es 
+ dauerte nicht lange\, bis wir das Dateiformat reverse-engineert haben\, 
+ so dass man jetzt seine eigenen Tiptoi-Produkte erstellen kann. Die <a h
+ ref="http://tttool.entropia.de/#was-kann-ich-hier-machen">Galerie des Pr
+ ojekts</a> zeigt was da inzwischen so geht.\n\nDieser Vortrag soll allen
+  zukünftigen Tiptoi-Bastlern Starthilfe geben: Ich werde erklären\, wie 
+ der Stift überhaupt funktioniert\, wie man ihn umprogrammieren kann und 
+ wie man eigene Bilder dafür produziert\, und nebenher das eine oder ande
+ re über das Reverse-Engineering erzählen.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/55.html
+SUMMARY:Tiptoi Hacken - Joachim Breitner
+LOCATION:Raum A
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190405T081926Z
+UID:45094892-2aa1-4e79-a29b-2ab46e92a175@frab.luga.de
+DESCRIPTION:Oft hört man in Medien\, dass Internet und Mails so unsicher 
+ wie Postkarten seien. Aber selten hat man eine plastische Vorstellung da
+ von\, was das eigentlich bedeutet. Noch dazu sind solche Aussagen untert
+ rieben\, denn im Regelfall ist es für meine NachbarInnen nicht ganz leic
+ ht\, unbemerkt meine Post einzusehen. Wer allerdings mit mir im selben ö
+ ffentlichen WiFi-Netzwerk surft\, kann ohne besondere Raffinesse mein In
+ ternetverhalten verfolgen.\n\nDer Vortrag stellt das Programm Wireshark 
+ vor\, mit dem man den Netzverkehr\, der über den eigenen Computer geht\,
+  sichtbar machen kann. So erkennt man mit eigenen Augen\, welche Daten F
+ remde eigentlich mitlesen können\, und schärft so sein Sicherheitsbewuss
+ tsein. Das werden zahlreiche Live-Vorführungen\, die man auch zu Hause n
+ achspielen kann\, demonstrieren.\n\nZum Abschluss des Vortrags inspizier
+ en wir den Datenverkehr mutiger Freiwilliger.\n\nWer Wireshark schon ken
+ nt\, sollte einen der anderen zeitgleich stattfindenden Vorträge besuche
+ n. Dieser Vortrag setzt keinerlei technisches Vorwissen voraus.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/75.html
+SUMMARY:Welche Daten verschickt eigentlich mein Browser? - Ingo Blechschm
+ idt
+LOCATION:Pseudo-Raum G
+END:VEVENT
+END:VCALENDAR

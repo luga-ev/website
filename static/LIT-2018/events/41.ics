@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180322T063304Z
+UID:31fdd4a7-09ac-46fe-8ad2-5a3a0b485677@frab.luga.de
+DESCRIPTION:Bunt gemische fünfminütige Kurzvorträge zu <a href="https://e
+ therpad.wikimedia.org/p/lit2018-lightning-talks">diversen Themen</a>.\n\
+ nNoch sind Einreichungen möglich! Bitte einfach auf dem verlinkten Ether
+ pad ergänzen.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/41.html
+SUMMARY:Lightning Talks
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum D
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190405T135941Z
+UID:479e7a68-7a88-43fd-82e4-ef449cb50fbe@frab.luga.de
+DESCRIPTION:<strong>Botschaft an Außerirdische.</strong>\nVor etwa 15 Jah
+ ren schickte die Menschheit eine Radiobotschaft an ausgewählte Sterne\, 
+ in der Hoffnung\, dass die Nachricht Außerirdische erreicht\, diese die 
+ Nachricht verstehen und uns antworten. Die Nachricht ist nicht auf Deuts
+ ch oder Englisch verfasst\, sondern bedient sich einer eigens entwickelt
+ en Symbolsprache. Schaffen wenigstens wir Menschen\, die Botschaft zu en
+ tziffern? Das wollen wir in dem Workshop an uns selbst testen und heraus
+ finden!\n\n<strong>Beweise ohne Worte.</strong>\nMathematik ist die Kuns
+ t\, das Verborgene auf das Offensichtliche zurückzuführen! Und das geht 
+ am besten nicht mit Formeln\, sondern mit einsichtigen Bildern.\n\n<stro
+ ng>Herkulas Kampf gegen die Hydra.</strong>\nLiebe ist unendlich. Gott i
+ st unendlich. Das sind vertraute Vorstellungen\, die in unserem Denken m
+ it Unendlichkeit verknüpft sind. Weitere\, zunächst verborgene Perspekti
+ ven eröffnet die Mathematik. Es stellt sich nämlich heraus\, dass der be
+ kannte Zahlenstrahl nicht der Weisheit letzter Schluss ist: Nach 1\, 2 u
+ nd 3\, nach der Million und der Trilliarde\, nach der Anzahl Sandkörner 
+ – nach all diesen Zahlen folgen die unendlich großen Zahlen. In diesem W
+ orkshop lernen die Teilnehmenden spielerisch die wundersame Welt dieser 
+ Zahlen kennen\, und nutzen sie\, um zu verstehen\, wieso Herkula gegen d
+ ie unbesiegbar wirkende Hydra gewinnen kann.\n\n<strong>Zauberwürfel.</s
+ trong>\nWir lernen\, wie man den Zauberwürfel (Rubik's Cube) löst! Wir h
+ aben Zauberwürfel für euch dabei (könnt ihr nach der Veranstaltung auch 
+ behalten).\n\n<strong>Jederzeit kommen und gehen.</strong>\nDas Programm
+  richtet sich an Schülerinnen und Schüler ab der dritten Klasse\, sowie 
+ an alle Interessierten beliebigen Alters.\n\nMan kann während der gesamt
+ en Workshopzeit jederzeit kommen und gehen und zwischen den einzelnen Th
+ emen wechseln.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/76.html
+SUMMARY:Programm für Kinder\, Jugendliche und alle sonstigen Interessiert
+ en
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Pseudo-Raum G
+END:VEVENT
+END:VCALENDAR

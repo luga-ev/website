@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T141500
+DTSTAMP;VALUE=DATE-TIME:20190325T205855Z
+UID:e3fcccaa-4168-4b4f-9a22-29ed2ddd3da5@frab.luga.de
+DESCRIPTION:Die Auswertung von strukturierten Datenmengen gilt im Bereich
+  der Datenanalyse längst als gelöstes Mysterium. Neue Herausforderung rü
+ cken in den Fokus: Die Extraktion von Nutzen aus unstrukturierten Daten.
+  Wie können aus unstrukturierten Daten\, wie beispielsweise Text\, nutzb
+ are Informationen gewonnen werden? Und wie geht das in Echtzeit\, zum Be
+ ispiel bei gestreamten Daten?\nDaniel Wrigley stellt in diesem Vortrag e
+ inen entsprechenden Use Case vor. Gezeigt wird eine Referenzarchitektur 
+ bestehend aus Open Source Komponenten (u.a. Apache Kafka\, Apache Spark)
+ \, die die Analyse von Text illustriert\, um dessen Bedeutung zu erfasse
+ n. Die Ergebnisse können so visualisiert und als Entscheidungsgrundlagen
+  für geschäftskritische Handlungen genutzt werden.\nEine mögliche\, konk
+ rete Anwendung wird anschließend in einer Demo gezeigt:  Die Verarbeitun
+ g von textbasierten Kundenrezensionen in Echtzeit.\n\n
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/61.html
+SUMMARY:Streaming Analytics in der Praxis
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum E (Workshop)
+END:VEVENT
+END:VCALENDAR
