@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T104500
+DTSTAMP;VALUE=DATE-TIME:20180421T091625Z
+UID:37452da1-7584-4fc3-8651-b48da5e37df1@frab.luga.de
+DESCRIPTION:Die zunehmende Vernetzung von Kleinstgeräten ermöglicht die E
+ ntwicklung von in der Vergangenheit undenkbaren vernetzten Systemen. Neb
+ en den neuen Möglichkeiten birgt dies aber auch viele neue Gefahren. Vor
+  allem Bereiche\, die vorher durch fehlende Schnittstellen nach Außen al
+ s relativ sicher galten\, sehen sich nun mit Fragestellungen der IT-Sich
+ erheit konfrontiert. Der Vortrag zeigt am Beispiel einer Heimnetzwerks a
+ uf\, wie eine solche Bedrohungsanalyse durchgeführt wird und damit Gefah
+ ren sowie mögliche Schwachstellen identifiziert werden können.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/18.html
+SUMMARY:IoT SECURITY-Check
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum A
+END:VEVENT
+END:VCALENDAR

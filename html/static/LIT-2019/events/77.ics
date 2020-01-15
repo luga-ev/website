@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190405T084117Z
+UID:833b38a9-a5ba-400e-bfd0-43d7f1b4d640@frab.luga.de
+DESCRIPTION:Nach einer kleinen Einführung in die Welt des Nix Paketmanage
+ rs und der NixOS Linux Distribution\, werden wir lernen Pakete für Nix z
+ u schreiben und in die Welt der funktionalen\, zustandslosen Paketverwal
+ tung eintauchen.\n\nDer Vortrag schließt zwar an den Nix(OS) Vortrag vom
+  letzen LIT (https://frab.luga.de/en/LIT2018/public/events/25) an\, soll
+ te aber auch ohne Vorkenntnisse verständlich sein.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/77.html
+SUMMARY:Packaging for NixOS: Die Linux-Distribution mit wenig(er) Zustand
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum B
+END:VEVENT
+END:VCALENDAR

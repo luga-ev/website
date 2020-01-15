@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180417T110724Z
+UID:88e34a4d-6aa3-424b-8d25-9c1e9f0b317a@frab.luga.de
+DESCRIPTION:SSH\, Secure Shell\, wird oft auf die reine Funktion eines si
+ cheren Zugriffs per Terminal reduziert. SSH kann aber viel mehr. Sieht m
+ an SSH als einen sicheren Kanal an\, über den man fast beliebig Daten se
+ nden kann und der eine sichere Punkt zu Punkt Verbindung zwischen zwei R
+ echnern aufbaut\, wird man dem Umfang der Möglichkeiten eher gerecht.\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/19.html
+SUMMARY:Einsatz von SSH zum Aufbau eines sicheren Netzes
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum A
+END:VEVENT
+END:VCALENDAR

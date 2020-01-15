@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T123500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T114500
+DTSTAMP;VALUE=DATE-TIME:20180419T155527Z
+UID:d90fbe26-5fe1-4b34-bbbb-d9da22e1119d@frab.luga.de
+DESCRIPTION:»brig« ist ein freies und komplett dezentrales Werkzeug zum s
+ icheren und einfachen Austausch und Versionieren von Dateien. Es bietet 
+ eine Reihe von Möglichkeiten\, die bislang kein anderes Tool oder Plattf
+ orm ermöglicht. Da »brig« an der Hochschule Augsburg entstand und weiter
+ hin in Augsburg entwickelt wird\, ist es nur konsequent den aktuellen En
+ twicklungsstand hier zu zeigen. \n\nDer Vortrag ist eine Projektvorstell
+ ung und zeigt das Tool selbst (samt Demo)\, was es noch können soll und 
+ wie man die Entwicklung unterstützen könnte.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/3.html
+SUMMARY:»brig« - dezentrale und sichere Dateisynchronisation
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum E
+END:VEVENT
+END:VCALENDAR

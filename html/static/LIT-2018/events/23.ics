@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T141500
+DTSTAMP;VALUE=DATE-TIME:20180405T224348Z
+UID:069da68f-dd39-4cfc-b277-b95af38664ff@frab.luga.de
+DESCRIPTION:Tor ist nicht nur etwas für investigative Journalisten\, Whis
+ tleblower\, auf Privatsphäre achtende Webnutzer oder böse Jungs. Man kan
+ n es auch als leicht einzurichtendes\, öffentliches "VPN" nutzen um durc
+ h einen NAT-Router hindurch auf eigene Dienste zuzugreifen.\n\nDieser Vo
+ rtrag soll anhand einer Live-Demonstration auf einem Raspberry Pi zeigen
+ \, wie man einen Webserver und SSH-Zugriff per Tor konfiguriert und dara
+ uf zugreift.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/23.html
+SUMMARY:Von überall her per Tor auf seinen Rechner gelangen
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum A
+END:VEVENT
+END:VCALENDAR

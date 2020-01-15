@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180421T155719Z
+UID:1970f0b1-49fd-4cdd-88a5-443075c1cb87@frab.luga.de
+DESCRIPTION:<strong>Bei den vielen technischen und gesellschaftlichen Vor
+ trägen Lust auf etwas ganz anderes?</strong>\n\n    Liebe ist unendlich.
+  Gott ist unendlich. Das sind vertraute     Vorstellungen\, die in unser
+ em Denken mit Unendlichkeit verknüpft     sind. Weitere\, zunächst verbo
+ rgene Perspektiven eröffnet die     Mathematik. \n\n    Es stellt sich n
+ ämlich heraus\, dass der bekannte Zahlenstrahl nicht der Weisheit letzte
+ r Schluss ist: Nach 1\, 2 und 3\, nach der Million     und der Trilliard
+ e\, nach der Anzahl Sandkörner – nach all diesen     Zahlen folgen die u
+ nendlich großen Zahlen. Verblüffenderweise können     wir Menschen trotz
+  unseres beschränkten Verstands diese unendliche     Hierachie unendlich
+  großer Zahlen erkunden und sichere Informationen     über sie gewinnen.
+ \n\n    Der Vortrag nimmt alle Interessierten auf eine Reise durch diese
+  wundersame Welt der     unendlich großen Zahlen mit. Anstelle von Forme
+ ln oder Rechnungen     wird es Bilder und anschauliche Gedankenexperimen
+ te geben. Die alte    Frage\, ob unendlich plus eins nun mehr sei wie un
+ endlich oder doch    wieder nur unendlich\, kann anschließend ohne jegli
+ che    Restzweifel selbst verständlich beantwortet werden.\n\n    Die Be
+ schäftigung mit Unendlichkeit verknüpft Mathematik mit    philosophische
+ r Erkenntnistheorie. Eine verwandte Frage über die    Natur der Unendlic
+ hkeit ist nämlich bis heute ungeklärt und wird das    bewiesenermaßen fü
+ r immer bleiben. Wie diese Frage lautet\, was ihr    die moderne Mathema
+ tik zu entgegnen hat und wie man sich endgültiger    Unkennbarkeit mit m
+ athematischer Präzision gewiss sein kann\, wird    der Vortrag ebenfalls
+  beleuchten.\n\n<a href="https://rawgit.com/iblech/mathezirkel-kurs/mast
+ er/superturingmaschinen/koenigsbrunner-campus2017.pdf"><strong>Vortragsf
+ olien</strong></a>\n<a href="https://www.youtube.com/watch?v=wZzn4INtbwY
+ &amp\;list=PLwpepnYDFK9OxuqUvLDQPoTBEGyuj4iLU"><strong>Aufzeichnung eine
+ r früheren Instanz des Vortrags</strong></a>\n<a href="https://www.youtu
+ be.com/watch?v=sUqwFbbwHQo"><strong>Superturingmaschinen</strong></a>
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/42.html
+SUMMARY:Die wundersame Welt der unendlich großen Zahlen – Glaube in der M
+ athematik?
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum G
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,223 @@
+.cell-height1 { height: 20px; }
+.cell-height2 { height: 37px; }
+.cell-height3 { height: 57px; }
+.cell-height4 { height: 77px; }
+.cell-height5 { height: 97px; }
+.cell-height6 { height: 117px; }
+.cell-height7 { height: 137px; }
+.cell-height8 { height: 157px; }
+.cell-height9 { height: 177px; }
+.cell-height10 { height: 197px; }
+.cell-height11 { height: 217px; }
+.cell-height12 { height: 237px; }
+.cell-height13 { height: 257px; }
+.cell-height14 { height: 277px; }
+.cell-height15 { height: 297px; }
+.cell-height16 { height: 317px; }
+.cell-height17 { height: 337px; }
+.cell-height18 { height: 357px; }
+.cell-height19 { height: 377px; }
+.cell-height20 { height: 397px; }
+.cell-height21 { height: 417px; }
+.cell-height22 { height: 437px; }
+.cell-height23 { height: 457px; }
+.cell-height24 { height: 477px; }
+.cell-height25 { height: 497px; }
+.cell-height26 { height: 517px; }
+.cell-height27 { height: 537px; }
+.cell-height28 { height: 557px; }
+.cell-height29 { height: 577px; }
+.cell-height30 { height: 597px; }
+.cell-height31 { height: 617px; }
+.cell-height32 { height: 637px; }
+.cell-height33 { height: 657px; }
+.cell-height34 { height: 677px; }
+.cell-height35 { height: 697px; }
+.cell-height36 { height: 717px; }
+.cell-height37 { height: 737px; }
+.cell-height38 { height: 757px; }
+.cell-height39 { height: 777px; }
+.cell-height40 { height: 797px; }
+.cell-height41 { height: 817px; }
+.cell-height42 { height: 837px; }
+.cell-height43 { height: 857px; }
+.cell-height44 { height: 877px; }
+.cell-height45 { height: 897px; }
+.cell-height46 { height: 917px; }
+.cell-height47 { height: 937px; }
+.cell-height48 { height: 957px; }
+.cell-height49 { height: 977px; }
+.cell-height50 { height: 997px; }
+.cell-height51 { height: 1017px; }
+.cell-height52 { height: 1037px; }
+.cell-height53 { height: 1057px; }
+.cell-height54 { height: 1077px; }
+.cell-height55 { height: 1097px; }
+.cell-height56 { height: 1117px; }
+.cell-height57 { height: 1137px; }
+.cell-height58 { height: 1157px; }
+.cell-height59 { height: 1177px; }
+.cell-height60 { height: 1197px; }
+.cell-height61 { height: 1217px; }
+.cell-height62 { height: 1237px; }
+.cell-height63 { height: 1257px; }
+.cell-height64 { height: 1277px; }
+.cell-height65 { height: 1297px; }
+.cell-height66 { height: 1317px; }
+.cell-height67 { height: 1337px; }
+.cell-height68 { height: 1357px; }
+.cell-height69 { height: 1377px; }
+.cell-height70 { height: 1397px; }
+.cell-height71 { height: 1417px; }
+.cell-height72 { height: 1437px; }
+.cell-height73 { height: 1457px; }
+.cell-height74 { height: 1477px; }
+.cell-height75 { height: 1497px; }
+.cell-height76 { height: 1517px; }
+.cell-height77 { height: 1537px; }
+.cell-height78 { height: 1557px; }
+.cell-height79 { height: 1577px; }
+.cell-height80 { height: 1597px; }
+.cell-height81 { height: 1617px; }
+
+
+.event.track-default {
+  background-color: #555;
+  border-color: #555;
+}
+
+.event.track-default div.event-header {
+  background-color: #555;
+}
+
+.event.track-default div.event-header a {
+  color: #fff;
+}
+
+.conference-background {
+  background-color: #555;
+}
+
+
+.event.track-digitale-gesellschaft {
+  background-color: #c1afa1;
+  border-color: #c1afa1;
+}
+.event.track-digitale-gesellschaft div.event-header {
+  background-color: #c1afa1;
+}
+
+.event.track-digitale-gesellschaft div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-digitale-gesellschaft {
+  background-color: #c1afa1;
+}
+
+.label .track-digitale-gesellschaft {
+  background-color: #c1afa1;
+}
+
+.event.track-linux-interna-und-anwendungen {
+  background-color: #fac60e;
+  border-color: #fac60e;
+}
+.event.track-linux-interna-und-anwendungen div.event-header {
+  background-color: #fac60e;
+}
+
+.event.track-linux-interna-und-anwendungen div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-linux-interna-und-anwendungen {
+  background-color: #fac60e;
+}
+
+.label .track-linux-interna-und-anwendungen {
+  background-color: #fac60e;
+}
+
+.event.track-privatsphare-und-sicherheit {
+  background-color: #f38526;
+  border-color: #f38526;
+}
+.event.track-privatsphare-und-sicherheit div.event-header {
+  background-color: #f38526;
+}
+
+.event.track-privatsphare-und-sicherheit div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-privatsphare-und-sicherheit {
+  background-color: #f38526;
+}
+
+.label .track-privatsphare-und-sicherheit {
+  background-color: #f38526;
+}
+
+.event.track-programm-fur-kinder-und-jugendliche {
+  background-color: #87aade;
+  border-color: #87aade;
+}
+.event.track-programm-fur-kinder-und-jugendliche div.event-header {
+  background-color: #87aade;
+}
+
+.event.track-programm-fur-kinder-und-jugendliche div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-programm-fur-kinder-und-jugendliche {
+  background-color: #87aade;
+}
+
+.label .track-programm-fur-kinder-und-jugendliche {
+  background-color: #87aade;
+}
+
+.event.track-programmieren-und-software-entwickeln {
+  background-color: #9bc822;
+  border-color: #9bc822;
+}
+.event.track-programmieren-und-software-entwickeln div.event-header {
+  background-color: #9bc822;
+}
+
+.event.track-programmieren-und-software-entwickeln div.event-header a {
+  color: #000;
+}
+
+#colorkeys .track-programmieren-und-software-entwickeln {
+  background-color: #9bc822;
+}
+
+.label .track-programmieren-und-software-entwickeln {
+  background-color: #9bc822;
+}
+
+#colorkeys {
+  font-size: .8em;
+  opacity: .85;
+}
+
+#colorkeys ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#colorkeys ul li {
+  margin: 0 .2em;
+  float: right;
+}
+
+#colorkeys ul li div {
+  padding: 0;
+}
+
+/* Custom Conference CSS */
+

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180410T092945Z
+UID:a6f503a4-2912-4d78-b76b-b65bc90b062d@frab.luga.de
+DESCRIPTION:QGIS ist unter den OpenSource Geoinformationssystemen der abs
+ olute Vorreiter und entwickelt sich dynamisch weiter. \nDer Vortrag zeig
+ t in einer kurzen Präsentation die vielfältigen Anwendungsmöglichkeiten 
+ von Geoinformationssystemen. Danach schließt sich ein kurzes Tutorial an
+ \, wie sich Daten\, welche man selbst generiert hat (zum Beispiel Postle
+ itzahlen von Kunden) in QGIS verarbeiten und kartographisch darstellen l
+ assen.\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/15.html
+SUMMARY:QGIS - Arbeiten mit Geodaten 
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum B
+END:VEVENT
+END:VCALENDAR

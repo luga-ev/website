@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T141500
+DTSTAMP;VALUE=DATE-TIME:20190415T094646Z
+UID:4ab43ff7-edf9-4051-a774-9b3d270fe8b7@frab.luga.de
+DESCRIPTION:OpenWrt ist quasi ein Ubuntu für handelsübliche Router die of
+ t zuhause stehen und wenig Geld kosten. Damit lassen sich z.B. Dateiserv
+ er\, Emailserver oder lokale Webseite betreiben. Im Vortrag wird gezeigt
+  wie man OpenWrt installiert\, bedient und wie man Fallstricke umgeht.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/56.html
+SUMMARY:OpenWrt
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum C
+END:VEVENT
+END:VCALENDAR

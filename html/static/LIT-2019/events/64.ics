@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T151500
+DTSTAMP;VALUE=DATE-TIME:20190325T205038Z
+UID:96a6dea6-37c1-4c6f-bc29-c6edc3f59217@frab.luga.de
+DESCRIPTION:Projekte\, die proprietäre Firmware durch alternative\, freie
+  Firmware ersetzen haben häufig erhebliche Probleme mit dem Testen ihrer
+  Firmware. Das manuelle Testen jedes Firmware-Images für jedes Gerät vor
+  jedem Releasen ist praktisch nicht machbar - und wird deshalb oft verna
+ chlässigt. Dadurch kommt es zu dem Effekt\, dass Nutzer angeblich unters
+ tützte Hardware kaufen\, nur um anschließend festzustellen\, dass sie vo
+ n der freien Firmware nicht vollständig oder überhaupt nicht unterstützt
+  wird.\nWir sind der Überzeugung\, dass das Testen von freier Software -
+  und ganz speziell von freier Firmware - eine gemeinschaftliche Aktivitä
+ t sein sollte. Sie sollte Entwickler\, Tester und Endanwender in den jew
+ eiligen Projekten eng miteinander verbinden. Das von uns entwickelte Sys
+ temTestPortal ist eine leichtgewichtige Webanwendung\, die die Erstellun
+ g\, Ausführung und Analyse systematischer manueller Tests erlaubt.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/64.html
+SUMMARY:SystemTestPortal
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum D
+END:VEVENT
+END:VCALENDAR

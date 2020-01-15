@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T161500
+DTSTAMP;VALUE=DATE-TIME:20180405T224633Z
+UID:0aba4310-78f4-4350-a867-e02a6b82c45a@frab.luga.de
+DESCRIPTION:WLAN im 2.4 GHz-Bereich ist absolut unsicher hinsichtlich Sab
+ otage-Angriffen. Mit einfacher Hardware und der entsprechenden Software 
+ lässt sich fast jedes WLAN deaktivieren. Ich zeige\, wie man das eigene 
+ WLAN testen kann\, Angriffe erkennt und welche Schutzmöglichkeiten es gi
+ bt.\nDer IEEE 802.11 Standard für WLAN weist einen sehr kritischen Desig
+ n-Fehler auf. Über unprotected Management-Frames lassen sich AccessPoint
+ s mit einfachen Mitteln dahingehend manipulieren\, dass sie alle bestehe
+ nden Verbindungen dauerhaft trennen. Dies geschieht über Deauthenticatio
+ n-Frames\, die der AccessPoint akzeptiert und ausführt. Der verbesserte 
+ Standard IEEE 802.11w-2009\, welcher dies verhindern würde\, hat sich le
+ ider bis jetzt nicht durchgesetzt. Ein Schutz lässt sich aber auch über 
+ die Firmware realisieren\, indem entsprechende Frames nicht ausgeführt w
+ erden.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/35.html
+SUMMARY:2.4 GHz WLAN – ganz sicher unsicher!
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum D
+END:VEVENT
+END:VCALENDAR

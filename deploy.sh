@@ -92,6 +92,10 @@ echo "* Mirroring website..." >&2
 
 wget -nv -D luga-dummy -r -l inf -p http://luga-dummy/ || true
 cp -a "$root/html/galleries" luga-dummy/
+mkdir -p luga-dummy/static
+cp -a "$root/html/static/LIT-2018" luga-dummy/static/
+cp -a "$root/html/static/LIT-2019" luga-dummy/static/
+
 # wget holt natürlich nicht Ressourcen, die nur von JavaScript aus referenziert
 # werden. Daher ist eine manuelle Kopie der JavaScript-Gallerien nötig.
 

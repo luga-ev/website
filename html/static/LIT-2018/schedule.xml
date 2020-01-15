@@ -1,0 +1,1289 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<schedule>
+<version>1.1</version>
+<conference>
+<acronym>LIT2018</acronym>
+<title>17. Augsburger Linux-Infotag </title>
+<start>2018-04-21</start>
+<end>2018-04-21</end>
+<days>1</days>
+<timeslot_duration>00:05</timeslot_duration>
+<base_url>https://www.luga.de/Aktionen/LIT-2018/Programm</base_url>
+</conference>
+<day date='2018-04-21' end='2018-04-21T18:00:00+02:00' index='1' start='2018-04-21T09:00:00+02:00'>
+<room name='Raum A'>
+<event guid='4e60924b-785a-4240-be31-80c7ab326e8d' id='9'>
+<date>2018-04-21T09:40:00+02:00</date>
+<start>09:40</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2018-9-das_internet_der_unsicheren_dinge</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/9.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Das Internet der unsicheren Dinge</title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Euch erwarten aktuelle Beispiele aus dem Jahr 2018 von Datenschutz- und IT-Sicherheitsversagen aus dem Bereich Internet der Dinge (IoT), die ich im Zuge meiner Arbeit als Journalistin sammle. Was bedeutet ein Internet der unsicheren Dinge für die Gesellschaft? Was bedeutet es für unsere Privatsphäre? Und - was für Alternativen gibt es?</abstract>
+<description>Das Internet der Dinge (IoT) wächst. Viele Netzbetreiber sprechen vom &quot;next big thing“, einer Welt der smarten „Always-On“-Geräte. Bis jetzt ist IoT aber eher eine breite Palette von Katastrophenplots mit vielen Sicherheits- und Datenschutzproblemen, die eine Gefahr für das Internet darstellen.
+
+Ein Beispiel: Einige EU-Länder (darunter Deutschland) haben 2017 vernetzte Spielzeugpuppen verboten, weil diese durch eingebaute Mikrofone zur Wanze werden. Auch digitale Assistenten wie Amazon Echo oder Google Home wurden bereits gehackt. IT-Experten fordern daher bessere Sicherheitsstandards.
+
+Ein anderes Beispiel: 2018 hat in den USA der erste Internet-Provider damit gedroht, dass auch vernetzte Thermostate und Überwachungskameras nicht mehr funktionieren würden, wenn die Internet-Verbindung aufgrund von Urheberrechtsverletzungen gedrosselt wird. Provider sind dort aufgrund der Aufhebung der Netzneutralitätsgesetze in der Lage, Internetverbindungen zu reduzieren.
+
+Ein weiteres Problem betrifft etwa die Tatsache, dass gewisse Produkte ohne Internet-Verbindung gar nicht mehr funktionieren. Doch was ist, wenn die dazugehörige Firma plötzlich bankrott geht? So werden etwa 2018 beim Start-up Amberlight die Lichter ausgehen. Das Start-up ist pleite, die Dienste abgedreht. Damit die smarten Sockel der Firma funktionieren, wird aber eine permanente Cloud-Verbindung zu den Firmenservern benötigt. Die Kunden sitzen nun im Dunkeln. 
+
+Es mag bequem sein, mit einer App das Licht im Wohnzimmer zu dimmen, mit einem Button Klopapier bei Amazon nachzubestellen, oder sich von Alexa den Wetterbericht vorlesen zu lassen. Doch die Bequemlichkeit hat ihren Preis. Das „Internet der Dinge“, das eine immer größere Vernetzung in den Alltag bringt, gefährdet unsere Privatsphäre. 
+
+Aber was können wir als Gesellschaft tun? Wir können die Entwicklung nicht stoppen, aber wir können Produkte sicherer machen und bessere Regeln dafür schaffen. Derzeit kümmern sich die Hersteller von IoT-Produkten in erster Linie um ihre Geschäft. Sie wollen ihre Produkte so schnell wie möglich auf den Markt bringen, die Sicherheit bleibt hier auf der Strecke. In meinem Vortrag möchte ich einige Beispiele zeigen und erklären, warum dies für uns alle zum Problem wird und wie ein Mix aus Regulierung, Kunden-Rebellion und Alternativen helfen könnte.</description>
+<logo></logo>
+<persons>
+<person id='13'>Barbara Wimmer</person>
+</persons>
+<links>
+<link href='https://youtu.be/euNRztv4Ubk'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/007/original/Das_Internet_der_unsicheren_Dinge_Talk_Deutsch.pdf?1546163258'>Vortragsfolien PDF</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/027/original/Das_Internet_der_unsicheren_Dinge_Talk_Deutsch.pptx?1546163263'>Vortragsfolien PowerPoint</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/028/original/Das_Internet_der_unsicheren_Dinge_Talk_Deutsch_mit_Notizen.pdf?1546163263'>Vortragsfolien mit Kommentar</attachment>
+</attachments>
+</event>
+<event guid='37452da1-7584-4fc3-8651-b48da5e37df1' id='18'>
+<date>2018-04-21T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2018-18-iot_security-check</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/18.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>IoT SECURITY-Check</title>
+<subtitle>Wie Sie Bedrohungen rechtzeitig erkennen </subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Die zunehmende Vernetzung von Kleinstgeräten ermöglicht die Entwicklung von in der Vergangenheit undenkbaren vernetzten Systemen. Neben den neuen Möglichkeiten birgt dies aber auch viele neue Gefahren. Vor allem Bereiche, die vorher durch fehlende Schnittstellen nach Außen als relativ sicher galten, sehen sich nun mit Fragestellungen der IT-Sicherheit konfrontiert. Der Vortrag zeigt am Beispiel einer Heimnetzwerks auf, wie eine solche Bedrohungsanalyse durchgeführt wird und damit Gefahren sowie mögliche Schwachstellen identifiziert werden können.</abstract>
+<description>Die zunehmende Vernetzung von Kleinstgeräten ermöglicht die Entwicklung von in der Vergangenheit undenkbaren vernetzten Systemen. Neben den neuen Möglichkeiten birgt dies aber auch viele neue Gefahren. Vor allem Bereiche, die vorher durch fehlende Schnittstellen nach Außen als relativ sicher galten, sehen sich nun mit Fragestellungen der IT-Sicherheit konfrontiert. Der Vortrag zeigt am Beispiel einer Heimnetzwerks auf, wie eine solche Bedrohungsanalyse durchgeführt wird und damit Gefahren sowie mögliche Schwachstellen identifiziert werden können.
+Der Referent Michael Schnelle besitzt einen Abschluss als Master in Software-Engineering. Mittlerweile verfügt er über mehrere Jahre Entwicklungserfahrung mit den Schwerpunkten (Web-)Applikationsentwicklung und „Security“ in unterschiedlichen Schattierungen. Unter anderem führte er dabei Risikoanalysen durch, entwickelte Lösungen zur Abwehr schadhafter Anfragen auf einer Socialmedia-Plattform, für ein hochsicheres Signalisierungssystems für Notrufeinheiten, sowie zur Generierung einer sicheren Linux/ Debian-Distribution. In seinem aktuellen Projekt wirkt er bei der Entwicklung von Fahrgastinformations-Systemen für Verkehrsunternehmen mit, mit den Schwerpunkten verteilte Systeme, Microservices und Testautomatisierung. 
+</description>
+<logo>/system/events/logos/000/000/018/large/MixedMode_Logo_CMYK.jpg?1546163252</logo>
+<persons>
+<person id='36'>Michael Schnelle</person>
+</persons>
+<links>
+<link href='https://youtu.be/rFE3e6ZAFMY'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/030/original/Michael-Schnelle.Security-Check-LUGA.pdf?1546163263'>Vortragsfolien</attachment>
+</attachments>
+</event>
+<event guid='88e34a4d-6aa3-424b-8d25-9c1e9f0b317a' id='19'>
+<date>2018-04-21T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2018-19-einsatz_von_ssh_zum_aufbau_eines_sicheren_netzes</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/19.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Einsatz von SSH zum Aufbau eines sicheren Netzes</title>
+<subtitle></subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>SSH, Secure Shell, wird oft auf die reine Funktion eines sicheren Zugriffs per Terminal reduziert. SSH kann aber viel mehr. Sieht man SSH als einen sicheren Kanal an, über den man fast beliebig Daten senden kann und der eine sichere Punkt zu Punkt Verbindung zwischen zwei Rechnern aufbaut, wird man dem Umfang der Möglichkeiten eher gerecht.
+</abstract>
+<description>Im Detail wird gezeigt:
+Installation und Einrichtung von SSH.
+Eine simple, sichere Verbindung zu einem SSH Server, mit Passwort und ohne Passwort über Schlüssel. 
+Sichere Verbindung zu PCs, die kein SSH können.
+Tunnel für beliebige Ports, dem X-Protokoll, dem Remote-Desktop mit X2Go, HTTP. 
+Remote Zugriff auf einen Windows-PC mit dem Remote-Desktop-Protokoll.
+Dieses wird über SSH &#39;getunnelt&#39;. 
+Zugriff auf einen PC hinter einem Router/Firewall mit Reverse SSH.
+Datensicherung über unsichere, instabile Netze.  
+Abschätzung des minimalen CPU Aufwandes zum Entschlüsseln einer Verbindung ohne Kenntnis des Schlüssels/Passwortes, um die Sicherheit von SSH zu zeigen.
+uvam.
+</description>
+<logo></logo>
+<persons>
+<person id='21'>Richard Albrecht</person>
+</persons>
+<links>
+<link href='http://www.kilux.de/index.php?seite=programm.html&amp;untermenu=Besucher-Info#314'>Vortrag zur &#39;Kielux&#39; 2017 in Kiel</link>
+<link href='https://www.lug-ottobrunn.de/wiki/Kieler_Open_Source_und_Linux_Tage_2017'>Link zum PDF bei der LUG-Ottobrunn</link>
+<link href='https://youtu.be/oEqpcQ2dEuE'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/032/original/LIT_2018_SSH_Vortrag.pdf?1546163264'>Folien</attachment>
+</attachments>
+</event>
+<event guid='b2a7bd5a-8a48-49e6-8bc2-521c0533ee43' id='4'>
+<date>2018-04-21T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2018-4-e-mail_encryption_gateway_ciphermail</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/4.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>E-Mail Encryption Gateway CipherMail</title>
+<subtitle></subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>CipherMail ist ein zentraler Mail Transfer Agent (MTA), der nach dem &quot;store and forward&quot; Prinzip arbeitet: Eingehende E-Mails, gleichgültig ob von intern oder extern, werden nur so lange gespeichert, bis sie ver- oder entschlüsselt wurden und an die Bestimmungsadresse weitergeleitet werden können. Dies geschieht ohne eine Änderung am E-Mail-Client!</abstract>
+<description>Emails werden zumeist im Klartext verschickt. Das bedeutet, dass jeder der Zugriff auf den Datenstrom hat, den Inhalt der Emails lesen kann. Dies ist inzwischen für die meisten Unternehmen, Institutionen und Organisationen inakzeptabel und verstößt gegebenenfalls auch gegen geltendes Recht. Emails müssen daher vertraulich sein und verschlüsselt werden.
+
+Ciphermail ist ein zentraler Mail Transfer Agent (MTA), der nach dem &quot;store and forward&quot; Prinzip arbeitet: Eingehende Emails, gleichgültig ob von intern oder extern, werden nur so lange gespeichert, bis sie ver-/entschlüsselt wurden und an die Bestimmungsadresse weitergeleitet werden können. Dies geschieht ohne eine Änderung am E-Mail-Client!
+
+Die Software unterstützt die Verschlüsselung mittels PGP, SMIME und PDF, kann unter anderem eine eigene Certificate Authority (CA) betreiben und läßt sich vollständig über ein Webinterface administrieren. Natürlich gehören auch eine fallweise Verschlüsselung mittels Trigger, Data Lead Prevention (DLP), sowie ein automatisches Backup und ein umfangreiches Logging zum Funktionsumfang.
+
+Der Vortrag beginnt mit einer kurzen Darstellung der Gründe, die von Unternehmen aktuell gegen den Einsatz von E-Mail-Verschlüsselung angeführt werden. Im Anschluss werden die Installationsmöglichkeiten und die Funktionen der Software dargestellt. Im dritten Teil wird anhand eines Live-Systems ein Einblick in die Konfiguration von CipherMail gegeben.</description>
+<logo>/system/events/logos/000/000/004/large/ciphermail.png?1546163249</logo>
+<persons>
+<person id='9'>Stefan Günther</person>
+</persons>
+<links>
+<link href='https://www.ciphermail.info'>E-Mail Encryption Gateway CipherMail</link>
+<link href='https://youtu.be/sU_uoUFSQkI'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/031/original/CipherMail-Praesentation.pdf?1546163264'>Folien</attachment>
+</attachments>
+</event>
+<event guid='069da68f-dd39-4cfc-b277-b95af38664ff' id='23'>
+<date>2018-04-21T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2018-23-von_uberall_her_per_tor_auf_seinen_rechner_gelangen</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/23.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Von überall her per Tor auf seinen Rechner gelangen</title>
+<subtitle>Tor als kostenloses, öffentliches &quot;VPN&quot; um NAT zu durchdringen</subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Tor ist nicht nur etwas für investigative Journalisten, Whistleblower, auf Privatsphäre achtende Webnutzer oder böse Jungs. Man kann es auch als leicht einzurichtendes, öffentliches &quot;VPN&quot; nutzen um durch einen NAT-Router hindurch auf eigene Dienste zuzugreifen.
+
+Dieser Vortrag soll anhand einer Live-Demonstration auf einem Raspberry Pi zeigen, wie man einen Webserver und SSH-Zugriff per Tor konfiguriert und darauf zugreift.</abstract>
+<description>Welcher Linuxer oder Raspberry-Pi-Besitzer kennt das nicht: Man hat zuhause einen kleinen, selbst-administrierten Server stehen, den man gerne auch von unterwegs oder für Freunde erreichbar haben will. Aber zuhause gibt&#39;s nur eine IPv4-Adresse — die des Routers.
+
+Will man solch einen Server oder Raspberry Pi trotzdem vom Internet aus erreichbar machen, muss man einiges konfigurieren: Der Rechner braucht eine feste IP innerhalb des Heimnetzes, es braucht eine Port-Weiterleitung vom NAT-Router auf diesen Rechner und falls mal die
+vom ISP zugewiesene IP-Adresse ändert (Stichwort &quot;Zwangstrennung&quot;), muss den Rechner bei einem Anbieter für dynamisches DNS anmelden und einen Cron-Job einrichten, der sich regelmäßig dort meldet und gegebenenfalls die IP-Adresse des DNS-Eintrags aktualisiert.
+
+Wenn man Pech hat, dann geht nicht einmal das, weil immer mehr ISPs aufgrund von Adressknappheit sogenanntes &quot;Carrier-Grade NAT&quot; einsetzen, d.h. selbst der heimische NAT-Router hat keine öffentliche IPv4-Adresse sondern sitzt selbst nochmals hinter einem oder mehreren weiteren NAT-Routern beim ISP. Und dort bekommt man keine Port-Weiterleitungen.
+
+Will man das Problem mit einem klassischen VPN umgehen, so braucht man mindestens noch einen zweiten normal erreichbaren Server im Internet oder man mietet sich ein VPN-Zugang bei einem der zahlreichen Anbieter.
+
+Es geht aber auch günstiger und einfacher, ohne DynDNS und ohne Router-Konfigurieren. Das weltweite und für jedermann kostenlos verfügbare Anonymisierungsnetzwerk Tor ermöglicht u.a. auch das Einrichten von sogenannten versteckten Diensten (engl. &quot;Hidden Services&quot;). Einen solchen &quot;HIdden Service&quot; kann man leicht einrichten und dann von überall her über das Tor-Netzwerk auf seine Daten zugreifen.
+
+Dieser Vortrag soll anhand einer Live-Demonstration auf einem Raspberry Pi zeigen, wie man einen Webserver und SSH-Zugriff per Tor konfiguriert und nutzen.
+
+Um nicht zu verraten, wo ein Rechner wirklich steht (was nicht selten der Grund für einen Hidden Service ist), braucht es allerdings nochmals eine ganze Ladung mehr Einstellungen. Darauf geht der Vortrag bewusst nicht ein, da der Fokus des Vortrages auf Erreichbarkeit und nicht auf Anonymität liegt.</description>
+<logo></logo>
+<persons>
+<person id='25'>Axel Beckert</person>
+</persons>
+<links>
+<link href='https://noone.org/talks/tor/'>Folien zum Vortrag</link>
+<link href='https://youtu.be/BS3F6-IEvCg'>Video</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='67e52166-a325-4616-bc60-051a96402009' id='7'>
+<date>2018-04-21T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2018-7-i2p_-_k_eine_alternative_zu_tor</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/7.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>I2P - (k)eine Alternative zu Tor</title>
+<subtitle>Was ist I2P, was kann es, was kann es nicht</subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Nahezu jeder kennt Tor, doch kaum einer kennt die Alternativen. Ich stelle hier I2P detailliert vor</abstract>
+<description>Dieser Vortrag beschäftigt sich mit dem Low-Latency Anonymous Network I2P, welches eine Alternative zu Tor ist, jedoch weniger bekannt ist und einen anderen Schwerpunkt legt. Ich stelle die grundsätzliche Fnktionsweise dar, die Möglichkeiten, die vorhandenen Anwendungen und die Limits des Netzwerkes.</description>
+<logo>/system/events/logos/000/000/007/large/vertical_white_shadow.png?1546163249</logo>
+<persons>
+<person id='11'>Lars Schimmer</person>
+</persons>
+<links>
+<link href='https://geti2p.net'>I2P Webseite</link>
+<link href='https://youtu.be/SAYOAMcQQ2w'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/005/original/2018.augsburg.I2PKEineAlternativezuTor.pdf?1546163258'>2018.augsburg.I2PKEineAlternativezuTor.pdf</attachment>
+</attachments>
+</event>
+<event guid='2fe75070-9863-43e8-882c-3eac5769fce9' id='27'>
+<date>2018-04-21T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum A</room>
+<slug>LIT2018-27-seitenkanalangriffe_verstandlich_erklart</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/27.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Seitenkanalangriffe verständlich erklärt</title>
+<subtitle>Spectre und Meltdown sind nur die Spitze des Eisbergs</subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Spectre und Meltdown haben Seitenkanalangriffe auf recht dramatische Art und Weise in der Öffentlichkeit bekannt gemacht. In diesem Vortrag werden Seitenkanalangriffe allgemein verständlich und anhand von Beispielen und Demos erklärt.</abstract>
+<description>Wenn im Wasserwerk plötzlich der Druck stark abfällt ist entweder irgendwo ein wichtiges Rohr gebrochen, oder es ist Halbzeitpause in einem Deutschlandspiel. In letzterem Fall haben wir einen Seitenkanal der eine (zugegebenermaßen nicht sonderlich interessante) Information transportiert.
+Digitale Elektronik wie sie in Computern, Mikrocontrollern usw. verbaut wird benötigt elektrischen Strom. Und hier wird es interessant, denn die Leistungsaufnahme eines solchen Systems ist abhängig von den Daten, die verarbeitet werden. Eine Messung der Leistungsaufnahme erlaubt also Rückschlüsse auf die Daten. Diese &quot;Power Analysis&quot; genannte Angriffsklasse lässt sich beispielsweise nutzen, um geheime Schlüssel aus Mikrocontrollern zu extrahieren. Wie das genau funktioniert wird im Vortrag mit einer Demo gezeigt.
+Neben der Leistungsaufnahme gibt es noch weitere Seitenkanäle. Beispielsweise elektromagnetische Abstrahlung und die Ausführungszeit einer Datenverarbeitung. Wertet man die Ausführungszeit aus, so spricht man von timing-Angriffen. Spectre und Meltdown sind solche timing-Angriffe. Das perfide an diesen Angriffen ist, dass sie sich auch aus der Ferne, also beispielsweise über ein Netzwerk, durchführen lassen. Im Vortrag werden wir (wieder mithilfe von Beispielen und Demos) sehen, dass nicht nur Spectre und Meltdown (temporäre) Probleme sind. Timing-Angriffe stellen insgesamt ein viel größeres Problem dar, als man auf den ersten Blick sieht. Daher stellt sich natürlich die Frage nach möglichen Gegenmaßnahmen. Auch Gegenmaßnahmen und die Grenzen dieser Ansätze werden im Vortrag aufgezeigt und mit Beispielen veranschaulicht.</description>
+<logo></logo>
+<persons>
+<person id='19'>Hunz</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/024/original/lit18_sca.pdf?1546163263'>slides</attachment>
+</attachments>
+</event>
+</room>
+<room name='Raum B'>
+<event guid='5c32edb7-867e-4e04-bf21-ca42f2de5b85' id='14'>
+<date>2018-04-21T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2018-14-mitmachen_bei_open_source_projekten</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/14.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Mitmachen bei Open Source Projekten</title>
+<subtitle>Wie funktionieren Open Source Projekte und wie kann jeder mitmachen.</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Ich möchte live bei einigen Open Source Projekten kleine Änderungen einreichen. Dabei werden wir nicht nur Seiten wie github.com nutzen, sondern auch schauen, wie das bei größeren Projekten wie dem Linux Kernel funktionieren würde.</abstract>
+<description>Die Welt der Open Source Software ist groß, sehr groß. Die Spitze des Eisbergs besteht aus Projekten wie z.B. GNU/Linux, Libreoffice oder Gimp. Aber die meisten Projekte sind sehr klein und unbekannt.
+Je nach größe haben diese Projekte unterschiedliche Verfahren um beitragen zu können. Mache nutzen github.com, andere Mailinglisten.
+Wir wollen schauen wie das zu nutzen ist um selber Verbesserungen beizutragen oder auch selber ein Projekt zu gründen. Die Veranstaltung richtet sich an Linux-Anfänger, die vielleicht schon einmal die Konsole gesehen haben.</description>
+<logo>/system/events/logos/000/000/014/large/open-source.jpg?1546163252</logo>
+<persons>
+<person id='16'>Moritz Warning</person>
+</persons>
+<links>
+<link href='https://youtu.be/0uG5Ps7wdfU'>Video</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/020/original/oos_linux_info_tag_2018.pdf?1546163262'>Vortragsfolien PDF</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/025/original/oos_linux_info_tag_2018.odp?1546163263'>Vortragsfolien ODP</attachment>
+</attachments>
+</event>
+<event guid='f7fe4f17-a340-4b0b-a9c6-6f9a2d5a6b93' id='5'>
+<date>2018-04-21T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2018-5-open_data_in_sudafrika</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/5.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Open Data in Südafrika</title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Wie intensiv wird Open Data in Südafrika genutzt? Ein Erfahrungsbericht</abstract>
+<description>Open Data bezeichnet das Bereitstellen erfasster Daten für die Öffentlichkeit. Wir führen in die Thematik ein und berichten, wie stark das in Südafrika genutzt wird und für alle zur Verfügung steht.</description>
+<logo></logo>
+<persons>
+<person id='10'>Frank Hofmann</person>
+</persons>
+<links>
+<link href='https://youtu.be/MuqfyTYEKaQ'>Video</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='b48969f8-2178-4e16-904c-73f24fee3259' id='16'>
+<date>2018-04-21T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2018-16-libreoffice_was_wir_tun_wohin_wir_gehen_und_mitmachen</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/16.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>LibreOffice: Was wir tun, wohin wir gehen – und mitmachen!</title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Was ist LibreOffice? Woher kommt es? Wohin geht es? Welche Erfolge haben wir genossen, und welche Hindernisse stehen vor uns? Wie könnt ihr mitmachen – und was lernt ihr dabei? Was wollt ihr sonst wissen? Wir anworten alles!</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='18'>Mike Saunders</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/016/original/LibreOffice_Hinter_-_Was__Wohin__Mitmachen.pdf?1546163262'>Vortrag: Was wir tun, wohin wir gehen – und mitmachen!</attachment>
+</attachments>
+</event>
+<event guid='d149f475-9d0c-4b32-b0f4-5855af5d72bd' id='22'>
+<date>2018-04-21T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2018-22-sieben_brucken</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/22.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Sieben Brücken</title>
+<subtitle>Fahrtenbuch mit Skripten auslesen</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description>Computer wurden ursprünglich als Rechenmaschinen entwickelt. Am Beispiel eines Fahrtenbuchs zeigen wir, wie Sie mit Bordmitteln das Maschinchen zu Ihren Gunsten werkeln lassen. Dabei stellen wir Ihnen sieben clevere Varianten der Problemlösung für die Kommandozeile vor.</description>
+<logo></logo>
+<persons>
+<person id='10'>Frank Hofmann</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3aab1286-f50b-4b1f-be49-70c126c77c8d' id='30'>
+<date>2018-04-21T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2018-30-open-source_der_weg_aus_der_abhangigkeit_von_microsoft</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/30.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Open-Source: der Weg aus der Abhängigkeit von Microsoft</title>
+<subtitle>Schützt euch und eure liebsten (Daten)</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Es kann nur einen Weg geben, sich aus dem Quasi-Monopol weniger Marktteilnehmer zu lösen: Alternativen zu nutzen. Selbstverständlich ist es einfacher nach dem Prinzip zu leben &quot;Nobody get fired for buying Microsoft&quot;, allerdings begibt man sich strategisch in eine Richtung, in der man zum Schluss wenig Wahlmöglichkeiten und Flexibilität hat. Dieser Vortrag zeigt anhand von 3 (prominten) Beispielen aus erster Hand, wie Organisationen nicht bequem waren, sondern sich aktiv um alternativen kümmerten. Der Lohn von geringeren Kosten, wesentlich höhere Flexibilität und gleichzeitig einer besseren Abbildung der organisatorischen Bedürfnisse lässt sich nicht nur erfühlen, sondern aktiv belegen. Open Source Produkte die in diesem Beispielen zum Einsatz kamen sind: Univention, Mattermost &amp; Kopano.</abstract>
+<description>Eine Gruppe europäischer Journalisten hat Europas Behörden und Regierungen eine „fatale Abhängigkeit von Microsoft“ diagnostiziert. Ihre Recherchen belegen am Beispiel von Microsoft Office eine Kette von Abhängigkeiten zu nur diesem einen Konzern. Sie beschreiben auch, wie einige Behörden durch den Einsatz von LibreOffice bereits aus dieser Abhängigkeit ausbrechen konnten.
+
+Ein wichtiger Bestandteil von Microsoft Office ist Outlook. Doch speziell in Outlook sind die Abhängigkeiten von anderen Microsoft-Lösungen größer denn je, sobald man gemeinsam mit E-Mails oder Kalendern arbeiten möchte.
+
+Webbasierte Applikationen – Der Trend zur Unabhängigkeit
+
+Unternehmen und Anwender versuchen der Abhängigkeit zu entkommen, in der ein zentrales Produkt wie Outlook nur mit Diensten eines Herstellers – nämlich dem Microsoft Exchange Server oder Microsoft Office365 – sinnvoll zu nutzen ist. Das geht nur, indem Outlook durch ein anderes, offenes Programm ersetzt wird. Hier sind webbasierte Applikationen eine beliebte Möglichkeit. Auf Smartphones sind diese schon heute nicht mehr wegzudenken. Auch Softwarehersteller ziehen es immer öfter vor, ihre eigene Applikation als Widget in webbasierte Applikationen zu integrieren, anstatt Plugins für spezifische Programme zu entwickeln und zu pflegen. Das minimiert Abhängigkeiten und vereinfacht die Integration in eine Vielzahl von Programmen, wovon nicht nur die Anbieter selbst, sondern auch die Anwender profitieren.</description>
+<logo>/system/events/logos/000/000/030/large/osi_symbol.png?1546163255</logo>
+<persons>
+<person id='29'>Michael Kromer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='a6f503a4-2912-4d78-b76b-b65bc90b062d' id='15'>
+<date>2018-04-21T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum B</room>
+<slug>LIT2018-15-qgis_-_arbeiten_mit_geodaten</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/15.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>QGIS - Arbeiten mit Geodaten </title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>QGIS ist unter den OpenSource Geoinformationssystemen der absolute Vorreiter und entwickelt sich dynamisch weiter. 
+Der Vortrag zeigt in einer kurzen Präsentation die vielfältigen Anwendungsmöglichkeiten von Geoinformationssystemen. Danach schließt sich ein kurzes Tutorial an, wie sich Daten, welche man selbst generiert hat (zum Beispiel Postleitzahlen von Kunden) in QGIS verarbeiten und kartographisch darstellen lassen.
+</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='17'>Matthias Köppel</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum C'>
+<event guid='27ec21b5-87b2-4691-9fe2-4b8ac0f6b2c7' id='1'>
+<date>2018-04-21T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2018-1-wie_lerne_ich_richtig_eine_programmiersprache</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/1.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Wie lerne ich richtig eine Programmiersprache?</title>
+<subtitle></subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Wie lerne ich eine Programmiersprache wenn ich davor noch nie programmiert habe oder wie bringe ich mir eine neue Programmiersprache am besten bei.</abstract>
+<description>Eine neue Sprache lernt man, indem man Vokabeln lernt und die Grammatik in Gesprächen anwendet. Aber wie lernt man eine Programmiersprache?
+
+Dieser Vortrag soll aufzeigen, wie einfach es eigentlich sein kann, eine Programmiersprache zu lernen. Dazu wird erklärt, wie die richtige Programmiersprache für den richtigen Zweck ausgewählt wird und wie diese Programmiersprache erlernt werden kann. 
+Aber beim lernen einer Programmiersprache, geht es nicht nur um das reine lernen der Sprache, sondern auch um Themen wie unter anderem sauberen Code zu schreiben.
+
+Dieser Vortrag ist aber nicht nur für Anfänger gedacht, sondern auch für jene, die bereits Programmiererfahrung haben und sich eine neue Programmiersprache aneignen wollen.
+</description>
+<logo></logo>
+<persons>
+<person id='6'>Christian Loritz</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/014/original/vortrag.pdf?1546163262'>Slides</attachment>
+</attachments>
+</event>
+<event guid='5e6cc63a-f80b-4a1f-93cb-b821a92900c4' id='21'>
+<date>2018-04-21T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2018-21-python_im_unterricht</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/21.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Python im Unterricht</title>
+<subtitle></subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; ist nicht nur eine zunehmend populäre Programmiersprache, sondern auch sehr gut für den computergestützten Unterricht in Schule und Universität geeignet. Hierzu trägt nicht nur bei, dass Python relativ leicht erlernbar ist und von umfangreichen, frei verfügbaren Programmbibliotheken ergänzt wird. Einen wesentlichen Beitrag zur Verwendung im Unterricht leistet auch das &lt;a href=&quot;http://jupyter.org/&quot;&gt;Jupter Notebook&lt;/a&gt;, das in verschiedener Weise gewinnbringend eingesetzt werden kann. Ein Beispiel ist die &lt;a href=&quot;https://github.com/jupyter/nbgrader&quot;&gt;nbgrader&lt;/a&gt;-Erweiterung, die es erlaubt, von Schülern oder Studierenden bearbeitete Übungsaufgaben automatisiert zu korrigieren. Im Vortrag wird am Beispiel von Python und seinem Ökosystem gezeigt, wie freie Software im Unterricht genutzt werden kann.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='24'>Gert-Ludwig Ingold</person>
+</persons>
+<links>
+<link href='https://github.com/gertingold/lit2018'>Git repository zum Vortrag</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/006/original/lit2018.pdf?1546163258'>Vortrag (PDF)</attachment>
+</attachments>
+</event>
+<event guid='0069522b-f56d-43c1-8191-5a78dadaa292' id='20'>
+<date>2018-04-21T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2018-20-systemtestportal</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/20.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>SystemTestPortal</title>
+<subtitle>Eine Webanwendung für den manuellen Systemtest</subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Durch Test-Automatisierung lässt sich zwar viel Testaufwand sparen, aber manuelle Systemtests sind für die Erkennung unerwarteter Fehler oft besser und daher eine sinnvolle Ergänzung.
+Die von uns entwickelte Webanwendung &quot;SystemTestPortal&quot; erlaubt es Entwicklern, Testern, Test-Managern und Endanwendern mühelos beim Test von Systemen zusammenarbeiten.
+Das System ist in Golang implementiert, sehr leichtgewichtig und unter der GPLv3 verfügbar.
+Im Vortrag wollen wir anhand praxisnaher Szenarien demonstrieren, wie der Einsatz des Systems zu einer Verbesserung in der Entwicklung freier Software beitragen kann.
+</abstract>
+<description>Die Automatisierung von Tests ist in nahezu jedem Softwareprojekt wünschenswert und kann erheblich zur Reduzierung von Testaufwänden und damit zur Steigerung der Produktqualität beitragen.
+Leider lassen sich nicht alle Tests gut automatisieren - beispielsweise dann, wenn Software in Zusammenspiel mit Hardware oder der Umgebung getestet werden soll.
+Daneben decken manuelle Tests häufig unerwartete Fehler auf, da Menschen diesbezüglich sensibler sind als Maschinen.
+Deshalb führen heutzutage praktisch alle Software-Entwickler neben automatisierten Tests auch manuelle Tests durch.
+
+Leider werden manuelle Tests häufig unsystematisch, ohne vorherige Planung und ohne vernünftige Dokumentation durchgeführt.
+Dadurch ist für spätere Nutzer einer Anwendung nicht klar, welche Funktionen der Software mit welchem Ergebnis getestet wurden.
+Als Ursache sehen wir hier den Mangel an guten Werkzeugen.
+
+Am Institut für Softwaretechnologie entwickeln wir eine leichtgewichtige Webanwendung namens &quot;SystemTestPortal&quot;.
+Die Anwendung erlaubt das Erstellen, Ausführen und Analysieren manueller Systemtests.
+Sie hat das Ziel, gleichwohl für Entwickler, Tester, Test-Manager und auch Endanwender nützlich zu sein.
+SystemTestPortal wurde im Rahmen eines studentischen Projekts in Golang implementiert und ist unter der GPLv3-Lizenz verfügbar.
+
+In dem Vortrag wollen wir zunächst die Idee hinter dem Projekt vorstellen.
+Anschließend wollen wir anhand praxisnaher Szenarien demonstrieren, wie der Einsatz des SystemTestPortals zu einer Verbesserung in der Entwicklung freier Software beitragen kann.
+Zum Schluss wollen wir vom aktuellen Entwicklungsstand berichten und aufzeigen, wohin die Reise in der für den Herbst geplanten Version 2 gehen soll.</description>
+<logo>/system/events/logos/000/000/020/large/STP_1.1.0.png?1546163252</logo>
+<persons>
+<person id='15'>Daniel Kulesz</person>
+<person id='23'>Markus Haug</person>
+<person id='22'>Peter Werner</person>
+</persons>
+<links>
+<link href='https://fosdem.org/2018/schedule/event/systemtestportal/'>Beitrag von der FOSDEM 2018</link>
+<link href='http://www.systemtestportal.org'>Homepage</link>
+<link href='https://gitlab.com/stp-team/systemtestportal-webapp'>Repository, Issue-Tracker etc.</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/008/original/stp_lit2018.pdf?1546163258'>Vortragsfolien</attachment>
+</attachments>
+</event>
+<event guid='f5c2d84d-ca10-4ec7-8757-34ce1224494b' id='26'>
+<date>2018-04-21T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2018-26-nightly_build_grundlagen_automatisierter_builds</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/26.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Nightly Build: Grundlagen automatisierter Builds</title>
+<subtitle></subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>In diesem Vortrag werden die Grundprinzipien des Nightly Build sowie dessen Sinn und Zweck erläutert. Anhand eines Beispiels wird gezeigt, wie man mit Hilfe des Jenkins Build-Servers einen Nightly Build realisiert.</abstract>
+<description>Gerade bei größeren Softwareprojekten mit mehreren Entwicklern kommt es oft vor, dass die Weiterentwicklung des Projekts durch Dateien, die nicht in das Repository eingepflegt sind, erschwert wird oder sich das Projekt durch anderweitige Eingriffe nicht mehr erstellen lässt.
+Nightly Build als Vorstufe der Continuous Integration sichert durch täglich nachts durchgeführte Erstellung von Projekten die stete Verfügbarkeit einer prinzipiell lauffähigen Software.
+In diesem Vortrag werden die Grundprinzipien des Nightly Build sowie dessen Sinn und Zweck erläutert. Anhand eines Beispiels wird gezeigt, wie man mit Hilfe des Jenkins Build-Servers einen Nightly Build realisiert.
+AGENDA 
+•	Einführung
+•	Begriffsklärungen
+•	Nightly Build
+o	Benefit
+o	Funktionsweise
+o	Voraussetzungen
+•	Übersicht über aktuelle Tools</description>
+<logo>/system/events/logos/000/000/026/large/MixedMode_Logo_CMYK.jpg?1546163254</logo>
+<persons>
+<person id='37'>Robert Wimmer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='c87b384c-f837-452b-81c9-681dcad5eff9' id='17'>
+<date>2018-04-21T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2018-17-manage_over_200_linux_server_with_open_source_tools</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/17.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Manage over 200 Linux server with open source tools</title>
+<subtitle></subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Wir gegen einen Überblick wie wir über 200 Server vollautomatisiert und umfangreicher Konfiguration mit OpenSource Tools verwalten. OpenSource Werkzeuge sind der Schlüssel zum Erfolg und ermöglichen umfangreiche Automatisierung und Skalierung.</abstract>
+<description>In diesem Vortrag werden wir einen Überblick geben über unterschiedliche OpenSource Tools die zur Administration und Automatisierung von einer umfangreichen Linux (und BSD) Serverinfrastruktur hilfreich sind. Dabei spielen Automatisierung, Konfigurationsmanagement (z.B. Puppet), Monitoring (Icinga) aber auch essentielle Komponenten wie z.B. Webserver (Nginx, Apache), Dateisysteme (glusterfs) sowie Virtualisierungstools (KVM,libvirt) eine entscheidende Rolle.</description>
+<logo></logo>
+<persons>
+<person id='2'>Andreas Herz</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3d4c6fe5-b4b1-4340-ac62-5b3ab3528ec1' id='33'>
+<date>2018-04-21T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum C</room>
+<slug>LIT2018-33-lora_und_the_things_network</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/33.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Lora und The Things Network</title>
+<subtitle>Das &quot;Internet of Things&quot; ist nun auch in Augsburg angekommen.</subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der Vortrag stellt die Long-Range (LoRa) Funktechnologie vor, die zur
+Kategorie der Low Power Wide Area Technologien (LPWAN) gehört. Ausserdem wird das &quot;Thethingsnetwork&quot; LoRaWAN Gateway erläutert, das seit Februar 2018 an der Hochschule betrieben wird. Es besteht aus einem Raspberry-Pi, einem LoRa Konzentrator und freier Linux Software. </abstract>
+<description>Der Vortrag stellt die Long-Range (LoRa) Funktechnologie vor, die zur
+Kategorie der Low Power Wide Area Technologien (LPWAN) gehört. Mit LoRaWAN existiert ein MAC Protokoll mit dem sich Wide Area Networks
+realisieren lassen. Eine mögliche WAN Implementierung stellt das &quot;The Things Network&quot; [1] dar, das zur Zeit etwa 3300 Gateways weltweit umfasst. Das erste 
+Gateway im Augsburger Raum läuft an der Hochschule Augsburg seit Februar 2018 (siehe die Weltkarte unter [1]). Das preiswerte Gateway besteht aus einem Raspberry-Pi, einem LoRa Konzentrator und freier Linux Software. Der Vortrag 
+geht auf die Konstruktion des Gateway, auf eine Beispielanwendung und auf erste (erfreuliche) Reichweitenmessungen ein. Vielleicht entschliessen sich manche Zuhörer, selber solche Gateways zu betreiben, um die Funkabdeckung im Augsburger Raum zu erhöhen. 
+
+[1] https://www.thethingsnetwork.org</description>
+<logo></logo>
+<persons>
+<person id='32'>Hubert Högl</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/009/original/lit2018-hoegl.pdf?1546163258'>Foliensatz</attachment>
+<attachment href='/attachments/original/missing.png'>Datei</attachment>
+</attachments>
+</event>
+</room>
+<room name='Raum D'>
+<event guid='8614f516-35cd-41bb-b79b-00bb617a2e55' id='37'>
+<date>2018-04-21T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2018-37-sichere_netzwerke_mit_pfsense</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/37.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Sichere Netzwerke mit pfSense</title>
+<subtitle></subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>pfSense ist eine auf FreeSD basierende Open Source Firewall/Router Software. Dieser Vortrag beschäftigt sich mit den Möglichkeiten von pfsense und der Frage warum man sich mit den umfangreichen Fähigkeiten beschäftigen sollte. </abstract>
+<description>Firewalls  und Sicherheit gehören zum IT-Alltag (oder sollten es zumindestens). Bei den Anforderungen an eine solche Komponenten sollte man sich nicht nur auf die Internet Provider oder den Herstellernamen verlassen.
+
+The pfSense Firewall ist eine high performance Firewall für den wachsenden Bedarf an diese wichtige Netzwerkkomponenten. Sie verfügt auch über weitere Funktionen wie VPNs, Ausfallsicherheit, Traffic Shapping oder IDS die sonst eher den teuren Enterprise Produkten vorbehalten sind. 
+
+Denn auch ohne umfangreiche Investitionen lassen sich viele unternehmenstypische Anforderungen auch für kleine Unternehmen oder den gehobenen Heimarbeitsplatz implementieren. 
+
+Dieser Vortrag soll die Basisinformationen aufzeigen und erläutern welche komplexeren Aufgaben ohne grosse Investitionen bewältigen werden können. </description>
+<logo></logo>
+<persons>
+<person id='35'>Hagen Bauer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='31fdd4a7-09ac-46fe-8ad2-5a3a0b485677' id='41'>
+<date>2018-04-21T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2018-41-lightning_talks</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/41.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Lightning Talks</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language></language>
+<abstract>Bunt gemische fünfminütige Kurzvorträge zu &lt;a href=&quot;https://etherpad.wikimedia.org/p/lit2018-lightning-talks&quot;&gt;diversen Themen&lt;/a&gt;.
+
+Noch sind Einreichungen möglich! Bitte einfach auf dem verlinkten Etherpad ergänzen.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/attachments/original/missing.png'>Gib&#39;s hier LAN - RasPi als Internet-Router</attachment>
+</attachments>
+</event>
+<event guid='9232170c-e85d-46b8-815b-fa690f137874' id='38'>
+<date>2018-04-21T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2018-38-sochack_-_wie_voll_ist_der_akku_meines_autos</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/38.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>SoChack - Wie voll ist der Akku meines Autos?</title>
+<subtitle>Der Raspberry Pi als Gateway für mein E-Auto</subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Im Mai 2017 haben wir unseren Diesel abgegeben und sind auf den Hyundai IONIQ umgestiegen. Leider bietet Hyundai bis heute keine App in Europa an, mit der man aus der Ferne den Ladestand checken kann. Diese fehlende Funktion habe ich mir mit dem Raspberry Pi nachgebaut.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='28'>Tobias Nitschmann</person>
+</persons>
+<links>
+<link href='http://sochack.eu'>Website des Projekts</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/013/original/LUGA_Vortrag_-_SoChack.pdf?1546163259'>Keynote</attachment>
+</attachments>
+</event>
+<event guid='fe629524-442c-4cfb-bbe7-65bc2a616737' id='36'>
+<date>2018-04-21T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2018-36-die_neue_europaische_datenschutzgrundverordnung_dsgvo</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/36.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Die neue europäische Datenschutzgrundverordnung DSGVO</title>
+<subtitle>Meine Rechte als Betroffener</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Als Einstieg ein krasses aktuelles Reallife- Ownbody-Beispiel aus dem Personaldienstleistungsbereich, was so alles &quot;passiert&quot;.
+
+Relevante Änderungen durch die DSGVO
+
+Welche Rechte habe ich als sog. Betroffene
+Erweiterte Auskunfts- und Widerspruchsrechte
+Recht auf Vergessen
+</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='34'>Bernhard Rietzl</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/029/original/DSGVO_Vortrag_Lit.pdf?1546163263'>Vortragsfolien</attachment>
+</attachments>
+</event>
+<event guid='73eca1eb-e43c-42d9-b8e5-1320be37878f' id='34'>
+<date>2018-04-21T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2018-34-wawision_vom_hardwarehersteller_zur_erp_firma_mit_einer_open-source_version</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/34.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>WaWision: Vom Hardwarehersteller zur ERP Firma mit einer Open-Source Version</title>
+<subtitle></subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Die besten Geschichten schreibt das Leben wohl selber. In dem Vortrag berichte ich wie wir von einem Hardware-Hersteller zu einem Softwarehersteller mit mittlerweile 15 Mitarbeitern für ein Warenwirtschaftssystem geworden sind. Begonnen hat alles mit einer Open-Source Version aus unserer Eigenentwicklung.
+
+Das Geschäftsmodelle mit Open-Source funktionieren ist ja bekannt. Aber wenn man damit selber startet hat man natürlich viele Bedenkenträger und Skeptiker.
+
+Daher werde ich von unserem Werdegang als Erfahrungsbericht erzählen. Vom Auswahl der passenden Lizenz,  Aufbau der Struktur  und welche Aufgaben noch gemacht werden mussten.
+
+Der Vortrag soll einmal einem die Angst nehmen ein Modell basierend auf Open-Source aufzubauen und Anregungen geben wie man selber so ein Geschäftsmodell aufbauen könnte.
+</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/034/large/Screenshot_at_2018-03-11_21-51-34.png?1546163256</logo>
+<persons>
+<person id='31'>Benedikt Sauter</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/019/original/Open-Source_Gesch%C3%A4ftsmodell_am_Beispiel_WaWision.pdf?1546163262'>Open-Source_Geschäftsmodell_am_Beispiel_WaWision.pdf</attachment>
+</attachments>
+</event>
+<event guid='0aba4310-78f4-4350-a867-e02a6b82c45a' id='35'>
+<date>2018-04-21T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum D</room>
+<slug>LIT2018-35-2_4_ghz_wlan_ganz_sicher_unsicher</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/35.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>2.4 GHz WLAN – ganz sicher unsicher!</title>
+<subtitle>SCHINFO is coming ... WiFi is going!</subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>WLAN im 2.4 GHz-Bereich ist absolut unsicher hinsichtlich Sabotage-Angriffen. Mit einfacher Hardware und der entsprechenden Software lässt sich fast jedes WLAN deaktivieren. Ich zeige, wie man das eigene WLAN testen kann, Angriffe erkennt und welche Schutzmöglichkeiten es gibt.
+Der IEEE 802.11 Standard für WLAN weist einen sehr kritischen Design-Fehler auf. Über unprotected Management-Frames lassen sich AccessPoints mit einfachen Mitteln dahingehend manipulieren, dass sie alle bestehenden Verbindungen dauerhaft trennen. Dies geschieht über Deauthentication-Frames, die der AccessPoint akzeptiert und ausführt. Der verbesserte Standard IEEE 802.11w-2009, welcher dies verhindern würde, hat sich leider bis jetzt nicht durchgesetzt. Ein Schutz lässt sich aber auch über die Firmware realisieren, indem entsprechende Frames nicht ausgeführt werden.</abstract>
+<description>2.4 GHz WLAN - ganz sicher unsicher
+
+IEEE 802.11 öffnet für Saboteure Tür und Tor
+
+WLAN im 2.4 GHz-Bereich ist absolut unsicher, hinsichtlich Sabotage-Angriffen.
+Mit einfacher Hardware, auf Basis des IoT-Device ESP8266, und der entsprechenden Software lässt sich fast jedes WLAN deaktivieren.
+Dies ist ebenfalls, jedoch mit höherem Hardware-Aufwand, mit der Aircrack-NG Suite möglich.
+Auch bestimmte Smartphones, z.B. das Google Nexus 5, bieten (nach entsprechender Modifikation) diese Möglichkeit.
+Ich zeige, wie man das eigene WLAN diesbezüglich testen kann, Angriffe erkennt und welche Schutzmöglichkeiten es gibt.
+Entsprechende, einfache und kostengünstige Hardware wird vorgestellt und erklärt.
+
+
+Technischer Hintergrund:
+
+Der IEEE 802.11 Standard für WLAN weist einen sehr kritischen Design-Fehler auf.
+Über Management-Frames, die unverschlüsselt akzeptiert werden, lassen sich AccessPoints mit einfachen Mitteln beispielsweise dahingehend manipulieren, dass sie alle bestehenden Verbindungen dauerhaft trennen.
+Der entstehende Schaden für ein Unternehmen kann bei einem Angriff mit Ausfall des WLAN in sehr extreme Höhen gehen (z. B. bis zu 1000 Euro pro Sekunde in einem bekannten Industrieunternehmen !!!)
+Dies geschieht über Deauthentication-Frames, die der AccessPoint akzeptiert und ausführt.
+Der verbesserte Standard IEEE 802.11w-2009, welcher dies verhindern würde, hat sich leider bis jetzt nicht durchgesetzt.
+Ein Schutz ließe sich aber auch über die Firmware realisieren, indem einfach entsprechende Frames nicht mehr ausgeführt werden.
+Hierzu muss gegenüber den Hardware-Herstellern ein entsprechender Druck aufgebaut werden, dass sie ihre Firmware dafür modifizieren. Dies ist bisher leider bei fast allen Herstellern bis jetzt nicht der Fall, sodass dieses Angriffsszenario akut ist und die Gefahr nach wie vor besteht.
+Dass eine einfache Änderung in der Firmware möglich ist, zeigt beispielsweise der Chinesische Hersteller JCG. Dort ist eine Möglichkeit auf entsprechende Management-Frames zu reagieren vorhanden.
+
+Im Vortrag wird das Problem aufgezeigt, erklärt und praktisch mit einer Testumgebung anschaulich demonstriert.
+
+Die verfügbare Hardware (ESP8266) wird vorgestellt und die verschiedenen Angriffsmöglichkeiten gezeigt.
+So war es bis jetzt nicht möglich, den Störer zu lokalisieren.
+Es konnte nur erkannt werden, dass eine DeAuth-Angriff erfolgt. Die dazu verfügbare Hardware wird gezeigt.
+
+Die &quot;offizielle Version&quot; ist über https://github.com/spacehuhn/esp8266_deauther verfügbar und dient zum Testen des eigenen WLAN.
+Sie wurde von Stefan Kremser, mit dem ich zusammen arbeite, entwickelt.
+
+Die &quot;böse Version&quot;, mit der alle in Reichweite befindlichen WLAN-Verbindungen dauerhaft und ständig getrennt werden, wird nur gezeigt. Sie wird jedoch nicht zur Verfügung gestellt.
+
+Jeder Teilnehmer am Vortrag kann sich mit dem Testnetz verbinden und sieht, dass er nach einem Angriff keine Möglichkeit mehr hat, dauerhaft mit dem Test-WLAN zu verbunden zu bleiben.
+
+Der Vortrag wird in Deutsch gehalten, Fragen können aber auch in Englisch gestellt und beantwortet werden.
+
+Aktueller Update:
+Am 23.02.2018 ist es mir gelungen, mit einem ESP32 eine einfache Möglichkeit der Deauther-Lokalisierung zu realisieren.
+Sie befindet sich aber noch in der Entwicklung. Eine erste Beta-Version existiert jedoch bereits und wird vorgeführt.</description>
+<logo>/system/events/logos/000/000/035/large/SCHINFO-Sticker-klein.jpg?1546163256</logo>
+<persons>
+<person id='33'>Helmut Stult (schinfo)</person>
+</persons>
+<links>
+<link href='https://github.com/spacehuhn/esp8266_deauther'>GitHub (Spacehuhn)</link>
+<link href='https://github.com/schinfo'>GitHub (schinfo)</link>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum E'>
+<event guid='9e422a0c-f8f6-4fad-a0a0-d9cba11c3854' id='12'>
+<date>2018-04-21T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Raum E</room>
+<slug>LIT2018-12-moderne_kommandozeilen_werkzeuge</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/12.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Moderne Kommandozeilen Werkzeuge</title>
+<subtitle>Schneller, besser, praktischer - Alternativen zu grep, ls und find</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>ls, grep, find, ifconfig. Wir kennen sie alle und nutzen sie täglich. Dabei gäbe es mittlerweile, zum Teil bessere, Alternativen. Ein Blick auf die Kommandozeilenwerkzeuge des Jahres 2018.</abstract>
+<description>Linux ohne einer Kommandozeile ist wie ein Himmel ohne Sterne. Aber wie sieht es eigentlich mit den Tools aus, die wir hier verwenden?
+Die meisten Tools, die wir kennen und täglich verwenden, stammen entweder aus dem POSIX-Umfeld oder GNU-Userland. POSIX tools und Optionen stammen zum Teil aus 1988, und auch die Kommandozeilen-Werkzeuge aus dem GNU-Umfeld sind nicht viel moderner. Dabei gäbe es durchaus zeitgemäße Alternativen. Lasst uns gemeinsam einen Blick auf ripgrep, exa, fzf, ip und Co. werfen.</description>
+<logo>/system/events/logos/000/000/012/large/Terminal-dec-vt100.jpg?1546163250</logo>
+<persons>
+<person id='14'>leyrer</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/012/original/Augsburg_Linuxtag-Moderne_Kommandozeilentools_distributable_version.pdf?1546163259'>Vortragsfolien</attachment>
+</attachments>
+</event>
+<event guid='d90fbe26-5fe1-4b34-bbbb-d9da22e1119d' id='3'>
+<date>2018-04-21T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>00:50</duration>
+<room>Raum E</room>
+<slug>LIT2018-3-brig_-_dezentrale_und_sichere_dateisynchronisation</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/3.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>»brig« - dezentrale und sichere Dateisynchronisation</title>
+<subtitle>Von Tropfenschachteln und Zweimastern</subtitle>
+<track>Privatsphäre und Sicherheit</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>»brig« ist ein freies und komplett dezentrales Werkzeug zum sicheren und einfachen Austausch und Versionieren von Dateien. Es bietet eine Reihe von Möglichkeiten, die bislang kein anderes Tool oder Plattform ermöglicht. Da »brig« an der Hochschule Augsburg entstand und weiterhin in Augsburg entwickelt wird, ist es nur konsequent den aktuellen Entwicklungsstand hier zu zeigen. 
+
+Der Vortrag ist eine Projektvorstellung und zeigt das Tool selbst (samt Demo), was es noch können soll und wie man die Entwicklung unterstützen könnte.</abstract>
+<description>Für mehr Informationen siehe (in dieser Reihenfolge):
+Den Vortrag, GitHub und die Dokumentation.</description>
+<logo>/system/events/logos/000/000/003/large/logo.png?1546163248</logo>
+<persons>
+<person id='5'>Chris Pahl</person>
+</persons>
+<links>
+<link href='http://sahib.github.io/brig/public'>Homepage</link>
+<link href='https://github.com/sahib/brig'>GitHub</link>
+<link href='http://brig.readthedocs.io/en/latest/'>Dokumentation</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/003/original/slides.pdf?1546163258'>Slides als PDF</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/004/original/slides.html.tgz?1546163258'>Slides als HTML</attachment>
+</attachments>
+</event>
+<event guid='494cd9b9-ef5a-4bd5-83fe-7335391a7a90' id='25'>
+<date>2018-04-21T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Raum E</room>
+<slug>LIT2018-25-nix_os_package-management_done_right</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/25.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Nix(OS): Package-management done right</title>
+<subtitle></subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>&lt;p&gt;Nix wird als der „Retter der Paketverwaltung“ gehandelt. Was da dran ist, wie es funktioniert und was man damit machen kann (z.B. eine komplette Distribution!), darum geht es in diesem Talk.&lt;/p&gt;
+</abstract>
+<description>&lt;p&gt;Nix wird als der „Retter der Paketverwaltung“ gehandelt. Was da dran ist, wie es funktioniert und was man damit machen kann (z.B. eine komplette Distribution!), darum geht es in diesem Talk.&lt;/p&gt;
+
+&lt;p&gt;Ich zeige den &lt;em&gt;Nix Paketmanager&lt;/em&gt;, die &lt;em&gt;Nix Konfigurationssprache&lt;/em&gt; und das &lt;em&gt;NixOS Betriebssystem&lt;/em&gt;. Am Schluss gibt es einen Ausblick auf Deployment mit &lt;em&gt;NixOPs&lt;/em&gt; und den Bau von &lt;em&gt;Docker-Images&lt;em&gt;.&lt;/p&gt;</description>
+<logo>/system/events/logos/000/000/025/large/nixos-hex.svg.small.png?1546163253</logo>
+<persons>
+<person id='27'>Profpatsch</person>
+</persons>
+<links>
+<link href='https://www.meetup.com/Munich-NixOS-Meetup'>Meetup-Gruppe München</link>
+<link href='https://nixos.org/nix'>Nix Paketmanager</link>
+<link href='https://nixos.org'>NixOS Distribution</link>
+<link href='http://curry-club-augsburg.de/'>Curry Club Augsburg</link>
+<link href='http://profpatsch.de/talks/nix/nixos-package-management-done-right-DE/p/HkdVNYZdb.html#/'>Vortragsfolien</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='473dc2e7-0a5c-4741-bdb2-5202cac65e4c' id='28'>
+<date>2018-04-21T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Raum E</room>
+<slug>LIT2018-28-linux_container_ein_einstieg</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/28.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Linux Container: Ein Einstieg</title>
+<subtitle>Das was und warum von Docker und co.</subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Dieser Vortrag gibt einen Einblick in die Welt von Docker und anderen Linux Container Systemen bieten. Wir befassen uns kurz mit der Geschichte von Containerisation auf Linux und anderen Plattformen, welchen Nutzen diese Techniken stiften und wie sie auf Linux funktionieren. Anschließend darauf ein, welche Rolle Docker und Kubernetes heute spielen und warum sie immer beliebter werden. Das Ende ist offen für Fragen und/oder je nach Zeit ein paar live Demos mit Docker.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/028/large/tux_in_a_box_by_mawscm-d2zmvpe.png?1546163254</logo>
+<persons>
+<person id='3'>Anian Ziegler</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/017/original/presentation.pdf?1546163262'>Presentation</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/018/original/short-notes.md?1546163262'>Notizen</attachment>
+</attachments>
+</event>
+<event guid='f6ee2de7-d18e-4762-b0a2-184e75c8a687' id='32'>
+<date>2018-04-21T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum E</room>
+<slug>LIT2018-32-der_einsatz_von_docker_in_entwicklungs-_und_production-umgebungen</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/32.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Der Einsatz von Docker in Entwicklungs- und Production-Umgebungen</title>
+<subtitle></subtitle>
+<track>Linux-Interna und Anwendungen</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Während der vergangenen 12 Monate haben wir unsere Entwicklungs- und Production-Umgebungen auf Docker umgestellt. Ziel war es, dem gesamten Team sowohl auf Mac als auch auf Windows identische Setups und Software Versionen (Betriebssystem, PHP, OXID, MySQL, Ontraq Module etc.) zur Verfügung zu stellen. Inzwischen haben wir auch damit begonnen, die Production-Umgebungen unserer Kunden von physikalischen Servern unter Verwendung von Docker Swarms auf skalierbare Setups umzustellen. Dieser Vortrag soll anhand von Beispielen darstellen, was wir im Laufe dieses Prozesses gelernt haben.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='30'>Chris Jolly</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/023/original/Docker_Introduction_21.04.2018.pdf?1546163263'>Vortragsfolien</attachment>
+</attachments>
+</event>
+<event guid='21c84d6c-0fce-491a-ad8f-c51b17aa7aa4' id='13'>
+<date>2018-04-21T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Raum E</room>
+<slug>LIT2018-13-freifunk</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/13.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Freifunk</title>
+<subtitle>Eine Übersicht über das Thema und den aktuellen Stand.</subtitle>
+<track>Digitale Gesellschaft</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Freifunk ist eine Bewegung dezentrale Bürger(mesh)netz mit WLAN-Routern zu schaffen, bei der jeder mitmachen kann. Wir wollen zeigen worum es geht, wo Freifunk z.Z. steht und wo es hingehen könnte.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/013/large/Freifunk.net.svg.png?1546163250</logo>
+<persons>
+<person id='16'>Moritz Warning</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/021/original/freifunk_linux_info_tag_2018.pdf?1546163263'>Vortragsfolien PDF</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/026/original/freifunk_linux_info_tag_2018.odp?1546163263'>Vortragsfolien ODP</attachment>
+</attachments>
+</event>
+</room>
+<room name='Raum F'>
+<event guid='c1f9aac2-cfe9-4a10-85e5-549c3e8d6e68' id='24'>
+<date>2018-04-21T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>01:45</duration>
+<room>Raum F</room>
+<slug>LIT2018-24-linux_kernel_programmierung</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/24.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Linux Kernel Programmierung</title>
+<subtitle>Grundwissen und Beispiele</subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract></abstract>
+<description>&lt;p&gt;Der Workshop wird aus zwei Teilen bestehen und ca. 2 Stunden (mit 30 min Zeitpuffer für optionale Vertiefungen und Fragen) dauern:&lt;/p&gt;
+
+&lt;h2&gt;1. Teil Hintergrundwissen&lt;/h2&gt;
+
+&lt;p&gt;Im ersten Teil möchte ich die Grundlagen an Hintergrundwissen und Konzepten zu Linux Kernelprogrammierung
+nahebringen. Vieles davon ist angenehmerweiße auch für die Kernel und Treiberentwicklung unter anderen
+Systemen wie macOS, BSD und Windows NT gültig. Dazu gehören:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ausführungskontexte (Process Context vs. Interrupt Context)
+und deren Bedeutung + Implikationen&lt;/li&gt;
+&lt;li&gt;Interrupt Handler Konzepte (Top Half und Bottom Half, ISR, Interrupt Lines)&lt;/li&gt;
+&lt;li&gt;Bottom Half Varianten (Work Queeus, Tasklets, SoftIRQs)&lt;/li&gt;
+&lt;li&gt;Kernelthreads&lt;/li&gt;
+&lt;li&gt;Context Switches&lt;/li&gt;
+&lt;li&gt;Memory Managment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. Teil: Anwendung: Beispiele, Quellcode Erforschen&lt;/h2&gt;
+
+&lt;p&gt;Im zweiten Teil werde ich mit euch das Wissen aus Teil 1 anwenden und ein bischen den Linux Quellcode erforschen
+und verstehen. Am einfachsten geht das für das Netzwerksubsystem, wir können aber auch in andere Subsysteme Abstecher machen.
+Neben der Methode &quot;Code lesen im richtigen Editor&quot; gibt es dafür auch noch andere praktische Wege. Dazu gehören tracing mit ftrace
+und weitere mächtige tracing tools aus https://github.com/iovisor/bcc mit denen man sehr gut tief in den Kernel kucken
+und Zusammenhänge erforschen kann. Wir werden ein paar davon ausprobieren und uns zusammen umkucken.&lt;/p&gt;
+
+&lt;h2&gt;Vorbereitung&lt;/h2&gt;
+
+&lt;p&gt;Es wäre gut wenn ihr vor dem Workshop:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;das linux mainline repository ( git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git ) auf euren Klapprechner clont und mitbringt.&lt;/li&gt;
+&lt;li&gt;das trace-cmd paket installiert&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+<logo>/system/events/logos/000/000/024/large/icon.jpeg?1546163253</logo>
+<persons>
+<person id='26'>richard_siegfried</person>
+</persons>
+<links>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/015/original/linux_kernel_programmierung_vortrag.pdf?1546163262'>Folien</attachment>
+</attachments>
+</event>
+<event guid='32129314-ce2a-4a80-9c63-2cdb2f102f7b' id='39'>
+<date>2018-04-21T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>01:45</duration>
+<room>Raum F</room>
+<slug>LIT2018-39-programmier-workshop_fur_schulerinnen_und_schuler</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/39.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Programmier-Workshop für Schülerinnen und Schüler</title>
+<subtitle></subtitle>
+<track>Programm für Kinder und Jugendliche</track>
+<type>workshop</type>
+<language></language>
+<abstract>Python ist eine moderne Programmiersprache, mit der man zum Beispiel eigene Spiele und Webseiten erstellen kann. Im Workshop unternehmen wir gemeinsam erste Schritte in dieser Sprache. Es sind keinerlei Computer- oder Programmier-Vorkenntnisse nötig.
+
+Wenn du nicht genau weißt, was dich in dem Workshop erwartet, oder wenn du sonstige Fragen oder Wünsche hast, kannst du uns jederzeit informal und unverbindlich eine Mail schreiben.
+
+Wenn du mindestens in die vierte Klasse gehst, bist du herzlich zu diesem Workshop eingeladen! Bring einen Laptop mit oder melde dich vorab per Mail an, wenn das nicht gehen sollte, dann kannst du einen Laptop von uns haben. Keine Sorge: Wir werden das vorhandene Laptopsystem nicht ändern. Wir werden den Laptop nur verwenden, um auf eine bestimmte Webseite zu gehen.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e501483e-70e7-4250-9e58-eab7538280c8' id='6'>
+<date>2018-04-21T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>01:45</duration>
+<room>Raum F</room>
+<slug>LIT2018-6-nodeschool</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/6.html</url>
+<recording>
+<license>Creative Commons BY-SA 4.0</license>
+<optout>false</optout>
+</recording>
+<title>Nodeschool</title>
+<subtitle></subtitle>
+<track>Programmieren und Software entwickeln</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Im Rahmen des Linux Info Tages wollen wir eine kleine NodeSchool anbieten. Was das ist?
+Du wolltest schon immer mal programmieren? Oder willst endlich mal Node.js ausprobieren? Nimm teil und lerne Programmieren mit Node.js ganz einfach - versprochen! Es hilft, wenn du schon mal etwas mit JavaScript gemacht hast - wenn nicht, komm trotzdem! Wir helfen gern.</abstract>
+<description>Join us and learn coding with us. You are going to learn the basics of Node.js. It&#39;s a plus if you know some JavaScript beforehand, but if not we can help you out.
+
+Du lernst mit kleinen Programmen, die du selbst schreibst - keine langweiligen Vorträge! Alle Aufgaben sind Open Source und online unter nodeschool.io verfügbar, so kannst du auch ganz einfach nach der NodeSchool selber weiter lernen.
+
+You will go through a set of self-paced challenges. No boring talks. All challenges are Open Source and available online on nodeschool.io. This means you can continue learning after the event.</description>
+<logo>/system/events/logos/000/000/006/large/nodeschool-augsburg-logo.png?1546163249</logo>
+<persons>
+<person id='8'>Nodeschool Augsburg</person>
+</persons>
+<links>
+<link href='https://nodeschool.io/augsburg/'>Website Nodeschool Augsburg</link>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Raum G'>
+<event guid='68aaf2e3-4428-4457-ab8c-197a36fe3f2b' id='40'>
+<date>2018-04-21T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>01:45</duration>
+<room>Raum G</room>
+<slug>LIT2018-40-eine_botschaft_an_ausserirdische</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/40.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Eine Botschaft an Außerirdische</title>
+<subtitle></subtitle>
+<track>Programm für Kinder und Jugendliche</track>
+<type>workshop</type>
+<language></language>
+<abstract>Vor etwa 15 Jahren schickte die Menschheit eine Radiobotschaft an ausgewählte Sterne, in der Hoffnung, dass die Nachricht Außerirdische erreicht, diese die Nachricht verstehen und uns antworten. Die Nachricht ist nicht auf Deutsch oder Englisch verfasst, sondern bedient sich einer eigens entwickelten Symbolsprache. Schaffen wenigstens wir Menschen, die Botschaft zu entziffern? Das wollen wir in dem Workshop an uns selbst testen und herausfinden!
+
+Kinder ab einschließlich der vierten Klasse, Jugendliche und Erwachsene können hier gleichermaßen versuchen, die Cosmic-Call-Botschaft zu entziffern. Kinder entdecken dabei spielerisch das Binärsystem, wenn sie es nicht schon kannten. Erwachsene können ihre Kenntnisse von Atommodellen aufpolieren.
+
+&lt;strong&gt;Man kann während der gesamten Workshopzeit jederzeit kommen und gehen.&lt;/strong&gt;</abstract>
+<description>&lt;a href=&quot;https://rawgit.com/iblech/mathezirkel-kurs/master/mathecamp-2016/cosmic-call/message.pdf&quot;&gt;&lt;strong&gt;Die Botschaft an Außerirdische&lt;/strong&gt;&lt;/a&gt;
+&lt;a href=&quot;https://rawgit.com/iblech/mathezirkel-kurs/master/mathecamp-2016/cosmic-call/spoiler.pdf&quot;&gt;&lt;strong&gt;Auflösung von Mark Jason Dominus&lt;/strong&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.math.uni-augsburg.de/schueler/mathezirkel/materialien/beweise-ohne-worte-klein.pdf&quot;&gt;&lt;strong&gt;Beweise ohne Worte&lt;/strong&gt;&lt;/a&gt;</description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='1970f0b1-49fd-4cdd-88a5-443075c1cb87' id='42'>
+<date>2018-04-21T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Raum G</room>
+<slug>LIT2018-42-die_wundersame_welt_der_unendlich_grossen_zahlen_glaube_in_der_mathematik</slug>
+<url>https://www.luga.de/Aktionen/LIT-2018/Programm/events/42.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Die wundersame Welt der unendlich großen Zahlen – Glaube in der Mathematik?</title>
+<subtitle>Hat absolut nichts mit Linux, Technik oder digitaler Gesellschaft zu tun</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>&lt;strong&gt;Bei den vielen technischen und gesellschaftlichen Vorträgen Lust auf etwas ganz anderes?&lt;/strong&gt;
+
+    Liebe ist unendlich. Gott ist unendlich. Das sind vertraute     Vorstellungen, die in unserem Denken mit Unendlichkeit verknüpft     sind. Weitere, zunächst verborgene Perspektiven eröffnet die     Mathematik. 
+
+    Es stellt sich nämlich heraus, dass der bekannte Zahlenstrahl nicht der Weisheit letzter Schluss ist: Nach 1, 2 und 3, nach der Million     und der Trilliarde, nach der Anzahl Sandkörner – nach all diesen     Zahlen folgen die unendlich großen Zahlen. Verblüffenderweise können     wir Menschen trotz unseres beschränkten Verstands diese unendliche     Hierachie unendlich großer Zahlen erkunden und sichere Informationen     über sie gewinnen.
+
+    Der Vortrag nimmt alle Interessierten auf eine Reise durch diese wundersame Welt der     unendlich großen Zahlen mit. Anstelle von Formeln oder Rechnungen     wird es Bilder und anschauliche Gedankenexperimente geben. Die alte    Frage, ob unendlich plus eins nun mehr sei wie unendlich oder doch    wieder nur unendlich, kann anschließend ohne jegliche    Restzweifel selbst verständlich beantwortet werden.
+
+    Die Beschäftigung mit Unendlichkeit verknüpft Mathematik mit    philosophischer Erkenntnistheorie. Eine verwandte Frage über die    Natur der Unendlichkeit ist nämlich bis heute ungeklärt und wird das    bewiesenermaßen für immer bleiben. Wie diese Frage lautet, was ihr    die moderne Mathematik zu entgegnen hat und wie man sich endgültiger    Unkennbarkeit mit mathematischer Präzision gewiss sein kann, wird    der Vortrag ebenfalls beleuchten.
+
+&lt;a href=&quot;https://rawgit.com/iblech/mathezirkel-kurs/master/superturingmaschinen/koenigsbrunner-campus2017.pdf&quot;&gt;&lt;strong&gt;Vortragsfolien&lt;/strong&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=wZzn4INtbwY&amp;amp;list=PLwpepnYDFK9OxuqUvLDQPoTBEGyuj4iLU&quot;&gt;&lt;strong&gt;Aufzeichnung einer früheren Instanz des Vortrags&lt;/strong&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=sUqwFbbwHQo&quot;&gt;&lt;strong&gt;Superturingmaschinen&lt;/strong&gt;&lt;/a&gt;</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='4'>Ingo Blechschmidt</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+</day>
+</schedule>

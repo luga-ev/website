@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180410T092940Z
+UID:b48969f8-2178-4e16-904c-73f24fee3259@frab.luga.de
+DESCRIPTION:Was ist LibreOffice? Woher kommt es? Wohin geht es? Welche Er
+ folge haben wir genossen\, und welche Hindernisse stehen vor uns? Wie kö
+ nnt ihr mitmachen – und was lernt ihr dabei? Was wollt ihr sonst wissen?
+  Wir anworten alles!
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/16.html
+SUMMARY:LibreOffice: Was wir tun\, wohin wir gehen – und mitmachen!
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum B
+END:VEVENT
+END:VCALENDAR

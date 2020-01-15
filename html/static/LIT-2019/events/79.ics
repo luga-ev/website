@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T093000
+DTSTAMP;VALUE=DATE-TIME:20190404T084724Z
+UID:39aceb0d-b7ae-4b1b-a5a0-68ae8f5d31ff@frab.luga.de
+DESCRIPTION:- ACF (Augsburger Computer Forum eV)\n- FSFE (Free Software F
+ oundation Europe)\n- LUG Ottobrunn (Nextcloud + Wireguard)\n- OpenStreet
+ Map Augsburg\n- siduction (auf Debian unstable aufbauende Linux-Distribu
+ tion) \n- Blockchain Revolution\n\n- Archivista GmbH\n- B1-Systems\n- IG
+ EL Technology GmbH\n- SHI Gmbh\n- Tuxedo
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/79.html
+SUMMARY:*** ACF *** FSFE *** LUG Ottobrunn (Nextcloud + Wireguard) *** Op
+ enStreetMap Augsburg ***  siduction *** Blockchain Revolution *** Archiv
+ ista GmbH *** B1-Systems *** IGEL Technology GmbH *** SHI Gmbh *** Tuxed
+ o ***
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Info-Stände
+END:VEVENT
+END:VCALENDAR

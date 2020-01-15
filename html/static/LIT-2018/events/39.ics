@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180321T195747Z
+UID:32129314-ce2a-4a80-9c63-2cdb2f102f7b@frab.luga.de
+DESCRIPTION:Python ist eine moderne Programmiersprache\, mit der man zum 
+ Beispiel eigene Spiele und Webseiten erstellen kann. Im Workshop unterne
+ hmen wir gemeinsam erste Schritte in dieser Sprache. Es sind keinerlei C
+ omputer- oder Programmier-Vorkenntnisse nötig.\n\nWenn du nicht genau we
+ ißt\, was dich in dem Workshop erwartet\, oder wenn du sonstige Fragen o
+ der Wünsche hast\, kannst du uns jederzeit informal und unverbindlich ei
+ ne Mail schreiben.\n\nWenn du mindestens in die vierte Klasse gehst\, bi
+ st du herzlich zu diesem Workshop eingeladen! Bring einen Laptop mit ode
+ r melde dich vorab per Mail an\, wenn das nicht gehen sollte\, dann kann
+ st du einen Laptop von uns haben. Keine Sorge: Wir werden das vorhandene
+  Laptopsystem nicht ändern. Wir werden den Laptop nur verwenden\, um auf
+  eine bestimmte Webseite zu gehen.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/39.html
+SUMMARY:Programmier-Workshop für Schülerinnen und Schüler
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum F
+END:VEVENT
+END:VCALENDAR

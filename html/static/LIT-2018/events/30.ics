@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T151500
+DTSTAMP;VALUE=DATE-TIME:20180423T112522Z
+UID:3aab1286-f50b-4b1f-be49-70c126c77c8d@frab.luga.de
+DESCRIPTION:Es kann nur einen Weg geben\, sich aus dem Quasi-Monopol weni
+ ger Marktteilnehmer zu lösen: Alternativen zu nutzen. Selbstverständlich
+  ist es einfacher nach dem Prinzip zu leben "Nobody get fired for buying
+  Microsoft"\, allerdings begibt man sich strategisch in eine Richtung\, 
+ in der man zum Schluss wenig Wahlmöglichkeiten und Flexibilität hat. Die
+ ser Vortrag zeigt anhand von 3 (prominten) Beispielen aus erster Hand\, 
+ wie Organisationen nicht bequem waren\, sondern sich aktiv um alternativ
+ en kümmerten. Der Lohn von geringeren Kosten\, wesentlich höhere Flexibi
+ lität und gleichzeitig einer besseren Abbildung der organisatorischen Be
+ dürfnisse lässt sich nicht nur erfühlen\, sondern aktiv belegen. Open So
+ urce Produkte die in diesem Beispielen zum Einsatz kamen sind: Univentio
+ n\, Mattermost & Kopano.
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/30.html
+SUMMARY:Open-Source: der Weg aus der Abhängigkeit von Microsoft
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum B
+END:VEVENT
+END:VCALENDAR

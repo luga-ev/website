@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+RDATE:20180325T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20180421T131500
+DTSTAMP;VALUE=DATE-TIME:20180405T224440Z
+UID:494cd9b9-ef5a-4bd5-83fe-7335391a7a90@frab.luga.de
+DESCRIPTION:<p>Nix wird als der „Retter der Paketverwaltung“ gehandelt. W
+ as da dran ist\, wie es funktioniert und was man damit machen kann (z.B.
+  eine komplette Distribution!)\, darum geht es in diesem Talk.</p>\n
+URL:https://www.luga.de/Aktionen/LIT-2018/Programm/events/25.html
+SUMMARY:Nix(OS): Package-management done right
+ORGANIZER:LIT2018
+LOCATION:LIT2018 - Raum E
+END:VEVENT
+END:VCALENDAR

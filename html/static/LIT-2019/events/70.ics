@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T104500
+DTSTAMP;VALUE=DATE-TIME:20190405T144906Z
+UID:72ded5a9-e8ed-4f84-aa81-ab3e75486157@frab.luga.de
+DESCRIPTION:Linux Container und damit zusammenhängende Technologien wie K
+ ubernetes sind vor allem im Enterprise Umfeld und in den großen Clouds s
+ ehr beliebt. Aber auch für die Arbeit am eigenen PC oder den eigenen Nex
+ tcloud Server und andere Anwendungen auf dem heimischen Server kann Dock
+ er sehr hilfreich sein. Dieser Vortrag gibt einen kurze Einführung in di
+ e Linux Container Technologie an sich und zeigt dann an einigen Beispiel
+ en\, wie man Container und Docker ohne großen Aufwand privat nutzen kann
+ .  
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/70.html
+SUMMARY:Linux Container für den Alltagsgebrauch
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum C
+END:VEVENT
+END:VCALENDAR

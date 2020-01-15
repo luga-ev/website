@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T161500
+DTSTAMP;VALUE=DATE-TIME:20190405T081937Z
+UID:d3d0a351-ea11-4785-8847-aaf584b4402c@frab.luga.de
+DESCRIPTION:Dieser Vortrag richtet sich in erster Linie an Erwachsene\, a
+ ber auch interessierte Schüler*innen ab der siebten Klasse werden auf ih
+ re Kosten kommen.\n\nIn der Mathematik ist nach dem bekannten Zahlenstra
+ hl noch nicht Schluss: Nach 1\, 2 und 3\, nach der Million und der Trill
+ iarde\, nach der Anzahl Sandkörner – nach all diesen Zahlen folgen die u
+ nendlich großen Zahlen.\n\nParadoxerweise benötigt man diese unendlich g
+ roßen Zahlen\, um manche ganz konkreten endlichen Probleme zu lösen. Man
+ chmal kann man sogar beweisen\, dass es ohne sie nicht ginge. Eines dies
+ er Probleme &ndash\; wie Herkula die immer stärker werdende Hydra besieg
+ en kann &ndash\; werden wir im Vortrag behandeln.\n\nDer Vortrag setzt k
+ einerlei mathematisches Vorwissen voraus\, weder Vorwissen aus Schule no
+ ch weiterführende Kenntnisse\, und richtet sich an alle\, die Spaß an lo
+ gischen Überlegungen haben.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/78.html
+SUMMARY:Das Transfinite und seine Anwendungen
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum C
+END:VEVENT
+END:VCALENDAR

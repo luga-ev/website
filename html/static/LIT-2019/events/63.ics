@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:20190331T020000
+RDATE:20190331T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20190406T141500
+DTSTAMP;VALUE=DATE-TIME:20190325T202801Z
+UID:3916c6f5-599a-463d-a50d-37a0f122c810@frab.luga.de
+DESCRIPTION:Wer Software einsetzen möchte\, muss die Software zuerst inst
+ allieren. Eigentlich leicht gesagt\, wenn es nur ein Paketmanager bzw. e
+ in Paketformat geben würde.\n\nDieser Vortrag soll ein Einblick geben\, 
+ wie man Software richtig verteilt und installiert. Außerdem soll es eine
+ n Überblick über die verschiedenen Paketmanager und Paketformate vermitt
+ eln\, die es in der Linux Welt gibt.
+URL:https://www.luga.de/Aktionen/LIT-2019/Programm/events/63.html
+SUMMARY:Ich packe meinen Koffer... - Paketverwaltung unter Linux
+ORGANIZER:LIT2019
+LOCATION:LIT2019 - Raum B
+END:VEVENT
+END:VCALENDAR
