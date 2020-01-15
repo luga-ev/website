@@ -1,2 +1,2 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/01_2020/) findet am Mittwoch, 1. Januar statt.
+Das nächste [Treffen](/Treffen/Termine/02_2020/) findet am Mittwoch, 5. Februar statt.
