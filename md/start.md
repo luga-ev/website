@@ -18,7 +18,8 @@ Sie sind bei unseren monatlichen [Treffen](/Treffen/) im [OpenLab Augsburg](http
 Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen.
 
 ## Linux Infotag 2020
-Der Termin für den 19. Linux Infotag steht fest! Der **25.4.2020** kann im Kaldender vorgemerkt werden. Der Call for Participation wird auch bald hier online stehen.
+Der 19. Linux-Infotag findet am **25.4.2020** statt. Der [Call for Participation ist online](https://pretalx.luga.de/lit-2020/)
+und wir freuen uns auf eure Einreichungen.
 
 ## Termine
 
@@ -28,3 +29,5 @@ Der Termin für den 19. Linux Infotag steht fest! Der **25.4.2020** kann im Kald
 |4. März 2020|[Märztreffen 2020](/Treffen/Termine/03_2020/)|
 |1. April 2020|[Apriltreffen 2020](/Treffen/Termine/04_2020/)|
 |25. April 2020|Linux Infotag|
+
+
