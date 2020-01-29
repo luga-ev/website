@@ -15,14 +15,12 @@ Der Satzungszweck wird verwirklicht insbesondere durch Veranstaltungen, Vorträg
 ### §3 Mitgliedschaft
 
 Mitglied des Vereins kann jede Person werden. Für Minderjährige haben die Erziehungsberechtigten zu handeln. Über die Aufnahme entscheidet nach schriftlichem Antrag der Vorstand. Erfolgt eine Ablehnung, kann innerhalb eines Monats Berufung zur nächsten ordentlichen Mitgliederversammlung eingelegt werden. Die vom Vorstand beschlossene Aufnahme eines Mitgliedes wird erst wirksam mit der Bezahlung des ersten Jahresbeitrages. Der Jahresbeitrag wird von der Mitgliederversammlung festgelegt. Beiträge werden in Form von Geldzahlungen geleistet.
+
 ### §4 Ende der Mitgliedschaft
 
 1. Die Mitgliedschaft endet a) mit dem Tod eines Mitglieds, b) mit dem Austritt eines Mitglieds (vgl. Abs. 2), c) durch Streichung von der Mitgliederliste (vgl. Abs. 3), d) durch Ausschluss (vgl. § 5).
-
 2. Der Austritt ist nur jeweils zum Jahresende möglich und unter Einhaltung einer Frist von einem Monat schriftlich gegenüber dem Vorstand zu erklären.
-
 3. Die Streichung von der Mitgliederliste durch den Vorstand erfolgt, wenn das betroffene Mitglied trotz erfolgter Mahnung und Androhung der Streichung mit der Bezahlung eines Jahresbeitrags mehr als drei Monate im Rückstand ist. Die Streichung ist dem Mitglied binnen einer Woche schriftlich mitzuteilen.
-
 4. Mit Beendigung der Mitgliedschaft erlöschen alle Ansprüche aus dem Mitgliedschaftsverhältnis. Bezahlte Beiträge oder Spenden werden nicht zurückgezahlt.
 
 ### §5 Ausschluß von Mitgliedern
