@@ -25,9 +25,8 @@ und wir freuen uns auf eure Einreichungen.
 
 |||
 |-|-|
-|5. Februar 2020|[Februartreffen 2020](/Treffen/Termine/02_2020/)|
 |4. März 2020|[Märztreffen 2020](/Treffen/Termine/03_2020/)|
 |1. April 2020|[Apriltreffen 2020](/Treffen/Termine/04_2020/)|
 |25. April 2020|Linux Infotag|
-
+|6. Mai 2020|[Maitreffen 2020](/Treffen/Termine/05_2020/)|
 
