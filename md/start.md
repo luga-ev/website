@@ -21,17 +21,17 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 Der 19. Linux-Infotag findet hoffentlich am **25.4.2020** statt. Der [Call for Participation ist online](https://pretalx.luga.de/lit-2020/)
 und wir freuen uns auf eure Einreichungen.
 
-**10.03.2020** Die Gesundheit unserer Besucher*Innen und Referent*Innen hat
+**10.03.2020** Die Gesundheit unserer Besucher\*innen und Referent\*innen hat
 für uns die höchste Priorität. Wir beobachten die Ausbreitung des neuen
 Sars-CoV-2 Virus mit großer Sorge und stehen in engem Kontakt mit der
-Hochschule Augsburg, in deren Räumen der Linux Infotag seit vielen
-Jahren stattfindet. Sollte die Gesundheit unserer Besucher*Innen und
-Referent*Innen während der Veranstaltung nicht gewährleistet sein, so
-werden wir den Linux Infotag schweren Herzens absagen.
+Hochschule Augsburg, in deren Räumen der Linux-Infotag seit vielen
+Jahren stattfindet. Sollte die Gesundheit unserer Besucher\*innen und
+Referent\*innen während der Veranstaltung nicht gewährleistet sein, so
+werden wir den Linux-Infotag schweren Herzens absagen.
 
-Zum jetzigen Zeitpunkt können wir Euch leider noch nicht sagen, ob der
-Linux Infotag stattfinden kann oder nicht. Wir hoffen und bangen,
-genaueres werden wir aber erst in einigen Wochen wissen. Wir halten Euch
+Zum jetzigen Zeitpunkt können wir euch leider noch nicht sagen, ob der
+Linux-Infotag stattfinden kann oder nicht. Wir hoffen und bangen,
+genaueres werden wir aber erst in einigen Tagen wissen. Wir halten euch
 auf dieser Seite auf dem Laufenden und wünschen, dass alle gesund bleiben.
 
 
