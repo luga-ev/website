@@ -39,8 +39,7 @@ auf dieser Seite auf dem Laufenden und wünschen, dass alle gesund bleiben.
 
 |||
 |-|-|
-|4. März 2020|[Märztreffen 2020](/Treffen/Termine/03_2020/)|
 |1. April 2020|[Apriltreffen 2020](/Treffen/Termine/04_2020/)|
 |25. April 2020|Linux Infotag|
 |6. Mai 2020|[Maitreffen 2020](/Treffen/Termine/05_2020/)|
-
+|3. Juni 2020|[Junitreffen 2020](/Treffen/Termine/06_2020/)|
