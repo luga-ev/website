@@ -20,11 +20,13 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 ## <strike>Linux Infotag 2020</strike>
 Der 19. Linux-Infotag wurde wegen der Corona-Pandemie schweren Herzens abesagt.
 
-Die Viruskrise lässt auch uns keinen Spielraum mehr und die Gesundheit unserer
-Organisatoren, Standbetreibern und Vortragenden hat einfach die höchste Priorität.
-
 Gerne halten wir Euch aber auf dem Laufenden, in wie weit wir im Laufe des Jahres
 einen zweiten Anlauf wagen können. Bleibt uns also bitte gewogen.
+
+Zum jetzigen Zeitpunkt können wir euch leider noch nicht sagen, ob der
+Linux-Infotag stattfinden kann oder nicht. Wir hoffen und bangen,
+genaueres werden wir aber erst in einigen Tagen wissen. Wir halten euch
+auf dieser Seite auf dem Laufenden und wünschen, dass alle gesund bleiben.
 
 ## Termine
 
