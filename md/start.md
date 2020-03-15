@@ -19,7 +19,7 @@ Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, 
 
 ## Linux Infotag 2020 am 25. April abgesagt!
 
-Die Gesundheit unserer Besucher*innen, Referent*innen und Organisator*innen hat für uns höchste Priorität. In den letzten Tagen haben wir noch gehofft, dass sich die Lage rund um das neuartige Coronavirus entspannt. Doch leider vergeblich. * Aus diesem Grund haben wir uns schweren Herzens entschieden, den Linux-Infotag 2020 am 25. April 2020 abzusagen.*
+Die Gesundheit unserer Besucher\*innen, Referent\*innen und Organisator\*innen hat für uns höchste Priorität. In den letzten Tagen haben wir noch gehofft, dass sich die Lage rund um das neuartige Coronavirus entspannt. Doch leider vergeblich. * Aus diesem Grund haben wir uns schweren Herzens entschieden, den Linux-Infotag 2020 am 25. April 2020 abzusagen.*
 
 Wir hoffen trotzdem, Euch alle schon bald wieder auf dem Linux-Infotag zu sehen. Falls wir bereits im Laufe des Jahres einen zweiten Anlauf wagen können, werden wir Euch rechtzeitig darüber informieren. Bis dahin wünschen wir Euch und uns allen: Bleibt gesund!
 
