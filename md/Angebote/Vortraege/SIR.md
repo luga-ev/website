@@ -19,5 +19,5 @@ installieren.
 
 ### Manuskript
 
-* [PDF-Version](/download/Vortraege/SIR.pdf) (242 kB)
+* [PDF-Version](/download/Vortraege/sir.pdf) (242 kB)
 * [Python-Skript](/download/Vortraege/sir.py) (2 kB)
