@@ -2,12 +2,11 @@
 ## Treffen der Linux User Group Augsburg
 
 Die monatlichen Treffen sind ein Hauptbestandteil des Vereinslebens. 
-Sie finden immer am ersten Mittwoch im Monat ab 19:00 Uhr im OpenLab Augsburg statt. 
+Sie finden zur Zeit am ersten Mittwoch im Monat ab 19:00 Uhr als Videokonferenz statt.
 Hier treffen sich Neulinge und Einsteiger ebenso wie erfahrene Linux-Nutzer. 
-Daher sind sie die ideale Gelegenheit, alle Fragen rund um Linux zu klären. 
-Und wer seinen Computer mitbringt, dem kann dort vielleicht gleich direkt vor Ort geholfen werden, 
-denn wir verfügen auch über einen WLAN-Zugang, 
-um fehlende Software herunterzuladen oder um weitere Informationen aus dem Netz zu holen.
+Daher sind sie die ideale Gelegenheit, alle Fragen rund um Linux zu klären.
+
+Nach Aufhebung der Kontaktsperren sind die Treffen wieder vor Ort im OpenLab geplant.   
   
 Außerdem stehen ab und zu auch Vorträge zu Themen rund um Linux auf der Agenda. 
 Da die meisten Vorträge kurzfristig anberaumt werden, 

@@ -1,4 +1,4 @@
-#Willkommen bei der Linux User Group Augsburg (LUGA) e.V.
+#Willkommen bei der Linux User Group Augsburg (LUGA) e.V.9
 
 Die Linux User Group Augsburg bietet Linux-Anwendern und solchen, die es werden wollen, die Möglichkeit, Informationen auszutauschen, Probleme zu erörtern und an gemeinsamen Aktionen teilzunehmen.
 
@@ -14,25 +14,13 @@ unsere [Bibliothek](/Angebote/Bibliothek/) und [Mailinglisten](/Angebote/Mailing
 
 Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
-Sie sind bei unseren monatlichen [Treffen](/Treffen/) im [OpenLab Augsburg](https://openlab-augsburg.de) auch dann sehr willkommen, wenn Sie nicht LUGA-Mitglied sind.
-Einen Laptop, bei dem Sie sich Hilfestellung mit einem Linux-Problem wünschen, können Sie dabei gleich mitbringen.
-
-## <strike>Linux Infotag 2020</strike>
-Der 19. Linux-Infotag wurde wegen der Corona-Pandemie schweren Herzens abesagt.
-
-Gerne halten wir Euch aber auf dem Laufenden, in wie weit wir im Laufe des Jahres
-einen zweiten Anlauf wagen können. Bleibt uns also bitte gewogen.
-
-Zum jetzigen Zeitpunkt können wir euch leider noch nicht sagen, ob der
-Linux-Infotag stattfinden kann oder nicht. Wir hoffen und bangen,
-genaueres werden wir aber erst in einigen Tagen wissen. Wir halten euch
-auf dieser Seite auf dem Laufenden und wünschen, dass alle gesund bleiben.
+Unsere monatlichen Treffen finden derzeit nur virtuell statt. Benötigt wird dazu ein Webbrowser und 
+ein Headset bzw. ein Kopfhörer und ein Mikrofon. Ein Kamera wäre natürlich von Vorteil.
 
 ## Termine
 
 |||
 |-|-|
-|1. April 2020|<strike>[Apriltreffen 2020](/Treffen/Termine/04_2020/)<strike>|Wurde aufgrund der Corona-Pandemie abgesagt.
-|25. April 2020|<strike>Linux Infotag</strike>|Wurde aufgrund der Corona-Pandemie abgesagt. 
-|6. Mai 2020|[Maitreffen 2020](/Treffen/Termine/05_2020/)|
-|3. Juni 2020|[Junitreffen 2020](/Treffen/Termine/06_2020/)|
+|1. Juli 2020|[Virtuelles Julitreffen 2020](/Treffen/Termine/07_2020/)|
+|5. August 2020|[Virtuelles Augusttreffen 2020](/Treffen/Termine/08_2020/)|
+|2. September 2020|[Virtuelles Septembertreffen 2020](/Treffen/Termine/09_2020/)|

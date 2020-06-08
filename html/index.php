@@ -70,7 +70,9 @@ elseif (substr($ref, 0, 16) == 'Treffen/Termine/')	{
 					$parts[3] = 'Noch kein Vortrag angekündigt';
 				}
 				$text = "## Termin und Ort
-Mittwoch, $parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)
+Mittwoch, $parts[1] per Videokonferenz.<br>
+Die Infos zum [Konferenzraum] (/Treffen/Treffpunkt/) werden zuvor bekannt gegeben.<br>
+<strike>Mittwoch, $parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)</strike>
 
 ## Zeitplan
 |||
