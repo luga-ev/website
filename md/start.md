@@ -1,4 +1,4 @@
-#Willkommen bei der Linux User Group Augsburg (LUGA) e.V.9
+#Willkommen bei der Linux User Group Augsburg (LUGA) e.V.
 
 Die Linux User Group Augsburg bietet Linux-Anwendern und solchen, die es werden wollen, die Möglichkeit, Informationen auszutauschen, Probleme zu erörtern und an gemeinsamen Aktionen teilzunehmen.
 
