@@ -1,2 +1,2 @@
 ## Nächstes Treffen
-Das nächste (virtuelle) [Treffen](/Treffen/Termine/05_2020/) findet voraussichtlich am Mittwoch, 5. August statt.
+Das nächste (virtuelle) [Treffen](/Treffen/Termine/09_2020/) findet am Mittwoch, 2. September statt.
