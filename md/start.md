@@ -21,5 +21,4 @@ ein Headset bzw. ein Kopfhörer und ein Mikrofon. Ein Kamera wäre natürlich vo
 
 |||
 |-|-|
-|2. September 2020|[Virtuelles Septembertreffen 2020](/Treffen/Termine/09_2020/)|
 |7. Oktober 2020|[Virtuelles Oktobertreffen 2020](/Treffen/Termine/10_2020/)|
