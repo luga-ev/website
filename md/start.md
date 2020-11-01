@@ -21,4 +21,7 @@ ein Headset bzw. ein Kopfhörer und ein Mikrofon. Ein Kamera wäre natürlich vo
 
 |||
 |-|-|
-|7. Oktober 2020|[Virtuelles Oktobertreffen 2020](/Treffen/Termine/10_2020/)|
+|4. November 2020|[Virtuelles Novembertreffen 2020](/Treffen/Termine/11_2020/)|
+|2. Dezember 2020|[Virtuelles Dezembertreffen 2020](/Treffen/Termine/12_2020/)|
+|6. Januar 2021|[Virtuelles Januartreffen 2021](/Treffen/Termine/01_2021/)|
+
