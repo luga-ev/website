@@ -1,3 +1,9 @@
+#Wir feiern: Die LUGA wird 25
+Am 4. November 1995 war die Gründungsversammlung, auf der die 
+Linux User Group Augsburg ins Leben gerufen wurde.   
+Alle, die gratulieren wollen, treffen sich am 4. November ab 19:00 Uhr
+in unsererem [Virtuellen Konferenzraum](http://bbb.augusta.de/b/mic-a7j-uvc).
+
 #Willkommen bei der Linux User Group Augsburg (LUGA) e.V.
 
 Die Linux User Group Augsburg bietet Linux-Anwendern und solchen, die es werden wollen, die Möglichkeit, Informationen auszutauschen, Probleme zu erörtern und an gemeinsamen Aktionen teilzunehmen.
