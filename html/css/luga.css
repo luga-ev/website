@@ -369,7 +369,7 @@ td	{
 .lit2016 .subtitle { display: block; font-size: medium; padding-top: 1em; }
 .lit2016 .leader { background-color: #f6f278; padding: 1em; }
 .lit2016 .location { width: 50%; margin-left: auto; margin-right: auto; }
-.lit2016 th, { vertical-align: top; }
+.lit2016 th { vertical-align: top; }
 .lit2016 .program tr { background-color: #eee; }
 .lit2016 .program { background-color: #c7c7c7; }
 .lit2016 :target { background-color: #bbf !important; }

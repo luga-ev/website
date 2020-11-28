@@ -1,9 +1,3 @@
-#Wir feiern: Die LUGA wird 25
-Am 4. November 1995 war die Gründungsversammlung, auf der die 
-Linux User Group Augsburg ins Leben gerufen wurde.   
-Alle, die gratulieren wollen, treffen sich am 4. November ab 19:00 Uhr
-in unsererem [Virtuellen Konferenzraum](http://bbb.augusta.de/b/mic-a7j-uvc).
-
 #Willkommen bei der Linux User Group Augsburg (LUGA) e.V.
 
 Die Linux User Group Augsburg bietet Linux-Anwendern und solchen, die es werden wollen, die Möglichkeit, Informationen auszutauschen, Probleme zu erörtern und an gemeinsamen Aktionen teilzunehmen.
@@ -27,7 +21,7 @@ ein Headset bzw. ein Kopfhörer und ein Mikrofon. Ein Kamera wäre natürlich vo
 
 |||
 |-|-|
-|4. November 2020|[Virtuelles Novembertreffen 2020](/Treffen/Termine/11_2020/)|
 |2. Dezember 2020|[Virtuelles Dezembertreffen 2020](/Treffen/Termine/12_2020/)|
 |6. Januar 2021|[Virtuelles Januartreffen 2021](/Treffen/Termine/01_2021/)|
+|3. Februar 2021|[Virtuelles Februartreffen 2021](/Treffen/Termine/02_2021/)|
 
