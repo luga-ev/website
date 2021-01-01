@@ -21,7 +21,6 @@ ein Headset bzw. ein Kopfhörer und ein Mikrofon. Ein Kamera wäre natürlich vo
 
 |||
 |-|-|
-|2. Dezember 2020|[Virtuelles Dezembertreffen 2020](/Treffen/Termine/12_2020/)|Vortrag: SQLite-Datenbank (Michael Roppel)|
 |6. Januar 2021|[Virtuelles Januartreffen 2021](/Treffen/Termine/01_2021/)|
 |3. Februar 2021|[Virtuelles Februartreffen 2021](/Treffen/Termine/02_2021/)|
-
+|3. März 2021|[Virtuelles Märztreffen 2021](/Treffen/Termine/03_2021/)|
