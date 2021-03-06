@@ -21,6 +21,6 @@ ein Headset bzw. ein Kopfhörer und ein Mikrofon. Ein Kamera wäre natürlich vo
 
 |||
 |-|-|
-|3. März 2021|[Virtuelles Märztreffen 2021](/Treffen/Termine/03_2021/)|
 |7. April 2021|[Virtuelles Apriltreffen 2021](/Treffen/Termine/04_2021/)|
 |5. Mai 2021|[Virtuelles Maitreffen 2021](/Treffen/Termine/05_2021/)|
+|2. Juni 2021|[Virtuelles Junitreffen 2021](/Treffen/Termine/06_2021/)|
