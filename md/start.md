@@ -15,7 +15,7 @@ unsere [Bibliothek](/Angebote/Bibliothek/) und [Mailinglisten](/Angebote/Mailing
 Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 Unsere monatlichen Treffen finden derzeit nur virtuell statt. Benötigt wird dazu ein Webbrowser und 
-ein Headset bzw. ein Kopfhörer und ein Mikrofon. Ein Kamera wäre natürlich von Vorteil.
+ein Headset bzw. ein Kopfhörer und ein Mikrofon. Ein Webcam wäre natürlich von Vorteil.
 
 ## Termine
 
