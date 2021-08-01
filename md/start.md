@@ -21,6 +21,6 @@ ein Headset bzw. ein Kopfhörer und ein Mikrofon. Eine Webcam wäre natürlich v
 
 |||
 |-|-|
-|2. Juni 2021|[Virtuelles Junitreffen 2021](/Treffen/Termine/06_2021/)|
-|7. Juli 2021|[Virtuelles Juliltreffen 2021](/Treffen/Termine/07_2021/)|
 |4. August 2021|[Virtuelles Augusttreffen 2021](/Treffen/Termine/08_2021/)|
+|1. September 2021|[Virtuelles Septembertreffen 2021](/Treffen/Termine/09_2021/)|
+|6. Oktober 2021|[Virtuelles Oktobertreffen 2021](/Treffen/Termine/10_2021/)|
