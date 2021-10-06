@@ -14,8 +14,7 @@ Die aktuelle Satzung des Vereins kann man direkt als [html-Version](Satzung/) le
 Auch ein kurzer Abriss der Vereinsgeschichte und ein [Photoalbum](Album/) ist vorhanden.
 
 ### Webserver
-Unsere Webseiten werden auf einem Debian GNU/Linux-System gehostet. Der Server ist ein HP mit einem Intel Xeon-Dual 
-Core-Prozessor (1,86 GHz), 1 GB RAM und 2 x 80 GB Festplatten, die via Software-RAID gespiegelt werden.
-Das Webhosting ermöglicht uns großzügigerweise unser Sponsor Linogate. Eine Auslastungsstatistik 
-unseres Webservers ist [hier](/Wir_ueber_uns/Status/) erhältlich.
+Unsere Webseiten werden auf einem Debian GNU/Linux-System gehostet. Der Server ist mit einem Intel(R) Xeon(R) CPU E3-1246 (3,50 GHz),
+32 GB RAM sowie 2 x 2 TB Festplatten ausgestattet, die via Software-RAID gespiegelt werden.
+
 
