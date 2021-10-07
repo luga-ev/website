@@ -79,5 +79,5 @@ git push
 
 [gh-webinterface]: https://help.github.com/articles/github-flow-in-the-browser/
 [travisci]: https://travis-ci.com/
-[travisci-img]: https://travis-ci.com/luga-ev/website.svg?branch=master
-[travisci-url]: https://travis-ci.com/luga-ev/website
+[travisci-img]: https://app.travis-ci.com/luga-ev/website.svg?branch=master
+[travisci-url]: https://app.travis-ci.com/github/luga-ev/website
