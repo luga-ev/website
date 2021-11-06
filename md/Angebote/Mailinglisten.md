@@ -10,12 +10,9 @@ Die wichtigsten Mailinglisten der LUGA sind in folgender Tabelle kurz aufgeliste
 
 | Name | Form |	Archiv | Zweck |
 | ---- | ---- |	------ | ----- |
-| [lugalist](https://www.luga.de/mailman/listinfo/lugalist) |	offen |	x |	Liste für alle Linux-Interessenten im Raum Augsburg |
-| [lug-de](https://www.luga.de/mailman/listinfo/lug-de)  | offen |	x |	Erfahrungsaustausch zwischen deutschsprachigen Linux User Groups |
-| [LIT](https://www.luga.de/mailman/listinfo/lit) |	offen |	x |	Organisation der Augsburger Linux-Infotage |
-| [lug-camp](https://www.luga.de/mailman/listinfo/lug-camp) | geschlossen | - | Organisation des LUG-Camps |
-| [lug-camp-announce](https://www.luga.de/mailman/listinfo/lug-camp-announce) | offen | - | Ankündigungen für das LUG-Camp |
-| [intern](https://www.luga.de/mailman/listinfo/intern) | nur für Mitglieder | - | Kommunikation zwischen Mitgliedern und Support für Mitglieder |
+| [lugalist](https://www.luga.de/mailman3/postorius/lists/lugalist.luga.de/) |	offen |	x |	Liste für alle Linux-Interessenten im Raum Augsburg |
+| [LIT](https://www.luga.de/mailman3/postorius/lists/lit.luga.de/) |	offen |	x |	Organisation der Augsburger Linux-Infotage |
+| intern | nur für Mitglieder | - | Kommunikation zwischen Mitgliedern und Support für Mitglieder |
 
 ###Anmeldung
 In die offenen, d.h. auch für Nichtmitglieder verfügbaren, Mailinglisten der LUGA kann sich jeder eintragen. Dazu ist einfach oben auf den Listennamen zu klicken und das dann erscheinende Formular auszufüllen. 
