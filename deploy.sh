@@ -22,9 +22,7 @@ function primitive_remote_shell {
 echo "* Installing and configuring Apache..." >&2
 
 { which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php7.4.load" ] && [ -e "/etc/php/7.4/mods-available/mbstring.ini" ]; } || \
-    # sudo apt-get install apache2 libapache2-mod-php php7.4-mbstring
-#     sudo apt-get install php7.4-mbstring
-sudo a2dismod mpm_event
+    sudo apt-get install apache2 libapache2-mod-php php7.4-mbstring
 [ -e "/etc/apache2/mods-enabled/php7.4.load"  ] || sudo a2enmod php7.4
 [ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
