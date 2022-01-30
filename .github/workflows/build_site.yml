@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_site:
+    name: Build LUGA site
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git config --global user.email "iblech@web.de"
+      - run: git config --global user.name "Ingo Blechschmidt (via Travis)"
+      - run: git config --global push.default simple
+      - run: mkdir -m 700 -p $HOME/.ssh
+      - run: echo "$SSH_DEPLOY_KEY" | base64 -d > $HOME/.ssh/id_rsa
+      - run: chmod 600 $HOME/.ssh/id_rsa
+      - run: echo "|1|QUKQi0hqb2IQIg53Hztk2sa8Ae4=|dWGPqBKSkj8OA3c2+RhP3otk4hs= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" >> $HOME/.ssh/known_hosts
+      - run: echo "|1|HWtB6v5G3xm6GVUAbUN/B7hphM8=|1Mpu47AyndKZ9YAsFMF2T26cSQo= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" >> $HOME/.ssh/known_hosts
+      - run: sudo apt-get -qq update
+      - run: sudo apt-get install apache2 libapache2-mod-php
+      - run: ./deploy.sh git@github.com:luga-ev/website.git
