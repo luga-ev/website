@@ -24,5 +24,6 @@ jobs:
       - run: sudo apt-get -qq update
       - run: sudo apt-get -qq dist-upgrade
       - run: sudo apt remove php7.4-common
-      - run: sudo apt-get install libapache2-mod-php7.4
+      - run: sudo apt-get install libapache2-mod-php7.4 php7.4-mbstring
+      - run: sudo a2enmod rewrite
       - run: ./deploy.sh git@github.com:luga-ev/website.git
