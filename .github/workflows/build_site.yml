@@ -7,10 +7,12 @@ jobs:
   build_site:
     name: Build LUGA site
     runs-on: ubuntu-latest
+    env:
+      SSH_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
     steps:
       - uses: actions/checkout@v2
       - run: git config --global user.email "iblech@web.de"
-      - run: git config --global user.name "Ingo Blechschmidt (via Travis)"
+      - run: git config --global user.name "Ingo Blechschmidt (via GitHub Actions)"
       - run: git config --global push.default simple
       - run: mkdir -m 700 -p $HOME/.ssh
       - run: echo "$SSH_DEPLOY_KEY" | base64 -d > $HOME/.ssh/id_rsa
