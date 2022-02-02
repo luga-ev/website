@@ -21,9 +21,9 @@ function primitive_remote_shell {
 ###############################################################################
 echo "* Installing and configuring Apache..." >&2
 
-{ which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php7.0.load" ] && [ -e "/etc/php/7.0/mods-available/mbstring.ini" ]; } || \
-    sudo apt-get install apache2 libapache2-mod-php php7.0-mbstring
-[ -e "/etc/apache2/mods-enabled/php7.0.load"  ] || sudo a2enmod php7.0
+{ which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php7.4.load" ] && [ -e "/etc/php/7.4/mods-available/mbstring.ini" ]; } || \
+    sudo apt-get install apache2 libapache2-mod-php php7.4-mbstring
+[ -e "/etc/apache2/mods-enabled/php7.4.load"  ] || sudo a2enmod php7.4
 [ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
 sudo tee /etc/apache2/sites-enabled/luga-dummy.conf >/dev/null <<EOF
@@ -105,6 +105,7 @@ if [ ! -e luga-dummy/index.html -o ! -e luga-dummy/Treffen/Termine/06_2016 ]; th
     curl -v http://luga-dummy/ >&2 || true
     curl -v http://luga-dummy/Treffen/Termine/06_2016 >&2 || true
     curl -v http://luga-dummy/Treffen/Termine/06_2016/ >&2 || true
+    find /var/log -name 'error.log' | xargs cat
     exit 1
 fi
 
