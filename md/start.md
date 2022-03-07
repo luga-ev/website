@@ -21,6 +21,6 @@ ein Headset bzw. ein Kopfhörer und ein Mikrofon. Eine Webcam wäre natürlich v
 
 |||
 |-|-|
-|2. März 2022|[Virtuelles Märztreffen 2022](/Treffen/Termine/03_2022/)|
 |6. April 2022|[Virtuelles Apriltreffen 2022](/Treffen/Termine/04_2022/)|
-|4. Mai 2022|[Virtuelles Maitreffen 2022](/Treffen/Termine/05_2022/)
+|4. Mai 2022|[Virtuelles Maitreffen 2022](/Treffen/Termine/05_2022/)|
+|1. Juni 2022|[Virtuelles Junitreffen 2022](/Treffen/Termine/06_2022/)|
