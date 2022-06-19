@@ -69,9 +69,20 @@ elseif (substr($ref, 0, 16) == 'Treffen/Termine/')	{
 				if (!isset($parts[3]) or empty(trim($parts[3])))	{
 					$parts[3] = 'Noch kein Vortrag angekündigt';
 				}
-				$text = "## Termin und Ort
+/*				$text = "## Termin und Ort
 Mittwoch, $parts[1] per Videokonferenz unter [http://bbb.augusta.de/b/mic-a7j-uvc](http://bbb.augusta.de/b/mic-a7j-uvc)<br>
 <strike>Mittwoch, $parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)</strike>
+
+## Zeitplan
+|||
+|-|-|
+|__19:00 Uhr__|Beginn|
+|__20:00 Uhr__|$parts[3]|
+|__anschließend__|Gemütliches Beisammensein und Informationsaustausch|";
+ *
+ */
+				$text = "## Termin und Ort
+Mittwoch, $parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)
 
 ## Zeitplan
 |||
