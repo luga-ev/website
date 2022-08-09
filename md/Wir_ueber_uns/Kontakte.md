@@ -18,7 +18,7 @@ Registernummer: VR 2092
 | Martin Vill (1. Vorsitzender)<br>Zollhausstraße 14<br>86405 Meitingen<br>E-Mail: vill at luga.de | Karsten Nordsiek (2. Vorsitzender)<br>Immelmannstraße 5<br>86159 Augsburg<br>E-Mail: nordsiek at luga.de
   
 **Weitere Vorstandsmitglieder**  
-Klaus Jahn (Kassenführer)
+Klaus Jahn (Kassenführer)  
 Matthias Göbel (Schriftführer) 
 
 **Beisitzer**  
