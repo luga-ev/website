@@ -19,7 +19,7 @@ Registernummer: VR 2092
   
 **Weitere Vorstandsmitglieder**  
 Michael Roppel (Kassenführer)  
-Heidi Jovanovic (Schriftführerin) 
+Matthias Göbel (Schriftführer) 
 
 **Beisitzer**  
 Dr. Jörg Lehmann  
