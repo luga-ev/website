@@ -1,4 +1,3 @@
-
 ## Treffen der Linux User Group Augsburg
 
 Die monatlichen Treffen sind ein Hauptbestandteil des Vereinslebens. 

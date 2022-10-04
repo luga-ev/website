@@ -29,7 +29,6 @@ Ort: Gubener Str. 11e, 86156 Augsburg
 
 |||
 |-|-|
-|27. August 2022|Grillfest im Bombig in der Grubener Straße 11 um 18:00 Uhr.|
-|7. September 2022|[Septembertreffen 2022](/Treffen/Termine/09_2022/)|
 |5. Oktober 2022|[Oktobertreffen 2022](/Treffen/Termine/10_2022/)|
 |2. November 2022|[Novembertreffen 2022](/Treffen/Termine/11_2022/)|
+|7. Dezember 2022|[Dezembertreffen 2022](/Treffen/Termine/12_2022/)|
