@@ -82,7 +82,7 @@ Mittwoch, $parts[1] per Videokonferenz unter [http://bbb.augusta.de/b/mic-a7j-uv
  *
  */
 				$text = "## Termin und Ort
-Mittwoch, $parts[1] im [OpenLab Augsburg](/Treffen/Treffpunkt/)
+Mittwoch, $parts[1] bei [Tuxedo Computers GmbH](/Treffen/Treffpunkt/)
 
 ## Zeitplan
 |||
