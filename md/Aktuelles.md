@@ -1,13 +1,8 @@
-## Neuer Treffpunkt
-
-Unsere Monatstreffen finden in Zukunft statt in den Räumen der  
-TUXEDO Computers GmbH  
-Alter Postweg 101  
-
-Weiteres siehe unter [Treffpunkt](/Treffen/Treffpunkt/).
-
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/11_2022/) findet am Mittwoch, 2. November statt.
+Das nächste [Treffen](/Treffen/Termine/12_2022/) findet am Mittwoch, 7. Dezember statt.
+Traditionell begehen wir dieses Treffen wieder mit Glühwein/Punsch und Keksen.
+Wir würden uns freuen wenn der ein oder andere Kekse oder Lebkuchen mitbringen würde.
+Den Glühwein stellen wir von der LUGA zur Verfügung.
 
 ## Organisation Linux Infotag 2023
 Bei Unserem Dezembertreffen am Mittwoch, 7. Dezember treffen wir uns ab 19:00 Uhr,
@@ -25,5 +20,10 @@ Im Detail gibt es folgende Aufgaben:
 * Koordiantor(in) für die Standvergabe
 * Koordinator(in) für ein Rahmenprogram
 
+## Neuer Treffpunkt
 
+Unsere Monatstreffen finden in den Räumen der  
+TUXEDO Computers GmbH  
+Alter Postweg 101  
 
+Weiteres siehe unter [Treffpunkt](/Treffen/Treffpunkt/).
