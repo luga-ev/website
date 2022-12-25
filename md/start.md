@@ -18,6 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|7. Dezember 2022|[Dezembertreffen 2022](/Treffen/Termine/12_2022/) mit Nikolausfeier|[Organisation LIT 2023](/Aktuelles/)|
 |4. Januar 2023|[Januartreffen 2023](/Treffen/Termine/01_2023/)|
 |1. Februar 2023|[Februartreffen 2023](/Treffen/Termine/02_2023/)|
+|1. März 2023|[Märztreffen 2023](/Treffen/Termine/03_2023/)|
