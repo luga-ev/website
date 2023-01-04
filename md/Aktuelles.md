@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/12_2022/) findet am Mittwoch, 4. Januar statt.
+Das nächste [Treffen](/Treffen/Termine/02_2023/) findet am Mittwoch, 1. Februar statt.
 
 ## Neuer Treffpunkt
 

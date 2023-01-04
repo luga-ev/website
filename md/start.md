@@ -18,7 +18,7 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|4. Januar 2023|[Januartreffen 2023](/Treffen/Termine/01_2023/)|
 |1. Februar 2023|[Februartreffen 2023](/Treffen/Termine/02_2023/)|
 |1. März 2023|[Märztreffen 2023](/Treffen/Termine/03_2023/)|
+|5. April 2023|[Apriltreffen 2023](/Treffen/Termine/04_2023/)|
 |29. April 2023|[19. Augsburger Linux-Infotag](/Aktionen/LIT-2023/)|
