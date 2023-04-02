@@ -77,6 +77,25 @@ git push
 # ./deploy.sh git@github.com:luga-ev/website.git
 ```
 
+## Webseite für den Linux-Infotag
+
+Die Webseite für den Linux-Infotag ist seit dem LIT 2023 eine eigene,
+unabhängige statische Webseite. Eine eigene Webseite erlaubt es das Programm,
+die Vorträge und Stände besser auf mehrere Seiten zu verteilen und besser
+darzustellen.
+
+Der Quellcode für die LIT Webseite (ab LIT-2023) ist in separaten Repositories
+([LIT-2023](https://www.luga.de/static/LIT-2023/)). In diesen Repos finden sich
+auch Infos wie die Webseiten gebaut und angepasst werden können. Die
+generierte, statische Webseite wird dann in den Ordner `static/html` kopiert,
+die Webseite ist dann verfügbar unter z.B.
+[www.luga.de/static/LIT-2023/](https://www.luga.de/static/LIT-2023/).
+
+Zusätzlich sollte noch ein Redirect von
+[www.luga.de/Aktionen/LIT-2023/](https://www.luga.de/Aktionen/LIT-2023/) auf
+die eigentliche Seite gesetzt werden. Das dient dazu das bisherige Link-Schema
+nicht zu brechen. Zum Einrichten des Redirects bitte joergl fragen.
+
 [gh-webinterface]: https://help.github.com/articles/github-flow-in-the-browser/
 [travisci]: https://travis-ci.com/
 [travisci-img]: https://app.travis-ci.com/luga-ev/website.svg?branch=master
