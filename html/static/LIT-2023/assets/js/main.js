@@ -22,7 +22,7 @@
 // Conference
 window.conference = {
     config: {
-        baseurl: '/static/LIT-2023/'
+        baseurl: '/static/LIT-2023'
     },
 
     ready: false,

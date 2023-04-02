@@ -1,0 +1,529 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.luga.de//
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-lit-2023-GLSMLC@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T094500
+DTEND;TZID=Europe/Berlin:20230429T103000
+DESCRIPTION:Linux und Open Source ist nicht nur Software sondern ein Schrit
+ t in die Unabhängigkeit.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum A
+SUMMARY:Nachhaltigkeit und Barrierefreiheit mit Linux und Open Source - Pro
+ f. Dipl.-Ing. Klaus Knopper
+URL:https://pretalx.luga.de/lit-2023/talk/GLSMLC/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-YGVMTB@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T104500
+DTEND;TZID=Europe/Berlin:20230429T113000
+DESCRIPTION:Das Betriebssystem GNU/Linux hat eine faszinierende Entstehungs
+ geschichte. Diese stellen wir Ihnen hier vor.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum A
+SUMMARY:Was ist GNU/Linux? Ein Überblick für Einsteiger - Frank Hofmann\,
+  Thomas Winde
+URL:https://pretalx.luga.de/lit-2023/talk/YGVMTB/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-W8KM9B@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T104500
+DTEND;TZID=Europe/Berlin:20230429T113000
+DESCRIPTION:Mit dem ParaNut-Prozessor stellt die Hochschule Augsburg eine f
+ reie\, skalierbare und RISC-V-kompatible Prozessor-Architektur für FPGA-b
+ asierte Systeme bereit. Der Vortrag beschreibt grundlegende Aspekte der Ha
+ rdware-Entwicklung der freien Prozessorarchitektur\, eingesetzte Werkzeuge
+ \, sowie Anforderungen an die Hardware für die Linux-Unterstützung.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum D
+SUMMARY:Linux auf dem ParaNut/RISC-V-Prozessor\, Open-Source-Hardware triff
+ t auf Open-Source-Software - Felix Wagner
+URL:https://pretalx.luga.de/lit-2023/talk/W8KM9B/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-PDRZSH@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T104500
+DTEND;TZID=Europe/Berlin:20230429T123000
+DESCRIPTION:Wir machen gemeinsam einen Ausflug in Minetest: die kostenlose 
+ Alternative für Minecraft! Wie installiere ich Minetest\, wie nutze ich e
+ s und natürlich gemeinsame Spiele!
+DTSTAMP:20230402T155454Z
+LOCATION:Raum F
+SUMMARY:KidsLab: MineTest - das kostenlose\, OpenSource-Minecraft! Für Kid
+ s ab 8 Jahren.... - Gregor Walter
+URL:https://pretalx.luga.de/lit-2023/talk/PDRZSH/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-ACJVYL@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T104500
+DTEND;TZID=Europe/Berlin:20230429T113000
+DESCRIPTION:Einführung in die Benutzung des pandas-Pakets
+DTSTAMP:20230402T155454Z
+LOCATION:Raum B
+SUMMARY:Datenanalyse mit Python - Gert-Ludwig Ingold
+URL:https://pretalx.luga.de/lit-2023/talk/ACJVYL/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-AYMLV8@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T104500
+DTEND;TZID=Europe/Berlin:20230429T113000
+DESCRIPTION:Heutzutage gibt es viele Möglichkeitenen seinen eigenen Mailse
+ rver selbst zu hosten (Mailcow\, Mail-in-a-Box\, ...).\nWas passiert nachd
+ em der Mailserver eingerichtet ist\, welche Probleme haben Mailserveradmin
+ istratorInnen zu erwarten?\n\nEin Überblick über den Betrieb von Mailser
+ vern in 2023 und dem Versuch Emails zuverlässig auszuliefern.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum C
+SUMMARY:Mailserver selbst betreiben. Ist urcool\, funktioniert aber nicht. 
+ - Kim Klotz
+URL:https://pretalx.luga.de/lit-2023/talk/AYMLV8/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-JNWPRF@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T104500
+DTEND;TZID=Europe/Berlin:20230429T123000
+DESCRIPTION:In diesem Workshop werden wir das OpenZFS Dateisystem und seine
+ n integrierten Volume-Manager näher kennenlernen. Durch praktische Beispi
+ ele\, die die Teilnehmer direkt am eigenen Gerät umsetzen können\, lerne
+ n wir die Fähigkeiten dieses frei verfügbaren Storage-Systems kennen. In
+ halte sind u.a.:\n- Pools und Datasets anlegen\n- Transparente Kompression
+  von Daten\n- Snapshots und Klone\n- Quotas und Reservierungen\n- Senden u
+ nd Empfangen ganzer Dateisysteme (lokal und über das Netzwerk) \n\nDer Wo
+ rkshop ist für Neueinsteiger geeignet\, die vorher noch nie mit ZFS gearb
+ eitet haben\, aber gerne mehr über Storage-Verwaltung wissen möchten (eg
+ al ob privat oder beruflich). OpenZFS ist für diverse Open Source Distrib
+ utionen verfügbar.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum E
+SUMMARY:OpenZFS: Storage-Management für Einsteiger - Benedict Reuschling
+URL:https://pretalx.luga.de/lit-2023/talk/JNWPRF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-ZSMQFF@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T114500
+DTEND;TZID=Europe/Berlin:20230429T123000
+DESCRIPTION:Es müssen nicht immer Bash und coreutils sein. Wir zeigen Tool
+ s und moderne Alternativen\, die euer Leben auf dem Terminal verbessern.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum D
+SUMMARY:Pimp My Shell - Andreas Vöst
+URL:https://pretalx.luga.de/lit-2023/talk/ZSMQFF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-K3ZARG@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T114500
+DTEND;TZID=Europe/Berlin:20230429T123000
+DESCRIPTION:ADRIANE ist ein einfach zu benutzendes\, sprechendes Desktop-Sy
+ stem mit optionaler Braille-Unterstützung\, das auch völlig ohne visuell
+ e Ausgabegeräte auskommt. Es erleichtert insbesondere den Zugang zu den S
+ tandard-Internetdiensten E-Mail und Surfen im World Wide Web\, das Einscan
+ nen und Vorlesen lassen von gedruckten Dokumenten und vieles mehr.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum A
+SUMMARY:ADRIANE - Prof. Dipl.-Ing. Klaus Knopper
+URL:https://pretalx.luga.de/lit-2023/talk/K3ZARG/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-LNRA8G@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T114500
+DTEND;TZID=Europe/Berlin:20230429T123000
+DESCRIPTION:Aus dem Wunsch heraus\, in Schule und Fortbildung bewusst nicht
+  nur das installierte (proprietäre) Betriebssystem verwenden zu müssen\,
+  entstand die "Debian GNU/Linux LiveBox"\, ein Live-System\, das weitgehen
+ d niederschwellig und risikolos in eine bestehende PXE Infrastruktur einge
+ bunden werden kann. \nDer Vortrag stellt die Installation einer "Debian GN
+ U/Linux LiveBox" mittels Ansible und die Einbindung über einen zusätzlic
+ hen Eintrag in ein bestehendes PXE-Boot-Menü zur Auswahl der Live-Systeme
+  vor. Diese können anschließend über das Netzwerk ohne weiteren Eingrif
+ f in die bestehende Infrastruktur gebootet werden\, das lokal installierte
+  System bleibt davon unberührt. \nAuf die Erstellung eines maßgeschneide
+ rten Live-Systems\, eine Anmeldung mit bestehenden Benutzerkonten und die 
+ Einbindung einer persistenten Datenablage wird ebenfalls eingegangen.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum C
+SUMMARY:Debian Live Netboot on Top! - Andreas B. Mundt
+URL:https://pretalx.luga.de/lit-2023/talk/LNRA8G/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-X9GQ8U@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T114500
+DTEND;TZID=Europe/Berlin:20230429T123000
+DESCRIPTION:Der OpenBikeSensor wird am Fahrrad angebracht und misst den Sei
+ tenabstand vorbeifahrender Fahrzeuge. Die Ergebnisse stehen als Open Data 
+ der Forschung und Verkehrsplanung zur Verfügung. \nDer Vortrag bietet ein
+ en Überblick über die Funktionsweise und geht auf die Hardware- und Soft
+ ware-Komponenten des OpenBikeSensor ein. Außerdem wird gezeigt\, wie sich
+  die aufgezeichneten Daten auswerten lassen.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum B
+SUMMARY:OpenBikeSensor - Überholabstandsmessung für Radfahrende - Michael
+  Liebert
+URL:https://pretalx.luga.de/lit-2023/talk/X9GQ8U/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-SGFXXY@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T131500
+DTEND;TZID=Europe/Berlin:20230429T140000
+DESCRIPTION:Mit Beginn des ersten Corona-Lockdowns Anfang 2020 waren Schule
+ n schlagartig mit der Problematik konfrontiert\, Unterricht auf Distanz zu
+  gestalten. Aus dem Engagement Einzelner entstand in kürzester Zeit eine 
+ bislang als für nicht machbar gehaltene Infrastruktur tausender Moodle- u
+ nd BigBlueButton-Instanzen. Häufig mit schuleigenen Nextcloud-Servern erg
+ änzt\, zeigte diese Infrastruktur ihre Tauglichkeit in Pandemiezeiten unt
+ er hoher Last – ein Szenario\, das bis zu diesem Zeitpunkt ausschließli
+ ch proprietären und rechtlich bedenklichen Hyperscalern zugetraut wurde.\
+ n\nDer Vortrag blickt kurz auf diese bewegte und intensive Zeit zurück\, 
+ beschreibt das Projekt sowohl von seiner politischen als auch der technisc
+ hen Seite und zeichnet die Idee konkret weiter in die Zukunft. Welche weit
+ eren zentralen Dienste wären sinnvoll\, um Bildung/Schulen zu einer nachh
+ altigen und datenschutzrechtlich sauberen Kultur der Digitalität zu befä
+ higen? Welches Mindset ist Voraussetzung? Wie könnten Betreibermodelle au
+ ssehen? Wäre ein Full-FLOSS-Stack denkbar?
+DTSTAMP:20230402T155454Z
+LOCATION:Raum A
+SUMMARY:Bildungssysteme nachhaltig digitalisieren - Andreas B. Mundt\, Andr
+ eas Grupp\, Frank Schiebel
+URL:https://pretalx.luga.de/lit-2023/talk/SGFXXY/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-G9TWJP@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T131500
+DTEND;TZID=Europe/Berlin:20230429T140000
+DESCRIPTION:Wir konfigurieren die freie VPN-Lösung Wireguard für den Haus
+ gebrauch derart\, dass auch ungeübte Nutzer damit arbeiten können\, ohne
+  zu stolpern\, sei es am Windows/Linux Rechner oder am Handy.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum B
+SUMMARY:VPN mit Wireguard für den Hausgebrauch - Oliver Rath
+URL:https://pretalx.luga.de/lit-2023/talk/G9TWJP/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-EK3E3B@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T131500
+DTEND;TZID=Europe/Berlin:20230429T150000
+DESCRIPTION:Im April 2018 habe ich auf dem Linux Infotag die LoRa Funktechn
+ ik und das TheThingsNetwork vorgestellt (https://hhoegl.informatik.hs-augs
+ burg.de/doc/lora-lit18.pdf).  Der aktuelle Vortrag geht nun darauf ein was
+  seither auf dem Gebiet und der Augsburger TheThingsNetwork Community pass
+ iert ist.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum F
+SUMMARY:LoRa und TheThingsNetwork - Erfahrungen aus den letzten fünf Jahre
+ n - Hubert Högl
+URL:https://pretalx.luga.de/lit-2023/talk/EK3E3B/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-HPHDTA@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T131500
+DTEND;TZID=Europe/Berlin:20230429T140000
+DESCRIPTION:Immer mehr Projekte benutzen die Microservices Architektur\, um
+  skalierbare und performante Systeme zu implementieren. Warum? Und welche 
+ Techniken kann man benutzen um selber eine solche Architektur zu entwickel
+ n?\n\nIn diesem Vortrag "Einführung in Microservices\, (Anti-)Patterns un
+ d Techniken" werden wir diese und weitere Fragen beantworten. Wir werden d
+ ie Vorteile der Microservice-Architektur im Vergleich zu monolithischen Ar
+ chitekturen erläutern und diskutieren\, warum sie in vielen Projekten bev
+ orzugt wird.\n\nDarüber hinaus werden wir verschiedene Techniken vorstell
+ en\, die bei der Implementierung von Microservices hilfreich sind. Wir wer
+ den uns damit befassen\, wie man Microservices entwirft\, entwickelt\, imp
+ lementiert und verwaltet\, um skalierbare\, robuste und flexible Systeme z
+ u schaffen. Wir werden auch auf die Herausforderungen eingehen\, die bei d
+ er Umsetzung von Microservices auftreten können\, und einige (Anti-)Patte
+ rns diskutieren\, die es zu vermeiden gilt.\n\nMein Ziel ist es\, Ihnen ei
+ nen umfassenden Überblick über die Microservice-Architektur zu geben und
+  Ihnen praktische Tipps und Best Practices zu vermitteln.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum D
+SUMMARY:Einführung in Microservices\, (Anti-)Patterns und Techniken - Finn
+  Rayk Gärtner
+URL:https://pretalx.luga.de/lit-2023/talk/HPHDTA/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-BRHKAJ@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T131500
+DTEND;TZID=Europe/Berlin:20230429T140000
+DESCRIPTION:Linux-Assistant hat das Ziel\, Linux-Anwender bei der tägliche
+ n Arbeit und bei administrativen Aufgaben zu unterstützen - Langfristig a
+ uf den meisten Linux-Distributionen und Desktops. \n\nNeben einer schnelle
+ n Alltags-Suche durch die eigenen Browser-Lesezeichen\, Anwendungen sowie 
+ häufig verwendeten Dateien und Ordnern wird der Nutzer in der einfachen A
+ dministration unterstützt. Diese fängt bei der einfachen Einrichtung von
+  Systemwiederherstellungspunkten an und endet bei Sicherheitsüberprüfung
+ en am eigenen Desktop-Rechner.\n\nDas Open Source Projekt ist in Flutter m
+ it Python-Elementen geschrieben.\nIm Vortrag stelle ich die Philosophie un
+ d die Funktionsweise des Programms vor. Im Anschluss zeige ich es live im 
+ Einsatz.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum C
+SUMMARY:Linux-Assistant - Ein Begleiter für den Alltag auf Linux - Jean-Fr
+ édéric Vogelbacher (Linux Guides)
+URL:https://pretalx.luga.de/lit-2023/talk/BRHKAJ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-TRKWT9@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T131500
+DTEND;TZID=Europe/Berlin:20230429T150000
+DESCRIPTION:In der „Hackfahrschule“ werden klassische Angriffe auf Webs
+ eiten demonstriert.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum E
+SUMMARY:Hackfahrschule: Praktische Einführung in Web-Security - Georg
+URL:https://pretalx.luga.de/lit-2023/talk/TRKWT9/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-TQYNQK@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T141500
+DTEND;TZID=Europe/Berlin:20230429T150000
+DESCRIPTION:You like coding and tinkering with software or hardware? And yo
+ u are up for a challenge? Then the “Youth Hacking 4 Freedom” is the pe
+ rfect competition to test your skills. The Free Software Foundation Europe
+  (FSFE) organises this annual hacking contest for young people in Europe. 
+  Learn and hear all about the past experience form participants and find o
+ ut how to apply for the next round.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum A
+SUMMARY:Youth Hacking 4 Freedom - Hacking competition for teenagers from Eu
+ rope - Bonnie Mehring
+URL:https://pretalx.luga.de/lit-2023/talk/TQYNQK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-MCCYZP@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T141500
+DTEND;TZID=Europe/Berlin:20230429T150000
+DESCRIPTION:grob:\n\n- was ist foss?\n   - free as in freedom\, not beer\n 
+   - man muss auch selbst mit anpacken\n   - wie verdient man sein Geld dam
+ it\, etwas zu verschenken\n   - Philosophie\n   - Lizenzen die die freihei
+ t beschützen\n\n- wo findet man Linux in freier Wildbahn? \n   - embedded
+  Linux und kindle?\n   - eink?\n   - ist Android Linux?\n\n- Vorteile von 
+ FOSS\n   - Datenschutz? tracking? Dezentralisierung und Mastodon? \n   - d
+ er charme von "selbst gemacht"\n   - customization \n\n- wie kann ich bei 
+ FOSS mitmachen?
+DTSTAMP:20230402T155454Z
+LOCATION:Raum C
+SUMMARY:Ein bisschen was von allem FOSS - Crissi
+URL:https://pretalx.luga.de/lit-2023/talk/MCCYZP/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-3B3UBF@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T141500
+DTEND;TZID=Europe/Berlin:20230429T150000
+DESCRIPTION:Co-Working Spaces sind Bürogemeinschaften mit flexibler räuml
+ icher und zeitlicher Nutzung. Nicht jeder davon ist für IT-Spezialisten g
+ eeignet. Dieser Beitrag zieht ein Resumee nach mehr als 10 Jahren als Betr
+ eiber\, Ausstatter und Benutzer und hilft bei der Entscheidungsfindung zur
+  richtigen Auswahl als Arbeitsplatz.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum D
+SUMMARY:Co-Working Spaces. Flexible Büroarbeitspätze aus IT-Sicht beleuch
+ tet - Frank Hofmann
+URL:https://pretalx.luga.de/lit-2023/talk/3B3UBF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-LGQRH3@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T141500
+DTEND;TZID=Europe/Berlin:20230429T150000
+DESCRIPTION:Auch heute sehen viele Entwickler Kubernetes als eine Platform 
+ um Ihre Webanwendungen als Service bereitzustellen. Aber mit Kubernetes ka
+ nn man auch ganz andere Workloads betreiben: Datenbanken\, regelmäßig la
+ ufende Jobs oder auch CI Jobs lassen sich\, auf ihre spezifischen Bedürfn
+ isse angepasst\, optimal betreiben. Am Beispiel von CI Jobs\, Webapps und 
+ Datenbanken schauen wir uns die Konfigurationsmöglichkeiten an.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum B
+SUMMARY:Unterschiedliche Arten von Workloads mit Kubernetes betreiben - Cla
+ us-Theodor Riegg
+URL:https://pretalx.luga.de/lit-2023/talk/LGQRH3/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-RDDXYY@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T151500
+DTEND;TZID=Europe/Berlin:20230429T160000
+DESCRIPTION:In Zeiten von Smart TV\, IoT\, Heimautomatisierung\, Smartmeter
+  und vielen weiteren technischen Komponenten im Heimnetzwerk kommt dem Mon
+ itoring der Netzwerksicherheit auch im privaten Umfeld eine größere Bede
+ utung zu. Durch das Monitoring des Netzwerkverkehrs können ungewollte Ver
+ bindungen oder potentielle Sicherheitslücken der Komponenten aufgedeckt w
+ erden.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum B
+SUMMARY:Netzwerk Security Monitoring im Heimnetzwerk mit der freien SELKS D
+ istribution - Andreas Herz
+URL:https://pretalx.luga.de/lit-2023/talk/RDDXYY/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-NNU8CC@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T151500
+DTEND;TZID=Europe/Berlin:20230429T170000
+DESCRIPTION:Photoshop ist in aller Munde\, aber es gibt sehr mächtige\, ko
+ stenfreie Alternativen\, z.B. darktable.\n\nIn dem Workshop gehe ich auf e
+ in paar wichtige Module bei der Bearbeitung ein und versuche\, meine Erfah
+ rungen weiterzugeben.:\n * Die Kunst des Entrauschens\n * Weißabgleich od
+ er Farbkalibrierung?\n * Warum sieht mein Bild "flach" aus? Farbkurven und
+  Kontraste\n * Die trickreichen Standardeinstellungen\, oft übersehen und
+  die Wurzel allen Übels\n\nBringt am besten einen Laptop (möglichst leis
+ tungsstark\, mind. 4 Kerne 16 GB RAM und am besten dedizierte GPU) und Bil
+ der mit\, an denen Ihr probieren wollt!
+DTSTAMP:20230402T155454Z
+LOCATION:Raum F
+SUMMARY:RAW Bildbearbeitung mit Darktable - Alexander Kulow
+URL:https://pretalx.luga.de/lit-2023/talk/NNU8CC/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-8JLZFJ@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T151500
+DTEND;TZID=Europe/Berlin:20230429T160000
+DESCRIPTION:Sonnenstrom und E-Autos sind das Dreamteam der Energie- und Mob
+ ilitätswende. Das eigene Auto mit selbst produziertem PV-Strom laden ist 
+ in der Praxis aber nicht immer einfach und erfordert meist spezielle Wallb
+ oxen oder proprietäre und teure Regelsoftware. Mit evcc ändern wir das u
+ nd haben eine flexible Open Source Ladelösung für zu Hause erschaffen.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum A
+SUMMARY:Open Source Sonne tanken - Wallboxen mit evcc smarter machen - Mich
+ ael Geers
+URL:https://pretalx.luga.de/lit-2023/talk/8JLZFJ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-9LWWBQ@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T151500
+DTEND;TZID=Europe/Berlin:20230429T160000
+DESCRIPTION:Nicht nur E.T. möchte nach Hause telefonieren!\nDank hohen Ban
+ dbreiten und günstiger Hardware kann jedermann Dienste zuhause betreiben.
+  Home Assistant\, Paperless-ngx oder Nextcloud sind prominent Beispiele.\n
+ \nWas aber wenn man unterwegs auf die Daten zugreifen muss? Wie verbindet 
+ man sich mit der heimischen IT? Und dann auch noch sicher?\n\nDer Vortrag 
+ geht zuerst auf die Probleme beim Zugriff aus der Ferne ein\, und stellt d
+ anach verschiedene VPN Lösungen vor.\n\nZielpublikum sind Anfänger\, die
+  erste Schritte in dem Bereich gehen möchten.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum C
+SUMMARY:VPN (Virtual Private Network) Lösungen für Privatpersonen - Joel 
+ Hatsch
+URL:https://pretalx.luga.de/lit-2023/talk/9LWWBQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-XCGUEB@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T151500
+DTEND;TZID=Europe/Berlin:20230429T160000
+DESCRIPTION:FIM (https://www.nongnu.org/fbi-improved/) ist ein universelles
+  Bildbetrachter für Linux.\n\nEs gibt verschiede Aspekte\, die es univers
+ ell machen.\nErstens: Es läuft auf jedem Rechner mit Linux als Betriebssy
+ stem.\nEgal\, ob alt oder neu\, mit oder ohne den X11 als graphischem Serv
+ er.\nFIM kann außerdem ohne Grafikkarte laufen -- dann würde es farbige 
+ Buchstaben nutzen (ASCII-Art).\n\nDas zweite Aspekt ist die breite Palette
+  an Features.\nDa FIM ein echtes Linux-/Unix- Werkzeug ist\, verkörpert e
+ s dessen Kultur von Interoperabilität\, die Vielfalt an Befehlszeilen-Opt
+ ionen\, und Dokumentation jedes Aspektes\, inklusive das Schaffen angepass
+ ter Kommandos.\n\nIch habe FIM entwickelt\, um es für meine Bedürfnisse 
+ nützen zu können: es ist ein Freizeit-Projekt.\nMittlerweile nutzen viel
+ e Menschen FIM\, insbesonder diejenigen\, die sich mit Minimalismus befass
+ en\, z.B. Enthusiasten\, die sehr kleine Linux-Installationen auf Raspberr
+ y-Pi Computer betreiben.\n\nObwohl FIM ein programmierbares Bildbetrachter
+  ist\, ist dieser Aspekt hier nicht zentral.\nStattdessen\, werden wir uns
+  darauf konzentrieren\, wie ein Linux-Neuling die mächtigen Funktionen vo
+ n FIM nutzen kann.\nEin Leitfaden der Präsentation ist es\, wiederkehrend
+ e\, wesentliche Aspekten von Linux mit der Nutzung von FIM einzuführen.\n
+ \nFolgendes ist wichtig zu erwähnen: FIM ist Open Source\, und existiert 
+ als fortgeschrittene Weiterentwicklung eines existierenden Programms\, nä
+ mlich FBI (Framebuffer Image Viewer)\, dessen Name angespielt wird ("Fbi I
+ mproved" oder "Bessertes Fbi").
+DTSTAMP:20230402T155454Z
+LOCATION:Raum D
+SUMMARY:FIM: ein Bildbetrachter für Linux-enthusiasten\, den Neulingen erk
+ lärt - Michele Martone
+URL:https://pretalx.luga.de/lit-2023/talk/XCGUEB/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-W3MDY9@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T151500
+DTEND;TZID=Europe/Berlin:20230429T170000
+DESCRIPTION:Beim Cryptocafé dreht sich alles um den Schutz privater Daten 
+ im Internet: Von sicherem Surfen am PC oder Smartphone über alternative A
+ pps und Anwendungen bis hin zu geschützten Passwörtern. Teilnehmende erh
+ alten spannende Informationen und Tipps rund um das Thema Datenschutz im I
+ nternet.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum E
+SUMMARY:Cryptocafé - digitale Selbstverteidigung für Einsteigerinnen und 
+ Einsteiger - Chris
+URL:https://pretalx.luga.de/lit-2023/talk/W3MDY9/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-GYZSE9@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T161500
+DTEND;TZID=Europe/Berlin:20230429T170000
+DESCRIPTION:Vorstellung eines gemeinnützigen Projekts aus Frankreich: Eine
+  auf Recycling ausgelegte Distribution hilft einerseits Menschen mit wenig
+  Geld in Frankreich\, legte aber auch eine bemerkenswerte Karriere in Nord
+ afrika hin\, um Menschen an der Informationsrevolution teilhaben zu lassen
+ . Vorstellung der Distribution\, eines Installationssystems und einer eben
+ falls bemerkenswerten Software-Infrastruktur aus freier Software\, die in 
+ Deutschland weitgehend unbemerkt in Frankreich entstanden ist.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum A
+SUMMARY:Emmabuntus - eine Distribution zeigt\, wie Opensource und Freie Sof
+ tware Menschen in Europa und Afrika hilft - Dieter Thalmayr
+URL:https://pretalx.luga.de/lit-2023/talk/GYZSE9/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-DQE3DV@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T161500
+DTEND;TZID=Europe/Berlin:20230429T170000
+DESCRIPTION:Ein Teil des Entwicklungszyklus eines Software-Produktes entfä
+ llt auf das Testen. Das kann manuell erfolgen oder automatisiert. Der Vort
+ rag zeigt\, wie mit dem Framework openQA die hohe Qualität von Linux-Soft
+ ware gesichert wird.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum B
+SUMMARY:Automatisiertes Testen von Software - Rainer König
+URL:https://pretalx.luga.de/lit-2023/talk/DQE3DV/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-3RRQCT@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T161500
+DTEND;TZID=Europe/Berlin:20230429T170000
+DESCRIPTION:Einführung in die Vorteile von BTRFS und warum der Einsatz von
+  BTRFS auch auf dem Desktop\, \ndem 'kleinen' Fileserver zu Hause bis hin 
+ zum Rechenzentrum sinnvoll ist.
+DTSTAMP:20230402T155454Z
+LOCATION:Raum C
+SUMMARY:Warum sollten wir BTRFS verwenden? - Richard Albrecht
+URL:https://pretalx.luga.de/lit-2023/talk/3RRQCT/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-lit-2023-VFMAC8@pretalx.luga.de
+DTSTART;TZID=Europe/Berlin:20230429T161500
+DTEND;TZID=Europe/Berlin:20230429T170000
+DESCRIPTION:Ereignisse auch Straftaten werden auch in der digitalen \nWelt 
+ anhand von Spuren  aufgeklärt. Wie solche Spuren enteckt und zu \nverwert
+ baren Beweisen werden \, welcher Mittel sich Digitalforensiker \nbemächti
+ gen  und was wir so an digitalen Spuren alles hinterlassen\, \ndas uns ggf
+ . eines Tages "entlarvt" möchte dieser Vortrag mit Hilfe \nvon Praxisbeis
+ pielen erläutern .\nGelöscht ist noch lange nicht für immer gelöscht.\
+ nDer Vortragende ist Linux Sysadmin und interessiert sich neben \nIT-Secur
+ ity \, KI und Kryptografie auf für Methoden zur \nSpurenermittlung und Si
+ cherung .
+DTSTAMP:20230402T155454Z
+LOCATION:Raum D
+SUMMARY:"Früher oder später erwisch ich euch alle!" Einführung in die di
+ gitale FORENSIK - Ulrich KLEEMANN
+URL:https://pretalx.luga.de/lit-2023/talk/VFMAC8/
+END:VEVENT
+END:VCALENDAR
