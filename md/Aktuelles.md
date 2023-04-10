@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/04_2023/) findet am Mittwoch, 5. April statt.
+Das nächste [Treffen](/Treffen/Termine/05_2023/) findet am Mittwoch, 3. Mai statt.
 
 ## Neuer Treffpunkt
 
