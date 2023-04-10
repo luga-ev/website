@@ -172,3 +172,4 @@ Redirect permanent /Angebote/Vortraege/X2GO_LIT_2015/X2GO_LIT_2015.pdf https://w
 Redirect permanent /Angebote/Vortraege/YubiKey_LIT_2015/YubiKey_LIT_2015.pdf https://www.luga.de/download/YubiKey_LIT_2015.pdf
 Redirect permanent /Angebote/Vortraege/Zope/Zope.pdf https://www.luga.de/download/Zope.pdf
 Redirect permanent /Wir_ueber_uns/Mitgliedschaft/beitritt.pdf https://www.luga.de/download/beitritt.pdf
+Redirect permanent /Aktionen/LIT-2023 https://www.luga.de/static/LIT-2023/

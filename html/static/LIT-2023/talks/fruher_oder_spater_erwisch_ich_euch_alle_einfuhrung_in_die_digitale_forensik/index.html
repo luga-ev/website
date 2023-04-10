@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>"Früher oder später erwisch ich euch alle!" Einführung in die digitale FORENSIK - Augsburger Linux-Infotag 2023</title>
+  <meta name="description" content="Vortrag von Ulrich KLEEMANN at Augsburger Linux-Infotag 2023" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="'Früher oder später erwisch ich euch alle!' Einführung in die digitale FORENSIK" />
+  <meta name="twitter:description" content="Vortrag von Ulrich KLEEMANN at Augsburger Linux-Infotag 2023" />
+
+  <meta property="og:site_name" content="Augsburger Linux-Infotag 2023" />
+  <meta property="og:url" content="https://www.luga.de/static/LIT-2023/talks/fruher_oder_spater_erwisch_ich_euch_alle_einfuhrung_in_die_digitale_forensik/" />
+  <meta property="og:title" content="'Früher oder später erwisch ich euch alle!' Einführung in die digitale FORENSIK" />
+  <meta property="og:description" content="Vortrag von Ulrich KLEEMANN at Augsburger Linux-Infotag 2023" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="/static/LIT-2023/assets/css/main.css?t=1680548741" />
+
+  
+
+  <link rel="preload" as="font" href="/static/LIT-2023/assets/webfonts/fa-regular-400.woff2" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="/static/LIT-2023/assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous" />
+</head>
+
+<body class="pb-4" >
+  <header>
+    <!-- navigation bar (web only): --><nav class="navbar navbar-expand-md navbar-light mb-3" style="background-color: #fee715;">
+  <div class="container">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="/static/LIT-2023/" title="Übersicht">
+                Übersicht
+              </a>
+            </li>
+            <li class="nav-item "><a class="nav-link" href="/static/LIT-2023/program/" title="Programm">
+                Programm
+              </a>
+            </li>
+            <li class="nav-item active"><a class="nav-link" href="/static/LIT-2023/talks/" title="Vorträge">
+                Vorträge
+              </a>
+            </li>
+            <li class="nav-item "><a class="nav-link" href="/static/LIT-2023/stands/" title="Stände">
+                Stände
+              </a>
+            </li>
+            <li class="nav-item "><a class="nav-link" href="/static/LIT-2023/location/" title="Ort">
+                Ort
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Vergangene Infotage
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown5">
+                  <a class="disabled dropdown-item" href="#">
+                    2023 (aktuell)
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2019/" title="2019">
+                    2019
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2018/" title="2018">
+                    2018
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2017/" title="2017">
+                    2017
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2016/" title="2016">
+                    2016
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2015/" title="2015">
+                    2015
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2014/" title="2014">
+                    2014
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2013/" title="2013">
+                    2013
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2012/" title="2012">
+                    2012
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2011/" title="2011">
+                    2011
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2010/" title="2010">
+                    2010
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2009/" title="2009">
+                    2009
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2008/" title="2008">
+                    2008
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2007/" title="2007">
+                    2007
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2006/" title="2006">
+                    2006
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2005/" title="2005">
+                    2005
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2004/" title="2004">
+                    2004
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT-2003/" title="2003">
+                    2003
+                  </a>
+                  <a class="dropdown-item" href="https://www.luga.de/Aktionen/LIT/" title="2002">
+                    2002
+                  </a>
+              </div>
+            </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<!-- site title (print only): -->
+      <div class="container d-none d-print-block mt-4 mb-4">
+        <h1 class="display-4">
+          Augsburger Linux-Infotag 2023
+        </h1>
+      </div></header>
+
+  <main class="container"><div class="jumbotron bg-white shadow-lg">
+  <div class="d-flex flex-lg-row flex-column container-fluid mb-2 p-0">
+    <div class="h6 mt-2 mb-0 mr-1 pr-1 pb-1">
+      
+      <span class="p-1 pl-2 pr-2 border-soft-lit_orange bg-soft-lit_orange font-weight-normal">
+        Privatsphäre und Sicherheit
+      </span>
+    </div>
+
+    
+      <div class="h6 mt-2 mb-0 ml-1 pr-1 pb-1">
+        
+          
+        
+          
+            <span class="mr-2">Talk</span>
+          
+        
+      </div>
+    
+  </div>
+
+  <h1 class="font-weight-light">"Früher oder später erwisch ich euch alle!" Einführung in die digitale FORENSIK</h1>
+
+  <p class="mb-3 font-weight-light">
+    <a class="text-reset" href="/static/LIT-2023/speakers/ulrich_kleemann/">Ulrich KLEEMANN</a>
+  </p>
+
+  <div class="mb-3 p-0">
+    
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        <span class="d-none d-sm-inline">um</span> <a href="/static/LIT-2023/program" class="badge badge-light font-weight-normal text-left ">
+  <i class="far fa-clock"></i>&nbsp;16:15</a><span class="d-none d-sm-inline ml-1">im Raum</span> <span class="badge badge-light font-weight-normal text-left"><i class="far fa-square"></i>&nbsp;Raum D</span><span class="d-none d-sm-inline ml-1">für</span> <span class="badge badge-light font-weight-normal text-left">
+  <i class="fas fa-stopwatch"></i>&nbsp;45min
+</span>
+
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+    
+  </div>
+
+  <p><img src="/static/LIT-2023/assets/images/pt_logo_0025.jpg" alt="image" class="img-responsive" /></p>
+
+<p class="lead">Ereignisse auch Straftaten werden auch in der digitalen 
+Welt anhand von Spuren  aufgeklärt. Wie solche Spuren enteckt und zu 
+verwertbaren Beweisen werden , welcher Mittel sich Digitalforensiker 
+bemächtigen  und was wir so an digitalen Spuren alles hinterlassen, 
+das uns ggf. eines Tages “entlarvt” möchte dieser Vortrag mit Hilfe 
+von Praxisbeispielen erläutern .
+Gelöscht ist noch lange nicht für immer gelöscht.
+Der Vortragende ist Linux Sysadmin und interessiert sich neben 
+IT-Security , KI und Kryptografie auf für Methoden zur 
+Spurenermittlung und Sicherung .</p>
+
+<p>Einführung in die digitale Forensik</p>
+
+<p>Vorwort:
+Wie in der realen so hinterlassen wir auch in der digitalen Welt beusst oder unbewusst jede Menge Spuren anhand derer wir und unser handeln identifiziert werden kann. Wie der klassische Spurensucher nach Abdrücken, Fasern, Blutspuren u.ä. sucht so sucht der Digitalforensiker nach<br />
+Timestamps, Logfiles und Metadaten. Aus diesen Spuren versucht er gerichtsverwertbare Beweise  zu generieren.</p>
+
+<p>Kam es zu einem Cyberangriff gilt es umgehend zu handeln, denn genau wie bei “analogen”  gilt auch bei digitalen Spuren: “Je frischer je besser!”</p>
+
+<p>Agenda:
+Alles beginnt mit einer Spur
+Analysieren einer Festplatte
+Suche nach Spuren
+Image first!, Smartmontools second!,dd third!, fsck &amp; ntfsfix fourth!
+Das S.A.P. Prinzip
+Computer Forensik &amp; forensische Datenanalyse
+Hacker, Cracker, Waffenschieber, Pädophile und Terroristen 
+Beweise &amp; Beweismittel
+Der Verantwortliche im Sinne von Artikel 4 Nr. 7 DSGVO
+Forensiker mehr als Tastaturhelden?
+Antiforensik was Kriminelle versuchen um Spuren zu verwischen
+Gelöscht  heisst nicht  nicht mehr vorhanden! Der SLACK Space
+Daten wiederherstellen mit AUTOSPY
+Mobilfunk Forensik Analysieren von Smartphones Auslesen vermeintlich gelöschter Daten</p>
+
+<p>Der Vortrag versucht mit Hilfe von Bildern den Prozess zu illustieren , es wird jedoch keine Praktische Vorführung geben . Zur Veanschaulichung werden einige kurze Videos gezeigt.
+Hirzu wäre ein Audio-Setup (3,5 mm Klinke , Lautsprecher ggf Eingang ins Mischpult o.ä. hilfreich)</p>
+
+<p>Quellenverzeichnis:</p>
+
+<p>https://www.conet.de/blog/was-ist-digitale-forensik/
+https://www.ontrack.com/de-de/it-forensik
+https://www.get-in-it.de/magazin/arbeitswelt/it-berufe/was-macht-ein-it-forensiker
+https://www.itsec.techfak.fau.de/files/2019/07/Einfuehrung_Digitale_Forensik_Leseprobe.pdf
+https://www.computerweekly.com/de/definition/Computer-Forensik-IT-Forensik
+https://de.wikipedia.org/wiki/IT-Forensik
+https://www.bsi.bund.de/DE/Themen/Oeffentliche-Verwaltung/Sicherheitspruefungen/IT-Forensik/forensik_node.html
+https://www.mit-sicherheit-anders.de/IT/it-forensiker/
+https://www.syss.de/leistungen/digitale-forensik
+https://www.sva.de/de/solutions/it-security/digitale-forensik
+https://computer-forensik.org/
+https://www.uni-saarland.de/lehrstuhl/brodowski/digitale-forensik.html
+https://master-digitale-forensik.de/
+https://vkldata.com/Write-Blocker-Adapter
+https://tuprints.ulb.tu-darmstadt.de/2848/4/2012_03_15_CyLawReport_XXXV_Bauer_Version2_exit.pdf
+https://epub.uni-regensburg.de/35027/1/Dissertation_Veroeffentlichung_Stefan_Meier_A5_digital.pdf
+https://dfrws.org/</p>
+
+
+  
+
+  
+
+  
+
+  <p class="d-print-none mt-5">
+    <a href="/static/LIT-2023/talks" class="btn btn-light">
+      <i class="fas fa-bullhorn"></i>&nbsp;Übersicht
+    </a>
+
+    <a href="/static/LIT-2023/program" class="btn btn-light">
+      <i class="far fa-calendar-alt"></i>&nbsp;Programm
+    </a>
+  </p>
+</div>
+  </main>
+  <footer class="container"></footer><div class="modal fade" id="link-modal" tabindex="-1" role="dialog" aria-labelledby="link-modal-label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="link-modal-label">
+          <h3 class="mb-2 font-weight-light"></h3>
+          <h5 class="mb-0 font-weight-light"></h5>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer justify-content-start">
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Append build time to avoid caching of live program embedded in JavaScript file -->
+  <script src="/static/LIT-2023/assets/js/main.js?t=1680548741"></script>
+
+</body>
+</html>
