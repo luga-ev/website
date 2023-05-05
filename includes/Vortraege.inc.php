@@ -107,7 +107,6 @@ $bis = $n -1 ;
 $reiter .= "<div class=\"reiter\" id=\"reiter$tbody\" onclick=\"showTab($tbody)\">$von&ndash;$bis</div>\n";
 $qreiter .= "<div class=\"reiter\" id=\"qreiter$tbody\" onclick=\"showTab($tbody)\">$von&ndash;$bis</div>\n";
 $code .= "</tbody>\n</table>\n";
-fclose($fh);
 
 $code = "<h2>Vorträge</h2>
 <p>Ein wichtiger Bestandteil der LUGA e.V. Aktivitäten ist die Weitergabe von Linux-Kenntnissen
