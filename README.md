@@ -80,9 +80,9 @@ git push
 ## Webseite für den Linux-Infotag
 
 Die Webseite für den Linux-Infotag ist seit dem LIT 2023 eine eigene,
-unabhängige statische Webseite. Eine eigene Webseite erlaubt es das Programm,
-die Vorträge und Stände besser auf mehrere Seiten zu verteilen und besser
-darzustellen.
+unabhängige statische Webseite. Eine eigene Webseite erlaubt es das
+Veranstaltungsprogramm, die Vorträge und Stände besser auf mehrere Seiten zu
+verteilen und besser darzustellen.
 
 Der Quellcode für die LIT Webseite (ab LIT-2023) ist in separaten Repositories
 ([LIT-2023](https://www.luga.de/static/LIT-2023/)). In diesen Repos finden sich
