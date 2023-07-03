@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/06_2023/) findet am Mittwoch, 7. Juni statt.
+Das nächste [Treffen](/Treffen/Termine/07_2023/) findet am Mittwoch, 5. Juli statt.
 
 ## Grillfeier 
 Nachdem unsere Grillfeier zum 25-jährigen Jubiläum der LUGA pandemiebedingt 
