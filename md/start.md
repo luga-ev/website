@@ -18,7 +18,9 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|5. Juli 2023|[Julitreffen 2023](/Treffen/Termine/07_2023/)|
 |22. Juli 2023|[Grillfeier (25+ Jahre LUGA)](/Aktuelles/)|
 |2. August 2023|[Augusttreffen 2023](/Treffen/Termine/08_2023/)|
 |6. September 2023|[Septembertreffen 2023](/Treffen/Termine/09_2023/)|
+|4. Oktober 2023|[Oktobertreffen 2023](/Treffen/Termine/10_2023/)|
+|1. November 2023|[Novembertreffen 2023](/Treffen/Termine/11_2023/)|
+|6. Dezember 2023|[Dezembertreffen 2023](/Treffen/Termine/12_2023/)|
