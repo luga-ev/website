@@ -18,7 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|2. August 2023|[Augusttreffen 2023](/Treffen/Termine/08_2023/)|
 |6. September 2023|[Septembertreffen 2023](/Treffen/Termine/09_2023/)|
 |4. Oktober 2023|[Oktobertreffen 2023](/Treffen/Termine/10_2023/)|
 |1. November 2023|[Novembertreffen 2023](/Treffen/Termine/11_2023/)|

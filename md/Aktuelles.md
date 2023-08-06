@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/08_2023/) findet am Mittwoch, 2. August statt.
+Das nächste [Treffen](/Treffen/Termine/09_2023/) findet am Mittwoch, 6. September statt.
 
 ## Unser Treffpunkt
 
