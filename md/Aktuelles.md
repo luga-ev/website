@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/09_2023/) findet am Mittwoch, 6. September statt.
+Wegen des Feiertags findet das nächste [Treffen](/Treffen/Termine/11_2023/) erst am Mittwoch, 8. November statt.
 
 ## Unser Treffpunkt
 
