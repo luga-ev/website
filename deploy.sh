@@ -51,7 +51,7 @@ grep luga-dummy /etc/hosts >/dev/null || \
 sudo service apache2 restart
 # "restart" statt "reload" wegen der Modulaktivierung oben
 
-zcat /var/log/apache2/*
+cat /var/log/apache2/*
 
 # Damit Apache auf $root/html zugreifen kann
 if [ "$TRAVIS" = "true" ]; then
