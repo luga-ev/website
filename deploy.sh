@@ -24,7 +24,7 @@ echo "* Installing and configuring Apache..." >&2
 
 #{ which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php7.4.load" ] && [ -e "/etc/php/7.4/mods-available/mbstring.ini" ]; } || \
 #    sudo apt-get install apache2 libapache2-mod-php php7.4-mbstring
-[ -e "/etc/apache2/mods-enabled/php8.0.load"  ] || sudo a2enmod php8.0
+[ -e "/etc/apache2/mods-enabled/php8.1.load"  ] || sudo a2enmod php8.1
 [ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
 sudo tee /etc/apache2/sites-enabled/luga-dummy.conf >/dev/null <<EOF
