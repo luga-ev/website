@@ -26,8 +26,6 @@ echo "* Installing and configuring Apache..." >&2
 [ -e "/etc/apache2/mods-enabled/php8.1.load"  ] || sudo a2enmod php8.1
 [ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
-ls /etc/apache2/mods-enabled/
-
 sudo tee /etc/apache2/sites-enabled/luga-dummy.conf >/dev/null <<EOF
 # Diese Datei wurde durch deploy.sh automatisch generiert.
 # Eigene Änderungen gehen beim nächsten Aufruf verloren!
@@ -52,6 +50,8 @@ grep luga-dummy /etc/hosts >/dev/null || \
 
 sudo service apache2 restart
 # "restart" statt "reload" wegen der Modulaktivierung oben
+
+zcat /var/log/apache2/*
 
 # Damit Apache auf $root/html zugreifen kann
 if [ "$TRAVIS" = "true" ]; then
