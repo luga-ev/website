@@ -1,5 +1,7 @@
 ## Nächstes Treffen
-Wegen des Feiertags findet das nächste [Treffen](/Treffen/Termine/11_2023/) erst am Mittwoch, 8. November statt.
+Das nächste [Treffen](/Treffen/Termine/09_2023/) findet am Mittwoch, 6. Dezember statt.
+Wie jedes Jahr begehen wir unser Dezembertreffen mit Glühwein, Punsch und Plätzchen, wozu wir noch 
+freigiebige Spender suchen.
 
 ## Unser Treffpunkt
 
