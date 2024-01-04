@@ -18,6 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|3. Januar 2024|[Januartreffen 2024](/Treffen/Termine/01_2024/)|
 |7. Februar 2024|[Februartreffen 2024](/Treffen/Termine/02_2024/)|
 |6. März 2024|[Märztreffen 2024](/Treffen/Termine/03_2024/)|
+|3. April 2024|[Apriltreffen 2024](/Treffen/Termine/04_2024/)|
