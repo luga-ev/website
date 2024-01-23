@@ -4,7 +4,6 @@ Hier findet sich eine kurze Zusammenfassung der von der Linux User Group Augsbur
 In der Vergangenheit hat die Linux User Group Augsburg e.V. immer wieder größere Veranstaltungen maßgeblich mitgestaltet. Die entsprechenden Informationen sind hier gesammelt.
  
 ### Augsburger Linux-Infotage:
-* <a href="https://www.luga.de/static/LIT-2024">20. Augsburger Linux-Infotag (20. April 2024)</a>
 * <a href="https://www.luga.de/static/LIT-2023">19. Augsburger Linux-Infotag (29. April 2023)</a>
 * <a href="LIT-2020/">19. Augsburger Linux-Infotag (25. April 2020, abgesagt)</a>
 * <a href="LIT-2019/">18. Augsburger Linux-Infotag (6. April 2019)</a>
