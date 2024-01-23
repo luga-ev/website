@@ -96,6 +96,7 @@ mkdir -p luga-dummy/static
 cp -a "$root/html/static/LIT-2018" luga-dummy/static/
 cp -a "$root/html/static/LIT-2019" luga-dummy/static/
 cp -a "$root/html/static/LIT-2023" luga-dummy/static/
+cp -a "$root/html/static/LIT-2024" luga-dummy/static/
 
 # wget holt natürlich nicht Ressourcen, die nur von JavaScript aus referenziert
 # werden. Daher ist eine manuelle Kopie der JavaScript-Gallerien nötig.
