@@ -1,5 +1,13 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/02_2024/) findet am Mittwoch, 7. Februar statt.
+Das nächste [Treffen](/Treffen/Termine/03_2024/) findet am Mittwoch, 6. März statt.
+
+## Augsburger Linux-Infotag
+Der diesjährige [Linux-Infotag](https://www.luga.de/static/LIT-2024/) findet am 20. April in der 
+Technischen Hochschule Augsburg, Fakultät für Informatik, Friedbergerstr. 2 statt.
+
+## LUGCamp in Wipperfürth
+Die Linux User Group (WupLUG) e.V. veranstaltet diese Jahr an Christi Himmelfahrt
+(9. Mai 2024) wieder ein LUGCamp. [Weitere Infos und Anmeldung.](https://lugcamp.wuplug.org/)
 
 ## Unser Treffpunkt
 

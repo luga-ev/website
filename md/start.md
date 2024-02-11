@@ -18,7 +18,8 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|7. Februar 2024|[Februartreffen 2024](/Treffen/Termine/02_2024/)|
 |6. März 2024|[Märztreffen 2024](/Treffen/Termine/03_2024/)|
 |3. April 2024|[Apriltreffen 2024](/Treffen/Termine/04_2024/)|
 |20. April 2024|[Augsburger Linux-Infotag 2024](https://www.luga.de/static/LIT-2024/)|
+|8. Mai 2024|[Maitreffen 2024](/Treffen/Termine/05_2024/)|
+|9. - 12. Mai 2024|[LUGCamp 2024](https://lugcamp.wuplug.org/) veranstaltet von der WupLUG.|
