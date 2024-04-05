@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/04_2024/) findet am Mittwoch, 3. April statt.
+Das nächste [Treffen](/Treffen/Termine/05_2024/) findet am Mittwoch, 8. Mai statt.
 
 ## Augsburger Linux-Infotag
 Der diesjährige [Linux-Infotag](https://www.luga.de/static/LIT-2024/) findet am 20. April in der 
