@@ -6,7 +6,7 @@ Martin Vill
 Zollhausstraße 14
 86405 Meitingen  
 E-Mail: info at luga.de
-**Die Treffen finden nicht in Meitingen statt, sondern in <a href="/Treffen/Treffpunkt/">in den Räumen der TUXEDO Computers GmbH</a>.**
+**Die Treffen finden nicht in Meitingen statt, sondern in <a href="/Treffen/Treffpunkt/">den Räumen der TUXEDO Computers GmbH</a>.**
 
 Registergericht: Amtsgericht Augsburg  
 Registernummer: VR 2092
