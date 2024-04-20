@@ -1,0 +1,180 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_KBD_LAYOUT": "GERMAN" }
+    ],
+    "theme":{
+        "file": "/ventoy/reemploi/theme.txt",
+        "ventoy_color": "white"
+    },
+    "menu_class":[
+        {
+            "key": "clonezilla",
+            "class": "reemploi"
+        },
+        {
+            "key": "emmabuntus",
+            "class": "emmabuntus"
+        },
+        {
+            "key": "debian-facile",
+            "class": "df"
+        },
+        {
+            "key": "debian",
+            "class": "debian"
+        },
+        {
+            "key": "linuxmint",
+            "class": "linuxmint"
+        },
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "manjaro",
+            "class": "manjaro"
+        },
+        {
+            "key": "MX",
+            "class": "mx"
+        }
+    ],
+    "auto_install":[
+        {
+            "image": "/debian-12.5.0-amd64-DVD-1.iso",
+            "template":[
+                "/ventoy/script/preseed_lxqt.cfg",
+                "/ventoy/script/preseed_xfce.cfg",
+                "/ventoy/script/preseed_xfce_lvm.cfg",
+                "/ventoy/script/preseed_lxqt_lvm.cfg",
+                "/ventoy/script/preseed_lxqt_nvme.cfg",
+                "/ventoy/script/preseed_xfce_nvme.cfg"
+            ]
+        }
+    ],
+    "conf_replace_legacy":[
+        {
+            "iso": "/clonezilla-live-*.*.*-*-amd64.iso",
+            "org": "/syslinux/isolinux.cfg",
+            "new": "/ventoy/ventoy_reemploi_isolinux.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-amd64.iso",
+            "org": "/syslinux/ocswp.png",
+            "new": "/ventoy/fond_ecran_reemploi.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-i686-pae.iso",
+            "org": "/syslinux/isolinux.cfg",
+            "new": "/ventoy/ventoy_reemploi_isolinux.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-i686-pae.iso",
+            "org": "/syslinux/ocswp.png",
+            "new": "/ventoy/fond_ecran_reemploi.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-i686.iso",
+            "org": "/syslinux/isolinux.cfg",
+            "new": "/ventoy/ventoy_reemploi_isolinux.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-i686.iso",
+            "org": "/syslinux/ocswp.png",
+            "new": "/ventoy/fond_ecran_reemploi.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-amd64.iso",
+            "org": "/syslinux/isolinux.cfg",
+            "new": "/ventoy/ventoy_reemploi_isolinux.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-amd64.iso",
+            "org": "/syslinux/ocswp.png",
+            "new": "/ventoy/fond_ecran_reemploi.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-i686-pae.iso",
+            "org": "/syslinux/isolinux.cfg",
+            "new": "/ventoy/ventoy_reemploi_isolinux.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-i686-pae.iso",
+            "org": "/syslinux/ocswp.png",
+            "new": "/ventoy/fond_ecran_reemploi.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-i686.iso",
+            "org": "/syslinux/isolinux.cfg",
+            "new": "/ventoy/ventoy_reemploi_isolinux.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-i686.iso",
+            "org": "/syslinux/ocswp.png",
+            "new": "/ventoy/fond_ecran_reemploi.png"
+        }
+    ],
+    "conf_replace_uefi":[
+        {
+            "iso": "/clonezilla-live-*.*.*-*-amd64.iso",
+            "org": "/boot/grub/grub.cfg",
+            "new": "/ventoy/ventoy_reemploi_grub.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-amd64.iso",
+            "org": "/boot/grub/ocswp-grub2.png",
+            "new": "/ventoy/fond_ecran_reemploi_800.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-i686-pae.iso",
+            "org": "/boot/grub/grub.cfg",
+            "new": "/ventoy/ventoy_reemploi_grub.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-i686-pae.iso",
+            "org": "/boot/grub/ocswp-grub2.png",
+            "new": "/ventoy/fond_ecran_reemploi_800.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-i686.iso",
+            "org": "/boot/grub/grub.cfg",
+            "new": "/ventoy/ventoy_reemploi_grub.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-*-i686.iso",
+            "org": "/boot/grub/ocswp-grub2.png",
+            "new": "/ventoy/fond_ecran_reemploi_800.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-amd64.iso",
+            "org": "/boot/grub/grub.cfg",
+            "new": "/ventoy/ventoy_reemploi_grub.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-amd64.iso",
+            "org": "/boot/grub/ocswp-grub2.png",
+            "new": "/ventoy/fond_ecran_reemploi_800.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-i686-pae.iso",
+            "org": "/boot/grub/grub.cfg",
+            "new": "/ventoy/ventoy_reemploi_grub.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-i686-pae.iso",
+            "org": "/boot/grub/ocswp-grub2.png",
+            "new": "/ventoy/fond_ecran_reemploi_800.png"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-i686.iso",
+            "org": "/boot/grub/grub.cfg",
+            "new": "/ventoy/ventoy_reemploi_grub.cfg"
+        },
+        {
+            "iso": "/clonezilla-live-*.*.*-**-i686.iso",
+            "org": "/boot/grub/ocswp-grub2.png",
+            "new": "/ventoy/fond_ecran_reemploi_800.png"
+        }
+    ]
+}
