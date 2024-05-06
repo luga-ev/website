@@ -25,6 +25,7 @@ jobs:
  #    - run: sudo apt-get -qq dist-upgrade
  #     - run: sudo apt remove php7.4-common
  #     - run: sudo apt-get install libapache2-mod-php7.4 php7.4-mbstring
+      - run: sudo apt-get update
       - run: sudo apt-get install libapache2-mod-php php-mbstring
       - run: sudo a2enmod rewrite
       - run: sudo systemctl restart apache2
