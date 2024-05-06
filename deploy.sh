@@ -22,7 +22,7 @@ function primitive_remote_shell {
 echo "* Installing and configuring Apache..." >&2
 
 
-{ which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php8.1.load" ] && [ -e "/etc/php/8.1/mods-available/mbstring.ini" ]; } || sudo apt-get install apache2 libapache2-mod-php php8.1-mbstring
+{ which apache2 >/dev/null && [ -e "/etc/apache2/mods-available/php8.1.load" ] && [ -e "/etc/php/8.1/mods-available/mbstring.ini" ]; } || sudo apt-get update && sudo apt-get install apache2 libapache2-mod-php php8.1-mbstring
 [ -e "/etc/apache2/mods-enabled/php8.1.load"  ] || sudo a2enmod php8.1
 [ -e "/etc/apache2/mods-enabled/rewrite.load" ] || sudo a2enmod rewrite
 
