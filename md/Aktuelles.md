@@ -1,9 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/05_2024/) findet am Mittwoch, 8. Mai statt.
-
-## LUGCamp in Wipperfürth
-Die Linux User Group (WupLUG) e.V. veranstaltet diese Jahr an Christi Himmelfahrt
-(9. Mai 2024) wieder ein LUGCamp. [Weitere Infos und Anmeldung.](https://lugcamp.wuplug.org/)
+Das nächste [Treffen](/Treffen/Termine/06_2024/) findet am Mittwoch, 5. Juni statt.
 
 ## Unser Treffpunkt
 
