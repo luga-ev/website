@@ -18,6 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|5. Juni 2024|[Junitreffen 2024](/Treffen/Termine/06_2024/)|
+|5. Juni 2024|[Junitreffen 2024](/Treffen/Termine/06_2024/)|Vortrag: StreetComplete, die OpenStreetMap-App|
 |3. Juli 2024|[Julitreffen 2024](/Treffen/Termine/07_2024/)|
 |7. August 2024|[Augusttreffen 2024](/Treffen/Termine/08_2024/)|
