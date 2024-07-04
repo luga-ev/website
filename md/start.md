@@ -20,4 +20,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 |-|-|
 |3. Juli 2024|[Julitreffen 2024](/Treffen/Termine/07_2024/)|Bericht über die letzte Mitgliederversammlung
 |7. August 2024|[Augusttreffen 2024](/Treffen/Termine/08_2024/)|
+|10. August 2024|Grillfest der LUGA im Doggenclub|
 |4. September 2024|[Septembertreffen 2024](/Treffen/Termine/09_2024/)|
+|26. April 2025|21. Augsburger Linux-Infotag|
