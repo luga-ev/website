@@ -23,7 +23,7 @@ Matthias Göbel (Schriftführer)
 
 **Beisitzer**  
 Dr. Jörg Lehmann  
-Michael Rieß
+Michael Rieß  
 Karsten Nordsiek
 
 Inhaltlich Verantwortlicher gemäß § 6 MDStV: Dr. Jörg Lehmann
