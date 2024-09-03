@@ -18,10 +18,8 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|3. Juli 2024|[Julitreffen 2024](/Treffen/Termine/07_2024/)|Bericht über die letzte Mitgliederversammlung
-|7. August 2024|[Augusttreffen 2024](/Treffen/Termine/08_2024/)|System-Backups für Anfänger mit Timeshift|
-|10. August 2024|Grillfest der LUGA im Doggenclub|
-|4. September 2024|[Septembertreffen 2024](/Treffen/Termine/09_2024/)|
+|4. September 2024|[Septembertreffen 2024](/Treffen/Termine/09_2024/)|Ein paar Programme zum Fotografieren und ElectroTech, einem Opensource-Programm zur Erstellung von elektrischen Schaltplänen|
 |2. Oktober 2024|[Oktobertreffen 2024](/Treffen/Termine/10_2024/)|
+|6. November 2024|[Novembertreffen 2024](/Treffen/Termine/11_2024/)|
 |26. April 2025|21. Augsburger Linux-Infotag|
 
