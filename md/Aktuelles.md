@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/11_2024/) findet am Mittwoch, 6. November statt.  
+Das nächste [Treffen](/Treffen/Termine/12_2024/) findet am Mittwoch, 6. Dezember statt.  
 
 
 ## Unser Treffpunkt

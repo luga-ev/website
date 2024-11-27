@@ -18,8 +18,8 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|6. November 2024|[Novembertreffen 2024](/Treffen/Termine/11_2024/)|
 |4. Dezember 2024|[Dezembertreffen 2024](/Treffen/Termine/12_2024/)|
 |8. Januar 2025|[Januartreffen 2025](/Treffen/Termine/01_2025/)|
+|5. Februar 2025|[Februartreffen 2025](/Treffen/Termine/02_2025/)|
 |26. April 2025|21. Augsburger Linux-Infotag|
 
