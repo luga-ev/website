@@ -174,3 +174,4 @@ Redirect permanent /Angebote/Vortraege/Zope/Zope.pdf https://www.luga.de/downloa
 Redirect permanent /Wir_ueber_uns/Mitgliedschaft/beitritt.pdf https://www.luga.de/download/beitritt.pdf
 Redirect permanent /Aktionen/LIT-2023 https://www.luga.de/static/LIT-2023/
 Redirect permanent /Aktionen/LIT-2024 https://www.luga.de/static/LIT-2024/
+Redirect permanent /Aktionen/LIT-2025 https://www.luga.de/static/LIT-2025/
