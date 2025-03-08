@@ -14,24 +14,11 @@ unsere [Bibliothek](/Angebote/Bibliothek/) und [Mailinglisten](/Angebote/Mailing
 
 Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
-###Vortrag am 05.März von Karl-Heinz Lohner:
-
-**Thema "LoRaWAN - Ein Praxisbeispiel"**
-
-Inbetriebnahme von Gateway und Endgerät:
-
-- Registrieren des Gateway im Networkserver
-- Registrieren den Endgerätes
-- Schreiben der Daten in eine TimeseriesDB (Influxdb)
-- Evtl. Anlegen eines Dashboard in Grafana.
-
-Das [Script](/download/Vortraege/Lorawan.pdf) dazu vom Vortrag letzen Monat: [Download](/download/Vortraege/Lorawan.pdf)
-
 ## Termine
 
 |||
 |-|-|
-|5. März 2025|[Märztreffen 2025](/Treffen/Termine/03_2025/)|Vortrag: LoRaWAN - Ein Praxisbeispiel|
 |2. April 2025|[Apriltreffen 2025](/Treffen/Termine/04_2025/)|
 |26. April 2025|[21. Augsburger Linux-Infotag](/static/LIT-2025/)|
 |7. Mai 2025|[Maitreffen 2025](/Treffen/Termine/05_2025/)|
+|4. Juni 2025|[Junitreffen 2025](/Treffen/Termine/06_2025/)|
