@@ -1,10 +1,10 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/03_2025/) findet am Mittwoch, 5. März statt.
+Das nächste [Treffen](/Treffen/Termine/05_2025/) findet am Mittwoch, 7. Mai statt.
 Alle Fragen, auch von Nicht-Mitgliedern, werden mit Freude beantwortet
 und sämtliche Probleme meist schon vor Ort gelöst.
 
-Diesmal wird ein improvisierter Inkscape-Workshop ab 20 Uhr gehalten werden. Es ist also von Vorteil, wenn ihr einen Laptop (und Maus + Mauspad) mitbringt.
-
+Vortrag: Quick Time to Value. Mit Zabbix als Monitoringlösung schnell mehr
+Transparenz im Unternehmen erhalten.
 
 ## Unser Treffpunkt
 
