@@ -1,5 +1,7 @@
 #Willkommen bei der Linux User Group Augsburg (LUGA) e.V.
 
+Am 26. April veranstaltete die LUGA den **21. Augsburger Linux-Infotag**. [Hier geht es zur Website.](/static/LIT-2025/)
+
 Die Linux User Group Augsburg bietet Linux-Anwendern und solchen, die es werden wollen, die Möglichkeit, Informationen auszutauschen, Probleme zu erörtern und an gemeinsamen Aktionen teilzunehmen.
 
 Auf unserer Homepage bieten wir Ihnen unter anderem:
@@ -18,6 +20,7 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|7. Mai 2025|[Maitreffen 2025](/Treffen/Termine/05_2025/)|Quick Time to Value. Mit Zabbix als Monitoringlösung schnell mehr Transparenz im Unternehmen erhalten.|
+|26. April 2025|[21. Augsburger Linux-Infotag](/static/LIT-2025/)|
+|7. Mai 2025|[Maitreffen 2025](/Treffen/Termine/05_2025/)|Quick Time to Value. Mit Zabbix als Monitoringlösung<<br>schnell mehr Transparenz im Unternehmen erhalten.|
 |4. Juni 2025|[Junitreffen 2025](/Treffen/Termine/06_2025/)|
 |2. Juli 2025|[Julitreffen 2025](/Treffen/Termine/07_2025/)|
