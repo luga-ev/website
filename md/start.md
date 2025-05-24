@@ -21,6 +21,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 |||
 |-|-|
 |26. April 2025|[21. Augsburger Linux-Infotag](/static/LIT-2025/)|
-|7. Mai 2025|[Maitreffen 2025](/Treffen/Termine/05_2025/)|Quick Time to Value. Mit Zabbix als Monitoringlösung<<br>schnell mehr Transparenz im Unternehmen erhalten.|
 |4. Juni 2025|[Junitreffen 2025](/Treffen/Termine/06_2025/)|
 |2. Juli 2025|[Julitreffen 2025](/Treffen/Termine/07_2025/)|
+|6. August 2025|[Augusttreffen 2025](/Treffen/Termine/08_2025/)|
