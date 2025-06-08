@@ -20,7 +20,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|26. April 2025|[21. Augsburger Linux-Infotag](/static/LIT-2025/)|
-|4. Juni 2025|[Junitreffen 2025](/Treffen/Termine/06_2025/)|
 |2. Juli 2025|[Julitreffen 2025](/Treffen/Termine/07_2025/)|
 |6. August 2025|[Augusttreffen 2025](/Treffen/Termine/08_2025/)|
+|3. September 2025|[Septembertreffen 2025](/Treffen/Termine/09_2025/)|

@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/06_2025/) findet am Mittwoch, 4. Juni statt.
+Das nächste [Treffen](/Treffen/Termine/07_2025/) findet am Mittwoch, 2. Juli statt.
 Alle Fragen, auch von Nicht-Mitgliedern, werden mit Freude beantwortet
 und sämtliche Probleme meist schon vor Ort gelöst.
 
