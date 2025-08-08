@@ -20,6 +20,7 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|2. Juli 2025|[Julitreffen 2025](/Treffen/Termine/07_2025/)|PostmarketOS|
-|6. August 2025|[Augusttreffen 2025](/Treffen/Termine/08_2025/)|
+|16. August 2025|[Grillfeier der LUGA](/Aktuelles/)|
 |3. September 2025|[Septembertreffen 2025](/Treffen/Termine/09_2025/)|
+|1. Oktober 2025|[Oktobertreffen 2025](/Treffen/Termine/10_2025/)|
+|5. November 2025|[Novembertreffen 2025](/Treffen/Termine/11_2025/)|
