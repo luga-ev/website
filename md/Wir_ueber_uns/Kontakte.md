@@ -15,7 +15,7 @@ Registernummer: VR 2092
 
 | | |
 |-|-|
-| Martin Vill (1. Vorsitzender)<br>Zollhausstraße 14<br>86405 Meitingen<br>E-Mail: vill at luga.de | Georg Gottleuber (2. Vorsitzender)<br>Uhlandstraße 37<br>86157 Augsburg<br>E-Mail: gottleuber at luga.de
+| Martin Vill (1. Vorsitzender)<br>Zollhausstraße 14<br>86405 Meitingen<br>E-Mail: vill at luga.de | Georg Gottleuber (2. Vorsitzender)<br>XXXXXXXXXXXXXX<br>XXXXXXXXXXXXXX<br>E-Mail: georg at luga.de
   
 **Weitere Vorstandsmitglieder**  
 Klaus Jahn (Kassenführer)  
