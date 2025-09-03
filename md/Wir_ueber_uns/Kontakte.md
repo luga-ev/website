@@ -2,10 +2,10 @@
 
 ###Adresse
 **Linux User Group Augsburg (LUGA) e.V.**  
-Martin Vill
-Zollhausstraße 14
+Martin Vill  
+Zollhausstraße 14  
 86405 Meitingen  
-E-Mail: info at luga.de
+E-Mail: info at luga.de  
 **Die Treffen finden nicht in Meitingen statt, sondern <a href="/Treffen/Treffpunkt/">in Augsburg</a>.**
 
 Registergericht: Amtsgericht Augsburg  
@@ -13,9 +13,11 @@ Registernummer: VR 2092
   
 **Vertretungsberechtigter Vorstand**  
 
-| | |
-|-|-|
-| Martin Vill (1. Vorsitzender)<br>Zollhausstraße 14<br>86405 Meitingen<br>E-Mail: vill at luga.de | Georg Gottleuber (2. Vorsitzender)<br>XXXXXXXXXXXXXX<br>XXXXXXXXXXXXXX<br>E-Mail: georg at luga.de
+Martin Vill (1. Vorsitzender)  
+E-Mail: vill at luga.de  
+
+Georg Gottleuber (2. Vorsitzender)  
+E-Mail: georg at luga.de
   
 **Weitere Vorstandsmitglieder**  
 Klaus Jahn (Kassenführer)  
