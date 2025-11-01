@@ -18,6 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|5. November 2025|[Novembertreffen 2025](/Treffen/Termine/11_2025/)|
+|5. November 2025|[Novembertreffen 2025](/Treffen/Termine/11_2025/)|Vortrag: BigBlueButton: Die souveräne Alternative zu Zoom, Teams & Co.|
 |3. Dezember 2025|[Dezembertreffen 2025](/Treffen/Termine/12_2025/)|
 |7. Januar 2026|[Januartreffen 2026](/Treffen/Termine/01_2026/)|
