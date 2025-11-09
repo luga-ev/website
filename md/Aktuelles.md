@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/11_2025/) findet am Mittwoch, 5. November statt.
+Das nächste [Treffen](/Treffen/Termine/12_2025/) findet am Mittwoch, 3. Dezember statt.
 Alle Fragen, auch von Nicht-Mitgliedern, werden mit Freude beantwortet
 und sämtliche Probleme meist schon vor Ort gelöst.
 
