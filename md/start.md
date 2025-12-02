@@ -18,6 +18,7 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|3. Dezember 2025|[Dezembertreffen 2025](/Treffen/Termine/12_2025/)|
+|3. Dezember 2025|[Dezembertreffen 2025](/Treffen/Termine/12_2025/)|Warum Linux keinen Datenschutz garantiert (Georg)|
 |7. Januar 2026|[Januartreffen 2026](/Treffen/Termine/01_2026/)|
 |4. Februar 2026|[Februartreffen 2026](/Treffen/Termine/02_2026/)|
+|2. Mai 2026|Linux Infotag  - [Call for participaction](https://pretalx.luga.de/lit-2026/)|

@@ -1,5 +1,6 @@
 ## Nächstes Treffen
 Das nächste [Treffen](/Treffen/Termine/12_2025/) findet am Mittwoch, 3. Dezember statt.
+Passend zur Adventszeit dürfen gerne weihnachtliche Leckereien mitgebracht und verzehrt werden (ebenso wie Glühwein/Punsch, den wir aufwärmen können).  
 Alle Fragen, auch von Nicht-Mitgliedern, werden mit Freude beantwortet
 und sämtliche Probleme meist schon vor Ort gelöst.
 
