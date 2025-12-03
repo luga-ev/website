@@ -175,3 +175,4 @@ Redirect permanent /Wir_ueber_uns/Mitgliedschaft/beitritt.pdf https://www.luga.d
 Redirect permanent /Aktionen/LIT-2023 https://www.luga.de/static/LIT-2023/
 Redirect permanent /Aktionen/LIT-2024 https://www.luga.de/static/LIT-2024/
 Redirect permanent /Aktionen/LIT-2025 https://www.luga.de/static/LIT-2025/
+Redirect permanent /Aktionen/LIT-2026 https://www.luga.de/static/LIT-2026/
