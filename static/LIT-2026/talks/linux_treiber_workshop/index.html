@@ -5,17 +5,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>ELBE oder wie man seine eigene embedded distribution bauen kann - Augsburger Linux-Infotag 2026</title>
-  <meta name="description" content="Vortrag von  Simone at Augsburger Linux-Infotag 2026" />
+  <title>Linux Treiber Workshop - Augsburger Linux-Infotag 2026</title>
+  <meta name="description" content="Vortrag von Johannes Roith at Augsburger Linux-Infotag 2026" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="ELBE oder wie man seine eigene embedded distribution bauen kann" />
-  <meta name="twitter:description" content="Vortrag von  Simone at Augsburger Linux-Infotag 2026" />
+  <meta name="twitter:title" content="Linux Treiber Workshop" />
+  <meta name="twitter:description" content="Vortrag von Johannes Roith at Augsburger Linux-Infotag 2026" />
 
   <meta property="og:site_name" content="Augsburger Linux-Infotag 2026" />
-  <meta property="og:url" content="https://luga.de/static/LIT-2026/talks/elbe_oder_wie_man_seine_eigene_embedded_distribution_bauen_kann/" />
-  <meta property="og:title" content="ELBE oder wie man seine eigene embedded distribution bauen kann" />
-  <meta property="og:description" content="Vortrag von  Simone at Augsburger Linux-Infotag 2026" />
+  <meta property="og:url" content="https://luga.de/static/LIT-2026/talks/linux_treiber_workshop/" />
+  <meta property="og:title" content="Linux Treiber Workshop" />
+  <meta property="og:description" content="Vortrag von Johannes Roith at Augsburger Linux-Infotag 2026" />
   <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="/static/LIT-2026/assets/css/main.css?t=1775757202" />
@@ -146,8 +146,8 @@
   <div class="d-flex flex-lg-row flex-column container-fluid mb-2 p-0">
     <div class="h6 mt-2 mb-0 mr-1 pr-1 pb-1">
       
-      <span class="p-1 pl-2 pr-2 border-soft-lit_yellow bg-soft-lit_yellow font-weight-normal">
-        Linux-Interna und Anwendungen
+      <span class="p-1 pl-2 pr-2 border-soft-lit_blue bg-soft-lit_blue font-weight-normal">
+        Software-Entwicklung
       </span>
     </div>
 
@@ -157,17 +157,17 @@
           
         
           
-            <span class="mr-2">Talk</span>
+            <span class="mr-2">Workshop</span>
           
         
       </div>
     
   </div>
 
-  <h1 class="font-weight-light">ELBE oder wie man seine eigene embedded distribution bauen kann</h1>
+  <h1 class="font-weight-light">Linux Treiber Workshop</h1>
 
   <p class="mb-3 font-weight-light">
-    <a class="text-reset" href="/static/LIT-2026/speakers/simone/"> Simone</a>
+    <a class="text-reset" href="/static/LIT-2026/speakers/johannes_roith/">Johannes Roith</a>
   </p>
 
   <div class="mb-3 p-0">
@@ -188,33 +188,56 @@
         
       
         
-        <span class="d-none d-sm-inline">um</span> <a href="/static/LIT-2026/program" class="badge badge-light font-weight-normal text-left ">
-  <i class="far fa-clock"></i>&nbsp;14:15</a><span class="d-none d-sm-inline ml-1">im Raum</span> <span class="badge badge-light font-weight-normal text-left"><i class="far fa-square"></i>&nbsp;Raum C</span><span class="d-none d-sm-inline ml-1">für</span> <span class="badge badge-light font-weight-normal text-left">
-  <i class="fas fa-stopwatch"></i>&nbsp;45min
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+      
+        
+        
+      <span class="d-none d-sm-inline">um</span> <a href="/static/LIT-2026/program" class="badge badge-light font-weight-normal text-left ">
+  <i class="far fa-clock"></i>&nbsp;13:15</a><span class="d-none d-sm-inline ml-1">im Raum</span> <span class="badge badge-light font-weight-normal text-left"><i class="far fa-square"></i>&nbsp;Raum F</span><span class="d-none d-sm-inline ml-1">für</span> <span class="badge badge-light font-weight-normal text-left">
+  <i class="fas fa-stopwatch"></i>&nbsp;225min
 </span>
 
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-      
-        
-        
-      
         
       
     
   </div>
 
-  <p>Wer ein eigenes Embedded-Linux-Produkt bauen möchte, steht schnell vor der Frage: Wie entsteht ein reproduzierbares, wartbares Root-Filesystem samt Kernel und Bootloader – ohne dass jede Entwicklerin und jeder Entwickler eine eigene, schwer wartbare Skript-Sammlung pflegt?
-ELBE (Embedded Linux Build Environment) ist ein Open-Source-Werkzeug, das genau dieses Problem löst. Auf Basis von Debian und QEMU erzeugt ELBE aus einer einzigen XML-Beschreibungsdatei vollständige, binär reproduzierbare Embedded-Linux-Images – für ARM, RISC-V, x86 und viele weitere Zielarchitekturen.
-Dieser Vortrag gibt einen praxisnahen Einstieg: von der Grundidee über den Build-Ablauf bis hin zu realen Einsatzszenarien in der Industrie. Am Ende wissen die Zuhörenden, wie sie ELBE in ihren eigenen Projekten einsetzen können.</p>
+  <p><img src="/static/LIT-2026/assets/images/pt_logo_0027.webp" alt="image" class="img-responsive" /></p>
+
+<p class="lead">Dieser Workshop gibt einen ersten kleinen Einblick in die Linux Treiber Programmierung. Ziel ist es eine 7 Segment Anzeige über einen kleinen Linux Treiber auf einem Raspberry Pi anzusteuern.</p>
+
+<p>Der Workshop ist interaktiv und das gelernte Wissen kann sofort angewendet werden. Benötigt wird nur ein Laptop, die Raspberry Pis und weitere Hardware werden gestellt.</p>
+
+<p>Folgende Themen werden im Workshop behandelt:</p>
+
+<ul>
+  <li>Wie können Geräte über den Device Tree &amp; Overlays hinzugefügt werden?</li>
+  <li>Was macht der Kernel?</li>
+  <li>Hello World Treiber für ein Device Tree Gerät</li>
+  <li>Wie schreibe ich ein Makefile für einen Linux Treiber?</li>
+  <li>Wie werden GPIOs in einen Linux Treiber angesteuert?</li>
+  <li>Wie kommuniziere ich über ein Character Device File &amp; ioctl mit einem Treiber?</li>
+</ul>
+
+<p>Benötigte Software bei GNU/Linux: Texteditor, ssh und sshfs. Bei Fremdbetriebssystemen bitte eigenständig nach geeigneten Alternativen suchen.
+Benötigte Hardware: Laptop mit USB A und Ethernet Port (zum Anschluss des Raspberry Pis) oder USB A und Ethernet Dongle.</p>
+
+<p>Vorkenntnisse:</p>
+<ul>
+  <li>Erfahrung in der Programmiersprache C (Pointer, Funktionspointer)</li>
+  <li>Sichere Navigation in der Bash</li>
+  <li>Optional: Grundkenntnisse über Makefiles</li>
+</ul>
 
 
   
