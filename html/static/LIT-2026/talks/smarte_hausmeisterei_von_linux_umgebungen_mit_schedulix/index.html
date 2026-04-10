@@ -5,17 +5,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Ein vollständiges Backup - Augsburger Linux-Infotag 2026</title>
-  <meta name="description" content="Vortrag von Richard Albrecht at Augsburger Linux-Infotag 2026" />
+  <title>Smarte Hausmeisterei von Linux Umgebungen mit schedulix - Augsburger Linux-Infotag 2026</title>
+  <meta name="description" content="Vortrag von Dieter Stubler at Augsburger Linux-Infotag 2026" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Ein vollständiges Backup" />
-  <meta name="twitter:description" content="Vortrag von Richard Albrecht at Augsburger Linux-Infotag 2026" />
+  <meta name="twitter:title" content="Smarte Hausmeisterei von Linux Umgebungen mit schedulix" />
+  <meta name="twitter:description" content="Vortrag von Dieter Stubler at Augsburger Linux-Infotag 2026" />
 
   <meta property="og:site_name" content="Augsburger Linux-Infotag 2026" />
-  <meta property="og:url" content="https://luga.de/static/LIT-2026/talks/ein_vollstandiges_backup/" />
-  <meta property="og:title" content="Ein vollständiges Backup" />
-  <meta property="og:description" content="Vortrag von Richard Albrecht at Augsburger Linux-Infotag 2026" />
+  <meta property="og:url" content="https://luga.de/static/LIT-2026/talks/smarte_hausmeisterei_von_linux_umgebungen_mit_schedulix/" />
+  <meta property="og:title" content="Smarte Hausmeisterei von Linux Umgebungen mit schedulix" />
+  <meta property="og:description" content="Vortrag von Dieter Stubler at Augsburger Linux-Infotag 2026" />
   <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="/static/LIT-2026/assets/css/main.css?t=1775845876" />
@@ -146,8 +146,8 @@
   <div class="d-flex flex-lg-row flex-column container-fluid mb-2 p-0">
     <div class="h6 mt-2 mb-0 mr-1 pr-1 pb-1">
       
-      <span class="p-1 pl-2 pr-2 border-soft- bg-soft- font-weight-normal">
-        
+      <span class="p-1 pl-2 pr-2 border-soft-lit_red bg-soft-lit_red font-weight-normal">
+        Linux im Unternehmen
       </span>
     </div>
 
@@ -160,18 +160,14 @@
             <span class="mr-2">Talk</span>
           
         
-          
-            <span class="mr-2"></span>
-          
-        
       </div>
     
   </div>
 
-  <h1 class="font-weight-light">Ein vollständiges Backup</h1>
+  <h1 class="font-weight-light">Smarte Hausmeisterei von Linux Umgebungen mit schedulix</h1>
 
   <p class="mb-3 font-weight-light">
-    <a class="text-reset" href="/static/LIT-2026/speakers/richard_albrecht/">Richard Albrecht</a>
+    <a class="text-reset" href="/static/LIT-2026/speakers/dieter_stubler/">Dieter Stubler</a>
   </p>
 
   <div class="mb-3 p-0">
@@ -191,7 +187,11 @@
         
         
       
-        
+        <span class="d-none d-sm-inline">um</span> <a href="/static/LIT-2026/program" class="badge badge-light font-weight-normal text-left ">
+  <i class="far fa-clock"></i>&nbsp;11:45</a><span class="d-none d-sm-inline ml-1">im Raum</span> <span class="badge badge-light font-weight-normal text-left"><i class="far fa-square"></i>&nbsp;Raum C</span><span class="d-none d-sm-inline ml-1">für</span> <span class="badge badge-light font-weight-normal text-left">
+  <i class="fas fa-stopwatch"></i>&nbsp;45min
+</span>
+
         
         
         
@@ -201,11 +201,7 @@
         
         
         
-        <span class="d-none d-sm-inline">um</span> <a href="/static/LIT-2026/program" class="badge badge-light font-weight-normal text-left ">
-  <i class="far fa-clock"></i>&nbsp;15:15</a><span class="d-none d-sm-inline ml-1">im Raum</span> <span class="badge badge-light font-weight-normal text-left"><i class="far fa-square"></i>&nbsp;Raum D</span><span class="d-none d-sm-inline ml-1">für</span> <span class="badge badge-light font-weight-normal text-left">
-  <i class="fas fa-stopwatch"></i>&nbsp;45min
-</span>
-
+        
         
         
       
@@ -220,46 +216,11 @@
 
   
 
-  <p><img src="/static/LIT-2026/assets/images/pt_logo_0024.webp" alt="image" class="img-responsive" /></p>
+  <p><img src="/static/LIT-2026/assets/images/pt_logo_0015.webp" alt="image" class="img-responsive" /></p>
 
-<p class="lead">Nach meinen Vorträgen zu Linux, Sicherheit, Filesystemen und Überlegungen 
-für ein gutes Backup stelle ich als Ergebnis ein automatisches, vollständiges Backup vor, 
-das alle Anforderungen aus den Vorträgen erfüllt.</p>
+<p class="lead">In einem praktischen Use-Case stellen wir vor, wie sich mit dem Open Source Scheduler schedulix wiederkehrende Wartungsarbeiten auf vielen Linux-Servern in zentral gesteuerte, auditierbare und sicherere Abläufe mit Berechtigungs-Management umsetzen lassen.</p>
 
-<p>Das Backup besteht aus Bash-Skripten und läuft wartungsfrei 
-und bereits jahrelang störungsfrei auf Linux-Systemen.</p>
-
-<p>Es ist eine möglichst einfache Umsetzung der Anforderungen aus meinen Vorträgen.
-Bash-Skripte wurden gewählt, weil diese auf jedem Linux-System ausführbar sind.</p>
-
-<p>Das Verhalten wird über eine Konfigurationsdatei gesteuert, die man auch ohne Kenntnis von Linux-Interna anpassen kann.
-Es werden , z.B. für die umfangreichen Protokolle, keine weiteren Systemdienste verwendet.
-Alles, was zum Backup-Programm gehört, liegt im gleichen Verzeichnis und kann einfach gesichert werden.</p>
-
-<p>Basis ist ‘rsnapshot’.
-‘rsnapshot’ wird üblicherweise mit Cronjobs gestartet und ist daher nicht sehr flexibel.
-Die Verwaltung von mehreren Clients im Backup und mehreren Ziel-Festplatten kann schnell
-unübersichtlich werden.
-Ist z.B. ein Client nicht erreichbar und das Backup findet nicht zur angegebenen Zeit statt,
-kann die über Hardlinks aufgebaute Historie von ‘rsnapshot’ nicht korrekt fortgeschrieben werden.
-Deswegen wurde die Verwaltung über Cronjobs durch eine eigene Verwaltung ersetzt, die die nötige Flexibilität ermöglicht.</p>
-
-<p>Das Backup kann:</p>
-<ul>
-  <li>beliebig viele Clients, lokal oder remote, verwalten</li>
-  <li>beliebig viele Ziel-Festplatten, intern oder extern, auch mit LUKS, einbinden und wieder aushängen</li>
-  <li>für jede Client-Ziel Kombination können individuelle Szenarien festgelegt werden
- (zum einen über die externe Konfiguration, zum anderen durch die Anpassung der Konfiguration von ‘rsnapshot’)</li>
-  <li>jede Stunde wird der Zustand geprüft und es werden fällige Backups ausgeführt</li>
-  <li>der Betrieb der Clients, des Backup-Servers und der Backup-Festplatten kann unterbrochen werden</li>
-  <li>Festplatten können so, z.B. aus Brandschutzgründen, außerhalb gelagert werden</li>
-  <li>ist eine Festplatte wieder ‘sichtbar’, wird das Backup für diese Festplatte korrekt fortgeführt</li>
-</ul>
-
-<p>Die Clients haben keinen Zugriff auf das Backup, damit ist ein Schutz vor Ransom-Trojanern gewährleistet.
-Es gibt umfangreiche Protokolle für den Ablauf, für ‘rsnapshot’ und für ‘rsync’.
-Vor und nach jedem Backup können eigene Skripte eingebunden werden.
-Damit ist, z.B. mit BTRFS auf dem Client, ein Snapshot des laufenden Zustandes möglich.</p>
+<p>Mit schedulix lassen sich mit Hilfe von Jobserver Agents typische Admin-Aufgaben, wie remote Wartungs- und Pflegearbeiten auf mehreren Servern mit wenig Aufwand automatisieren. Statt sich mit SSH täglich auf zig Maschinen einzuwählen, das jeweilige Passwort einzutippen und dann das Kommando auszuführen, können Admins diese lästigen und täglich wiederkehrenden Abläufe mit schedulix unkompliziert in zentral definierte und dynamisch gesteuerte Workflows übertragen und zeitgesteuert oder ad hoc ausführen. schedulix bringt auch Vorteile für Admin-Teams: Im schedulix Server ist zentral und klar geregelt, welche User auf welchen Maschinen Kommandos ausführen dürfen. Im Ergebnis ersparen sich Admins nicht nur viele wiederkehrende Arbeiten, sie können genau nachvollziehen, was von wem erledigt wurde und sind in der Lage, unterschiedliche Sicherheitsanforderungen implementieren.</p>
 
 
   
