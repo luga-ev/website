@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:JOSM - Java OpenStreetMap Editor - Eine Einführung
+DTSTART;TZID=Europe/Berlin:20260502T104500
+DTEND;TZID=Europe/Berlin:20260502T123000
+DESCRIPTION:Zu der OpenStreetMap beitragen kann jeder\, ganz niederschwell
+ ig am Handy\, etwas ambitionierter im Browser mit iD oder professionell mi
+ t dem JOSM - dem Standardwekzeug zum Bearbeiten der OSM-Daten.\n\nhttps://
+ luga.de/static/LIT-2026/talks/josm_java_openstreetmap_editor_eine_einfuhru
+ ng/
+LOCATION:Raum E\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

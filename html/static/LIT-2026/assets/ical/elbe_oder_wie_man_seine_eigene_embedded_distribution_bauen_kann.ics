@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:ELBE oder wie man seine eigene embedded distribution bauen kann
+DTSTART;TZID=Europe/Berlin:20260502T141500
+DTEND;TZID=Europe/Berlin:20260502T150000
+DESCRIPTION:Wer ein eigenes Embedded-Linux-Produkt bauen möchte\, steht s
+ chnell vor der Frage: Wie entsteht ein reproduzierbares\, wartbares Root-F
+ ilesystem samt Kernel und Bootloader – ohne dass jede Entwicklerin und j
+ eder Entwickler eine eigene\, schwer wartbare Skript-Sammlung pflegt?\nELB
+ E (Embedded Linux Build Environment) ist ein Open-Source-Werkzeug\, das ge
+ nau dieses Problem löst. Auf Basis von Debian und QEMU erzeugt ELBE aus e
+ iner einzigen XML-Beschreibungsdatei vollständige\, binär reproduzierbar
+ e Embedded-Linux-Images – für ARM\, RISC-V\, x86 und viele weitere Ziel
+ architekturen.\nDieser Vortrag gibt einen praxisnahen Einstieg: von der Gr
+ undidee über den Build-Ablauf bis hin zu realen Einsatzszenarien in der I
+ ndustrie. Am Ende wissen die Zuhörenden\, wie sie ELBE in ihren eigenen P
+ rojekten einsetzen können.\n\nhttps://luga.de/static/LIT-2026/talks/elbe_
+ oder_wie_man_seine_eigene_embedded_distribution_bauen_kann/
+LOCATION:Raum C\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

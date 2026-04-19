@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:LoRaWAN verstehen und betreiben: Theorie und drei Jahre Praxiserfa
+ hrung
+DTSTART;TZID=Europe/Berlin:20260502T161500
+DTEND;TZID=Europe/Berlin:20260502T170000
+DESCRIPTION:LoRaWAN ermöglicht energieeffiziente Funkkommunikation über 
+ mehrere Kilometer\, ideal für IoT-Anwendungen abseits von WLAN und Mobilf
+ unk. Dieser Vortrag erklärt die technischen Grundlagen des Protokolls\, v
+ ergleicht öffentliche und private Netzinfrastrukturen und zeigt anhand ei
+ nes seit mehreren Jahren produktiv betriebenen Heimnetzwerks\, wie LoRaWAN
+  in der Praxis funktioniert. Im Anschluss gibt es eine Hands-on-Demo mit v
+ erschiedenen Endgeräten.\n\nhttps://luga.de/static/LIT-2026/talks/lorawan
+ _verstehen_und_betreiben_theorie_und_drei_jahre_praxiserfahrung/
+LOCATION:Raum D\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

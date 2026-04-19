@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Smarte Hausmeisterei von Linux Umgebungen mit schedulix
+DTSTART;TZID=Europe/Berlin:20260502T114500
+DTEND;TZID=Europe/Berlin:20260502T123000
+DESCRIPTION:In einem praktischen Use-Case stellen wir vor\, wie sich mit d
+ em Open Source Scheduler schedulix wiederkehrende Wartungsarbeiten auf vie
+ len Linux-Servern in zentral gesteuerte\, auditierbare und sicherere Ablä
+ ufe mit Berechtigungs-Management umsetzen lassen.\n\nhttps://luga.de/stati
+ c/LIT-2026/talks/smarte_hausmeisterei_von_linux_umgebungen_mit_schedulix/
+LOCATION:Raum C\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

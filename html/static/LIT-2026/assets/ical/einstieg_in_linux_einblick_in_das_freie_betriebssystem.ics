@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Einstieg in Linux – Einblick in das freie Betriebssystem
+DTSTART;TZID=Europe/Berlin:20260502T104500
+DTEND;TZID=Europe/Berlin:20260502T170000
+DESCRIPTION:Vielleicht fragen Sie sich\, was Linux eigentlich ist? Linux i
+ st ein freies Betriebssystem\, das sich stark individualisieren lässt und
+  Ihnen den Zugang zu freier Software sowie digitaler Souveränität ermög
+ licht. Sie erhalten eine Einführung in die Grundlagen\, lernen unser haus
+ eigenes\, auf Linux basierendes Betriebssystem TUXEDO OS kennen und bekomm
+ en praktische Tipps zur Installation.\n\nDer Vortrag und Workshop richtet 
+ sich an alle\, die sich für Linux interessieren – egal\, ob Sie bereits
+  Vorkenntnisse haben oder umsteigen möchten. Bringen Sie gerne Ihr eigene
+ s Notebook mit! In entspannter Atmosphäre können Sie Fragen stellen\, si
+ ch mit anderen austauschen und Ihr Wissen erweitern.\n\nhttps://luga.de/st
+ atic/LIT-2026/talks/einstieg_in_linux_einblick_in_das_freie_betriebssystem
+ /
+LOCATION:Mensa\; Technische Hochschule Augsburg\, Fakultät für Informati
+ k\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

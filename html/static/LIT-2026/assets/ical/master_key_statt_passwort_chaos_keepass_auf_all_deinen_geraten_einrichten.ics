@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:„Master-Key statt Passwort-Chaos: Keepass auf all deinen Geräte
+ n einrichten“
+DTSTART;TZID=Europe/Berlin:20260502T114500
+DTEND;TZID=Europe/Berlin:20260502T123000
+DESCRIPTION:Hand aufs Herz: Benutzt du noch überall dasselbe Passwort ode
+ r hast du eine Liste im Browser\, der du nicht ganz traust?\n\n In diesem 
+ Workshop beenden wir das Sicherheitsrisiko und richten gemeinsam KeePass e
+ in\,\ndie Open-Source-Lösung für alle\, die die volle Kontrolle über ih
+ re Daten behalten wollen.\n\nWir machen Nägel mit Köpfen:\n\nDein Tresor
+ : Wir erstellen deine verschlüsselte Datenbank.\n\nCross-Platform: Wir bi
+ nden deine Geräte ein\, egal ob Linux-Laptop oder Smartphone.\n\nSicherhe
+ it pur: \nErfahre\, wie du starke Passwörter generierst und sie bequem (a
+ ber sicher!) synchronisierst.\n\nBring dein eigenes Gerät mit! \nAm Ende 
+ des Workshops gehst du mit einem fertig eingerichteten System nach Hause\,
+  \nbei dem du dir nur noch ein einziges Master-Passwort merken musst.\n\nh
+ ttps://luga.de/static/LIT-2026/talks/master_key_statt_passwort_chaos_keepa
+ ss_auf_all_deinen_geraten_einrichten/
+LOCATION:Raum D\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

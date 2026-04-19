@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Wir haben Kubernetes zuhause
+DTSTART;TZID=Europe/Berlin:20260502T104500
+DTEND;TZID=Europe/Berlin:20260502T113000
+DESCRIPTION:Über die Herausforderungen\, die es zu meistern gilt und wich
+ tige Komponenten die man braucht\, wenn man Kubernetes außerhalb großer 
+ Cloud-Umgebungen betreiben möchte\n\nhttps://luga.de/static/LIT-2026/talk
+ s/wir_haben_kubernetes_zuhause/
+LOCATION:Raum D\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

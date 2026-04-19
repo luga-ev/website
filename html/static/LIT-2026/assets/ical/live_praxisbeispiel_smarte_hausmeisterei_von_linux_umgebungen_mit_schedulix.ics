@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Live Praxisbeispiel: Smarte Hausmeisterei von Linux Umgebungen mit
+  schedulix
+DTSTART;TZID=Europe/Berlin:20260502T151500
+DTEND;TZID=Europe/Berlin:20260502T170000
+DESCRIPTION:Praxisteil zum Vortrag "Smarte Hausmeisterei von Linux Umgebun
+ gen mit schedulix". Dieter zeigt kurz die Installation von schedulix mit e
+ in paar Agents (10 Minuten) und erklärt das Praxisbeispiel aus dem Vortra
+ g live im System. Im Anschluss können die Teilnehmer eigene Usecases besp
+ rechen und gegebenenfalls kurz zusammen mit Dieter durchspielen.\n\nhttps:
+ //luga.de/static/LIT-2026/talks/live_praxisbeispiel_smarte_hausmeisterei_v
+ on_linux_umgebungen_mit_schedulix/
+LOCATION:Raum E\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

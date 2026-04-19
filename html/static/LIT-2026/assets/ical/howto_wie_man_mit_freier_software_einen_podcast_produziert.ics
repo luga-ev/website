@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:HowTo: Wie man mit Freier Software einen Podcast produziert!
+DTSTART;TZID=Europe/Berlin:20260502T131500
+DTEND;TZID=Europe/Berlin:20260502T150000
+DESCRIPTION:In diesem Workshop teilt Bonnie ihr Wissen und ihre Fähigkeit
+ en zur Produktion von Podcasts mit Freier Software. Wir besprechen alles\,
+  was zum fertigen Podcast gehört von Werkzeuge und Techniken bis hin zum 
+ Vorbereiten der Aufnahme.\n\nDies ist der perfekte Workshop für alle\, di
+ e ihre Ideen und Gedanken über Podcasts mit anderen teilen möchten. Es w
+ ird ein praxisnaher Workshop und gemeinsam werden wir unseren allerersten 
+ Podcast mit Freier Software produzieren. Dabei besprechen wir die Vorberei
+ tung vor der Aufnahme\, Bearbeitung und Veröffentlichung von Podcasts mit
+  Freien Software-Tools und wie hochwertige Inhalte erstellt werden können
+ \, ohne auf proprietäre Software angewiesen zu sein. Jede*r ist herzlich 
+ willkommen\, von Anfänger*in bis Profis\, die auf Freie Software umsteige
+ n möchten!\n\nhttps://luga.de/static/LIT-2026/talks/howto_wie_man_mit_fre
+ ier_software_einen_podcast_produziert/
+LOCATION:Raum E\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

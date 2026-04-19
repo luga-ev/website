@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:DigiZiege - digital nachhaltig zu mehr Tierwohl
+DTSTART;TZID=Europe/Berlin:20260502T114500
+DTEND;TZID=Europe/Berlin:20260502T123000
+DESCRIPTION:Tierwohlorienterte Ziegenbetriebe und die Gemeinschaft freier 
+ Software \nmögen auf den ersten Blick wie zwei eigene Welten wirken - dab
+ ei haben \nsie im Streben nach mehr Nachhaltigkeit eine starke Gemeinsamke
+ it.\n\nIn einem fachübergreifenden Projekt an der Technischen Hochschule 
+ Bingen \n  haben wir eine freie App für Ziegenbetriebe entwickelt\, die b
+ ewusst \ndigital souverän ist. Das in studentischen Projekten als \nProgr
+ essiveWebApp (PWA) realisierte System bietet innovative Funktionen \nwie e
+ ine fotografische Gewichtsermittlung und läuft dabei autark und \noffline
+  - frei von Abhängigkeiten zu Vertriebsplattformen oder Clouds \ngängige
+ r Big-Tech-Giganten.\n\nNach einer Beleuchtung der fachlichen Hintegründe
+  aus beiden Welten \nstellen wir unsere App und deren Funktionen vor. Dabe
+ i diskutieren wir \nden bisherigen Projektverlauf und reflektieren über t
+ echnische\, soziale \nund ökonomische Herausforderungen. Abschließend st
+ ellen wir unsere Pläne \nfür die weitere Entwicklung zur Diskussion.\n\n
+ https://luga.de/static/LIT-2026/talks/digiziege_digital_nachhaltig_zu_mehr
+ _tierwohl/
+LOCATION:Raum A\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

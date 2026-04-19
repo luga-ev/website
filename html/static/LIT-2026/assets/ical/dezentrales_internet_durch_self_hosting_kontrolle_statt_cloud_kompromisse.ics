@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Dezentrales Internet durch Self-Hosting – Kontrolle statt Cloud-
+ Kompromisse
+DTSTART;TZID=Europe/Berlin:20260502T141500
+DTEND;TZID=Europe/Berlin:20260502T150000
+DESCRIPTION:DSGVO\, brennende Rechenzentren und fragwürdige AGBs – wer 
+ seine Daten in die Hände Dritter legt\, gibt nicht nur Kontrolle\, sonder
+ n auch Verantwortung ab. Doch es geht auch anders: Self-Hosting ermöglich
+ t dir\, eigene Dienste auf eigenen Geräten zu betreiben – von der E-Mai
+ l bis zum Social Network.\n\n  In diesem Talk zeige ich dir\, wie du mit O
+ pen-Source-Tools und etwas Infrastruktur ein Stück digitale Souveränitä
+ t zurückgewinnst – praxisnah\, sicher und ohne Cloud-Abhängigkeiten.\n
+ \nhttps://luga.de/static/LIT-2026/talks/dezentrales_internet_durch_self_ho
+ sting_kontrolle_statt_cloud_kompromisse/
+LOCATION:Raum A\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

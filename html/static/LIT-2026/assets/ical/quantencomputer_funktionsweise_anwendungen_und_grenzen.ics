@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Quantencomputer: Funktionsweise\, Anwendungen und Grenzen
+DTSTART;TZID=Europe/Berlin:20260502T131500
+DTEND;TZID=Europe/Berlin:20260502T140000
+DESCRIPTION:Ein Quantencomputer ist ein Computer\, der auf den Gesetzen de
+ r Quantenmechanik arbeitet. Quantencomptuer versprechen einige Probleme de
+ utlich schneller zu lösen als klassische Computer. Aber sind Quantencompu
+ ter Hype und überschätzte Technologie\, oder die nächste Computer-Revol
+ ution?\n\nDieser Vortrag möchte nüchtern folgende Fragen klären:\n* Wie
+  funktioniert eigentlich ein Quantencomputer und was sind die Unterschiede
+  zu einem "klassischen" Computer?\n* Welche Probleme kann ein Quantencompu
+ ter lösen und werden Quantencomputer klassische Computer ersetzen?\n* Wie
+  leistungsstark sind real existierende Quantencomputer und wie entwickelt 
+ sich die Hardware?\n* Knacken Quantencomputer bald jede Verschlüsselung?\
+ n\nhttps://luga.de/static/LIT-2026/talks/quantencomputer_funktionsweise_an
+ wendungen_und_grenzen/
+LOCATION:Raum B\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

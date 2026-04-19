@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Stay Root. Own Your Monitoring.
+DTSTART;TZID=Europe/Berlin:20260502T161500
+DTEND;TZID=Europe/Berlin:20260502T170000
+DESCRIPTION:Monitoring nach dem Linux-Prinzip: offen\, nachvollziehbar und
+  unter eigener Kontrolle – für echte digitale Souveränität.\nVortrags
+ beschreibung:\nMonitoring entscheidet heute über Stabilität\, Sicherheit
+  und wirtschaftlichen Erfolg. Doch viele Unternehmen verlassen sich auf ge
+ schlossene Plattformen\, Blackbox-Architekturen und Lizenzmodelle\, die la
+ ngfristig Abhängigkeiten schaffen.\nDieser Vortrag zeigt einen anderen We
+ g.\n\nNach dem Linux-Prinzip bedeutet Monitoring:\nTransparenz statt Intra
+ nsparenz.\nArchitekturkompetenz statt Tool-Gläubigkeit.\nKontrolle über 
+ Daten\, Kosten und Integrationen – ohne Vendor Lock-in.\n\nAnhand praxis
+ naher Beispiele wird gezeigt\, wie ein souveräner Monitoring-Stack aufgeb
+ aut wird: offen\, skalierbar und wirtschaftlich sinnvoll. Welche Rolle spi
+ elen offene Standards? Wie bleibt man integrationsfähig? Und wie entsteht
+  aus Monitoring ein strategisches Steuerungsinstrument statt nur ein Alarm
+ -System?\n\nDer Fokus liegt dabei nicht nur auf Technik\, sondern auf Halt
+ ung:\nWer Root-Rechte behalten will\, muss Verantwortung für Architektur 
+ und Betrieb übernehmen.\nStay Root. Own Your Monitoring.\nFür alle\, die
+  Monitoring nicht konsumieren\, sondern gestalten wollen.\n\nhttps://luga.
+ de/static/LIT-2026/talks/stay_root_own_your_monitoring/
+LOCATION:Raum B\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

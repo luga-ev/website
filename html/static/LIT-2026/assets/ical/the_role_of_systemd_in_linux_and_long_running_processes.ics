@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:The role of SystemD in Linux and long-running processes
+DTSTART;TZID=Europe/Berlin:20260502T141500
+DTEND;TZID=Europe/Berlin:20260502T150000
+DESCRIPTION:Es wird erklärt\, welchen Einfluss SystemD in der Funktionali
+ tät von Linux hat und wie man es selbst nutzen kann\, um Programme\n- im 
+ Hintergrund\n- automatisch\n- verlässlich\n zu starten\n\nhttps://luga.de
+ /static/LIT-2026/talks/the_role_of_systemd_in_linux_and_long_running_proce
+ sses/
+LOCATION:Raum B\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
