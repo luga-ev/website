@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Age Verification: Gefahr für FOSS und digitale Freiheit?
+DTSTART;TZID=Europe/Berlin:20260502T104500
+DTEND;TZID=Europe/Berlin:20260502T113000
+DESCRIPTION:Altersverifikationsgesetze in GB\, Australien\, Brasilien\, US
+ A und weltweit bedrohen FOSS-Projekte\, Privatsphäre und digitale Freihei
+ t – oft ohne wirksamen Kinder- und Jugendschutz. Der Vortrag beleuchtet\
+ , wie Big Tech (z.B. Microsoft\, Google\, Apple) von diesen Gesetzen profi
+ tiert – und warum sie FOSS systematisch benachteiligen. Der Vortrag anal
+ ysiert und vergleicht verschiedene gesetzliche Ansätze\, deren Auswirkung
+ en auf Linux\, Paketmanager und Open-Source-Ökosysteme und versucht daten
+ schutzkonforme Alternativen aufzuzeigen.\n\nhttps://luga.de/static/LIT-202
+ 6/talks/age_verification_gefahr_fur_foss_und_digitale_freiheit/
+LOCATION:Raum B\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

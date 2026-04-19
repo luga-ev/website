@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:From Cloud to Edge: A Minimalist Open-Source Architecture for Dete
+ rministic VM Image Distribution
+DTSTART;TZID=Europe/Berlin:20260502T141500
+DTEND;TZID=Europe/Berlin:20260502T150000
+DESCRIPTION:This presentation proposes a minimalist architecture for manag
+ ing a distributed fleet of dedicated Linux/KVM (Kernel-based Virtual Machi
+ ne) edge nodes\, each typically running a single\, user-assigned virtual m
+ achine in an appliance-style model. Instead of deploying a full IaaS stack
+ \, the design separates centralized governance from local execution to red
+ uce complexity while maintaining strong security and deterministic operati
+ on at the edge. \n\nThe control plane is built on OpenStack\, leveraging K
+ eystone for identity management\, Glance for image lifecycle control\, Bar
+ bican for centralized key management\, and Ceph for encrypted image storag
+ e\, while using alternative lightweight mechanisms for VM placement to pre
+ serve single-user determinism. \n\nThe approach is also compared with alte
+ rnative solutions such as OpenNebula and Apache CloudStack\, highlighting 
+ differences in architectural implementation\, control-plane coupling\, ope
+ rational complexity\, and their suitability for deterministic\, appliance-
+ style edge deployments. \n\nThe result is a secure\, centrally governed di
+ stributed execution model optimized for simplicity\, resilience\, and real
+ -world product deployment of controlled workloads at the edge.\n\nhttps://
+ luga.de/static/LIT-2026/talks/from_cloud_to_edge_a_minimalist_open_source_
+ architecture_for_deterministic_vm_image_distribution/
+LOCATION:Raum D\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

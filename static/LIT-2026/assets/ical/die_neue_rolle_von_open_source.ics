@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Die neue Rolle von Open Source
+DTSTART;TZID=Europe/Berlin:20260502T131500
+DTEND;TZID=Europe/Berlin:20260502T140000
+DESCRIPTION:Es gibt ein wachsendes Narrativ\, dass Künstliche Intelligenz
+  alles verändert.  \nDass Software an Wert verliert\, Entwicklerinnen und
+  Entwickler austauschbar werden und Open Source seine Zeit gehabt hat.\n\n
+ Diese Sicht greift zu kurz.\n\nModerne KI-Systeme existieren nicht im luft
+ leeren Raum. Sie laufen auf Linux. Sie basieren auf Open-Source-Bibliothek
+ en\, Kryptografie\, Netzwerk-Stacks und auf Jahrzehnten gemeinschaftlich e
+ ntwickelter Infrastruktur. Open Source ist Teil der KI-Lieferkette.\n\nWen
+ n KI zur kritischen Infrastruktur wird\, dann wird auch Open Source zur kr
+ itischen Infrastruktur.\n\nWas bedeutet das für Sicherheit\, Finanzierung
+ \, Wartung und Verantwortung?\n\nIn diesem Vortrag reflektiert Christian G
+ robmeier darüber\, wie der Aufstieg von KI unser Verständnis von freier 
+ und Open-Source-Software verändert. Von Supply-Chain-Risiken bis hin zu F
+ ragen der digitalen Souveränität im europäischen Kontext zeigt er\, war
+ um Open Source strategisch relevanter sein könnte als je zuvor.\n\nOpen S
+ ource verschwindet nicht.  \nEs ist zur Grundlage geworden.  \nDie entsche
+ idende Frage ist\, ob wir es auch so behandeln.\n\nhttps://luga.de/static/
+ LIT-2026/talks/die_neue_rolle_von_open_source/
+LOCATION:Raum A\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

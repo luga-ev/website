@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Wie läuft eigentlich ein mehrstufiger Hacking-Angriff ab? Rekonst
+ ruktion eines echten Beispiels
+DTSTART;TZID=Europe/Berlin:20260502T151500
+DTEND;TZID=Europe/Berlin:20260502T160000
+DESCRIPTION:Von Null bis zur vollständigen Kontrolle über einen Server: 
+ In diesem Vortrag rekonstruieren wir einen mehrstufigen Hacking-Angriff\, 
+ der sich so auch tatsächlich abgespielt hat (und mittlerweile verjährt i
+ st). Schritt für Schritt spielen wir ihn nach\, um unser Sicherheitsbewus
+ stsein zu schärfen und ein Gefühl dafür zu entwickeln\, wie Angriffe ab
+ laufen.\n\nhttps://luga.de/static/LIT-2026/talks/wie_lauft_eigentlich_ein_
+ mehrstufiger_hacking_angriff_ab_rekonstruktion_eines_echten_beispiels/
+LOCATION:Raum A\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

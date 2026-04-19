@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Lightning Talks
+DTSTART;TZID=Europe/Berlin:20260502T131500
+DTEND;TZID=Europe/Berlin:20260502T140000
+DESCRIPTION:Hier gibt es Platz für Eure Lightning Talks. Mehr Details fol
+ gen.\n\nhttps://luga.de/static/LIT-2026/talks/lightning_talks/
+LOCATION:Raum C\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

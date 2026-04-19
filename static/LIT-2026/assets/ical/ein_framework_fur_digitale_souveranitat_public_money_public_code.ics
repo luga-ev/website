@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Ein Framework für digitale Souveränität: "Public Money? Public 
+ Code!"
+DTSTART;TZID=Europe/Berlin:20260502T093000
+DTEND;TZID=Europe/Berlin:20260502T101500
+DESCRIPTION:Wie kann die öffentliche Verwaltung digital souverän werden?
+  Und was ist eigentlich digitale Souveränität?\nBonnie beantwortet mit d
+ iesem kurzen Vortrag die brennenden Fragen unserer Zeit und zeigt dabei au
+ ch gleich noch einen Lösungsweg auf\, um digitale Souveränität in der 
+ öffentlichen Verwaltungen zu erreichen.\n\nUnter dem Slogan “Public Mon
+ ey? Public Code!” ruft die Free Software Foundation Europe\ngemeinsam mi
+ t über 230 Organisationen und öffentlichen Verwaltungen dazu auf Softwar
+ e\, welche\ndurch öffentliche Gelder finanziert wird\, als Freie Software
+  zu veröffentlichen. Das langfristige Ziel der\nInitiative ist die Softwa
+ reabhängigkeit und den Vendor Lock-in der öffentlichen Verwaltung zu red
+ uzieren\, sowie öffentliche Verwaltungen digital unabhängig und souverä
+ n aufzustellen.\n\nhttps://luga.de/static/LIT-2026/talks/ein_framework_fur
+ _digitale_souveranitat_public_money_public_code/
+LOCATION:Raum A\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

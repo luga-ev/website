@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Einführung in Godot
+DTSTART;TZID=Europe/Berlin:20260502T104500
+DTEND;TZID=Europe/Berlin:20260502T123000
+DESCRIPTION:Einführung in Godot: Kennenlernen der Benutzeroberfläche uns
+  GDScript\n\nhttps://luga.de/static/LIT-2026/talks/einfuhrung_in_godot/
+LOCATION:Raum F\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

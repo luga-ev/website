@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Der PicoNut-Prozessor: Ein freier\, RISC-V-kompatibler Prozessor f
+ ür die Lehre und Forschung
+DTSTART;TZID=Europe/Berlin:20260502T104500
+DTEND;TZID=Europe/Berlin:20260502T113000
+DESCRIPTION:Der PicoNut-Prozessor ist ein freier Prozessor\, der seit 2024
+  von Studierenden der Arbeitsgruppe “Effiziente Eingebettete Systeme” 
+ (EES) an der TH Augsburg entwickelt wird. Zum Einsatz kommen dabei freie F
+ PGA-Entwicklungswerkzeuge und Open-Source-Hardware.\n\nIm Laufe des vergan
+ genen Jahres konnte das Team unter anderem eine Spielkonsole entwickeln. E
+ ine weitere neue Aktivität ist PicoNut AI\, eine Erweiterung\, mit der si
+ ch zukünftig eingebettete KI-Anwendungen effizient realisieren lassen.\n\
+ nDer Vortrag stellt die aktuellen Entwicklungen am PicoNut-System vor und 
+ behandelt u.a. die folgenden Themen:\n\n- FPGA-Entwicklung mit freien Tool
+ s wie der OSS CAD Suite und freier Hardware\,\n- die PicoNut-Architektur u
+ nd den aktuellen Stand des Projektes\,\n- die RISC-V Vektorerweiterung und
+  KI-Beschleunigung\,\n- die mögliche Verwendung freier Hardware in der Le
+ hre\,\n- "PlayNut": Eine Retro-Spielekonsole basierend auf der PicoNut-Pla
+ ttform mit vollständig selber entwickelter Hardware.\n\nRISC-V ist ein fr
+ eier und offener Befehlssatzarchitektur-Standard für Prozessoren und dami
+ t ein Schlüsselelement für digitale Souveränität in Deutschland und Eu
+ ropa\, wenn es um Hardware-Entwicklung geht. Open-Source-Software und frei
+ e Hardware zusammen sorgen dafür\, dass man sich weniger von proprietäre
+ n Lösungen abhängig macht und die Innovationskraft von Unternehmen und F
+ orschungseinrichtungen gesteigert wird.\n\nProgrammierbare Logikbausteine 
+ (FPGAs) ermöglichen es\, eigene digitale Hardware zu entwickeln und das z
+ u einem geringen Kostenaufwand.\n \nDie Arbeitsgruppe EES befasst sich sei
+ t vielen Jahren mit der FPGA-Entwicklung und nutzt primär Open-Source-Sof
+ tware\, um innovative und effiziente Lösungen für eingebettete Systeme z
+ u erstellen. Mit der PicoNut-Plattforn können Studierende Themen wie das 
+ Hardware-Software-Codesign und das systematische Debugging direkt an freie
+ r Hardware üben und damit ihre Fähigkeiten in den Bereichen Rechnerarchi
+ tektur\, FPGA-Entwurf sowie Software-Entwicklung für Embedded Systems ver
+ tiefen.\n\nhttps://luga.de/static/LIT-2026/talks/der_piconut_prozessor_ein
+ _freier_risc_v_kompatibler_prozessor_fur_die_lehre_und_forschung/
+LOCATION:Raum C\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

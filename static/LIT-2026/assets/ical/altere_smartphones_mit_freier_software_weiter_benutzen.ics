@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Ältere Smartphones mit freier Software weiter benutzen
+DTSTART;TZID=Europe/Berlin:20260502T151500
+DTEND;TZID=Europe/Berlin:20260502T160000
+DESCRIPTION:Ältere Smartphones und Tablets mit freier Software betreiben\
+ n\nhttps://luga.de/static/LIT-2026/talks/altere_smartphones_mit_freier_sof
+ tware_weiter_benutzen/
+LOCATION:Raum B\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

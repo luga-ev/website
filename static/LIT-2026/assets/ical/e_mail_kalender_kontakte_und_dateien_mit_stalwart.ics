@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:E-Mail\, Kalender\, Kontakte und Dateien mit Stalwart
+DTSTART;TZID=Europe/Berlin:20260502T114500
+DTEND;TZID=Europe/Berlin:20260502T123000
+DESCRIPTION:[Stalwart](https://stalw.art/) ist ein relativ neuer\, moderne
+ r\, quelloffener Mail- und\nKollaborationsserver\, der als „All-in-One
+ “-Lösung gedacht ist und viele klassische Komponenten\n(MTA\, IMAP/POP\
+ , JMAP Groupware\, Spamfilter usw.) in einem System bündelt.\n\nDer Vortr
+ ag erläutert die grundlegenden Schritte zur Installation und Konfiguratio
+ n anhand eines einfachen Single-Node-Setups.\n\nhttps://luga.de/static/LIT
+ -2026/talks/e_mail_kalender_kontakte_und_dateien_mit_stalwart/
+LOCATION:Raum B\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

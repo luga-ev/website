@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Beyond the Blackbox: Warum der Mensch der Kernel der Kreativität 
+ bleibt
+DTSTART;TZID=Europe/Berlin:20260502T131500
+DTEND;TZID=Europe/Berlin:20260502T140000
+DESCRIPTION:KI ist kein Ersatz für den Menschen\, sondern ein hochperform
+ antes Library-Tool. Während die KI die Syntax (Struktur\, Fleißarbeit\, 
+ Mustererkennung) liefert\, bleibt die Semantik (Sinnstiftung\, Emotion\, I
+ ntuition) exklusives menschliches Territorium.\n\nhttps://luga.de/static/L
+ IT-2026/talks/beyond_the_blackbox_warum_der_mensch_der_kernel_der_kreativi
+ tat_bleibt/
+LOCATION:Raum D\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Search Innovations with OpenSearch
+DTSTART;TZID=Europe/Berlin:20260502T161500
+DTEND;TZID=Europe/Berlin:20260502T170000
+DESCRIPTION:In this talk I will present the Innovations in Search with Ope
+ nSearch\, a completely open-source search engine. The OpenSearch project c
+ omes under Linux Foundation. \n\nI will dive into differentiating capabili
+ ties like scalable Neural Sparse ANN Search using the SEISMIC algorithm\, 
+ and the new Search Relevance Workbench for metric-driven relevance evaluat
+ ion. Discover how system-generated Search Pipelines eliminate configuratio
+ n overhead\, automatically building Vector Search pipelines at query runti
+ me and UI editor for AI Search workflow set up.\n\nThe talk will include a
+  demo on \n1/ Agentic Search with OpenSearch using locally hosted LLM mode
+ ls\n2/ Search Relevance Workbench to improve Search Relevance and lastly \
+ n3/ a preview of the upcoming Agentic Search Relevance Tuning that makes t
+ uning Relevance easier\n\nhttps://luga.de/static/LIT-2026/talks/search_inn
+ ovations_with_opensearch/
+LOCATION:Raum C\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
