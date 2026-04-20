@@ -18,7 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|1. April 2026|[Apriltreffen 2026](/Treffen/Termine/04_2026/)|Vortrag: Godot Game-Engine. Sie gilt als besonders einsteigerfreundlich und gleichzeitig leistungsstark. Sie ist sowohl bei Hobbyentwicklern als auch in der professionellen Spieleentwicklung zunehmend beliebt. (Bea)|
-|2. Mai 2026|[Linux Infotag 2026](https://www.luga.de/static/LIT-2026/)|
+|2. Mai 2026|[22. Augsburger Linux-Infotag](/LIT-2026/)|
 |6. Mai 2026|[Maitreffen 2026](/Treffen/Termine/05_2026/)|
 |3. Juni 2026|[Junitreffen 2026](/Treffen/Termine/06_2026/)|
