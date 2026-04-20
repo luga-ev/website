@@ -88,18 +88,16 @@ Linux-Veranstaltungen in Deutschland. Gleichzeitig weitete sich auch das
 Spektrum an Themen, es wurde politischer und diverser. Dabei diente der
 Linux-Infotag immer mehr auch als Vernetzungstreffen für verschiedene Projekte
 aus dem Umfeld der freien Software. Trotz recht kleinem Team konnte der
-Linux-Infotag dann bis ins Jahr 2019 durchgeführt werden. Mitten in der
-Vorbereitungsphase für den LIT 2020 brach dann die Corona-Pandemie aus - und
-wir mussten das Event leider absagen. Die Zukunft wird zeigen, ob wir den Faden
-wieder aufnehmen können, und auch noch eine 19. Ausgabe des Linux-Infotages zu
-organisieren.
+Linux-Infotag über die Jahre durchgeführt werden und konnte selbst nach einer
+durch die Corona-Pandemie bedingten Absage im Jahr 2020 und daraufolgender Pause
+im Jahr 2023 wiederaufgenommen werden.
 
-Weiter leben die LUG-Camps, die immer noch eine langjährige Teilnehmerschaft
+Weiter leben auch die LUG-Camps, die immer noch eine langjährige Teilnehmerschaft
 anziehen. Die LUGA war in diesem Rahmen noch einmal aktiv, wieder zusammen mit der
 LUG Allgäu, und hat so 2009 das 10. LUG-Camp am Alpsee mitorganisert.
 
 Nicht zuletzt gibt es immer noch die LUGA-Treffen. Bis zur Corona-Pandemie
-fanden diese monatlich in den Räumen des OpenLab Augsburg statt, danach wurde
-auf ein virtuelles Format gewechselt. Immer wieder gibt es interessante
-Vorträge und es bietet sich die Möglichkeit zum Austausch über alles rund um
-Linux und Open-Source-Software.
+fanden diese monatlich in den Räumen des OpenLab Augsburg statt und nachdem diese
+zwischenzeitig virtuell organisiert wurden, sind aktuell die Räume von Tuxedo der 
+Treffpunkt. Immer wieder gibt es interessante Vorträge und es bietet sich die 
+Möglichkeit zum Austausch über alles rund um Linux und Open-Source-Software.
