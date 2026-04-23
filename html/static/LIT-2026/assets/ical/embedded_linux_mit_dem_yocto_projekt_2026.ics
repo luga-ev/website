@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Embedded Linux mit dem Yocto Projekt 2026
+DTSTART;TZID=Europe/Berlin:20260502T114500
+DTEND;TZID=Europe/Berlin:20260502T123000
+DESCRIPTION:Embedded Linux ist heute ein zentraler Bestandteil vieler eing
+ ebetteter Systeme. Das Yocto Project bietet einen leistungsfähigen Baukas
+ ten\, um maßgeschneiderte Linux-Distributionen für Embedded-Hardware zu 
+ erstellen.\n\nDieser Vortrag gibt eine praxisnahe Einführung in das Yocto
+  Project und erläutert denn Zusammenhang zu OpenEmbedded. Anhand Praxisna
+ her Besispiele wird dargelegt wie man im Jahr 2026 ein erstes Yocto-Projek
+ t aufsetzt mittels bitbake-setup. Dabei werden zentrale Konzepte und best 
+ practice aus dem Entwickleralltag vorgestellt.\n\nDarüber hinaus werden h
+ ilfreiche Werkzeuge aus dem Yocto-Ökosystem wie kas\, devtool und devshel
+ l präsentiert\, die den Einstieg erleichtern und die Arbeit mit Yocto lei
+ chter machen.\n\nhttps://luga.de/static/LIT-2026/talks/embedded_linux_mit_
+ dem_yocto_projekt_2026/
+LOCATION:Raum C\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
