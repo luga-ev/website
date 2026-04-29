@@ -3,15 +3,15 @@ VERSION:2.0
 PRODID:-//icalendar//https://icalendar.readthedocs.io//
 BEGIN:VEVENT
 SUMMARY:Aufbohren einer klassischen Orgel mit Linux-Komponenten
-DTSTART;TZID=Europe/Berlin:20260502T161500
-DTEND;TZID=Europe/Berlin:20260502T170000
+DTSTART;TZID=Europe/Berlin:20260502T151500
+DTEND;TZID=Europe/Berlin:20260502T160000
 DESCRIPTION:Eine alte\, aber funktionsfähige 3-manualige **Sakralorgel** 
  mit **Midi**-Anschluss wird mit Hilfe von Linux in einen modernen\, _zeitg
  emäßen_ Spieltisch verwandelt\, die sich vor keiner neuen Orgel versteck
  en muss. Viele kleine LInux-Hacks und zwei **Touch**-Monitore verwandeln d
  as Instrument in eine moderne Anlage\n\nhttps://luga.de/static/LIT-2026/ta
  lks/aufbohren_einer_klassischen_orgel_mit_linux_komponenten/
-LOCATION:Raum A\; Technische Hochschule Augsburg\, Fakultät für Informat
+LOCATION:Raum E\; Technische Hochschule Augsburg\, Fakultät für Informat
  ik\, Friedberger Straße 2
 ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
 BEGIN:VALARM
