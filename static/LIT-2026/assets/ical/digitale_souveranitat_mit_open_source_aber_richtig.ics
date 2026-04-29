@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Digitale Souveränität mit Open Source – Aber richtig.
+DTSTART;TZID=Europe/Berlin:20260502T151500
+DTEND;TZID=Europe/Berlin:20260502T160000
+DESCRIPTION:Echte Digitale Souveränität bedeutet\n− Entscheiden\n− B
+ etreiben\n− Ändern\n− Wechseln\n\nhttps://luga.de/static/LIT-2026/tal
+ ks/digitale_souveranitat_mit_open_source_aber_richtig/
+LOCATION:Raum E\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

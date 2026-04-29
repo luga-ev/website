@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:postmarketOS - eine "echte" Linux-Distro für Handys: Überblick &
+  Demo auf verschiedenen Geräten
+DTSTART;TZID=Europe/Berlin:20260502T161500
+DTEND;TZID=Europe/Berlin:20260502T170000
+DESCRIPTION:Im Workshop schauen wir uns das Community-Projekt postmarketOS
+  an und verschaffen uns einen Überblick über relevante Ressourcen dazu (
+ vor allem das umfangreiche Wiki). Der praktische Anteil wird auch nicht zu
+  kurz kommen: Wir installieren mindestens ein Gerät zusammen mit einem se
+ lbst konfigurierten Image und werden zudem mehrere vorinstallierte Handys 
+ und andere Geräte zum Basteln zur Verfügung haben.\n\nhttps://luga.de/st
+ atic/LIT-2026/talks/postmarketos_eine_echte_linux_distro_fur_handys_uberbl
+ ick_demo_auf_verschiedenen_geraten/
+LOCATION:Raum E\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
