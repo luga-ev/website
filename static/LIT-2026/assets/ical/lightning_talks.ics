@@ -5,8 +5,13 @@ BEGIN:VEVENT
 SUMMARY:Lightning Talks
 DTSTART;TZID=Europe/Berlin:20260502T131500
 DTEND;TZID=Europe/Berlin:20260502T140000
-DESCRIPTION:Hier gibt es Platz für Eure Lightning Talks. Mehr Details fol
- gen.\n\nhttps://luga.de/static/LIT-2026/talks/lightning_talks/
+DESCRIPTION:Hier gibt es Platz für Eure Lightning Talks.\nEs stehen 9 Slo
+ ts zu je 5 Minuten zur Verfügung!\n\nIm Foyer wird ein FlipChart stehen a
+ uf dem ihr euren Lightning Talk vorschlagen könnt.\nBitte meldet euch dan
+ n am Infostand und tragt dort euren Kontakt zum Talk ein\, damit wir euch 
+ alle rechtzeitig erreichen können.\n\nFindet euch dann bitte rechtzeitig 
+ am Ende der Mittagspause ein\, damit wir euch einen Slot zuweisen können.
+ \nDanke.\n\nhttps://luga.de/static/LIT-2026/talks/lightning_talks/
 LOCATION:Raum C\; Technische Hochschule Augsburg\, Fakultät für Informat
  ik\, Friedberger Straße 2
 ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
