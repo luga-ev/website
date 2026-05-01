@@ -15,8 +15,10 @@ DESCRIPTION:Ein Quantencomputer ist ein Computer\, der auf den Gesetzen de
  ter lösen und werden Quantencomputer klassische Computer ersetzen?\n* Wie
   leistungsstark sind real existierende Quantencomputer und wie entwickelt 
  sich die Hardware?\n* Knacken Quantencomputer bald jede Verschlüsselung?\
- n\nhttps://luga.de/static/LIT-2026/talks/quantencomputer_funktionsweise_an
- wendungen_und_grenzen/
+ n\nLinks:\n* [Vortragsfolien](https://speicherleck.de/michael/lit2026-qm)\
+ n* [github Repository](https://github.com/michael-hartmann/lit2026-qm/)\n\
+ nhttps://luga.de/static/LIT-2026/talks/quantencomputer_funktionsweise_anwe
+ ndungen_und_grenzen/
 LOCATION:Raum B\; Technische Hochschule Augsburg\, Fakultät für Informat
  ik\, Friedberger Straße 2
 ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
