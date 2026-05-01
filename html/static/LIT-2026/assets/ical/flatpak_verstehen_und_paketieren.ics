@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalendar//https://icalendar.readthedocs.io//
+BEGIN:VEVENT
+SUMMARY:Flatpak verstehen und paketieren
+DTSTART;TZID=Europe/Berlin:20260502T161500
+DTEND;TZID=Europe/Berlin:20260502T170000
+DESCRIPTION:Im ersten Teil werfen wir einen Blick auf die Geschichte von F
+ latpak\, klären was Flatpak ist\, wie man Flatpak benutzt und welche Vort
+ eile Flatpak gegenüber herkömmlichen Packetformaten wie z.B. DEB oder RP
+ M hat.\nIm zweiten Teil wird die App Erstellung mit Flatpak vorgestellt un
+ d  erläutert\, wie man eigene Flatpaks erstellt und verteilt.\n\nhttps://
+ luga.de/static/LIT-2026/talks/flatpak_verstehen_und_paketieren/
+LOCATION:Raum B\; Technische Hochschule Augsburg\, Fakultät für Informat
+ ik\, Friedberger Straße 2
+ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Veranstaltung in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
