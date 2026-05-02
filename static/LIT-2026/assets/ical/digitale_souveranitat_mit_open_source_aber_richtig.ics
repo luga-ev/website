@@ -5,9 +5,15 @@ BEGIN:VEVENT
 SUMMARY:Digitale Souveränität mit Open Source – Aber richtig.
 DTSTART;TZID=Europe/Berlin:20260502T161500
 DTEND;TZID=Europe/Berlin:20260502T170000
-DESCRIPTION:Echte Digitale Souveränität bedeutet\n− Entscheiden\n− B
- etreiben\n− Ändern\n− Wechseln\n\nhttps://luga.de/static/LIT-2026/tal
- ks/digitale_souveranitat_mit_open_source_aber_richtig/
+DESCRIPTION:Digitale Souveränität entsteht nicht allein durch den Einsat
+ z von Open Source\, sondern durch echte Wahlfreiheit: selbst entscheiden\,
+  betreiben\, ändern und wechseln können. Der Vortrag zeigt anhand realer
+  Infrastruktur-\, Firewall- und Groupware-Beispiele\, wie Open-Source-Lös
+ ungen in bestehenden Brownfield-Umgebungen erfolgreich\, wirtschaftlich un
+ d souverän eingesetzt werden können - und warum Transparenz\, Proofs of 
+ Concept und ehrliches Erwartungsmanagement entscheidend sind.\n\nhttps://l
+ uga.de/static/LIT-2026/talks/digitale_souveranitat_mit_open_source_aber_ri
+ chtig/
 LOCATION:Raum A\; Technische Hochschule Augsburg\, Fakultät für Informat
  ik\, Friedberger Straße 2
 ORGANIZER;CN="LUGA (Linux User Group Augsburg)":MAILTO:lit-2026@luga.de
