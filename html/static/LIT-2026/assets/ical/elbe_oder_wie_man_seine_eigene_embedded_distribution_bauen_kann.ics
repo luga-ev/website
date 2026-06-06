@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//icalendar//https://icalendar.readthedocs.io//
 BEGIN:VEVENT
-SUMMARY:ELBE oder wie man seine eigene embedded distribution bauen kann
+SUMMARY:ELBE oder wie man seine eigene embedded Distribution bauen kann
 DTSTART;TZID=Europe/Berlin:20260502T141500
 DTEND;TZID=Europe/Berlin:20260502T150000
 DESCRIPTION:Wer ein eigenes Embedded-Linux-Produkt bauen möchte\, steht s
