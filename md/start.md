@@ -18,7 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|2. Mai 2026|[22. Augsburger Linux-Infotag](/LIT-2026/)|
-|6. Mai 2026|[Maitreffen 2026](/Treffen/Termine/05_2026/) - Vortrag über [postmarketOS](https://www.luga.de/static/LIT-2026/talks/postmarketos_eine_echte_linux_distro_fur_handys_uberblick_demo_auf_verschiedenen_geraten/)|
-|3. Juni 2026|[Junitreffen 2026](/Treffen/Termine/06_2026/)|
 |1. Juli 2026|[Julitreffen 2026](/Treffen/Termine/07_2026/)|
+|5. August 2026|[Augusttreffen 2026](/Treffen/Termine/08_2026/)|
+|2. September 2026|[Septembertreffen 2026](/Treffen/Termine/09_2026/)|
