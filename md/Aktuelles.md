@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/08_2026/) findet am Mittwoch, 5. August statt.
+Das nächste [Treffen](/Treffen/Termine/09_2026/) findet am Mittwoch, 2. September statt.
 
 Es gbit einen Vortrag von Sven Beutel: KI für Einsteiger.  
 Ein Vortrag darüber, was KI eigentlich ist, was man alles damit machen kann und wie man es lokal bei sich nutzen kann.

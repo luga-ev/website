@@ -18,6 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|5. August 2026|[Augusttreffen 2026](/Treffen/Termine/08_2026/)|Vortrag: KI für Einsteiger. (Sven Beutel)|
 |2. September 2026|[Septembertreffen 2026](/Treffen/Termine/09_2026/)|
 |7. Oktober 2026|[Oktobertreffen 2026](/Treffen/Termine/10_2026/)|
+|4. November 2026|[Novembertreffen 2026](/Treffen/Termine/11_2026/)|
