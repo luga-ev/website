@@ -1,5 +1,5 @@
 ## Nächstes Treffen
-Das nächste [Treffen](/Treffen/Termine/10_2026/) findet am Mittwoch, 7. Oktober statt.
+Das nächste [Treffen](/Treffen/Termine/11_2026/) findet am Mittwoch, 4. November statt.
 
 Alle Fragen, auch von Nicht-Mitgliedern, werden mit Freude beantwortet
 und sämtliche Probleme meist schon vor Ort gelöst.

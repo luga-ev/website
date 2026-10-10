@@ -18,6 +18,6 @@ Falls Sie Fragen zu unserem Verein haben, wenden Sie sich bitte an info@luga.de.
 
 |||
 |-|-|
-|7. Oktober 2026|[Oktobertreffen 2026](/Treffen/Termine/10_2026/)|Vortrag: KI verstehen. KI entwickeln. (Muzaffer)|
 |4. November 2026|[Novembertreffen 2026](/Treffen/Termine/11_2026/)|
 |2. Dezember 2026|[Dezembertreffen 2026](/Treffen/Termine/12_2026/)|
+|13. Januar 2027|[Januartreffen 2027](/Treffen/Termine/01_2027/)|
